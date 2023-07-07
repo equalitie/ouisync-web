@@ -1,0 +1,14 @@
+<html lang="en">
+{{partial "head.html" .}}
+{{partial "header.html" .}}
+<main class="list-wrapper">
+    {{ range .Pages }}
+    <div class="post-wrapper">
+        {{ .Date.Format "2006-01-02" }}
+        <a href="{{ .Permalink }}">{{.Title}}</a>
+        <a class="" href="{{ .Permalink }}"><b>Read →</b></a>
+    </div>
+    {{end}}
+</main>
+{{partial "footer.html" .}}
+</html>
