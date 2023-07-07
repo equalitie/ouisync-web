@@ -1,4 +1,4 @@
-baseURL = 'https://reticulum.space'
+baseURL = 'https://reticulum.space/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 copyright = 'Everything is mine'
