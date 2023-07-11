@@ -33,11 +33,12 @@
 }
 
 h1, h2, h3, p, body {
+    font-family: "Humanst521";
     margin: 0;
 }
 
 h1 {
-    font-family: "Sansation-Light";
+    font-family: "Humanst521";
     font-size: 3rem;
 }
 
@@ -409,13 +410,13 @@ label .mobile-i18n-chevron {
 }
 
 .card-wrapper img {
-    max-width: 18rem;
+    max-width: 24rem;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .row-two {
