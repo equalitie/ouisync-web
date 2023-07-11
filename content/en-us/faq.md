@@ -45,7 +45,7 @@ There is no requirement to protect your repositories either by password or by bi
 
 To do that, tap on Add local password: 
 
-(insert screenshot)
+{{< figure src="/static/img/create_local_password.png" title="Adding a local password" >}}
 
 After that you will see this dialog box and you can either set up a local password or select the biometircs protection (if you have it set up on your device):
 
