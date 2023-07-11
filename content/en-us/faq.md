@@ -62,6 +62,15 @@ If you do not set up the password or biometric protection when creating a reposi
 
 <details>
 <summary>
+Why is it called 'local password' and not simply 'password'?
+</summary>
+{{% markdown %}}
+A local password is a password set up only for your own device. You don't need to share it with your peers. They can set up their own passwords to protect the shared **Ouisync** _**repositories**_ on their own devices.
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
 How can I add files and folders to my repository?
 </summary>
 {{% markdown %}}
@@ -119,48 +128,47 @@ You can copy the link and paste it into an email or any messaging application or
 How do I decide which permissions to select when sharing a repository?
 </summary>
 {{% markdown %}}
-### **Read / Write**
+### **Write**
+  
+(insert screenshot)
 
-It depends what you want the peers with whom you shared your repository to be able to do. If you want them to be able to add files, delete them, rename or move them, then you share your repository with **Read / Write permissions**.
+If you want your peers to be able to add files, delete them, rename or move them within the repository that you shared with them, then you need to share your repository with Write permission.
 
-An example of a use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ 
+An example use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ 
 
 ### **Read**
 
-If you want your peers to only be able to read the _**repository**_ contents, then you select... (you guessed it... ) **Read permissions**. This means they will be able to open the files and read them, but they won't be able to add new files to your shared _**repository**_, or delete any files from it, or move them, etc.
+(insert screenshot)
 
-An example use case would be _when you want to share the information regarding an event, or news items, or maybe regarding certain products, or may be you are a teacher sharing some content with your students, etc. Then you want the recipients to be able to read the contents but not change them._ 
+If you want your peers to only be able to read the _**repository**_ contents, then select **Read permissions**. This means they will be able to open the files and read them, but they won't be able to add new files to your shared _**repository**_, nor move or delete any files from it.
+
+An example use case would be _when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them._ 
 
 ### **Blind**
 
-This level of permissions can be useful when you want to securely store your _**repository**_ as a backup. This means that the person or device with whom you shared your repository as **'blind'** won't be able to either open the files to read them, or make any changes to them. This way you can store your data securely on a friend's computer, for example. 
+(insert screenshot) 
+This level of permissions can be useful when you want to securely store your _**repository**_ as a backup. This means that the person or device with whom you shared your repository as **'blind'** won't be able to open the files to read them, nor make any changes to them. This way you can store your data securely on a friend's computer, for example. 
 {{% /markdown %}}
 </details>
 
 <details>
 <summary>
-How can I use my repository as secure backup?
+How can I use my repository as a secure backup?
 </summary>
 {{% markdown %}}
-### Create Secure Backup
+### Create Secure Backups
 
-You can create a secure backup repository on your own or even on a friend's device.
+You can create a secure backup repository on a spare device of your own or even on a friend's device. To do that you first need to generate the **Write** token link for the _**repository**_ that you want to store blind. Please keep the **Write** token link somewhere safe, as you will need it for retrieving the data from your blind copy later on.
 
-To do that you first need to generate the **'read and write'** token link for the _**repository**_ that you want to store blind. You keep the **'read and write'** token link somewhere safe, as you will need it for retrieving the information from your blind copy later on.
+Then you create a **Blind** link and import this blind repository into the backup device.
 
-Then you create a **'blind'** token link and import a blind repository into the backup device.
+### Retrieving Information from Blind Repositories
 
-### Retrieving Information from the Blind _**repository**_
+If you accidentally delete a _**repository**_ from your primary device, what you can do is go to **'Import _Repository_'**, copy and paste the **WRITE** link (which you kept somewhere safe!*) into the provided field, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the files that _**repository**_ contains.
 
-If you accidentally delete a _**repository**_ from your primary device, what you can do is go to **'Import _Repository_'**, copy and paste the **READ-WRITE** token that you kept somewhere safe into the provided field, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the files that _**repository**_ contains.
+#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**repository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to the previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
 
-#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**repository**_ will automatically receive all updates from your primary _**repository**_.
-
-But if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't be able to retrieve those files. So **Ouisync** is currently primarily a synchronization tool and not a secure backup tool.
-
-The selective syncing, and creating snapshots in time that will allow you to go back to the previous version of your _**repository**_ is foreseen for development onfuture **Ouisync** releases.
-
-#### **Notice:** if you lose your **'read-write'** token link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
+#### **Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
 {{% /markdown %}}
 </details>
 
@@ -170,11 +178,11 @@ The selective syncing, and creating snapshots in time that will allow you to go 
 Can my peers re-share my token links? 
 </summary>
 {{% markdown %}}
-Yes. They can generate the token links with the same permissions they had in the original token link that they received from you, or lower.  
+Yes. They can generate the token links with the same permissions they had in the original token link that they received from you, or lower. 
 
-This means that if a person has received a token link to import a _**repository**_ with **'read-write'** permissions they are able to generate the same kind of token to share the same _**repository**_ with other people, or they can also generate the token links for the same _**repository**_ but with lower permissions -read only or blind. 
+This means that if a person has received a token link to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link to share the same _**repository**_ with other people, or they can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). 
 
-If they imported a **_repository_** with read permissions only, then they can share it with others as read or blind. And if they imported your _**repository**_ as blind, they can only share it on as blind. 
+If they imported a **_repository_** with **Read** permissions only, then they can share it with others as **Read** or **Blind**. If they imported your _**repository**_ as **Blind**, they can only share it as **Blind**. 
 {{% /markdown %}}
 </details>
 
@@ -183,9 +191,9 @@ If they imported a **_repository_** with read permissions only, then they can sh
 What happens if I delete files in my repository?
 </summary>
 {{% markdown %}}
-File deletion is propagated to all replicas in existence -which means, the same file that you deleted will be automatically deleted in the _**repositories**_ of all the peers with whom you have shared it.
+File deletion is propagated to all replicas in existence -which means the same file that you deleted will be automatically deleted in the _**repositories**_ of all the peers with whom you have shared it.
 
-Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **'read-write'** permissions will sync with each other, including the file edit, addition or deletion.
+Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **Write** permissions will sync with each other, including file edits, additions or deletions.
 
 {{% /markdown %}}
 </details>
@@ -212,7 +220,7 @@ No. At the moment you can only move files from one folder to another within the 
 Are my files stored on a server? Why?
 </summary>
 {{% markdown %}}
-Yes. They are stored encrypted and are not readable by the server.
+Yes. They are stored fully encrypted in transport as well as at rest and are not readable by the server.
 
 The purpose of the server storage is to facilitate file syncing when peers are not online at the same time. If you want to share a _**repository**_ with a peer who is not online at the moment, your _**repository**_ data will be stored encrypted on the server and when your peer comes online and connects either to the server (or to your device) the files from the stored _**repository**_ will sync with the files in your peer's _**repository**_.
 {{% /markdown %}}
@@ -223,7 +231,7 @@ The purpose of the server storage is to facilitate file syncing when peers are n
 How can I connect to the server?
 </summary>
 {{% markdown %}}
-This happens automatically when you share a _**repository**_ with a peer -you don't need to perform any additional actions.
+This happens automatically when you share a _**repository**_ with a peer - you don't need to perform any additional actions.
 {{% /markdown %}}
 </details>
 
@@ -232,9 +240,10 @@ This happens automatically when you share a _**repository**_ with a peer -you do
 Where is this server and who runs it?
 </summary>
 {{% markdown %}}
-(Add info about the country where the servers are and so on)
-{{% /markdown %}}
+The Ouisync servers are physically located in Canada and are managed by eQualitie.
+{% /markdown %}}
 </details>
+
 <details>
 <summary>
 What private data does Ouisync use/store?
@@ -245,32 +254,25 @@ What private data does Ouisync use/store?
 </details>
 <details>
 <summary>
-What happens if me and my peers make changes to a repository at the same time?
+What happens if me and my peers upload the same file into Ouisync?
 </summary>
 {{% markdown %}}
-(this I need to test first to understand how it works in practice)
-{{% /markdown %}}
-</details>
+Ouisync is capable of handling two different scenarios.
 
-<details>
-<summary>
-Do I need to set up a password (or biometric protection) to protect my repositories?
-</summary>
-{{% markdown %}}
-That is largely up to you. Whether you protect your _**repositories**_ with passwords or biometrics depends on the sensitivity of the data that you store in **Ouisync** _**repositories**_ and habitual usage of your devices.
+#### Peers who are online at the same time
 
-For storing and sharing photos of your cat, maybe a password is not necessary. But for storing more sensitive personal data, we recommend passwords (or biometrics) to be set up.
+If you and one or more peers upload the same file (for example Billy.jpg) to the same Ouisync _**repository**_ that another peer has already uploaded, Ouisync will detect this situation and ask if you want to keep both files or replace one of them:
 
-You can have a different password for each repository. It is also possible to have a mixture of password (or biometrics) protected **Ouisync** _**repositories**_ and ones without protection. 
-{{% /markdown %}}
-</details>
+(insert screenshot)
 
-<details>
-<summary>
-Why is it called 'local password' and not simply 'password'?
-</summary>
-{{% markdown %}}
-A local password is a password set up only for your own device. You don't need to share it with your peers. They can set up their own passwords to protect the shared **Ouisync** _**repositories**_ on their own devices.
+If you decide to keep both of them, the new one will have (1) added to the name and you will see both files on your Ouisync screen. If you decide to replace the existing one, then the new ones will overwrite it and the old one will no longer exist.
+
+#### Peers who are offline at the time of uploading the files
+
+If you and one or more peers upload the same file (for example Free_Test-Data_1MB.docx) when you are offline and therefore not able to sync files immediately, your files will sync when you are able to connect to your peers again.  In the event of two or more files bearing the same name, Ouisync will detect this situation and add a random string at the end of the name of each file to distinguish them.  You can then view them and decide which one to keep, whether to rename them, etc. 
+
+(insert screenshot)
+
 {{% /markdown %}}
 </details>
 
@@ -279,11 +281,11 @@ A local password is a password set up only for your own device. You don't need t
 How can I lock my repositories when I'm not actively using them?
 </summary>
 {{% markdown %}}
-To lock your _**repositories**_ when not actively working on them, you need to tap on this button (insert screenshot).
+To lock your _**repositories**_ when not actively working on them, tap on the **Lock** button: (insert screenshot).
 
-To unlock them, you tap on the repository name or on this icon (insert screenshot).
+To unlock them, tap on the repository name or on this button: (insert screenshot).
 
-If your _**repository**_ is protected by password, you need to enter the password when prompted; therwise, just tap on the **Unlock** button and continue to work on your repository.
+If your _**repository**_ is protected by password, enter the password when prompted. Otherwise, just tap on the **Unlock** button and continue to work on your repository.
 
 {{% /markdown %}}
 </details>
@@ -292,35 +294,35 @@ If your _**repository**_ is protected by password, you need to enter the passwor
 
 <details>
 <summary>
-Advantages of using Ouisync over Dropbox (or other similar solutions)?
+What are the advantages of using Ouisync over Dropbox, Google, or other similar solutions?
 </summary>
 {{% markdown %}}
 ### Free to use
 
-To be able to share files using **Dropbox**, you need to create a **Dropbox** account. This requires your name, email, credit card. It requires payment. 
+To be able to share files using Dropbox, you need to create a Dropbox account. This requires your name, email, and credit card. It also requires payment. 
 
-**Ouisync** is free and open source software. To share files using **Ouisync**, you only need to install the app. That's it. No payment is required.
+**Ouisync** is entirely free and open source software. To share files using **Ouisync**, you only need to install the app. That's it. No payment is required.
 
 ### Anonymity
 
-**OuiSync** does not require the creation of user accounts. With **Ouisync**, it is simply a matter of installing the app and using it. All users are completely anonymous.
+**Ouisync** does not require the creation of user accounts. With **Ouisync**, it is simply a matter of installing the app and using it. All users are completely anonymous.
 
-### **OuiSync** is a **P2P** solution
+### **Ouisync** is a **P2P** solution
 
-This means that using **OuiSync** successfully does not depend on any central server anywhere. **Ouisync** makes use of decentralized peer-to-peer networking, which makes it an effective file sharing app even in situations where well-known file sharing servers (such as **Dropbox** or **Google Drive**) are unavailable.
+This means that using **Ouisync** successfully does not depend on any central server anywhere. **Ouisync** makes use of decentralized peer-to-peer networking, which makes it an effective file-sharing app even in situations where well-known file-sharing servers (such as **Dropbox** or **Google Drive**) are unavailable.
 
 {{% /markdown %}}
 </details>
 
 <details>
 <summary>
-How can I sync the files with my peers or with my other devices without internet?
+How can I sync files with my peers or with my other devices without internet?
 </summary>
 {{% markdown %}}
 In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. 
 
-This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, local network or similar technologies. 
+This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies. 
 
-Currently _**repositories**_ cannot be shared via Bluetooth, but that feature is planned for future releases.
+Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases.
 {{% /markdown %}}
 </details>
