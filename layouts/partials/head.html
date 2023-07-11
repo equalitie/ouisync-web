@@ -10,6 +10,8 @@
     <link rel="manifest" href="/site.webmanifest">
     {{ $style := resources.Get "styles.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $solid := resources.Get "fontawesome/css/solid.css" }}
+    <link rel="stylesheet" href="{{ $solid.Permalink }}">
     {{ $brands := resources.Get "fontawesome/css/brands.css" }}
     <link rel="stylesheet" href="{{ $brands.Permalink }}">
     {{ $fa := resources.Get "fontawesome/css/fontawesome.css" }}
