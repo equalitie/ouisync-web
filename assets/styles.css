@@ -262,7 +262,7 @@ nav .download-btn:hover {
     position: absolute;
     left: 0;
     font-size: 1.5rem;
-    width: 100dvw;
+    width: 96%;
     margin-top: 3.4rem;
     padding-block: 1rem;
     padding-inline-start: 4%;
@@ -607,4 +607,4 @@ label .mobile-i18n-chevron {
     display: grid;
 }
 
-/* layouts/_default/single.html */
+/* layouts/_default/list.html */
