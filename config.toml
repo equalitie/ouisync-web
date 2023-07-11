@@ -7,8 +7,17 @@ defaultContentLanguage = 'en-us'
     [languages.en-us]
         title = 'Ouisync'
         languageName = 'English'
+        contentDir = 'content/en-us'
         weight = 1
     [languages.fr]
         title = 'Ouisync (fr)'
         languageName = 'French'
+        contentDir = 'content/fr'
         weight = 2
+
+# So we can use normal HTML inside of .md files     
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
