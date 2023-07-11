@@ -360,10 +360,6 @@ label .mobile-i18n-chevron {
     margin-inline-start: 1rem;
 }
 
-.hero-image {
-    height: 400px;
-}
-
 .learn-more {
     color: #0B4AC1;
     font-size: 1.15rem;
@@ -456,9 +452,10 @@ label .mobile-i18n-chevron {
     .card {
         margin-top: 0;
     }
+    .card-wrapper img {
+        max-width: 100%;
+    }
 }
-
-
 
 .gradient-two {
     height: var(--gradient-height);
