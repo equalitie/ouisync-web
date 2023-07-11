@@ -241,7 +241,7 @@ Where is this server and who runs it?
 </summary>
 {{% markdown %}}
 The Ouisync servers are physically located in Canada and are managed by eQualitie.
-{% /markdown %}}
+{{% /markdown %}}
 </details>
 
 <details>
