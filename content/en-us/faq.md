@@ -8,7 +8,9 @@ date: 2023-07-10T12:14:12-04:00
 <summary>
 What is a repository?
 </summary>
+{{% markdown %}}
 A _**repository**_ is simply a place where you can store and share your files and folders securely, using **Ouisync**. You can think of it as a root folder, or even a safe, that will contain other folders and files that you want to share with your peers.
+{{% /markdown %}}
 </details> 
 
 <details>
