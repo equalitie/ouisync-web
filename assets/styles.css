@@ -53,10 +53,6 @@ p {
     margin-top: 1rem;
 }
 
-.margin {
-    margin-inline: 4%;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -93,6 +89,15 @@ details[open] {
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
+}
+
+.margin {
+    margin-inline: 4%;
+}
+
+.center {
+    display: grid;
+    justify-content: center;
 }
 
 /* layouts/partials/header.html + head.html */
@@ -326,6 +331,7 @@ label .mobile-i18n-chevron {
 .hero-wrapper {
     margin-inline: 4%;
     margin-block: 2.5rem;
+    color: white;
 }
 
 .hero-wrapper h1 {
@@ -393,14 +399,12 @@ label .mobile-i18n-chevron {
     height: var(--gradient-height);
     min-height: var(--gradient-height);
     background-color: #012669;
-    background-image: linear-gradient(to right, #310475, #fff);
+    background-image: linear-gradient(to right, #fff, #310475);
 }
 
 .purple-bg {
     width: 100%;
     background-color: #310475;
-    display: grid;
-    justify-content: center;
 }
 
 .card-wrapper {
@@ -414,7 +418,7 @@ label .mobile-i18n-chevron {
 }
 
 .card {
-    color: #fff;
+    color: #000;
     margin-top: 2rem;
 }
 
@@ -461,7 +465,7 @@ label .mobile-i18n-chevron {
     height: var(--gradient-height);
     min-height: var(--gradient-height);
     background-color: #012669;
-    background-image: linear-gradient(to right, #012669, #310475);
+    background-image: linear-gradient(to right, #012669, #fff);
 }
 
 .blue-bg {
