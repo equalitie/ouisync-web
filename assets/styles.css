@@ -28,7 +28,8 @@
 :root {
     --gradient-height: 0.3rem;
     --ouisync-primary: #012669;
-    --ouisync-secondary: #310475;
+    --ouisync-secondary: #9205d1
+    ;
     --max-width: 960px;
 }
 
@@ -398,13 +399,14 @@ label .mobile-i18n-chevron {
 .gradient-one {
     height: var(--gradient-height);
     min-height: var(--gradient-height);
-    background-color: #012669;
-    background-image: linear-gradient(to right, #fff, #310475);
+    background-color: var(--ouisync-secondary);
+    background-image: linear-gradient(to right, #fff, var(--ouisync-secondary));
 }
 
 .purple-bg {
     width: 100%;
-    background-color: #310475;
+    background-color: var(--ouisync-secondary)
+    ;
 }
 
 .card-wrapper {
@@ -464,12 +466,12 @@ label .mobile-i18n-chevron {
 .gradient-two {
     height: var(--gradient-height);
     min-height: var(--gradient-height);
-    background-color: #012669;
-    background-image: linear-gradient(to right, #012669, #fff);
+    background-color: var(--ouisync-primary);
+    background-image: linear-gradient(to right, var(--ouisync-primary), #fff);
 }
 
 .blue-bg {
-    background-color: #012669;
+    background-color: var(--ouisync-primary);
     color: white;
 }
 
@@ -514,8 +516,8 @@ label .mobile-i18n-chevron {
 .gradient-three {
     height: var(--gradient-height);
     min-height: var(--gradient-height);
-    background-color: #012669;
-    background-image: linear-gradient(to right, #fff, #012669);
+    background-color: var(--ouisync-primary);
+    background-image: linear-gradient(to right, #fff, var(--ouisync-primary));
 }
 
 @media (max-width: 740px) {

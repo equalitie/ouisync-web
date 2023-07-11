@@ -40,7 +40,7 @@ To create a new _**repository**_, tap the  **+** button, (Insert the screenshot 
 <summary>
 Do I have to set up a password (or biometrics) to protect my repositories?
 </summary>
-{{% /markdown %}}
+{{% markdown %}}
 There is no requirement to protect your repositories either by password or by biometrics. Whether you decide to do it depends on the sensitivity of data that you store in Ouisync repositories and habitual usage of your devices.  For storing and sharing photos of your cat, maybe a password is not necessary.  But for storing more sensitive personal data, we recommend passwords (or biometrics) be set up.
 
 To do that, tap on Add local password: 
