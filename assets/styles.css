@@ -52,6 +52,7 @@ h2 {
 p {
     font-family: "Roboto", sans-serif;
     margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 a {
@@ -621,4 +622,17 @@ label .mobile-i18n-chevron {
     display: grid;
 }
 
-/* layouts/_default/list.html */
+/* layouts/_default/single.html */
+
+.single-grad {
+    margin-top: 2rem;
+    height: var(--gradient-height);
+    min-height: var(--gradient-height);
+    background-color: var(--ouisync-primary);
+    background-image: linear-gradient(to right, #87e2f9, var(--ouisync-secondary));
+}
+
+.single-body h1,h2,h3,h4,p {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
