@@ -553,7 +553,46 @@ label .mobile-i18n-chevron {
     .info-btn-two {
         grid-row: 4;
     }
-    
+  }
+   
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid; 
+}
+
+.btn-outline-light {
+  color: #ffff;
+  background-color: rgba(0,0,0,0);
+  background-image: none;
+  border-color: #ffff;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+a.btn-outline-light:hover{
+  background: #fff;
+  color: #000;
+  text-decoration: none;   
+}
+
+a, area, button, [role="button"], input:not([type="range"]), label, select, summary, textarea {
+  touch-action: manipulation;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 }
 
 /* layouts/partials/footer.html */
@@ -604,6 +643,8 @@ label .mobile-i18n-chevron {
     display: grid;
 }
 
+
+/* layouts/_default/list.html */
 /* layouts/_default/single.html */
 
 .single-grad {

@@ -2,7 +2,10 @@
 title: "Faq"
 date: 2023-07-10T12:14:12-04:00
 ---
+
 # Frequently Asked Questions
+
+## Getting Started
 
 <details>
 <summary>
@@ -117,6 +120,38 @@ After you copy and paste the link you received from your peers into the provided
 
 <details>
 <summary>
+How can I use my repository as a secure backup?
+</summary>
+{{% markdown %}}
+
+### Create Secure Backups
+
+You can create a secure backup repository on a spare device of your own or even on a friend's device. To do that you first need to generate the **Write** token link for the _**repository**_ that you want to stor
+e blind. Please keep the **Write** token link somewhere safe, as you will need it for retrieving the data from your blind copy later on.
+
+Then you create a **Blind** link and import this blind repository into the backup device.
+
+### Retrieving Information from Blind Repositories
+
+If you accidentally delete a _**repository**_ from your primary device, what you can do is go to **'Import _Repository_'**, copy and paste the **WRITE** link (which you kept somewhere safe!*) into the provided f
+ield, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the f
+iles that _**repository**_ contains.
+
+#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**r
+epository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't
+ be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to t
+he previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
+
+#### **Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
+{{% /markdown %}}
+</details>
+
+
+## Sharing 
+
+<details>
+<summary>
+<a name="sharing">
 How can I share my repository with my peers (or my other devices)?
 </summary>
 {{% markdown %}}
@@ -171,28 +206,6 @@ This level of permissions can be useful when you want to securely store your _**
 
 <details>
 <summary>
-How can I use my repository as a secure backup?
-</summary>
-{{% markdown %}}
-### Create Secure Backups
-
-You can create a secure backup repository on a spare device of your own or even on a friend's device. To do that you first need to generate the **Write** token link for the _**repository**_ that you want to store blind. Please keep the **Write** token link somewhere safe, as you will need it for retrieving the data from your blind copy later on.
-
-Then you create a **Blind** link and import this blind repository into the backup device.
-
-### Retrieving Information from Blind Repositories
-
-If you accidentally delete a _**repository**_ from your primary device, what you can do is go to **'Import _Repository_'**, copy and paste the **WRITE** link (which you kept somewhere safe!*) into the provided field, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the files that _**repository**_ contains.
-
-#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**repository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to the previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
-
-#### **Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
-{{% /markdown %}}
-</details>
-
-
-<details>
-<summary>
 Can my peers re-share my token links? 
 </summary>
 {{% markdown %}}
@@ -203,6 +216,37 @@ This means that if a person has received a token link to import a _**repository*
 If they imported a **_repository_** with **Read** permissions only, then they can share it with others as **Read** or **Blind**. If they imported your _**repository**_ as **Blind**, they can only share it as **Blind**. 
 {{% /markdown %}}
 </details>
+
+<details>
+<summary>
+What happens if me and my peers upload the same file into Ouisync?
+</summary>
+{{% markdown %}}
+Ouisync is capable of handling two different scenarios.
+
+#### Peers who are online at the same time
+
+If you and one or more peers upload the same file (for example Billy.jpg) to the same Ouisync _**repository**_ that another peer has already uploaded, Ouisync will detect this situation and ask if you want to ke
+ep both files or replace one of them:
+
+{{< figure src="/img/concurrent_edit.png" alt="Synchronous edits file handling" >}}
+
+If you decide to keep both of them, the new one will have (1) added to the name and you will see both files on your Ouisync screen. If you decide to replace the existing one, then the new ones will overwrite it
+and the old one will no longer exist.
+
+#### Peers who are offline at the time of uploading the files
+
+If you and one or more peers upload the same file (for example Free_Test-Data_1MB.docx) when you are offline and therefore not able to sync files immediately, your files will sync when you are able to connect to
+ your peers again.  In the event of two or more files bearing the same name, Ouisync will detect this situation and add a random string at the end of the name of each file to distinguish them.  You can then view
+ them and decide which one to keep, whether to rename them, etc.
+
+{{< figure src="/img/free_test_data.png" alt="Asynchronous sync file handling" >}}
+
+{{% /markdown %}}
+</details>
+
+
+## File Management
 
 <details>
 <summary>
@@ -232,6 +276,9 @@ Can I move my files from one repository to another?
 No. At the moment you can only move files from one folder to another within the same _**repository**_. Moving files from one repository to another is planned for future releases of **Ouisync**.
 {{% /markdown %}}
 </details>
+
+
+## Privacy and Security
 
 <details>
 <summary>
@@ -268,29 +315,6 @@ What private data does Ouisync use/store?
 </summary>
 {{% markdown %}}
 **Ouisync** uses the IP addresses of your devices to be able to connect you with your peers in the peer-to-peer network. We don't store those IP addresses anywhere on our systems. We don't keep any other user data. 
-{{% /markdown %}}
-</details>
-<details>
-<summary>
-What happens if me and my peers upload the same file into Ouisync?
-</summary>
-{{% markdown %}}
-Ouisync is capable of handling two different scenarios.
-
-#### Peers who are online at the same time
-
-If you and one or more peers upload the same file (for example Billy.jpg) to the same Ouisync _**repository**_ that another peer has already uploaded, Ouisync will detect this situation and ask if you want to keep both files or replace one of them:
-
-{{< figure src="/img/concurrent_edit.png" alt="Synchronous edits file handling" >}}
-
-If you decide to keep both of them, the new one will have (1) added to the name and you will see both files on your Ouisync screen. If you decide to replace the existing one, then the new ones will overwrite it and the old one will no longer exist.
-
-#### Peers who are offline at the time of uploading the files
-
-If you and one or more peers upload the same file (for example Free_Test-Data_1MB.docx) when you are offline and therefore not able to sync files immediately, your files will sync when you are able to connect to your peers again.  In the event of two or more files bearing the same name, Ouisync will detect this situation and add a random string at the end of the name of each file to distinguish them.  You can then view them and decide which one to keep, whether to rename them, etc. 
-
-{{< figure src="/img/free_test_data.png" alt="Asynchronous sync file handling" >}}
-
 {{% /markdown %}}
 </details>
 
