@@ -2,10 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ouisync (fr)</title>
-    <link>https://reticulum.space/fr/</link>
+    <link>https://willow446.github.io/fr/</link>
     <description>Recent content on Ouisync (fr)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Everything is mine</copyright><atom:link href="https://reticulum.space/fr/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Mon, 26 Jun 2023 00:22:52 -0400</lastBuildDate><atom:link href="https://willow446.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://willow446.github.io/fr/contact/</link>
+      <pubDate>Mon, 10 Jul 2023 13:33:02 -0400</pubDate>
+      
+      <guid>https://willow446.github.io/fr/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faq</title>
+      <link>https://willow446.github.io/fr/faq/</link>
+      <pubDate>Mon, 10 Jul 2023 12:14:12 -0400</pubDate>
+      
+      <guid>https://willow446.github.io/fr/faq/</guid>
+      <description>C&amp;rsquo;est la vie</description>
+    </item>
+    
+    <item>
+      <title>Hello News</title>
+      <link>https://willow446.github.io/fr/news/hello-news/</link>
+      <pubDate>Mon, 26 Jun 2023 00:22:52 -0400</pubDate>
+      
+      <guid>https://willow446.github.io/fr/news/hello-news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello Blog</title>
+      <link>https://willow446.github.io/fr/blog/hello-blog/</link>
+      <pubDate>Mon, 26 Jun 2023 00:22:41 -0400</pubDate>
+      
+      <guid>https://willow446.github.io/fr/blog/hello-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://willow446.github.io/fr/about/</link>
+      <pubDate>Sun, 25 Jun 2023 23:57:32 -0400</pubDate>
+      
+      <guid>https://willow446.github.io/fr/about/</guid>
+      <description>About (fr) </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://willow446.github.io/fr/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://willow446.github.io/fr/privacy/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

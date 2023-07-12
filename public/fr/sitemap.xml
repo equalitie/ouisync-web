@@ -2,40 +2,145 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://reticulum.space/fr/categories/</loc>
+    <loc>https://willow446.github.io/fr/contact/</loc>
+    <lastmod>2023-07-10T13:33:02-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://reticulum.space/categories/"
+                href="https://willow446.github.io/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://reticulum.space/fr/categories/"
+                href="https://willow446.github.io/fr/contact/"
                 />
   </url><url>
-    <loc>https://reticulum.space/fr/</loc>
+    <loc>https://willow446.github.io/fr/faq/</loc>
+    <lastmod>2023-07-10T12:14:12-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://reticulum.space/"
+                href="https://willow446.github.io/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://reticulum.space/fr/"
+                href="https://willow446.github.io/fr/faq/"
                 />
   </url><url>
-    <loc>https://reticulum.space/fr/tags/</loc>
+    <loc>https://willow446.github.io/fr/news/hello-news/</loc>
+    <lastmod>2023-06-26T00:22:52-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://reticulum.space/tags/"
+                href="https://willow446.github.io/news/hello-news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://reticulum.space/fr/tags/"
+                href="https://willow446.github.io/fr/news/hello-news/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/news/</loc>
+    <lastmod>2023-06-26T00:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/news/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/</loc>
+    <lastmod>2023-06-26T00:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/blog/</loc>
+    <lastmod>2023-06-26T00:22:41-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/blog/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/blog/hello-blog/</loc>
+    <lastmod>2023-06-26T00:22:41-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/blog/hello-blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/blog/hello-blog/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/about/</loc>
+    <lastmod>2023-06-25T23:57:32-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/about/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/privacy/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/privacy/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/categories/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://willow446.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/tags/"
                 />
   </url>
 </urlset>
