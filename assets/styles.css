@@ -486,11 +486,22 @@ label .mobile-i18n-chevron {
 }
 
 .info-wrapper {
-    padding-block: 1.5rem;
+    padding-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: max-content max-content;
     gap: 1.5rem;
+}
+
+.info-wrapper h3 {
+    font-family: "Humanst521";
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.info-wrapper p {
+    font-family: "Roboto";
+    font-size: 1.2rem;
 }
 
 .info-btn-wrapper {
