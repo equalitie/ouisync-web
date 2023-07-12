@@ -563,7 +563,7 @@ label .mobile-i18n-chevron {
     margin-inline: 4%;
 }
 
-.ouisync-footer {
+.footer-flex-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -571,25 +571,7 @@ label .mobile-i18n-chevron {
     margin-block: 1rem;
 }
 
-.footer-remote-links {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-.footer-remote-links img:hover {
-    color: #012669;
-}
-
-.footer-links {
-    font-family: "Humanst521-Bold";
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-}
-
-.eq-footer {
+.footer {
     margin-top: 1.5rem;
 }
 
