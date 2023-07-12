@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   fill="currentColor"
+   class="bi bi-lock-fill"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg51"
+   sodipodi:docname="lock-fill.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs55" />
+  <sodipodi:namedview
+     id="namedview53"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="47.8125"
+     inkscape:cx="7.9895425"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg51" />
+  <path
+     d="m 8,-6 a 4,4 0 0 1 4,4 V 6 H 4 V -2 A 4,4 0 0 1 8,-6 Z M 14,6 V -2 A 6,6 0 0 0 2,-2 v 8 a 4,4 0 0 0 -4,4 v 10 a 4,4 0 0 0 4,4 h 12 a 4,4 0 0 0 4,-4 V 10 A 4,4 0 0 0 14,6 Z"
+     id="path49"
+     style="stroke-width:1" />
+</svg>
