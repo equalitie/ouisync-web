@@ -593,8 +593,6 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
   box-sizing: border-box;
 }
 
-}
-
 /* layouts/partials/footer.html */
 
 .footer-wrapper {
