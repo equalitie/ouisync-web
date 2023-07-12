@@ -153,6 +153,7 @@ he previous version of your _**repository**_ is planned for development in futur
 <summary>
 <a name="sharing">
 How can I share my repository with my peers (or my other devices)?
+</a>
 </summary>
 {{% markdown %}}
 You can do this by tapping the three vertical dots next to the repository name which will open the Settings screen for that repository, and then tapping the Share symbol: {{< figure src="/img/share.png" alt="Select to import a repository" >}}
