@@ -45,9 +45,17 @@ h1 {
 
 h2 {
     font-family: "Humanst521";
-    font-size: 1.3rem;
-    margin-top: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
+
+h4 {
+    font-family: "Humanst521";
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: -.5rem;
+}
+
 
 p {
     font-family: "Roboto", sans-serif;
@@ -662,7 +670,7 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     background-image: linear-gradient(to right, #87e2f9, var(--ouisync-secondary));
 }
 
-.single-body h1,h2,h3,h4,p {
+.single-body h1,h2,h3,p {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
