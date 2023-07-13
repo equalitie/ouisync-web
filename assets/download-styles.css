@@ -2,6 +2,7 @@
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
 }
 
 .download-icon {
@@ -15,5 +16,18 @@
 
 .signature {
    margin-top: 0.25rem; 
+}
+
+@media (max-width: 1040px) {
+    .download-wrapper {
+        grid-template-columns: 300px 300px;
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .download-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
