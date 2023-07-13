@@ -130,8 +130,7 @@ How can I use my repository as a secure backup?
 
 ### Create Secure Backups
 
-You can create a secure backup repository on a spare device of your own or even on a friend's device. To do that you first need to generate the **Write** token link for the _**repository**_ that you want to stor
-e blind. Please keep the **Write** token link somewhere safe, as you will need it for retrieving the data from your blind copy later on.
+You can create a secure backup repository on a spare device of your own or even on a friend's device. To do that you first need to generate the **Write** token link for the _**repository**_ that you want to store blind. Please keep the **Write** token link somewhere safe, as you will need it for retrieving the data from your blind copy later on.
 
 Then you create a **Blind** link and import this blind repository into the backup device.
 
@@ -141,10 +140,8 @@ If you accidentally delete a _**repository**_ from your primary device, what you
 ield, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the f
 iles that _**repository**_ contains.
 
-#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**r
-epository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't
- be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to t
-he previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
+#### **Note:** 
+If you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**repository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to the previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
 
 #### **Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
 {{% /markdown %}}
