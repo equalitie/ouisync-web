@@ -372,44 +372,12 @@ label .mobile-i18n-chevron {
     max-width: 600px;
 }
 
-.badge {
-    margin-top: 1.5rem;
-}
-
-.badge-wrapper a:hover {
-    text-decoration: none;
-}
-
-.badge-two {
-    margin-inline-start: 1rem;
-}
-
-.learn-more {
-    color: #0B4AC1;
-    font-size: 1.15rem;
-    margin-top: 0.7rem;
-    max-width: fit-content;
-}
-
 @media (max-width: 740px) {
     .hero-wrapper h1 {
         font-size: 2.5rem;
     }
     .hero-wrapper h2 {
         font-size: 1.4rem;
-    }
-    .learn-more {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .badge-two {
-        margin-inline-start: 0;
-        margin-top: 1rem;
-    }
-    .hero-text {
-        justify-items: flex-start;
     }
 }
 
