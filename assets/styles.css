@@ -71,14 +71,15 @@ a:hover {
 
 details {
     margin-block: 4px;
-    border: 1px solid #aaa;
+    border: 1px solid #0870d9;
+    background-color: #d7f3f9;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
 }
 
 summary {
     font-weight: bold;
-    margin: -0.5em -0.5em 0;
+    margin: -0.4em -0.4em 0;
     padding: 0.5em;
     font-size: 1.3rem;
     cursor: pointer;
@@ -89,7 +90,7 @@ details[open] {
 }
 
 details[open] summary {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #0870d9;
     margin-bottom: 0.5em;
 }
 
@@ -659,4 +660,15 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 .single-body h1,h2,h3,h4,p {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+
+.faq-wrapper {
+    display: grid;
+    justify-content: center;
+    background-color: #fff;
+    padding-block: 2rem;
+}
+
+.faq-center {
+    max-width: 640px;
 }

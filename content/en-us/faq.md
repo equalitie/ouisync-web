@@ -3,6 +3,10 @@ title: "Faq"
 date: 2023-07-10T12:14:12-04:00
 ---
 
+<div class="faq-wrapper">
+<div class="faq-center">
+{{% markdown %}}
+
 # Frequently Asked Questions
 
 ## Getting Started
@@ -367,3 +371,6 @@ This could be a WiFi signal available to all devices that want to share **Ouisyn
 Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases.
 {{% /markdown %}}
 </details>
+{{% /markdown %}}
+</div>
+</div>
