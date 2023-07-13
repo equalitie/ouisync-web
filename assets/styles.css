@@ -103,6 +103,10 @@ details[open] summary {
     justify-content: center;
 }
 
+figure {
+    text-align: center;
+}
+
 /* layouts/partials/header.html + head.html */
 /* head.html is used for page metadata + SEO */
 
