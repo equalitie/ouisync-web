@@ -23,7 +23,7 @@ Where can I see my repositories?
 {{% markdown %}}
 When you open the **Ouisync app**, after the onboarding screens you will see the main screen listing all the repositories you have created. Initially this screen will be empty, but as you begin creating _**repositories**_, they will be listed here. 
 
-{{< figure src="/img/my_repositories.png" alt="Ouisync home page listing your repositories" >}}
+{{< figure src="/img/my_repositories.png" alt="Ouisync home page listing your repositories">}}
 
 {{% /markdown %}}
 </details> 
