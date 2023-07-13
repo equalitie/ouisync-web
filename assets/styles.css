@@ -682,6 +682,5 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 }
 
 .faq-center {
-    max-width: 640px;
     margin-inline: 4%;
 }
