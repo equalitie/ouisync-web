@@ -70,7 +70,7 @@ a {
 
 a:hover {
     color: #0B4AC1;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sansation {
@@ -682,5 +682,6 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 }
 
 .faq-center {
+    max-width: 800px;
     margin-inline: 4%;
 }
