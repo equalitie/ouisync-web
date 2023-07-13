@@ -9,6 +9,9 @@ date: 2023-07-10T12:14:12-04:00
 
 # Frequently Asked Questions
 
+<div class="faq-subsection">
+{{% markdown %}}
+
 ## Getting Started
 
 <details>
@@ -146,7 +149,11 @@ If you add files to your primary _**repository**_, that addition will be propaga
 #### **Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
 {{% /markdown %}}
 </details>
+{{% /markdown %}}
+</div>
 
+<div class="faq-subsection">
+{{% markdown %}}
 
 ## Sharing 
 
@@ -246,7 +253,11 @@ If you and one or more peers upload the same file (for example Free_Test-Data_1M
 
 {{% /markdown %}}
 </details>
+{{% /markdown %}}
+</div>
 
+<div class="faq-subsection">
+{{% markdown %}}
 
 ## File Management
 
@@ -278,7 +289,11 @@ Can I move my files from one repository to another?
 No. At the moment you can only move files from one folder to another within the same _**repository**_. Moving files from one repository to another is planned for future releases of **Ouisync**.
 {{% /markdown %}}
 </details>
+{{% /markdown %}}
+</div>
 
+<div class="faq-subsection">
+{{% markdown %}}
 
 ## Privacy and Security
 
@@ -333,6 +348,11 @@ If your _**repository**_ is protected by password, enter the password when promp
 
 {{% /markdown %}}
 </details>
+{{% /markdown %}}
+</div>
+
+<div class="faq-subsection">
+{{% markdown %}}
 
 # Other FAQs
 
@@ -369,5 +389,7 @@ Currently _**repositories**_ cannot be shared via Bluetooth. This feature is pla
 {{% /markdown %}}
 </details>
 {{% /markdown %}}
+{{% /markdown %}}
+</div>
 </div>
 </div>
