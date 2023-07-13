@@ -1,32 +1,55 @@
 .download-wrapper {
+    margin-inline: -4vw;
+    color: #fff;
+    background-color: #012669;
+    padding-bottom: 2rem;
+}
+.download-grid {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
 }
 
-.download-icon {
-    margin-bottom: 1rem;
-}
-
 .download-item {
     display: grid;
     justify-items: center;
+    color: #000;
 }
 
 .signature {
    margin-top: 0.25rem; 
+    color: #fff;
+}
+
+.download-icon-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    margin-bottom: 1rem;
+}
+
+.download-icon {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.windows-icon {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
 }
 
 @media (max-width: 1040px) {
-    .download-wrapper {
+    .download-grid {
         grid-template-columns: 300px 300px;
         row-gap: 2rem;
     }
 }
 
 @media (max-width: 640px) {
-    .download-wrapper {
+    .download-grid {
         grid-template-columns: 1fr;
     }
 }

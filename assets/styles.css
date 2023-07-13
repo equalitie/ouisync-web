@@ -521,6 +521,7 @@ label .mobile-i18n-chevron {
     border-radius: 4px;
     background-color: #03C8FA;
     transition: background-color 0.1s;
+    color: #000;
 }
 
 .info-btn:hover {
@@ -650,7 +651,6 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 /* layouts/_default/single.html */
 
 .single-grad {
-    margin-top: 2rem;
     height: var(--gradient-height);
     min-height: var(--gradient-height);
     background-color: var(--ouisync-primary);
@@ -666,9 +666,9 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     display: grid;
     justify-content: center;
     background-color: #fff;
-    padding-block: 2rem;
 }
 
 .faq-center {
     max-width: 640px;
+    margin-inline: 4%;
 }
