@@ -700,7 +700,7 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 
 .faq-center {
     max-width: 800px;
-    margin-inline: 4%;
+    margin-inline: -2vw;
 }
 
 .faq-subheader {
