@@ -73,6 +73,12 @@ a:hover {
     text-decoration: none;
 }
 
+li {
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
 .sansation {
     font-family: "Sansation";
 }
