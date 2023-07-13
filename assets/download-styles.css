@@ -1,0 +1,19 @@
+.download-wrapper {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.download-icon {
+    margin-bottom: 1rem;
+}
+
+.download-item {
+    display: grid;
+    justify-items: center;
+}
+
+.signature {
+   margin-top: 0.25rem; 
+}
+
