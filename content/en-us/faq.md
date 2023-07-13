@@ -133,14 +133,9 @@ Then you create a **Blind** link and import this blind repository into the backu
 
 ### Retrieving Information from Blind Repositories
 
-If you accidentally delete a _**repository**_ from your primary device, what you can do is go to **'Import _Repository_'**, copy and paste the **WRITE** link (which you kept somewhere safe!*) into the provided f
-ield, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the f
-iles that _**repository**_ contains.
+If you accidentally delete a _**repository**_ from your primary device, what you can do is go to **'Import _Repository_'**, copy and paste the **WRITE** link (which you kept somewhere safe!*) into the provided field, and that's it. Once your primary device connects with your backup device, they will sync - i.e.: the primary _**repository**_ will automatically sync with your backup _**repository**_ and receive all the files that _**repository**_ contains.
 
-#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**r
-epository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't
- be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to t
-he previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
+#### **Note:** if you add files to your primary _**repository**_, that addition will be propagated to your backup _**repository**_ too (if your backup device is connected/online. That means that your backup _**repository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to the previous version of your _**repository**_ is planned for development in future **Ouisync** releases.
 
 #### **Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that blind copy. 
 {{% /markdown %}}
@@ -157,7 +152,7 @@ How can I share my repository with my peers (or my other devices)?
 {{% markdown %}}
 You can do this by tapping the three vertical dots next to the repository name which will open the Settings screen for that repository, and then tapping the Share symbol: {{< figure src="/img/share.png" alt="Select to import a repository" >}}
 
-{{< figure src="/img/repo_settings.png" alt="Repository settings menu" >}}
+{{< figure src="/img/repository_settings.png" alt="Repository settings menu" >}}
   
 If the peer (or device) with whom you want to share a _**repository**_ is nearby, they can tap on **'Import repository'** on their device and then scan the QR code displayed on your screen:
 {{< figure src="/img/qr_code.png" alt="Import a repository with a QR code" >}}
