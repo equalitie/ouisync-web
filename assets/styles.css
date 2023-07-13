@@ -675,6 +675,14 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     margin-top: 2rem;
 }
 
+div.faq-subsection details figure {
+    margin: 0;
+}
+
+.faq-subheader img {
+    max-width: 75%;
+}
+
 details a:hover {
     color: #000;
 }
@@ -687,3 +695,8 @@ details a:hover {
     padding-bottom: 0.5rem;
 }
 
+@media (max-width: 720px) {
+    div.faq-subsection details figure {
+        margin-inline: -1rem;
+    }
+}
