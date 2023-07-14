@@ -4,7 +4,7 @@ date: 2023-06-25T23:57:32-04:00
 ---
 # About Ouisync
 
-Ouisync is a free and open source tool enabling file sync and backups between devices, peer-to-peer.
+Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
 
 ## Features
 
@@ -20,19 +20,30 @@ Ouisync is a free and open source tool enabling file sync and backups between de
 
 👐 **Open Source:** Ouisync's source code is 100% free and open source software, now and forever. All code can be found [on Github](https://github.com/equalitie/ouisync-app).
 
-## Status
+## Status and Roadmap
 
 **July 2023:** We are soft launching the first stable release of Ouisync this month! Please note that the app is under active development, and as such some features and functionality may not work as expected. We encourage users to report bugs and request new features [via Github](https://github.com/equalitie/ouisync-app)
 
+### Upcoming Milestones:
+- Ouisync on iOS
+- Security Audit
+- Ouisync SDK
+
 ## Team
+
+{{< figure src="/img/peter.png" alt="Lead Software Developer: Peter'" >}}
+{{< figure src="/img/adam.png" alt="Developer - Cryptography and Networking: Adam'" >}}
+{{< figure src="/img/jorge.png" alt="Mobile Developer: Jorge'" >}}
+{{< figure src="/img/ivana.png" alt="QA Testing & Project Manager: Ivana'" >}}
+{{< figure src="/img/jenny.png" alt="Product Owner & Project Manager: Jenny'" >}}
+{{< figure src="/img/ksenia.png" alt="UX Researcher - Ksenia'" >}}
 
 - Lead Software Developer: Peter (@inetic)
 - Developer - Cryptography and Networking: Adam (@madadam)
 - Mobile Developer - Jorge (@jpabon)
 - QA Testing and Project Management - Ivana (@earthlingb)
 - Product Owner and Project Management - Jenny (@jnny)
-- UX Researcher - Ksenia
-- UI Designer - Leah
+- UX Researcher - Ksenia (@kermoshina)
 
 ## Get in touch!
 
