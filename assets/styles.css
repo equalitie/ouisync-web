@@ -73,6 +73,12 @@ a:hover {
     text-decoration: none;
 }
 
+li {
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
 .sansation {
     font-family: "Sansation";
 }
@@ -113,6 +119,10 @@ details[open] summary {
 
 figure {
     text-align: center;
+}
+
+figure.bios {
+  display: inline-block;
 }
 
 /* layouts/partials/header.html + head.html */
