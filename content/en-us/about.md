@@ -31,22 +31,14 @@ Ouisync is a private and resilient solution for syncing files and folders with y
 
 ## Team
 
-{{< figure src="/img/peter.png" alt="Lead Software Developer: Peter'" >}}
-{{< figure src="/img/adam.png" alt="Developer - Cryptography and Networking: Adam'" >}}
-{{< figure src="/img/jorge.png" alt="Mobile Developer: Jorge'" >}}
-{{< figure src="/img/ivana.png" alt="QA Testing & Project Manager: Ivana'" >}}
-{{< figure src="/img/jenny.png" alt="Product Owner & Project Manager: Jenny'" >}}
-{{< figure src="/img/ksenia.png" alt="UX Researcher - Ksenia'" >}}
-
-- Lead Software Developer: Peter (@inetic)
-- Developer - Cryptography and Networking: Adam (@madadam)
-- Mobile Developer - Jorge (@jpabon)
-- QA Testing and Project Management - Ivana (@earthlingb)
-- Product Owner and Project Management - Jenny (@jnny)
-- UX Researcher - Ksenia (@kermoshina)
+[{{< figure class="bios" src="/img/peter.png" alt="Lead Software Developer: Peter" title="Peter" caption="Lead Software Developer">}}](https://github.com/inetic)
+[{{< figure class="bios" src="/img/adam.png" alt="Developer - Cryptography and Networking: Adam" title="Adam" caption="Developer - Cryptography and Networking" >}}](https://github.com/madadam)
+[{{< figure class="bios" src="/img/jorge.png" alt="Mobile Developer: Jorge" title="Jorge" caption="Mobile Developer" >}}](https://github.com/jpabon)
+[{{< figure class="bios" src="/img/ivana.png" alt="QA Testing & Project Manager: Ivana" title="Ivana" caption="QA Testing & Project Manager" >}}](https://github.com/ibalazevic)
+[{{< figure class="bios" src="/img/jenny.png" alt="Product Owner & Project Manager: Jenny" title="Jenny" caption="Product Owner & Project Manager" >}}](https://github.com/jnny)
+[{{< figure class="bios" src="/img/ksenia.png" alt="UX Researcher - Ksenia" title="Ksenia" caption="UX Researcher" >}}](https://github.com/kermoshina)
 
 ## Get in touch!
 
 For support questions, press and media, and feedback, you can contact the Ouisync team at: support [at] ouisync [dot] net.
-
-
+<br/><br/><br/>
