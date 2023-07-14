@@ -646,6 +646,7 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     min-height: var(--gradient-height);
     background-color: var(--ouisync-primary);
     background-image: linear-gradient(to right, #87e2f9, var(--ouisync-secondary));
+    margin-top:40px;
 }
 
 .single-body h1 {

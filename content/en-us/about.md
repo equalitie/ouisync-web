@@ -41,4 +41,3 @@ Ouisync is a private and resilient solution for syncing files and folders with y
 ## Get in touch!
 
 For support questions, press and media, and feedback, you can contact the Ouisync team at: support [at] ouisync [dot] net.
-<br/><br/><br/>
