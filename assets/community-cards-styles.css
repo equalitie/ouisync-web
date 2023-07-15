@@ -47,3 +47,11 @@ img.community-card-icon {
         row-gap: 1rem;
     }
 }
+
+img.weblate {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 35;
+   margin-bottom: 15px;
+}
