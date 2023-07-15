@@ -143,7 +143,7 @@ header {
 nav {
     width: 100%;
     font-family: "Humanst521";
-    font-size: large;
+    font-size: 22;
     margin-inline: 4%;
 }
 
@@ -197,6 +197,7 @@ nav .i18n-btn {
     align-items: center;
     white-space: nowrap;
     cursor: pointer;
+    font-size: 20;
 }
 
 nav .desktop-i18n-panel {
@@ -239,6 +240,7 @@ nav .download-btn {
     display: flex;
     align-items: center;
     gap: 0.3rem;
+    font-size: 20;
 }
 
 nav .download-btn:hover {
