@@ -14,7 +14,7 @@
       <pubDate>Wed, 12 Jul 2023 15:10:58 -0400</pubDate>
       
       <guid>https://willow446.github.io/download/</guid>
-      <description>Download Ouisync Freely share files using peer to peer network
+      <description>Download Ouisync Freely backup and share files using peer-to-peer networking.
   Android  Signature   Windows  Signature   Linux  Signature   🚧 iOS (Coming Soon!)  Signature   Direct Download   </description>
     </item>
     
@@ -24,7 +24,10 @@
       <pubDate>Mon, 10 Jul 2023 13:32:34 -0400</pubDate>
       
       <guid>https://willow446.github.io/community/</guid>
-      <description>Join the Ouisync Community </description>
+      <description>Get Involved! We&amp;rsquo;d love your support in making Ouisync as useful and accessible as possible. Ouisync is a completely Free/Libre/Open Source project, and there are many ways to contribute!
+View the Source Code  If you are interested in Ouisync&#39;s source code please check the following Git repositories:
+Ouisync App Ouisync Flutter Plugin Ouisync CLI Ouisync Library
+Read the Whitepaper   Get in Touch  To contact the Ouisync team, send an email to support [at] ouisync [dot] net.</description>
     </item>
     
     <item>
@@ -61,16 +64,19 @@
       <pubDate>Sun, 25 Jun 2023 23:57:32 -0400</pubDate>
       
       <guid>https://willow446.github.io/about/</guid>
-      <description>About Ouisync Info goes here</description>
+      <description>About Ouisync Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
+Features 😻 Easy to use: Simply install and quickly create files and folders to sync and share with trusted devices, contacts and/or groups.
+💸 Free for everyone: no in-app purchases, no subscriptions, no ads, and no tracking!
+🔆 Offline-first: Ouisync uses an innovative, synchronous, peer-to-peer design that allows users to access and share files and folders whether or not your device can connect to the internet.</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Ouisync Terms of Use &amp; Privacy Notice</title>
       <link>https://willow446.github.io/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jun 2023 23:57:32 -0400</pubDate>
       
       <guid>https://willow446.github.io/privacy/</guid>
-      <description></description>
+      <description>Ouisync Terms of Use &amp;amp; Privacy Notice 1. Overview This Ouisync Terms of Use (the “Agreement”), along with our Privacy Notice (collectively, the “Terms”), govern your use of Ouisync - an online file synchronization protocol and software. By installing and running the Ouisync application, you indicate your assent to be bound by and to comply with this Agreement between you and eQualitie inc. (“eQualitie”, “we”, or “us”). Usage of the Ouisync application and the Ouisync network (the Service) is provided by eQualitie at no cost and is intended for use as is.</description>
     </item>
     
   </channel>

@@ -27,6 +27,14 @@
     border-radius: 4px;
 }
 
+img.community-card-icon {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100px;
+   margin-top: 20px;
+}
+
 @media (max-width: 1040px) {
     .community-cards-wrapper {
         column-gap: 0.5rem;
