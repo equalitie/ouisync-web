@@ -26,3 +26,16 @@
     background-color: #ececec;
     border-radius: 4px;
 }
+
+@media (max-width: 1040px) {
+    .community-cards-wrapper {
+        column-gap: 0.5rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .community-cards-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+}
