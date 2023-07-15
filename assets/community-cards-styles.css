@@ -1,0 +1,28 @@
+.community-cards-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+
+.community-card {
+    border: 1px solid #0B4AC1; 
+    background-color: #d7f3f982;
+    border-radius: 4px;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.community-card h2 {
+    justify-content: center;
+}
+
+.community-card-link {
+    border: 1px solid #0B4AC1; 
+    padding: 0.5rem;
+    margin-block: 0.5rem;
+    background-color: #ececec;
+    border-radius: 4px;
+}
