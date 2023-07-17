@@ -31,12 +31,7 @@ Ouisync is a private and resilient solution for syncing files and folders with y
 
 ## Team
 
-[{{< figure class="bios" src="/img/peter.png" alt="Lead Software Developer: Peter" title="Peter" caption="Lead Software Developer">}}](https://github.com/inetic)
-[{{< figure class="bios" src="/img/adam.png" alt="Developer - Cryptography and Networking: Adam" title="Adam" caption="Developer - Cryptography and Networking" >}}](https://github.com/madadam)
-[{{< figure class="bios" src="/img/jorge.png" alt="Mobile Developer: Jorge" title="Jorge" caption="Mobile Developer" >}}](https://github.com/j-pabon)
-[{{< figure class="bios" src="/img/ivana.png" alt="QA Testing & Project Manager: Ivana" title="Ivana" caption="QA Testing & Project Manager" >}}](https://github.com/ibalazevic)
-[{{< figure class="bios" src="/img/jenny.png" alt="Product Owner & Project Manager: Jenny" title="Jenny" caption="Product Owner & Project Manager" >}}](https://github.com/jnny)
-[{{< figure class="bios" src="/img/ksenia.png" alt="UX Researcher - Ksenia" title="Ksenia" caption="UX Researcher" >}}](https://github.com/kermoshina)
+{{% team-photo-grid %}}
 
 ## Get in touch!
 
