@@ -7,6 +7,10 @@
     justify-content: space-between;
 }
 
+.community-card-margin-top {
+    margin-top: 1rem;
+}
+
 .community-card {
     border: 1px solid #0B4AC1; 
     background-color: #d7f3f982;
@@ -20,11 +24,19 @@
 }
 
 .community-card-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
     border: 1px solid #0B4AC1; 
     padding: 0.5rem;
     margin-block: 0.5rem;
     background-color: #ececec;
     border-radius: 4px;
+}
+
+.community-card-link:hover {
+    background-color: #f4f3f3;
 }
 
 img.community-card-icon {
