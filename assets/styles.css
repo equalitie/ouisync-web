@@ -121,10 +121,6 @@ figure {
     text-align: center;
 }
 
-figure.bios {
-  display: inline-block;
-}
-
 /* layouts/partials/header.html + head.html */
 /* head.html is used for page metadata + SEO */
 

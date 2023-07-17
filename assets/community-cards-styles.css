@@ -67,3 +67,23 @@ img.weblate {
    height: 35;
    margin-bottom: 15px;
 }
+
+
+/* ---------------- */
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 960px) {
+    .photo-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 740px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+}
