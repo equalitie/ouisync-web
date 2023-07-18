@@ -6,19 +6,10 @@ date: 2023-06-25T23:57:32-04:00
 
 Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
 
-## Features
+{{% about-features %}}
 
-😻 **Easy to use:** Simply install and quickly create files and folders to sync and share with trusted devices, contacts and/or groups.
-
-💸 **Free for everyone:** no in-app purchases, no subscriptions, no ads, and no tracking!
-
-🔆 **Offline-first:** Ouisync uses an innovative, synchronous, peer-to-peer design that allows users to access and share files and folders whether or not your device can connect to the internet.
-
-🔒 **Secure:** End-to-end encrypted files and folders - both in transit and at rest - secured by established, state-of-the art protocols.
-
-🔑 **Access Controls:** Create repositories that can be shared as read-write, read-only, or blind (you store files for others, but cannot access them).
-
-👐 **Open Source:** Ouisync's source code is 100% free and open source software, now and forever. All code can be found [on Github](https://github.com/equalitie/ouisync-app).
+<div class="roadmap-wrapper">
+{{% markdown %}}
 
 ## Status and Roadmap
 
@@ -29,10 +20,19 @@ Ouisync is a private and resilient solution for syncing files and folders with y
 - Security Audit
 - Ouisync SDK
 
+
+{{% /markdown %}}
+</div>
+
 ## Team
 
 {{% team-photo-grid %}}
 
+<div class="contact-wrapper">
+{{% markdown %}}
 ## Get in touch!
 
 For support questions, press and media, and feedback, you can contact the Ouisync team at: support [at] ouisync [dot] net.
+
+{{% /markdown %}}
+</div>
