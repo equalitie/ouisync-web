@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ouisync</title>
-    <link>https://reticulum.space/categories/</link>
+    <link>https://willow446.github.io/categories/</link>
     <description>Recent content in Categories on Ouisync</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Everything is mine</copyright><atom:link href="https://reticulum.space/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Everything is mine</copyright><atom:link href="https://willow446.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

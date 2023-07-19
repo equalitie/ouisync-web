@@ -16,4 +16,8 @@
     <link rel="stylesheet" href="{{ $brands.Permalink }}">
     {{ $fa := resources.Get "fontawesome/css/fontawesome.css" }}
     <link rel="stylesheet" href="{{ $fa.Permalink }}">
+    {{ $downstyle := resources.Get "download-styles.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $downstyle.Permalink }}">
+    {{ $communitystyle := resources.Get "community-cards-styles.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $communitystyle.Permalink }}">
 </head>
