@@ -45,9 +45,17 @@ h1 {
 
 h2 {
     font-family: "Humanst521";
-    font-size: 1.3rem;
-    margin-top: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
+
+h4 {
+    font-family: "Humanst521";
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: -.5rem;
+}
+
 
 p {
     font-family: "Roboto", sans-serif;
@@ -62,7 +70,13 @@ a {
 
 a:hover {
     color: #0B4AC1;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+li {
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 .sansation {
@@ -71,14 +85,15 @@ a:hover {
 
 details {
     margin-block: 4px;
-    border: 1px solid #aaa;
+    border: 1px solid #0870d9;
+    background-color: #d7f3f982;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
 }
 
 summary {
     font-weight: bold;
-    margin: -0.5em -0.5em 0;
+    margin: -0.4em -0.4em 0;
     padding: 0.5em;
     font-size: 1.3rem;
     cursor: pointer;
@@ -89,7 +104,7 @@ details[open] {
 }
 
 details[open] summary {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #0870d9;
     margin-bottom: 0.5em;
 }
 
@@ -100,6 +115,10 @@ details[open] summary {
 .center {
     display: grid;
     justify-content: center;
+}
+
+figure {
+    text-align: center;
 }
 
 /* layouts/partials/header.html + head.html */
@@ -120,7 +139,7 @@ header {
 nav {
     width: 100%;
     font-family: "Humanst521";
-    font-size: large;
+    font-size: 22;
     margin-inline: 4%;
 }
 
@@ -174,6 +193,7 @@ nav .i18n-btn {
     align-items: center;
     white-space: nowrap;
     cursor: pointer;
+    font-size: 20;
 }
 
 nav .desktop-i18n-panel {
@@ -216,6 +236,7 @@ nav .download-btn {
     display: flex;
     align-items: center;
     gap: 0.3rem;
+    font-size: 20;
 }
 
 nav .download-btn:hover {
@@ -340,6 +361,7 @@ label .mobile-i18n-chevron {
     font-family: "Sansation";
     font-size: 3.3rem;
     max-width: 600px;
+    text-align: center;
 }
 
 .hero-text {
@@ -350,29 +372,12 @@ label .mobile-i18n-chevron {
 .hero-wrapper h2 {
     max-width: 600px;
     font-family: "Humanst521-Light";
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 .hero-text div {
     max-width: 600px;
-}
-
-.badge {
-    margin-top: 1.5rem;
-}
-
-.badge-wrapper a:hover {
-    text-decoration: none;
-}
-
-.badge-two {
-    margin-inline-start: 1rem;
-}
-
-.learn-more {
-    color: #0B4AC1;
-    font-size: 1.15rem;
-    margin-top: 0.7rem;
-    max-width: fit-content;
 }
 
 @media (max-width: 740px) {
@@ -381,19 +386,6 @@ label .mobile-i18n-chevron {
     }
     .hero-wrapper h2 {
         font-size: 1.4rem;
-    }
-    .learn-more {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .badge-two {
-        margin-inline-start: 0;
-        margin-top: 1rem;
-    }
-    .hero-text {
-        justify-items: flex-start;
     }
 }
 
@@ -511,12 +503,14 @@ label .mobile-i18n-chevron {
 }
 
 .info-btn {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-inline: 1rem;
     padding-block: 0.5rem;
     border-radius: 4px;
     background-color: #03C8FA;
     transition: background-color 0.1s;
+    color: #000;
+    margin-top: 20px;
 }
 
 .info-btn:hover {
@@ -593,7 +587,6 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
   box-sizing: border-box;
 }
 
-}
 
 /* layouts/partials/footer.html */
 
@@ -648,14 +641,72 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 /* layouts/_default/single.html */
 
 .single-grad {
-    margin-top: 2rem;
     height: var(--gradient-height);
     min-height: var(--gradient-height);
     background-color: var(--ouisync-primary);
     background-image: linear-gradient(to right, #87e2f9, var(--ouisync-secondary));
+    margin-top:40px;
 }
 
-.single-body h1,h2,h3,h4,p {
+.single-body h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.single-body h2 {
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.single-body h3 {
+    font-size: 1.4rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+.single-body p {
+    font-family: "Roboto"; 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-wrapper {
+    display: grid;
+    justify-content: center;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.faq-center {
+    max-width: 800px;
+    margin-inline: -2vw;
+}
+
+.faq-subheader {
+    margin-top: 2rem;
+}
+
+div.faq-subsection details figure {
+    margin: 0;
+}
+
+.faq-subheader img {
+    max-width: 75%;
+}
+
+details a:hover {
+    color: #000;
+}
+
+.faq-subsection {
+    background-color: #ececec;
+    padding-inline: 0.5rem;
+    border-radius: 4px;
+    margin-block: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 720px) {
+    div.faq-subsection details figure {
+        margin-inline: -1rem;
+    }
 }
