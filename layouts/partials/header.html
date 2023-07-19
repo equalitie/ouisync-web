@@ -3,9 +3,15 @@
         <div class="desktop-nav">
             <a href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
             <div class="desktop-center-nav">
-                <a href="about">{{i18n "titleAbout"}}</a>
-                <a href="faq">Support</a>
-                <a href="community">Community</a>
+                {{ if eq .Lang "en-us"}}
+                <a href="/about">{{i18n "titleAbout"}}</a>
+                <a href="/faq">Support</a>
+                <a href="/community">Community</a>
+                {{ else }}
+                <a href="/{{ .Lang }}/about">{{i18n "titleAbout"}}</a>
+                <a href="/{{ .Lang }}/faq">Support</a>
+                <a href="/{{ .Lang }}/community">Community</a>
+                {{ end }}
             </div>
             <div class="nav-buttons">
                 <div>
