@@ -145,7 +145,8 @@ img.weblate {
 
 .roadmap-wrapper {
     margin-block: 1rem;
-    padding: 0.5rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
     border-radius: 4px;
     background-color: #9005d121;
     border: 1px solid #9205d1; 
@@ -157,7 +158,8 @@ img.weblate {
 
 .contact-wrapper {
     margin-block: 2rem;
-    padding: 0.5rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
     border-radius: 4px;
     border: 1px solid #0B4AC1; 
     background-color: #ebf9fc;
