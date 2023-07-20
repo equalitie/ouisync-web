@@ -174,7 +174,6 @@ a {
 
 label:hover {
     color: #0B4AC1;
-    text-decoration: underline;
 }
 
 nav input {
@@ -185,7 +184,7 @@ nav .i18n-btn {
     font-family: "Sansation";
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
-    padding: 8px 4px;
+    padding: 8px 2px 8px 6px;
     margin-inline-end: 8px;
     display: flex;
     flex-direction: row;
@@ -232,10 +231,10 @@ nav .download-btn {
     background-color: var(--ouisync-primary);
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
-    padding: 8px;
+    padding: 8px 6px 8px 4px;
     display: flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 4px;
     font-size: 20;
 }
 
@@ -290,7 +289,7 @@ nav .download-btn:hover {
     position: absolute;
     left: 0;
     font-size: 1.5rem;
-    width: 96%;
+    width: 100%;
     margin-top: 3.4rem;
     padding-block: 1rem;
     padding-inline-start: 4%;
@@ -502,6 +501,18 @@ label .mobile-i18n-chevron {
     place-items: center;
 }
 
+.info {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.info h3 {
+    margin: 0;
+}
+
 .info-btn {
     font-size: 1.4rem;
     padding-inline: 1rem;
@@ -550,13 +561,20 @@ label .mobile-i18n-chevron {
   }
    
 .btn {
-  display: inline-block;
   font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
   border: 1px solid; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn p {
+    margin-top: 0;
 }
 
 .btn-outline-light {
@@ -574,8 +592,9 @@ label .mobile-i18n-chevron {
 }
 
 a.btn-outline-light:hover{
-  background: #fff;
-  color: #000;
+  background: #ad0bf8;
+  border-color: #fff;
+  color: #fff;
   text-decoration: none;   
 }
 

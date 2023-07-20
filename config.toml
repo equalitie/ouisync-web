@@ -1,13 +1,13 @@
 baseURL = 'https://willow446.github.io/'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'My New Hugo Site'
 copyright = 'Everything is mine'
-defaultContentLanguage = 'en-us'
+defaultContentLanguage = 'en'
 [languages]
-    [languages.en-us]
+    [languages.en]
         title = 'Ouisync'
         languageName = 'English'
-        contentDir = 'content/en-us'
+        contentDir = 'content/en'
         weight = 1
     [languages.fr]
         title = 'Ouisync (fr)'
