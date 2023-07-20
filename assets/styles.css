@@ -184,7 +184,7 @@ nav .i18n-btn {
     font-family: "Sansation";
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
-    padding: 8px 4px;
+    padding: 8px 2px 8px 6px;
     margin-inline-end: 8px;
     display: flex;
     flex-direction: row;
@@ -231,10 +231,10 @@ nav .download-btn {
     background-color: var(--ouisync-primary);
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
-    padding: 8px;
+    padding: 8px 6px 8px 4px;
     display: flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 4px;
     font-size: 20;
 }
 

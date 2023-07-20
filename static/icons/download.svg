@@ -5,7 +5,7 @@
    width="48"
    version="1.1"
    id="svg4"
-   sodipodi:docname="download_FILL0_wght400_GRAD0_opsz48.svg"
+   sodipodi:docname="download.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="4.9166667"
      inkscape:cx="23.898305"
-     inkscape:cy="24.101695"
+     inkscape:cy="24.305085"
      inkscape:window-width="1504"
      inkscape:window-height="942"
      inkscape:window-x="0"
@@ -33,7 +33,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <path
-     d="M480-313 287-506l43-43 120 120v-371h60v371l120-120 43 43-193 193ZM220-160q-24 0-42-18t-18-42v-143h60v143h520v-143h60v143q0 24-18 42t-42 18H220Z"
+     d="m 480,-310.16948 -196.27119,-196.27121 43.72882,-43.72879 122.0339,122.0339 v -377.28814 h 61.01694 v 377.28814 l 122.03391,-122.0339 43.7288,43.7288 z m -264.40678,155.59321 q -24.40678,0 -42.71186,-18.30509 -18.30509,-18.30509 -18.30509,-42.71186 v -145.42373 h 61.01695 v 145.42373 h 528.81356 v -145.42373 h 61.01695 v 145.42373 q 0,24.40677 -18.30509,42.71186 -18.30508,18.30509 -42.71186,18.30509 z"
      id="path2"
-     style="fill:#ffffff" />
+     style="fill:#ffffff;stroke-width:1.01695" />
 </svg>
