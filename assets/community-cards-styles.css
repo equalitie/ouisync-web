@@ -33,6 +33,7 @@
     margin-block: 0.5rem;
     background-color: #ececec;
     border-radius: 4px;
+    padding-inline-start: 1rem;
 }
 
 .community-card-link:hover {
@@ -111,10 +112,18 @@ img.weblate {
     display: flex;
     flex-direction: column;
     border: 1px solid #0B4AC1; 
-    padding: 0.5rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
     margin-block: 0.5rem;
     background-color: #ebf9fc;
     border-radius: 4px;
+}
+
+.feature-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 .about-feature h3 {
