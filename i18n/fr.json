@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="fr">
 {{partial "head.html" .}}
 {{partial "header.html" .}}
 <main>
@@ -52,7 +52,7 @@
             <img class="img-three" src="/img/blind_mode.png" alt="Blind permissions" />
             <div class="card card-three">
                 <h3>Stockez en toute sécurité les documents sensibles</h3>
-                <p>Vous souhaitez sauvegarder vos données en toute sécurité sur d'autres appareils et les rendre inaccessibles à quiconque&nbsp;? Partagez vos référentiels Ouisync en mode aveugle. Votre ami vous offre son ordinateur de rechange pour le stockage de vos données ? Laissez vos amis être votre nuage&nbsp;! Il suffit de quelques clics dans Ouisync pour stocker vos données en toute sécurité en mode aveugle et vous n'aurez plus jamais à vous soucier de perdre votre téléphone - vos données sont stockées en toute sécurité à chaque fois que vous en avez besoin.</p>
+                <p>Vous souhaitez sauvegarder vos données en toute sécurité sur d'autres appareils et les rendre inaccessibles à quiconque ? Partagez vos référentiels Ouisync en mode aveugle. Votre ami vous offre son ordinateur de rechange pour le stockage de vos données ? Laissez vos amis être votre nuage ! Il suffit de quelques clics dans Ouisync pour stocker vos données en toute sécurité en mode aveugle et vous n'aurez plus jamais à vous soucier de perdre votre téléphone - vos données sont stockées en toute sécurité à chaque fois que vous en avez besoin.</p>
             </div>    
         </div>
     </div>
