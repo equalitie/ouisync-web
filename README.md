@@ -57,7 +57,17 @@ For markdown we use the custom `render-i18n` shortcode, lets say this file is in
 {{ render-i18n "intro" %}}
 ```
 
-Hugo will also server multilingual content based on the *content directory* of the markdown file. So if translation software allows for the translation of entire markdown files, this approach can be used instead. The string-based, and entire-markdown-file based approached can also be combined lets edit our `content/fr/hello.md` file:
+Hugo will also server multilingual content based on the *content directory* of the markdown file. So if translation software allows for the translation of entire markdown files, this approach can be used instead. The string-based, and entire-markdown-file based approached can also be combined. For example let's say an english sentance was added to the `content/en/hello.md` file:
+
+```
+# {{% render-i18n "title" %}}
+
+{{ render-i18n "intro" %}}
+
+Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, about the primeval forest. It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing. 
+```
+
+Now instead of converting everything to custom strings and editing in Weblate, we could translate the markdown directly if we want, `content/fr/hello.md`:
 
 ```
 # {{% render-i18n "title" %}}
