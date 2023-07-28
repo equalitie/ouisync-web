@@ -5,9 +5,18 @@
     <link>https://willow446.github.io/</link>
     <description>Recent content on Ouisync</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Mon, 26 Jun 2023 00:22:52 -0400</lastBuildDate><atom:link href="https://willow446.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security</title>
+      <link>https://willow446.github.io/security/</link>
+      <pubDate>Wed, 19 Jul 2023 00:41:15 -0400</pubDate>
+      
+      <guid>https://willow446.github.io/security/</guid>
+      <description>Security </description>
+    </item>
+    
     <item>
       <title>Download</title>
       <link>https://willow446.github.io/download/</link>
@@ -15,7 +24,8 @@
       
       <guid>https://willow446.github.io/download/</guid>
       <description>Download Ouisync Freely backup and share files using peer-to-peer networking.
-  Android  Signature   Windows  Signature   Linux  Signature   🚧 iOS (Coming Soon!)  Signature   Direct Download   </description>
+  Android   Signature         Windows  Signature        Linux  Signature       🚧 iOS (Coming Soon!)  Signature     Download Ouisync Server Docker Container  For self-hosting a Ouisync server.
+Ouisync Server   Verify APK for Android  Run this to verify that the APK has a valid signature from the certificate with the fingerprint shown below:</description>
     </item>
     
     <item>
@@ -26,8 +36,11 @@
       <guid>https://willow446.github.io/community/</guid>
       <description>Get Involved! We&amp;rsquo;d love your support in making Ouisync as useful and accessible as possible. Ouisync is a completely Free/Libre/Open Source project, and there are many ways to contribute!
 View the Source Code  If you are interested in Ouisync&#39;s source code please check the following Git repositories:
-Ouisync App Ouisync Flutter Plugin Ouisync CLI Ouisync Library
-Read the Whitepaper   Get in Touch  To contact the Ouisync team, send an email to support [at] ouisync [dot] net.</description>
+Ouisync App
+  Ouisync Flutter Plugin
+  Ouisync CLI
+  Ouisync Library
+  Read the Whitepaper   Get in Touch  To contact the Ouisync team, send an email to support [at] ouisync [dot] net.</description>
     </item>
     
     <item>
@@ -65,9 +78,8 @@ Read the Whitepaper   Get in Touch  To contact the Ouisync team, send an email t
       
       <guid>https://willow446.github.io/about/</guid>
       <description>About Ouisync Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
-Features 😻 Easy to use: Simply install and quickly create files and folders to sync and share with trusted devices, contacts and/or groups.
-💸 Free for everyone: no in-app purchases, no subscriptions, no ads, and no tracking!
-🔆 Offline-first: Ouisync uses an innovative, synchronous, peer-to-peer design that allows users to access and share files and folders whether or not your device can connect to the internet.</description>
+Features Easy to use  Simply install and quickly create files and folders to sync and share with trusted devices, contacts and/or groups.
+ Offline-first  Ouisync uses an innovative, synchronous, peer-to-peer design that allows users to access and share files and folders whether or not your device can connect to the internet.</description>
     </item>
     
     <item>
