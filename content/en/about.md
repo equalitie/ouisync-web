@@ -26,6 +26,8 @@ Ouisync is a private and resilient solution for syncing files and folders with y
 
 ## Team
 
+Full bios for the Ouisync team and the rest of the staff at eQualitie are available [on the eQualitie website](https://equalit.ie/#team).
+
 {{% team-photo-grid %}}
 
 <div class="contact-wrapper">
