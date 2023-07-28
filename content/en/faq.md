@@ -39,7 +39,8 @@ When you open the **Ouisync app**, after the onboarding screens you will see the
 How can I create new repositories?
 </summary>
 {{% markdown %}}
-To create a new _**repository**_, tap the  **+** button: {{< figure src="/img/plus_button.png" alt="Tap the Plus button" >}}
+To create a new _**repository**_, tap the  **+** button: 
+{{< figure src="/img/plus_button.png" alt="Tap the Plus button" >}}
   
 Then select **"Create Repository"**:
 {{< figure src="/img/create_repository.png" alt="Select 'Create repository'" >}}
@@ -93,7 +94,8 @@ A local password is a password set up only for your own device. You don't need t
 How can I add files and folders to my repository?
 </summary>
 {{% markdown %}}
-That's easy. Tap on the repository name.  This will take you to the _**repository**_ contents screen where you will see a Plus button: {{< figure src="/img/plus_button.png" alt="Tap the Plus button" >}}
+That's easy. Tap on the repository name.  This will take you to the _**repository**_ contents screen where you will see a Plus button: 
+{{< figure src="/img/plus_button.png" alt="Tap the Plus button" >}}
 
 This will open a small window where you can choose whether to create a folder for your files within that repository or add files to it from your device or external storage (such as a USB stick or SD card):   
 {{< figure src="/img/add_folder_files.png" alt="Add folders or files" >}}
@@ -164,7 +166,8 @@ How can I share my repository with my peers (or my other devices)?
 </a>
 </summary>
 {{% markdown %}}
-You can do this by tapping the three vertical dots next to the repository name which will open the Settings screen for that repository, and then tapping the Share symbol: {{< figure src="/img/share.png" alt="Select to import a repository" >}}
+You can do this by tapping the three vertical dots next to the repository name which will open the Settings screen for that repository, and then tapping the Share symbol: 
+{{< figure src="/img/share.png" alt="Select to import a repository" >}}
 
 {{< figure src="/img/repo_settings.png" alt="Repository settings menu" >}}
   
@@ -179,7 +182,8 @@ If your peer is not nearby, you can share your repositories by generating a link
 You can copy the link and paste it into an email or any messaging application, or you can tap the Share link button which will open one of the apps you can use to send it. Your peers will need to copy and paste that link into the field provided when they tap **'Import Repository'** on their device. 
 {{< figure src="/img/token_import.png" alt="Import repository, then paste the link" >}}
 
-**PS:** To paste a link to the input field, you tap and hold your finger on it, until a small **Paste** button appears to tap: {{< figure src="/img/paste_token.png" alt="Tap and hold to paste the link" >}}
+**PS:** To paste a link to the input field, you tap and hold your finger on it, until a small **Paste** button appears to tap: 
+{{< figure src="/img/paste_token.png" alt="Tap and hold to paste the link" >}}
 
 {{% /markdown %}}
 </details>
