@@ -5,7 +5,6 @@ date: 2023-06-25T23:57:32-04:00
 
 {{% render-i18n "titleAbout" %}}
 
-
 # About Ouisync
 
 Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
