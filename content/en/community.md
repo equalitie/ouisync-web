@@ -2,8 +2,8 @@
 title: "Community"
 date: 2023-07-10T13:32:34-04:00
 ---
-# Get Involved!
+# {{% render-i18n "getInTouch" %}}
 
-We'd love your support in making Ouisync as useful and accessible as possible. Ouisync is a completely Free/Libre/Open Source project, and there are many ways to contribute!
+{{% render-i18n "communitySubtitle" %}}
 
 {{% render-partial "community-cards.html" %}}

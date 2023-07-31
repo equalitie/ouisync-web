@@ -1,45 +1,47 @@
 <div class="community-cards-wrapper">
     <div class="community-card">
-        <div class="center">
-            <img class="community-card-icon" src="/icons/code-blue.svg" height="100">
-            <h2>View the Source Code</h2>
+        <div class="card-height">
+            <div class="center">
+                <img class="community-card-icon" src="/icons/code-blue.svg" height="100">
+                <h2>{{i18n "sourceCodeTitle"}}</h2>
+            </div>
+            <p>{{i18n "sourceCodeSubtitle"}}</p>
+            <a href="https://github.com/equalitie/ouisync-app">
+                <div class="community-card-link">
+                    <img src="/icons/ouisync-icon.png" height="30" width="30"/>
+                    <p><b>{{i18n "appTitle"}}</b></p>
+                </div>
+            </a>
+            <a href="https://github.com/equalitie/ouisync-plugin">
+                <div class="community-card-link">
+                    <img src="/icons/flutter.svg" height="30" width="30"/>
+                    <p><b>{{i18n "flutterPluginTitle"}}</b></p>
+                </div>
+            </a>
+            <a href="https://github.com/equalitie/ouisync/tree/master/cli">
+                <div class="community-card-link">
+                    <img src="/icons/terminal.svg" height="30" width="30"/>
+                    <p><b>{{i18n "cliTitle"}}</b></p>
+                </div>
+            </a>
+            <a href="https://github.com/equalitie/ouisync/tree/master/lib">
+                <div class="community-card-link last-link">
+                    <img src="/icons/library.svg" height="30" width="30"/>
+                    <p><b>{{i18n "libTitle"}}</b></p>
+                </div>
+            </a>
         </div>
-        <p>If you are interested in Ouisync's source code please check the following Git repositories:</p>
-        <a href="https://github.com/equalitie/ouisync-app">
-            <div class="community-card-link">
-                <img src="/icons/ouisync-icon.png" height="30" width="30"/>
-                <p><b>Ouisync App</b></p>
-            </div>
-        </a>
-        <a href="https://github.com/equalitie/ouisync-plugin">
-            <div class="community-card-link">
-                <img src="/icons/flutter.svg" height="30" width="30"/>
-                <p><b>Ouisync Flutter Plugin</b></p>
-            </div>
-        </a>
-        <a href="https://github.com/equalitie/ouisync/tree/master/cli">
-            <div class="community-card-link">
-                <img src="/icons/terminal.svg" height="30" width="30"/>
-                <p><b>Ouisync CLI</b></p>
-            </div>
-        </a>
-        <a href="https://github.com/equalitie/ouisync/tree/master/lib">
-            <div class="community-card-link">
-                <img src="/icons/library.svg" height="30" width="30"/>
-                <p><b>Ouisync Library</b></p>
-            </div>
-        </a>
         <div class="info-btn-wrapper">
-            <a class="info-btn info-btn-two" href="https://github.com/equalitie/ouisync/blob/master/doc/system_design.pdf">Read the Whitepaper</a>
+            <a class="info-btn info-btn-two community-card-btn-margin" href="https://github.com/equalitie/ouisync/blob/master/doc/system_design.pdf">{{i18n "whitepaperBtn"}}</a>
         </div>
     </div>
     <div class="community-card">
         <div class="center">
             <img class="community-card-icon" src="/icons/chat-blue.svg" height="100">
-            <h2>Get in Touch</h2>
+            <h2>{{i18n "contactUs"}}</h2>
         </div>
-        <p>To contact the Ouisync team, send an email to support [at] ouisync [dot] net.</p>
-        <p>Follow us and join the conversation on your preferred social media platform:</p>
+        <p>{{i18n "contactUsSubtitle"}}</p>
+        <p>{{i18n "socialMediaTitle"}}</p>
         <div class="community-card-margin-top">
             <a href="https://twitter.com/ouisync">
                 <div class="community-card-link">
@@ -62,16 +64,18 @@
         </a>
     </div>
     <div class="community-card">
-        <div class="center">
-            <img class="community-card-icon" src="/icons/globe-blue.svg" height="100">
-            <h2>Translate Ouisync</h2>
+        <div class="card-height">
+            <div class="center">
+                <img class="community-card-icon" src="/icons/globe-blue.svg" height="100">
+                <h2>{{i18n "translateTitle"}}</h2>
+            </div>
+            <p><img class="weblate" src="https://hosted.weblate.org/widgets/ouisync/-/svg-badge.svg"></p>
+            <p>{{i18n "translateP0"}}</p>
+            <p>{{i18n "translateP1"}}</p>
+            <p>{{i18n "translateP2"}} <a href="https://docs.weblate.org/">Weblate {{i18n "documentation"}}</a>.</p>
         </div>
-	<p><img class="weblate" src="https://hosted.weblate.org/widgets/ouisync/-/svg-badge.svg"></p>
-        <p>Help translate the Ouisync app, web extension, user manual and website! We use Weblate to crowdsource translations.</p>
-        <p>Please contact the Ouisync team at support [at] ouisync [dot] net if you're interested in becoming a reviewer for translation(s) in your language(s).</p>
-        <p>For more information about how to use Weblate, see the <a href="https://docs.weblate.org/">Weblate documentation</a>.</p>
         <div class="info-btn-wrapper">
-            <a class="info-btn info-btn-two" href="https://hosted.weblate.org/projects/ouisync">Join the Ouisync Weblate</a>
+            <a class="info-btn info-btn-two community-card-btn-margin" href="https://hosted.weblate.org/projects/ouisync">{{i18n "joinWeblateBtn"}}</a>
         </div>
     </div>
 </div>

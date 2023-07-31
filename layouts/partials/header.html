@@ -4,13 +4,13 @@
             <a href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
             <div class="desktop-center-nav">
                 {{ if eq .Lang "en"}}
-                <a href="/about">{{i18n "titleAbout"}}</a>
-                <a href="/faq">Support</a>
-                <a href="/community">Community</a>
+                <a href="/about">{{i18n "navAbout"}}</a>
+                <a href="/faq">{{i18n "navSupport"}}</a>
+                <a href="/community">{{i18n "navCommunity"}}</a>
                 {{ else }}
-                <a href="/{{ .Lang }}/about">{{i18n "titleAbout"}}</a>
-                <a href="/{{ .Lang }}/faq">Support</a>
-                <a href="/{{ .Lang }}/community">Community</a>
+                <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
+                <a href="/{{ .Lang }}/faq">{{i18n "navSupport"}}</a>
+                <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
                 {{ end }}
             </div>
             <div class="nav-buttons">
@@ -29,7 +29,7 @@
                 </div>
                 <a class="download-btn" href="/download">
                     <img src="/icons/download.svg" height="24" width="24"/>
-                    <div>Download</div>
+                    <div>{{i18n "navDownload"}}</div>
                 </a>
             </div>
         </div>
@@ -41,15 +41,15 @@
             </label>
             <div class="mobile-nav-panel">
                 {{ if eq .Lang "en"}}
-                <a href="/about">{{i18n "titleAbout"}}</a>
-                <a href="/faq">Support</a>
-                <a href="/community">Community</a>
-                <a href="/download">Download</a>
+                <a href="/about">{{i18n "navAbout"}}</a>
+                <a href="/faq">{{i18n "navSupport"}}</a>
+                <a href="/community">{{i18n "navCommunity"}}</a>
+                <a href="/download">{{i18n "navDownload"}}</a>
                 {{ else }}
-                <a href="/{{ .Lang }}/about">{{i18n "titleAbout"}}</a>
-                <a href="/{{ .Lang }}/faq">Support</a>
-                <a href="/{{ .Lang }}/community">Community</a>
-                <a href="/{{ .Lang }}/download">Download</a>
+                <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
+                <a href="/{{ .Lang }}/faq">{{i18n "navSupport"}}</a>
+                <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
+                <a href="/{{ .Lang }}/download">{{i18n "navDownload"}}</a>
                 {{ end }}
             </div>
             <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>

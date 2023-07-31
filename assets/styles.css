@@ -527,7 +527,7 @@ label .mobile-i18n-chevron {
     background-color: #03C8FA;
     transition: background-color 0.1s;
     color: #000;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 .info-btn:hover {
