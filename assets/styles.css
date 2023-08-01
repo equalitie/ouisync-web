@@ -1,12 +1,4 @@
 @font-face {
-    font-family: "Sansation-Light";
-    src: url("fonts/Sansation_Light.ttf");
-}
-@font-face {
-    font-family: "Sansation";
-    src: url("fonts/Sansation_Regular.ttf");
-}
-@font-face {
     font-family: "Humanst521-Light";
     src: url("fonts/Humanst521_Light.ttf");
 }
@@ -28,9 +20,15 @@
 :root {
     --gradient-height: 0.3rem;
     --ouisync-primary: #012669;
-    --ouisync-secondary: #9205d1
-    ;
+    --ouisync-secondary: #9205d1;
     --max-width: 960px;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing: antialiased; /* WebKit  */
+    font-size: 16px;
 }
 
 .flex {
@@ -40,29 +38,28 @@
 }
 
 h1, h2, h3, p, body {
-    font-family: "Humanst521";
     margin: 0;
     text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4 {
+    font-family: "Humanst521-Bold";
+}
+
 h1 {
-    font-family: "Humanst521";
     font-size: 3rem;
 }
 
 h2 {
-    font-family: "Humanst521";
     font-size: 2rem;
     margin-top: 2rem;
 }
 
 h4 {
-    font-family: "Humanst521";
     font-size: 1.3rem;
     margin-top: 1.5rem;
     margin-bottom: -.5rem;
 }
-
 
 p {
     font-family: "Roboto", sans-serif;
@@ -86,8 +83,8 @@ li {
     font-size: 1.2rem;
 }
 
-.sansation {
-    font-family: "Sansation";
+.humanst {
+    font-family: "Humanst521";
 }
 
 details {
@@ -99,11 +96,15 @@ details {
 }
 
 summary {
-    font-weight: bold;
+    font-family: "Humanst521";
     margin: -0.4em -0.4em 0;
     padding: 0.5em;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     cursor: pointer;
+}
+
+.summary-heading {
+    display: inline;
 }
 
 details[open] {
@@ -113,6 +114,10 @@ details[open] {
 details[open] summary {
     border-bottom: 1px solid #0870d9;
     margin-bottom: 0.5em;
+}
+
+details p {
+    font-size: 1.1rem;
 }
 
 .margin {
@@ -146,7 +151,7 @@ header {
 nav {
     width: 100%;
     font-family: "Humanst521";
-    font-size: 22;
+    font-size: 1.4rem;
     margin-inline: 4%;
 }
 
@@ -188,7 +193,6 @@ nav input {
 }
 
 nav .i18n-btn {
-    font-family: "Sansation";
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
     padding: 8px 2px 8px 6px;
@@ -234,7 +238,6 @@ nav .desktop-i18n-panel {
 
 nav .download-btn {
     color: white;
-    font-family: "Sansation";
     background-color: var(--ouisync-primary);
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
@@ -364,7 +367,7 @@ label .mobile-i18n-chevron {
 }
 
 .hero-wrapper h1 {
-    font-family: "Sansation";
+    font-weight: 50;
     font-size: 3.3rem;
     max-width: 600px;
     text-align: center;
@@ -414,7 +417,7 @@ label .mobile-i18n-chevron {
     grid-template-rows: repeat(3, max-content);
     row-gap: 2rem;
     padding-block: 2.5rem;
-    max-width: 960px;
+    max-width: 966px;
     margin-inline: 4%;
 }
 
@@ -424,19 +427,26 @@ label .mobile-i18n-chevron {
 }
 
 .card-wrapper h3 {
-    font-family: "Humanst521";
     font-size: 1.6rem;
     margin-top: 1rem;
 }
 
 .card-wrapper p {
-    font-family: "Roboto";
     font-size: 1.2rem;
 }
 
 .card-wrapper img {
     max-width: 24rem;
 }
+
+.card-one {
+    margin-inline-start: 1rem;
+}
+
+.card-three {
+    margin-inline-start: 2rem;
+}
+
 
 .row {
     display: flex;
@@ -459,6 +469,12 @@ label .mobile-i18n-chevron {
     }
     .card-wrapper img {
         max-width: 100%;
+    }
+    .card-one {
+        margin-inline-start: 0;
+    }
+    .card-three {
+        margin-inline-start: 0;
     }
 }
 
@@ -493,13 +509,11 @@ label .mobile-i18n-chevron {
 }
 
 .info-wrapper h3 {
-    font-family: "Humanst521";
     font-size: 1.6rem;
     margin-top: 1rem;
 }
 
 .info-wrapper p {
-    font-family: "Roboto";
     font-size: 1.2rem;
 }
 
@@ -521,7 +535,8 @@ label .mobile-i18n-chevron {
 }
 
 .info-btn {
-    font-size: 1.4rem;
+    font-family: "Humanst521";
+    font-size: 1.3rem;
     padding-inline: 1rem;
     padding-block: 0.5rem;
     border-radius: 4px;
@@ -568,16 +583,15 @@ label .mobile-i18n-chevron {
   }
    
 .btn {
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
-  border: 1px solid; 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .btn p {
@@ -593,7 +607,7 @@ label .mobile-i18n-chevron {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: .5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   border-radius: .3rem;
 }
@@ -690,7 +704,6 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     margin-bottom: 0.5rem;
 }
 .single-body p {
-    font-family: "Roboto"; 
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }

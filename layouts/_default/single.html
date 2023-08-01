@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" dir="{{ .Language.LanguageDirection }}">
 {{partial "head.html" .}}
 {{partial "header.html" .}}
-<main class="single-body margin">
+<main class="single-body margin" dir="{{ .Language.LanguageDirection }}">
 {{.Content}}
 </main>
 <div class="single-grad"></div>
 {{partial "footer.html" .}}
+</html>

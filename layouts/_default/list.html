@@ -1,7 +1,8 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" dir="{{ .Language.LanguageDirection }}">
 {{partial "head.html" .}}
 {{partial "header.html" .}}
-<main class="list-wrapper">
+<main class="list-wrapper" dir="{{ .Language.LanguageDirection }}">
     {{ range .Pages }}
     <div class="post-wrapper">
         {{ .Date.Format "2006-01-02" }}
