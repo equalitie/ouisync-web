@@ -5,14 +5,12 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-wrapper">
 <div class="faq-center">
-{{% markdown %}}
 
-# {{% render-i18n "faq" %}}
+<h1>{{% render-i18n "faq" %}}</h1>
 
 <div class="faq-subsection">
-{{% markdown %}}
 
-## {{% render-i18n "gettingStart" %}}
+<h2>{{% render-i18n "gettingStart" %}}</h2>
 
 <details>
 <summary>
@@ -34,7 +32,8 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/my_repositories.png" alt="Ouisync home page listing your repositories">}}
 
 {{% /markdown %}}
-</details> 
+</details>
+
 <details>
 <summary>
 {{% render-i18n "faqTitle2" %}}
@@ -143,9 +142,8 @@ date: 2023-07-10T12:14:12-04:00
 </div>
 
 <div class="faq-subsection">
-{{% markdown %}}
 
-##  
+<h2>{{% render-i18n "faqSectionTitle0" %}} 
 
 <details>
 <summary>
@@ -227,7 +225,7 @@ date: 2023-07-10T12:14:12-04:00
 <div class="faq-subsection">
 {{% markdown %}}
 
-## File Management
+<h2>{{% render-i18n "faqSectionTitle1" %}}</h2>
 
 <details>
 <summary>
@@ -250,7 +248,6 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
-
 {{% render-i18n "faqTitle14" %}}
 </summary>
 {{% markdown %}}
@@ -263,7 +260,7 @@ date: 2023-07-10T12:14:12-04:00
 <div class="faq-subsection">
 {{% markdown %}}
 
-## 
+<h2>{{% render-i18n "faqSectionTitle2" %}}</h2>
 
 <details>
 <summary>
@@ -319,7 +316,7 @@ date: 2023-07-10T12:14:12-04:00
 <div class="faq-subsection">
 {{% markdown %}}
 
-# 
+<h1>{{% render-i18n "faqSectionTitle3" %}}
 
 <details>
 <summary>

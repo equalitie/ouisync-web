@@ -203,7 +203,7 @@ nav .i18n-btn {
     align-items: center;
     white-space: nowrap;
     cursor: pointer;
-    font-size: 20;
+    font-size: 1.4rem;
 }
 
 nav .desktop-i18n-panel {
@@ -245,7 +245,7 @@ nav .download-btn {
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: 20;
+    font-size: 1.4rem;
 }
 
 nav .download-btn:hover {
