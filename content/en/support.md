@@ -223,7 +223,6 @@ date: 2023-07-10T12:14:12-04:00
 </div>
 
 <div class="faq-subsection">
-{{% markdown %}}
 
 <h2>{{% render-i18n "faqSectionTitle1" %}}</h2>
 
@@ -254,11 +253,9 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
-{{% /markdown %}}
 </div>
 
 <div class="faq-subsection">
-{{% markdown %}}
 
 <h2>{{% render-i18n "faqSectionTitle2" %}}</h2>
 
@@ -314,7 +311,6 @@ date: 2023-07-10T12:14:12-04:00
 </div>
 
 <div class="faq-subsection">
-{{% markdown %}}
 
 <h1>{{% render-i18n "faqSectionTitle3" %}}
 
