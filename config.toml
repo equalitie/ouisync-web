@@ -8,10 +8,12 @@ defaultContentLanguage = 'en'
         title = 'Ouisync'
         languageName = 'English'
         contentDir = 'content/en'
+        languageDirection = 'ltr'
         weight = 1
     [languages.fr]
         title = 'Ouisync (fr)'
         languageName = 'French'
+        languageDirection = 'rtl'
         contentDir = 'content/fr'
         weight = 2
 

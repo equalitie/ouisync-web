@@ -36,6 +36,10 @@
     padding-inline-start: 1rem;
 }
 
+.last-link {
+    margin-bottom: 0;
+}
+
 .community-card-link:hover {
     background-color: #f4f3f3;
 }
@@ -45,7 +49,23 @@ img.community-card-icon {
    margin-left: auto;
    margin-right: auto;
    width: 100px;
-   margin-top: 20px;
+   margin-top: 16px;
+}
+
+.community-card-btn-margin {
+    margin-bottom: 8px;
+}
+
+.card-height {
+    min-height: 520px;
+}
+
+img.weblate {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 35;
+   margin-bottom: 15px;
 }
 
 @media (max-width: 1040px) {
@@ -59,14 +79,13 @@ img.community-card-icon {
         grid-template-columns: 1fr;
         row-gap: 1rem;
     }
-}
-
-img.weblate {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   height: 35;
-   margin-bottom: 15px;
+    .card-height {
+        min-height: fit-content;
+    }
+    
+    .community-card-btn-margin {
+        margin-bottom: 0;
+    }
 }
 
 
