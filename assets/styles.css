@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Humanst521-Light";
-    src: url("fonts/Humanst521_Light.ttf");
+    src: url("fonts/Humanst521BT-Light.woff");
 }
 @font-face {
     font-family: "Humanst521";
-    src: url("fonts/Humanst521.ttf");
+    src: url("fonts/Humanst521BT-Roman.woff");
 }
 @font-face {
     font-family: "Humanst521-Bold";
-    src: url("fonts/Humanst521_Bold.ttf");
+    src: url("fonts/Humanst521BT-Bold.woff");
 }
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto_Regular.ttf");
+    src: url("fonts/Roboto-Regular.ttf");
 }
 
 /* global setup and utilities */
