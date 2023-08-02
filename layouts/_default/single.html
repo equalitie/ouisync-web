@@ -2,9 +2,17 @@
 <html lang="{{ .Lang }}" dir="{{ .Language.LanguageDirection }}">
 {{partial "head.html" .}}
 {{partial "header.html" .}}
-<main class="single-body margin" dir="{{ .Language.LanguageDirection }}">
+{{ $complex := "complex"}}
+{{ if (eq .Page.Type $complex) }}
+<!-- Custom, HTML-heavy pages (ex: Community, About, Support pages) -->
+<main>
 {{.Content}}
 </main>
-<div class="single-grad"></div>
+{{ else }} 
+<!-- Simple Blog-post style markdown entries -->
+<main class="single-body margin">
+{{.Content}}
+</main>
+{{ end }}
 {{partial "footer.html" .}}
 </html>

@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+<div class="text-center" style="padding-bottom: {{.Get "padding"}}">
+    {{.Inner}}
+</div>
+{{ else }}
+<div class="text-center">
+    {{.Inner}}
+</div>
+{{ end }}

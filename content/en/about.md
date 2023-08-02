@@ -1,16 +1,12 @@
 ---
 title: "About"
 date: 2023-06-25T23:57:32-04:00
+type: "complex"
 ---
-
-# {{% render-i18n "aboutTitle" %}}
-
-{{% render-i18n "aboutSubtitle" %}}
 
 {{% render-partial "about-features.html" %}}
 
-<div class="roadmap-wrapper">
-{{% markdown %}}
+{{% wrapper "roadmap-wrapper" %}}
 
 ## {{% render-i18n "statusRoadmap" %}}
 
@@ -20,21 +16,33 @@ date: 2023-06-25T23:57:32-04:00
 - {{% render-i18n "milestone0" %}}
 - {{% render-i18n "milestone1" %}}
 - {{% render-i18n "milestone2" %}}
-{{% /markdown %}}
-</div>
+
+{{% /wrapper %}}
+
+<div class="gradient-one"></div>
+
+{{% wrapper "text-center bottom-padding team" %}}
 
 ## {{% render-i18n "teamTitle" %}}
 
 {{% render-i18n "teamSubtitle" %}}
 
+{{% /wrapper %}}
+
 {{% render-partial "team-photo-grid.html" %}}
 
-<div class="contact-wrapper">
-{{% markdown %}}
+<div class="gradient-two"></div>
 
-## {{% render-i18n "getInTouch" %}}
+{{% wrapper "blue-bg contact-wrapper text-center"%}}
+
+{{% wrapper "btn btn-lg btn-outline-light about-contact-btn" %}}
+[{{% render-i18n "getInTouch" %}}](../community)
+{{% /wrapper %}}
 
 {{% render-i18n "getInTouchSubtitle" %}}
 
-{{% /markdown %}}
+{{% /wrapper %}}
+
+<div class="grad-white-blue"></div>
+
 </div>
