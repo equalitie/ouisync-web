@@ -1,14 +1,34 @@
 @font-face {
     font-family: "Humanst521-Light";
     src: url("fonts/Humanst521BT-Light.woff");
+    speak: none;
+    font-style: normal;
+    font-weight: 100;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 @font-face {
     font-family: "Humanst521";
     src: url("fonts/Humanst521BT-Roman.woff");
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 @font-face {
     font-family: "Humanst521-Bold";
     src: url("fonts/Humanst521BT-Bold.woff");
+    font-style: normal;
+    font-weight: 800;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 @font-face {
     font-family: "Roboto";
