@@ -27,7 +27,11 @@
                         {{ end }}
                     </div>
                 </div>
-                <a class="download-btn" href="/download">
+                {{ if eq .Lang "en"}}
+                <a class="download-btn" href="/#download">
+                {{ else }}
+                <a class="download-btn" href="/{{ .Lang }}/#download">
+                {{ end }}
                     <img src="/icons/download.svg" height="24" width="24"/>
                     <div>{{i18n "navDownload"}}</div>
                 </a>
@@ -44,12 +48,12 @@
                 <a href="/about">{{i18n "navAbout"}}</a>
                 <a href="/support">{{i18n "navSupport"}}</a>
                 <a href="/community">{{i18n "navCommunity"}}</a>
-                <a href="/download">{{i18n "navDownload"}}</a>
+                <a href="/#download">{{i18n "navDownload"}}</a>
                 {{ else }}
                 <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
                 <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
                 <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
-                <a href="/{{ .Lang }}/download">{{i18n "navDownload"}}</a>
+                <a href="/{{ .Lang }}/#download">{{i18n "navDownload"}}</a>
                 {{ end }}
             </div>
             <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
