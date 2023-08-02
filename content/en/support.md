@@ -143,7 +143,7 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-subsection">
 
-<h2>{{% render-i18n "faqSectionTitle0" %}} 
+<h2>{{% render-i18n "faqSectionTitle0" %}}</h2>
 
 <details>
 <summary>
@@ -307,7 +307,7 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-subsection">
 
-<h1>{{% render-i18n "faqSectionTitle3" %}}
+<h1>{{% render-i18n "faqSectionTitle3" %}}</h1>
 
 <details>
 <summary>
