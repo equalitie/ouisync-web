@@ -1,9 +1,29 @@
-## Making Changes
+# Contributing
 The website is hosted by GitHub Pages and most content is authored in Markdown format. HTML is also acceptable. 
 
-To edit a pages content, edit the markdown files in [```content/en/```](https://github.com/willow446/willow446.github.io/tree/main/content/en)
+## Add a New Page
+
+To easily add a new page, you can use the `hugo new` command. For example, lets say we want to add a new page at `/mesh`, we can run the command:
+
+```hugo new mesh.md```
+
+This creates a `mesh.md` inside the `content/en/` path. When you first open the file you will notice it has premade [front matter](https://gohugo.io/content-management/front-matter/). This information is pulled from the `archetypes/default.md` file, feel free to edit it if you want to add information that gets automatically added when running `hugo new`.
+
+Now that we have a new blank markdown file, we can write an entire article in markdown format and hugo will automatically push these changes to the website when the changes are merged into the `main` branch of the git repo.
+
+To learn how to ready articles for translation, please read the "Translations" section below.
+
+## Edit an Exisiting Page
+
+When editing content on a hugo site, there are a few different directories that are important. They represent the "content directory" these content directories are the input values that hugo uses to generate the output found in the `public/` directory.
+
+- `layouts/index.html`: the homepage
+- `layouts/partials/`: this directory holds HTML fragments which can be called from other partials, the homepage, or, by using a custom shortcode, from markdown files.
+- `content/en/`: in our english-centric hugo project, this is the base content directory where markdown files can be placed. Placing a translated copy of a markdown file with the same name, in a seperate `content/` folder with a language code will automatically add the translation to the hugo site. For example if we have an english markdown file: `content/en/example.md`. We can translate the file to French and place it in `content/fr/english.md`. Hugo will automatically recognize this as a french translation for `example.md`.
 
 Images can be added to the ```static/img/``` directory.
+
+Icons can be added to the ```static/icons/``` directory.
 
 ## Translations
 
