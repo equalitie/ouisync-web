@@ -3,7 +3,8 @@
 {{partial "head.html" .}}
 {{partial "header.html" .}}
 {{ $complex := "complex"}}
-{{ if (eq .Page.Type $complex) }}
+{{ $comVarLower := .Page.Type | lower }}
+{{ if (eq $comVarLower $complex) }}
 <!-- Custom, HTML-heavy pages (ex: Community, About, Support pages) -->
 <main>
 {{.Content}}
@@ -13,6 +14,7 @@
 <main class="single-body margin">
 {{.Content}}
 </main>
+<div class="single-grad margin"></div>
 {{ end }}
 {{partial "footer.html" .}}
 </html>
