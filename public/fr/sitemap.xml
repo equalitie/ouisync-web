@@ -2,20 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://willow446.github.io/fr/contact/</loc>
-    <lastmod>2023-07-10T13:33:02-04:00</lastmod>
-  </url><url>
-    <loc>https://willow446.github.io/fr/faq/</loc>
-    <lastmod>2023-07-10T12:14:12-04:00</lastmod>
+    <loc>https://willow446.github.io/fr/security/</loc>
+    <lastmod>2023-07-19T00:41:15-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://willow446.github.io/faq/"
+                href="https://willow446.github.io/security/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://willow446.github.io/fr/faq/"
+                href="https://willow446.github.io/fr/security/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/community/</loc>
+    <lastmod>2023-07-10T13:32:34-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://willow446.github.io/community/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/community/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/fr/support/</loc>
+    <lastmod>2023-07-10T12:14:12-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://willow446.github.io/support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/support/"
                 />
   </url><url>
     <loc>https://willow446.github.io/fr/news/hello-news/</loc>
@@ -97,7 +120,7 @@
                 />
   </url><url>
     <loc>https://willow446.github.io/fr/privacy/</loc>
-    <priority>0</priority>
+    <lastmod>2023-06-25T23:57:32-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

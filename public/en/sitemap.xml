@@ -4,24 +4,41 @@
   <url>
     <loc>https://willow446.github.io/security/</loc>
     <lastmod>2023-07-19T00:41:15-04:00</lastmod>
-  </url><url>
-    <loc>https://willow446.github.io/download/</loc>
-    <lastmod>2023-07-12T15:10:58-04:00</lastmod>
-  </url><url>
-    <loc>https://willow446.github.io/community/</loc>
-    <lastmod>2023-07-10T13:32:34-04:00</lastmod>
-  </url><url>
-    <loc>https://willow446.github.io/faq/</loc>
-    <lastmod>2023-07-10T12:14:12-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://willow446.github.io/fr/faq/"
+                href="https://willow446.github.io/fr/security/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://willow446.github.io/faq/"
+                href="https://willow446.github.io/security/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/community/</loc>
+    <lastmod>2023-07-10T13:32:34-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/community/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://willow446.github.io/community/"
+                />
+  </url><url>
+    <loc>https://willow446.github.io/support/</loc>
+    <lastmod>2023-07-10T12:14:12-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://willow446.github.io/fr/support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://willow446.github.io/support/"
                 />
   </url><url>
     <loc>https://willow446.github.io/news/hello-news/</loc>

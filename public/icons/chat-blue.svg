@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="4.9166667"
      inkscape:cx="23.898305"
-     inkscape:cy="24.101695"
+     inkscape:cy="24.508474"
      inkscape:window-width="1504"
      inkscape:window-height="942"
      inkscape:window-x="0"
@@ -35,5 +35,5 @@
   <path
      d="M240-399h313v-60H240v60Zm0-130h480v-60H240v60Zm0-130h480v-60H240v60ZM80-80v-740q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H240L80-80Zm134-220h606v-520H140v600l74-80Zm-74 0v-520 520Z"
      id="path2"
-     style="fill:#012669;fill-opacity:1" />
+     style="fill:#ffffff;fill-opacity:1" />
 </svg>

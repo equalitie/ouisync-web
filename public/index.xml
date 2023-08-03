@@ -14,18 +14,7 @@
       <pubDate>Wed, 19 Jul 2023 00:41:15 -0400</pubDate>
       
       <guid>https://willow446.github.io/security/</guid>
-      <description>Security </description>
-    </item>
-    
-    <item>
-      <title>Download</title>
-      <link>https://willow446.github.io/download/</link>
-      <pubDate>Wed, 12 Jul 2023 15:10:58 -0400</pubDate>
-      
-      <guid>https://willow446.github.io/download/</guid>
-      <description>Download Ouisync Freely backup and share files using peer-to-peer networking.
-  Android   Signature         Windows  Signature        Linux  Signature       🚧 iOS (Coming Soon!)  Signature     Download Ouisync Server Docker Container  For self-hosting a Ouisync server.
-Ouisync Server   Verify APK for Android  Run this to verify that the APK has a valid signature from the certificate with the fingerprint shown below:</description>
+      <description>Ouisync’s unique approach to guarantee encrypted file sharing Encryption in a distributed file sharing system Ouisync offers users a secure way to share and synchronize data across devices. Due to the distributed (peer-to-peer) nature of Ouisync, where concurrent changes to files and directories are possible, the directory structure of Ouisync is quite elaborate. Whenever two or more users modify a file in a directory concurrently, Ouisync’s architecture guarantees that no information is lost.</description>
     </item>
     
     <item>
@@ -34,23 +23,23 @@ Ouisync Server   Verify APK for Android  Run this to verify that the APK has a v
       <pubDate>Mon, 10 Jul 2023 13:32:34 -0400</pubDate>
       
       <guid>https://willow446.github.io/community/</guid>
-      <description>Get Involved! We&amp;rsquo;d love your support in making Ouisync as useful and accessible as possible. Ouisync is a completely Free/Libre/Open Source project, and there are many ways to contribute!
-View the Source Code  If you are interested in Ouisync&#39;s source code please check the following Git repositories:
+      <description>Get in Touch! For support questions, press and media, and feedback, you can contact the Ouisync team at: support [at] ouisync [dot] net.
+ View the Source Code  If you are interested in Ouisync&amp;#39;s source code please check the following Git repositories:
 Ouisync App
   Ouisync Flutter Plugin
   Ouisync CLI
   Ouisync Library
-  Read the Whitepaper   Get in Touch  To contact the Ouisync team, send an email to support [at] ouisync [dot] net.</description>
+    Contact Us  To contact the Ouisync team, send an email to support [at] ouisync [dot] net.</description>
     </item>
     
     <item>
       <title>Faq</title>
-      <link>https://willow446.github.io/faq/</link>
+      <link>https://willow446.github.io/support/</link>
       <pubDate>Mon, 10 Jul 2023 12:14:12 -0400</pubDate>
       
-      <guid>https://willow446.github.io/faq/</guid>
+      <guid>https://willow446.github.io/support/</guid>
       <description>Frequently Asked Questions Getting Started   What is a repository?  A repository is simply a place where you can store and share your files and folders securely, using Ouisync. You can think of it as a root folder, or even a safe, that will contain other folders and files that you want to share with your peers.
-   Where can I see my repositories?  When you open the Ouisync app, after the onboarding screens you will see the main screen listing all the repositories you have created.</description>
+   Where can I see my repositories  When you open the Ouisync app, after the onboarding screens you will see the main screen listing all the repositories you have created.</description>
     </item>
     
     <item>
@@ -77,9 +66,8 @@ Ouisync App
       <pubDate>Sun, 25 Jun 2023 23:57:32 -0400</pubDate>
       
       <guid>https://willow446.github.io/about/</guid>
-      <description>About
-About Ouisync Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
-Features Easy to use  Simply install and quickly create files and folders to sync and share with trusted devices, contacts and/or groups.
+      <description>About Ouisync Ouisync is a private and resilient solution for syncing files and folders with your devices, contacts and groups.
+Easy to use  Simply install and quickly create files and folders to sync and share with trusted devices, contacts and/or groups.
  Offline-first  Ouisync uses an innovative, synchronous, peer-to-peer design that allows users to access and share files and folders whether or not your device can connect to the internet.</description>
     </item>
     
