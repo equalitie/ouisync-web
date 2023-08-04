@@ -359,6 +359,31 @@ nav .download-btn:hover {
     cursor: pointer;
 }
 
+.mobile-nav-panel {
+    display: none;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 3.4rem;
+    padding-block: 1rem;
+    padding-inline-start: 4%;
+    background-color: #fff;
+    transition: opacity 0.07s;
+    opacity: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    z-index: -1;
+    color: #373756;
+}
+
+.mobile-nav-panel a {
+    color: #373756;
+}
+
+.mobile-nav-panel a:hover {
+    color: #0449c6bb;
+}
+
 div .mobile-i18n-panel {
     margin-top: 4px;
     padding-block-start: 0.6rem;
@@ -367,8 +392,8 @@ div .mobile-i18n-panel {
     border-radius: 4px;
     border: 1px solid var(--ouisync-primary);
     display: none;
-    position: absolute;
     color: #373756;
+    position: absolute;
     background-color: #fff;
     right: 4%;
 }

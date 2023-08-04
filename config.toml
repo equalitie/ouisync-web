@@ -13,6 +13,7 @@ defaultContentLanguage = 'en'
     [languages.fr]
         disabled = false
         title = 'Ouisync (fr)'
+        languageDirection = 'ltr'
         languageName = 'French'
         contentDir = 'content/fr'
         weight = 2
