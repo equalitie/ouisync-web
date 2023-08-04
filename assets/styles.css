@@ -761,36 +761,8 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     line-height: 24px;
 }
 
-.faq-wrapper {
-    display: grid;
-    justify-content: center;
-    background-color: #fff;
-    margin-bottom: 2rem;
-}
-
-.faq-center {
-    max-width: 800px;
-}
-
-.faq-subheader {
-    margin-top: 2rem;
-}
-
-div.faq-subsection details figure {
-    margin: 0;
-}
-
-.faq-subheader img {
-    max-width: 75%;
-}
-
 details a:hover {
     color: #373756;
-}
-
-.faq-subsection {
-    margin-block: 1rem;
-    padding-bottom: 1rem;
 }
 
 @media (max-width: 720px) {

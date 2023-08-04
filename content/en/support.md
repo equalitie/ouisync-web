@@ -6,11 +6,16 @@ date: 2023-07-10T12:14:12-04:00
 <div class="faq-wrapper">
 <div class="faq-center">
 
-<h1>{{% render-i18n "faq" %}}</h1>
+{{% center padding-top="2rem" padding-bot="1rem"%}}
+# {{% render-i18n "faq" %}}
+{{% /center %}}
+
 
 <div class="faq-subsection">
 
-<h2>{{% render-i18n "gettingStart" %}}</h2>
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "gettingStart" %}}
+{{% /center %}}
 
 <details>
 <summary>
@@ -143,7 +148,9 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-subsection">
 
-<h2>{{% render-i18n "faqSectionTitle0" %}}</h2>
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "faqSectionTitle0" %}}
+{{% /center%}}
 
 <details>
 <summary>
@@ -224,7 +231,9 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-subsection">
 
-<h2>{{% render-i18n "faqSectionTitle1" %}}</h2>
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "faqSectionTitle1" %}}
+{{% /center %}}
 
 <details>
 <summary>
@@ -257,7 +266,9 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-subsection">
 
-<h2>{{% render-i18n "faqSectionTitle2" %}}</h2>
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "faqSectionTitle2" %}}
+{{% /center %}}
 
 <details>
 <summary>
@@ -307,7 +318,9 @@ date: 2023-07-10T12:14:12-04:00
 
 <div class="faq-subsection">
 
-<h1>{{% render-i18n "faqSectionTitle3" %}}</h1>
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+# {{% render-i18n "faqSectionTitle3" %}}</h1>
+{{% /center %}}
 
 <details>
 <summary>
