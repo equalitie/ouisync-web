@@ -1114,6 +1114,7 @@ details a:hover {
     background-color: #ececec;
     border-radius: 4px;
     padding-inline-start: 1rem;
+    color: #373756;
 }
 
 .community-card-link p {
