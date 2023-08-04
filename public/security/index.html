@@ -11,17 +11,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <link rel="stylesheet" href="https://willow446.github.io/styles.min.3d217e2b7ba573b1cbc4d522c0987d86c0bf9f6f3235f47fb41c9ddb4eaa1415.css">
+    <link rel="stylesheet" href="https://ouisync.net/styles.min.f9e7ced8358e452bbdcc83c893126654984122ae781027f6010e7286be90caf2.css">
     
-    <link rel="stylesheet" href="https://willow446.github.io/download-styles.min.70b856b393dad6f90115d385429876bdbb8740c2d63b14a622c945fc26169c31.css">
+    <link rel="stylesheet" href="https://ouisync.net/download-styles.min.40dad70b295aca00b5f2f252964fea60098524ce57b825141d9d5d6ccfb5c463.css">
     
-    <link rel="stylesheet" href="https://willow446.github.io/community-cards-styles.min.22ee5bb3bff1bac72dd2865d842c9fa8fdbdd31c315c100c9e92862511007b47.css">
+    <link rel="stylesheet" href="https://ouisync.net/community-cards-styles.min.22ee5bb3bff1bac72dd2865d842c9fa8fdbdd31c315c100c9e92862511007b47.css">
 </head>
 
 <header>
     <nav>
         <div class="desktop-nav" dir="ltr">
-            <a href="https://willow446.github.io/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
+            <a tabindex="1" href="https://ouisync.net/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
             <div class="desktop-center-nav">
                 
                 <a href="/about">About</a>
@@ -30,7 +30,7 @@
                 
             </div>
             <div class="nav-buttons">
-                <div>
+                <div class="checkbox-wrapper">
                     <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle"/>
                     <label class="i18n-btn" for="desktop-nav-toggle">
                         <img src="/icons/globe.svg" height="20" width="20"/>
@@ -39,7 +39,7 @@
                     </label>
                     <div class="desktop-i18n-panel">
                         
-                          <a href="https://willow446.github.io/fr/security/">French (fr)</a>
+                          <a href="https://ouisync.net/fr/security/">French (fr)</a>
                         
                     </div>
                 </div>
@@ -72,10 +72,12 @@
                     <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png"/>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-i18n-chevron"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </label>
+                
                 <div class="mobile-i18n-panel">
+                
                     <div style="color: #4b005ea7"> English (en)</div>
                     
-                      <a href="https://willow446.github.io/fr/security/">French (fr)</a>
+                      <a href="https://ouisync.net/fr/security/">French (fr)</a>
                     
                 </div>
             </div>
@@ -84,11 +86,20 @@
 </header>
 
 
+
  
 
-<main class="single-body margin">
-<h1 id="ouisyncs-unique-approach-to-guarantee-encrypted-file-sharing">Ouisync’s unique approach to guarantee encrypted file sharing</h1>
-<h2 id="encryption-in-a-distributed-file-sharing-system">Encryption in a distributed file sharing system</h2>
+
+<main>
+    <div class="purple-bg">
+        <div style="padding-top: 1rem; padding-bottom: 2rem; color: #fff" class="single-body text-center">
+            <h1>Ouisync’s unique approach to guarantee encrypted file sharing</h1>
+            
+        </div>
+    </div>
+    <div class="gradient-one"></div>
+    <div class="single-body">
+        <h2 id="encryption-in-a-distributed-file-sharing-system">Encryption in a distributed file sharing system</h2>
 <p>Ouisync offers users a secure way to share and synchronize data across devices. Due to the distributed (peer-to-peer) nature of Ouisync, where concurrent changes to files and directories are possible, the directory structure of Ouisync is quite elaborate. Whenever two or more users modify a file in a directory concurrently, Ouisync’s architecture guarantees that no information is lost. Moreover, Ouisync also protects the content (files and repositories) and the structure of your file systems by implementing end-to-end encryption. </p>
 <p>When sharing a repository in a specific mode (Write, Read, or Blind) Ouisync generates keys (called “tokens”) that you can share with your peers either as links or as QR codes. Importing a repository using a token gives your device the ability to decrypt its directories and files (except in Blind mode).</p>
 <p>Data is encrypted both <em>at rest</em> (when simply stored) and <em>in transit</em> (during data transfers). Importantly, Ouisync can sync without decrypting, and no device needs to know the decryption key to perform the synchronization. File names, file contents and even file sizes and the structure of directories are hidden from peers who do not possess an encryption key. Therefore, peers who only have Blind access to your repositories can see neither the content of your repositories nor their structure. </p>
@@ -108,7 +119,10 @@
 <p>When you share a repository with your peer, this creates a “replica” of your repository. The repository structure is stored in the so-called “index” files - when peer devices are connecting, they first exchange those indexes. If something has been modified in one of the replicas, Ouisync will download the missing blocks. Ouisync always first downloads directories and only after the files themselves. This helps Ouisync to correctly rebuild your data from blocks without messing it up. In addition, this is done without leaking information to users who have no “read” access to your repositories.</p>
 <p>You do not have to worry about conflicts between various replicas: in the backend, syncing is done in such a way as to avoid conflicts and divergences. What you see when you open Ouisync is what we call a “snapshot”: your view of the whole directory tree at a particular moment in time. Each modification of the file system (on your device or on your peers’ devices) results in a new “snapshot.” </p>
 
+    </div>
 </main>
+<div class="single-grad margin"></div>
+
 
 <footer>
     <div class="footer-wrapper" dir="ltr">

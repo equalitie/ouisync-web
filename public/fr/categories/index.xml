@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ouisync (fr)</title>
-    <link>https://willow446.github.io/fr/categories/</link>
+    <link>https://ouisync.net/fr/categories/</link>
     <description>Recent content in Categories on Ouisync (fr)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Everything is mine</copyright><atom:link href="https://willow446.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Everything is mine</copyright><atom:link href="https://ouisync.net/fr/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
