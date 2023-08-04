@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="desktop-nav" dir="{{ .Language.LanguageDirection }}">
-            <a href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
+            <a tabindex="1" href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
             <div class="desktop-center-nav">
                 {{ if eq .Lang "en"}}
                 <a href="/about">{{i18n "navAbout"}}</a>
@@ -14,7 +14,7 @@
                 {{ end }}
             </div>
             <div class="nav-buttons">
-                <div>
+                <div class="checkbox-wrapper">
                     <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle"/>
                     <label class="i18n-btn" for="desktop-nav-toggle">
                         <img src="/icons/globe.svg" height="20" width="20"/>
@@ -46,7 +46,6 @@
             <div class="mobile-nav-panel">
                 {{ if eq .Lang "en"}}
                 <a href="/about">{{i18n "navAbout"}}</a>
-                <div>{{string .Language.LanguageDirection}}</div>
                 <a href="/support">{{i18n "navSupport"}}</a>
                 <a href="/community">{{i18n "navCommunity"}}</a>
                 <a href="/#download">{{i18n "navDownload"}}</a>

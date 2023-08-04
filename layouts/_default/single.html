@@ -11,10 +11,28 @@
 </main>
 {{ else }} 
 <!-- Simple Blog-post style markdown entries -->
+{{ if (eq $comVarLower "heropage") }}
+<main>
+    <div class="purple-bg">
+        <div style="padding-top: 1rem; padding-bottom: 2rem; color: #fff" class="single-body text-center">
+            <h1>{{.Params.heroTitle}}</h1>
+            {{ if (isset .Params "herosubtitle")}}
+            <h2 class="single-page-subtitle">{{ .Params.heroSubtitle }}</h2>
+            {{ end }}
+        </div>
+    </div>
+    <div class="gradient-one"></div>
+    <div class="single-body">
+        {{.Content}}
+    </div>
+</main>
+<div class="single-grad margin"></div>
+{{ else }}
 <main class="single-body margin">
 {{.Content}}
 </main>
 <div class="single-grad margin"></div>
+{{ end }}
 {{ end }}
 {{partial "footer.html" .}}
 </html>

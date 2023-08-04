@@ -41,6 +41,7 @@
     --gradient-height: 0.3rem;
     --ouisync-primary: #012669;
     --ouisync-secondary: #9205d1;
+    --focused-checkbox: rgb(147, 0, 0);
     --max-width: 960px;
 }
 
@@ -213,14 +214,24 @@ label:hover {
 }
 
 nav input {
-    display: none;
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox-wrapper {
+    margin-inline-end: 8px;
+    border-radius: 6px;
+}
+
+.checkbox-wrapper:focus-within {
+    /* mimic default focus outline in FF */
+    border: 2px solid var(--focused-checkbox);
 }
 
 nav .i18n-btn {
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
     padding: 8px 2px 8px 6px;
-    margin-inline-end: 8px;
     display: flex;
     flex-direction: row;
     gap: 0.3rem;
@@ -241,6 +252,7 @@ nav .desktop-i18n-panel {
     position: absolute;
     background-color: #fff;
     max-height: calc(100dvh - 4.2rem);
+    font-size: 1.4rem;
 }
 
 .i18n-chevron {
@@ -728,6 +740,7 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 .single-page-subtitle {
     text-align: center;
     margin-bottom: 2rem;
+    font-family: "Humanst521-Light";
 }
 
 .single-grad {
