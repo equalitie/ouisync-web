@@ -209,4 +209,23 @@ Used to center arbitrary markdown sections and add top and bottom padding. NOTE:
 - `{{% center %}}<content>{{% /center %}}`
 - `{{% center padding-top="<val>" padding-bot="<val>" %}}<content>{{% /center %}}`.
 
+## Adding New Languages
 
+1. Add config section in `config.toml`:
+   A new language will take this shape, please note the `disabled: true` line, this language will start disabled:
+    ```toml
+    [languages.fr]
+        disabled = true
+        title = 'Ouisync (fr)'
+        languageName = 'French'
+        contentDir = 'content/fr'
+        weight = 2
+    ```
+2. Add `.json` strings
+    From weblate, you should be able to recieve a `<code>.json` file representing a translated portion of `en.json`. Place this file inside the `i18n/` directory. 
+3. Add content directory
+   Using the same language code you defined in the config file, create a language directory and fill it with any Markdown translations of the content. Please note that you need to add `about.md`, `community.md`, and `support.md` AS IS, to this new directory, these markdown files already use string translations, so they will be correctly translated when translators translate their strings from `en.json`.
+
+## Enabling Translations
+
+Once a language is ready to go live on the site, make a commit changing the `disabled = true` to `disabled = false`, removing the line will also work. When the Github action runs next, it will deploy the newly added language.
