@@ -303,6 +303,7 @@ nav .download-btn:hover {
     background-color: var(--ouisync-secondary);
     border: 1px solid var(--ouisync-secondary);
     transition: background-color 0.5s;
+    color: #fff;
 }
 
 .logo {
@@ -982,7 +983,6 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 
 .single-page-title {
     padding-top: 3rem;
-    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -1029,6 +1029,10 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     line-height: 24px;
+}
+
+details a {
+    color: #373756;
 }
 
 details a:hover {
