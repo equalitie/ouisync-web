@@ -41,7 +41,6 @@
     --gradient-height: 0.3rem;
     --ouisync-primary: #012669;
     --ouisync-secondary: #9205d1;
-    --focused-checkbox: rgb(147, 0, 0);
     --max-width: 960px;
 }
 
@@ -221,15 +220,15 @@ nav input {
 .checkbox-wrapper {
     margin-inline-end: 8px;
     border-radius: 6px;
+    border: 1px solid var(--ouisync-primary);
 }
 
 .checkbox-wrapper:focus-within {
     /* mimic default focus outline in FF */
-    border: 2px solid var(--focused-checkbox);
+    border: 3px solid var(--ouisync-secondary);
 }
 
 nav .i18n-btn {
-    border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
     padding: 8px 2px 8px 6px;
     display: flex;
