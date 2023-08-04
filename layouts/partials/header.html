@@ -70,9 +70,7 @@
                 {{ end }}
                     <div style="color: #4b005ea7"> {{ .Language.LanguageName }} ({{ .Lang }})</div>
                     {{ range .Translations }}
-                    {{ if (not .Language.Disabled) }}
                       <a href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a>
-                    {{ end }}
                     {{ end }}
                 </div>
             </div>
