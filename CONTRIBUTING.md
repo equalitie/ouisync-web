@@ -3,6 +3,8 @@ The website is hosted by GitHub Pages and most content is authored in Markdown f
 
 ## Add a New Page
 
+### Local Development with Hugo
+
 To easily add a new page, you can use the `hugo new` command. For example, lets say we want to add a new page at `https://ouisync.net/mesh`, we can run the command:
 
 ```hugo new mesh.md```
@@ -12,6 +14,59 @@ This creates a `mesh.md` inside the `content/en/` path. When you first open the 
 Now that we have a new blank markdown file, we can write an entire article in markdown format and hugo will automatically push these changes to the website when the changes are merged into the `main` branch of the git repo.
 
 To learn how to ready articles for translation, please read the "Translations" section below.
+
+### Via Github Interface
+
+It is also possible to add content with just a Github account. To start visit the `content/en/` directory in this repo. Then click on "Add File" -> "Create New File" this will bring you into the Github web editor. Now that we have a blank markdown document, we can add [Front Matter](https://gohugo.io/content-management/front-matter/) this will add metadata to the markdown file which Hugo will use for presentation purposes. Here is a useable template to start with:
+
+```
+---
+title: "Title"
+date: 2023-08-04
+---
+```
+
+Update the title and date to your liking. Please note that there are a few custom front matter values shown in the next section which may be useful here.
+
+Once you have defined front matter you are free to write! If you want to create a recurring set of posts, you can group markdown files in directories, and this will automatically create [Hugo List Pages](https://gohugo.io/templates/lists/). So for example if you create `content/en/mesh/mesh-post-1.md` and `content/en/mesh/mesh-post-2.md`, there will now be a page at `https://ouisync.net/mesh` which will list `mesh-post-1` and `mesh-post-2`.
+
+### Custom Hugo Front Matter Values
+
+#### `Complex` Type
+
+Use: 
+```
+type: "Complex"
+```
+
+Using this line will remove all the custom stylings hugo normally applies for single pages. This is useful for pages where you want to write a lot of custom HTML and include these HTML fragments using the `render-partial` shortcode.
+
+#### `HeroPage` Type
+
+Use:
+```
+type: "HeroPage"
+```
+
+Makes the page type a HeroPage, using this type we now have to set a `HeroTitle` shown next. 
+
+#### `HeroTitle`
+
+Use:
+```
+heroTitle: "Some Really Cool Title"
+```
+
+This will render a title in large centered text with a cool purple background. NOTE: This is different than the `Title` front matter value, the `Title` front matter value is a standard value, read more here (ctrl-f "title"): https://gohugo.io/variables/page/.
+
+#### `HeroSubtitle`
+
+Use:
+```
+heroSubtitle: "Some subtitle goes here"
+```
+
+An optional value, requires `type: heroPage` and a `heroTitle` to be set. If included it will render a subtitle under the hero title, also over a purple bg.
 
 ## Edit an Exisiting Page
 
@@ -101,4 +156,57 @@ After rebuilding and deploying this site, you will be able to view the following
 <p>Je m’appelle Alice</p>
 <p>Lorsque j’avais six ans j’ai vu, une fois, une magnifique image, dans un livre sur la Forêt Vierge qui s’appelait « Histoires Vécues ». Ça représentait un serpent boa qui avalait un fauve. Voilà la copie du dessin.</p>
 ```
+
+## Custom Shortcodes
+
+This hugo project contains a number of custom [Hugo Shortcodes](https://gohugo.io/content-management/shortcodes/) to make content authoring simpler. All of these shortcodes are to be used inside of markdown documents.
+
+### `render-i18n`
+
+Use: 
+
+```
+{{% render-i18n "<stringKey>" %}}
+```
+
+This is analogous to the {{ i18n "<stringKey>" }} function used in hugo partials. This allows for strings to be reused in markdown files.
+
+### `markdown`
+
+Use:
+
+```html
+<div>
+{{% markdown %}}
+# Some arbitrary markdown
+{{% /markdown %}}
+</div>
+```
+
+This shortcode allows for markdown to be written inside of custom HTML that is included inside markdown files. This seems fairly insane, but is useful because sometimes markdown is too limited in it's restrictions. This allows to write arbitrary HTML subsections that can render markdown inside of them.
+
+### `render-partial`
+
+Use:
+
+```html
+{{% render-partial "some-partial.html" %}}
+```
+
+Used to easily embed [Hugo Partials](https://gohugo.io/templates/partials/) inside of markdown documents.
+
+### `center`
+
+Use:
+
+```html
+{{% center padding-top="3rem" padding-bot="2rem" %}}
+# Some Heading to Center
+{{% /center %}}
+```
+
+Used to center arbitrary markdown sections and add top and bottom padding. NOTE: if you decide to pass a padding argument, you need to pass both `padding-top` and `padding-bot`. The only shortcode calls resemble the following forms:
+- `{{% center %}}<content>{{% /center %}}`
+- `{{% center padding-top="<val>" padding-bot="<val>" %}}<content>{{% /center %}}`.
+
 
