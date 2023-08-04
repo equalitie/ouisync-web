@@ -11,11 +11,12 @@ defaultContentLanguage = 'en'
         languageDirection = 'ltr'
         weight = 1
     [languages.fr]
+        disabled = true
         title = 'Ouisync (fr)'
         languageName = 'French'
-        languageDirection = 'rtl'
         contentDir = 'content/fr'
         weight = 2
+        
 
 # So we can use normal HTML inside of .md files     
 [markup]

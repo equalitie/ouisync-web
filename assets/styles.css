@@ -89,13 +89,25 @@ p {
 }
 
 a {
-    color: #373756;
+    color: #0449c6;;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0B4AC1;
+    color:  #0449c6bb;
+}
+
+.a-on-dark {
+    color: #62DEFD !important;
     text-decoration: none;
+}
+
+.a-on-dark:hover {
+    color: #62defdbb !important;
+}
+
+.anchor-link {
+    color: #373756
 }
 
 li {
@@ -195,21 +207,20 @@ nav {
     justify-content: center;
 }
 
+.desktop-nav a {
+    color: #000;
+}
+
+.desktop-nav a:hover {
+    color: #0449c6bb;
+}
+
 .nav-buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
     font-size: 1rem;
-}
-
-a {
-    color: #373756;
-    text-decoration: none;
-}
-
-label:hover {
-    color: #0B4AC1;
 }
 
 nav input {
@@ -239,6 +250,10 @@ nav .i18n-btn {
     white-space: nowrap;
     cursor: pointer;
     font-size: 1.4rem;
+}
+
+nav .i18n-btn:hover {
+    background-color: #9005d115;
 }
 
 nav .desktop-i18n-panel {
@@ -1089,10 +1104,6 @@ details a:hover {
     justify-content: center;
 }
 
-p a {
-    color: #62defd;
-}
-
 .community-card-link {
     display: flex;
     flex-direction: row;
@@ -1218,6 +1229,15 @@ img.weblate {
     margin-top: -0.5rem;
 }
 
+.roadmap-wrapper a {
+    color: #62DEFD !important;
+    text-decoration: none;    
+}
+
+.roadmap-wrapper a:hover {
+    color: #62defdbb !important;
+}
+
 @media (max-width: 960px) {
     .roadmap-wrapper {
         padding-inline: 4%;
@@ -1225,12 +1245,13 @@ img.weblate {
 }
 
 .contact-wrapper {
-    padding-block: 4rem;
+    padding-block: 3rem;
 }
 
 .about-contact-btn {
     width: fit-content;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .about-contact-btn p a {
@@ -1240,23 +1261,25 @@ img.weblate {
     color: #fff;
 }
 
-.about-contact-btn p a:hover {
-    color: #62defd;
+.about-contact-btn:hover {
+    background-color: #ffffff17;
+    cursor: pointer;
 }
 
 /* layouts/partials/team-photo-grid.html */
 
-.team a {
-    color: #0B4AC1;
+.photo-grid a {
+    color: #000;
 }
 
-.team a:hover {
-    color: var(--ouisync-primary);
+.photo-grid a:hover {
+    color: #0449c6bb;
 }
 
 .photo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 960px) {
