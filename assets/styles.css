@@ -334,6 +334,7 @@ nav .download-btn:hover {
     z-index: -1;
 }
 
+
 .mobile-nav-toggle:checked ~ div.mobile-nav-panel {
     display: flex;
     flex-direction: column;
@@ -347,6 +348,7 @@ nav .download-btn:hover {
     margin-top: 2px;
     cursor: pointer;
 }
+
 div .mobile-i18n-panel {
     margin-top: 4px;
     padding-block-start: 0.6rem;
@@ -359,6 +361,12 @@ div .mobile-i18n-panel {
     background-color: #fff;
     right: 4%;
 }
+
+.mobile-i18n-panel-rtl {
+    left: 4%;
+    right: auto !important; 
+}
+
 label .mobile-i18n-chevron {
     transition: transform 0.07s;
 }
@@ -371,7 +379,7 @@ label .mobile-i18n-chevron {
     gap: 1rem;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 900px) {
     .desktop-nav {
         display: none;
     }
@@ -765,8 +773,29 @@ details a:hover {
     color: #373756;
 }
 
+@media (max-width: 960px) {
+    .single-body {
+        margin-inline: 4%;
+    }
+}
+
 @media (max-width: 720px) {
-    div.faq-subsection details figure {
-        margin-inline: -1rem;
+    .single-body img {
+        max-width: 100%;
+    }
+
+    .single-body h1 {
+        font-size: 2.2rem;
+    }
+    .single-body h2 {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .single-body h3 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
 }

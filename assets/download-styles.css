@@ -85,9 +85,6 @@
     .download-icon-wrapper {
         margin-top: 2rem;
     }
-    .download-android {
-        margin-top: 0;
-    }
     .download-grid {
         grid-template-columns: 300px 300px;
         grid-template-rows: repeat(4, max-content);
@@ -130,6 +127,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, max-content);
         grid-auto-flow: auto;
+    }
+    .download-android {
+        margin-top: 0;
     }
     
     /*need to reassign column and row numbers for any additional direct links */

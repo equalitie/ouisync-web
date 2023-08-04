@@ -2,7 +2,7 @@
 title: "Security"
 date: 2023-07-19T00:41:15-04:00
 ---
-{{% center padding-top="3rem" padding-bot="1rem"%}}
+{{% center padding-top="2rem" padding-bot="1rem"%}}
 # Ouisync’s unique approach to guarantee encrypted file sharing
 {{% /center %}}
 

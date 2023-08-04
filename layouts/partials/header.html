@@ -46,6 +46,7 @@
             <div class="mobile-nav-panel">
                 {{ if eq .Lang "en"}}
                 <a href="/about">{{i18n "navAbout"}}</a>
+                <div>{{string .Language.LanguageDirection}}</div>
                 <a href="/support">{{i18n "navSupport"}}</a>
                 <a href="/community">{{i18n "navCommunity"}}</a>
                 <a href="/#download">{{i18n "navDownload"}}</a>
@@ -63,7 +64,11 @@
                     <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png"/>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-i18n-chevron"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </label>
+                {{ if ( eq (string .Language.LanguageDirection) "rtl")}}
+                <div class="mobile-i18n-panel mobile-i18n-panel-rtl">
+                {{ else }}
                 <div class="mobile-i18n-panel">
+                {{ end }}
                     <div style="color: #4b005ea7"> {{ .Language.LanguageName }} ({{ .Lang }})</div>
                     {{ range .Translations }}
                       <a href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a>
