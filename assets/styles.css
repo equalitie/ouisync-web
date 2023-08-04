@@ -225,7 +225,8 @@ nav input {
 
 .checkbox-wrapper:focus-within {
     /* mimic default focus outline in FF */
-    border: 3px solid var(--ouisync-secondary);
+    box-shadow: 0 0 0 3px var(--ouisync-secondary);
+    border: 1px solid #fff;
 }
 
 nav .i18n-btn {
