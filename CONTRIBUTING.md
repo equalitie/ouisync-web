@@ -3,7 +3,7 @@ The website is hosted by GitHub Pages and most content is authored in Markdown f
 
 ## Add a New Page
 
-To easily add a new page, you can use the `hugo new` command. For example, lets say we want to add a new page at `/mesh`, we can run the command:
+To easily add a new page, you can use the `hugo new` command. For example, lets say we want to add a new page at `https://ouisync.net/mesh`, we can run the command:
 
 ```hugo new mesh.md```
 
