@@ -17,9 +17,9 @@
                 <div aria-label="Language Selector Switch" class="checkbox-wrapper">
                     <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle"/>
                     <label class="i18n-btn" for="desktop-nav-toggle">
-                        <img src="/icons/globe.svg" height="20" width="20"/>
+                        <img src="/icons/globe.png" height="20" width="20"/>
                         <div>{{ .Language.LanguageName }} ({{ .Lang }})</div>
-                        <img src="/icons/chevron-down.svg" height="24" width="24"/>
+                        <img src="/icons/chevron-down.png" height="24" width="24"/>
                     </label>
                     <div aria-label="Language Selector Panel" class="desktop-i18n-panel">
                         {{ range .Translations }}
@@ -32,7 +32,7 @@
                 {{ else }}
                 <a class="download-btn" href="/{{ .Lang }}/#download">
                 {{ end }}
-                    <img src="/icons/download.svg" height="24" width="24"/>
+                    <img src="/icons/download.png" height="24" width="24"/>
                     <div>{{i18n "navDownload"}}</div>
                 </a>
             </div>
