@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://ouisync.net/en/sitemap.xml</loc>
-    
-      <lastmod>2023-06-26T00:22:52-04:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://ouisync.net/fr/sitemap.xml</loc>
-    
-      <lastmod>2023-06-26T00:22:52-04:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ouisync.net/security/</loc>
+    <lastmod>2023-07-19T00:41:15-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/community/</loc>
+    <lastmod>2023-07-10T13:32:34-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/support/</loc>
+    <lastmod>2023-07-10T12:14:12-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/news/hello-news/</loc>
+    <lastmod>2023-06-26T00:22:52-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/news/</loc>
+    <lastmod>2023-06-26T00:22:52-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/</loc>
+    <lastmod>2023-06-26T00:22:52-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/blog/</loc>
+    <lastmod>2023-06-26T00:22:41-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/blog/hello-blog/</loc>
+    <lastmod>2023-06-26T00:22:41-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/about/</loc>
+    <lastmod>2023-06-25T23:57:32-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/privacy/</loc>
+    <lastmod>2023-06-25T23:57:32-04:00</lastmod>
+  </url><url>
+    <loc>https://ouisync.net/categories/</loc>
+  </url><url>
+    <loc>https://ouisync.net/tags/</loc>
+  </url>
+</urlset>
