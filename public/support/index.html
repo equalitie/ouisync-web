@@ -11,9 +11,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <link rel="stylesheet" href="https://ouisync.net/styles.min.e385ad5e3394972c5cfad5c6efcea69d6a444ba46e05607027fc9229d8e2a523.css">
+    <link rel="stylesheet" href="https://ouisync.net/styles.min.766d6e6f67135afd7e434d73cfe0f79698eb977f4d326a44a7e30535b6dee595.css">
     <meta property="og:title" content="Ouisync" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Store, sync, and share files across devices anywhere with Ouisync. Secure, open source, peer-to-peer file-sharing" />
     <meta property="og:url" content="https://ouisync.net" />
     <meta property="og:image" content="/img/ouisync-header.png" />
 </head>
@@ -22,7 +22,7 @@
     <nav>
         <div class="desktop-nav" dir="ltr">
             <a tabindex="1" href="https://ouisync.net/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
-            <div class="desktop-center-nav">
+            <div aria-label="Navagation Selector" class="desktop-center-nav">
                 
                 <a href="/about">About</a>
                 <a href="/support">Support</a>
@@ -30,34 +30,32 @@
                 
             </div>
             <div class="nav-buttons">
-                <div class="checkbox-wrapper">
+                <div aria-label="Language Selector Switch" class="checkbox-wrapper">
                     <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle"/>
                     <label class="i18n-btn" for="desktop-nav-toggle">
-                        <img src="/icons/globe.svg" height="20" width="20"/>
+                        <img src="/icons/globe.png" height="20" width="20" alt="Select language"/>
                         <div>English (en)</div>
-                        <img src="/icons/chevron-down.svg" height="24" width="24"/>
+                        <img src="/icons/chevron-down.png" height="24" width="24"/>
                     </label>
-                    <div class="desktop-i18n-panel">
-                        
-                          <a href="https://ouisync.net/fr/support/">French (fr)</a>
+                    <div aria-label="Language Selector Panel" class="desktop-i18n-panel">
                         
                     </div>
                 </div>
                 
                 <a class="download-btn" href="/#download">
                 
-                    <img src="/icons/download.svg" height="24" width="24"/>
+                    <img src="/icons/download.png" height="24" width="24"/>
                     <div>Download</div>
                 </a>
             </div>
         </div>
         <div class="mobile-nav">
             <input class="mobile-nav-toggle" type="checkbox" id="mobile-nav-toggle"/>
-            <label class="nav-hamb-icon" for="mobile-nav-toggle">
+            <label aria-label="Navagation Hamburger Menu" class="nav-hamb-icon" for="mobile-nav-toggle">
                 <span></span>
                 <span></span>
             </label>
-            <div class="mobile-nav-panel">
+            <div aria-label="Language Selector" class="mobile-nav-panel">
                 
                 <a href="/about">About</a>
                 <a href="/support">Support</a>
@@ -65,19 +63,17 @@
                 <a href="/#download">Download</a>
                 
             </div>
-            <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
-            <div>
+            <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png" alt="Ouisync logo"/></a>
+            <div aria-label="Language Selector Switch">
                 <input class="mobile-i18n-toggle" type="checkbox" id="mobile-i18n-toggle"/>
                 <label class="i18n-toggle-icon" for="mobile-i18n-toggle">
-                    <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png"/>
+                    <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png" alt="Select language"/>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-i18n-chevron"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </label>
                 
-                <div class="mobile-i18n-panel">
+                <div aria-label="Language Selector Panel" class="mobile-i18n-panel">
                 
                     <div style="color: #4b005ea7"> English (en)</div>
-                    
-                      <a href="https://ouisync.net/fr/support/">French (fr)</a>
                     
                 </div>
             </div>
@@ -108,7 +104,7 @@ What is a repository?
 </details> 
 <details>
 <summary>
-Where can I see my repositories
+Where can I see my repositories?
 </summary>
 <p>When you open the <strong>Ouisync app</strong>, after the onboarding screens you will see the main screen listing all the repositories you have created. Initially this screen will be empty, but as you begin creating <em><strong>repositories</strong></em>, they will be listed here.</p>
 <figure><img src="/img/my_repositories.png"
@@ -180,15 +176,20 @@ How can I add files and folders to my repository?
 <summary>
 What does it mean to &#39;import&#39; a repository?
 </summary>
+<p>To import a <em><strong>repository</strong></em> means that you want to recreate on your device a <em><strong>repository</strong></em> that a peer has shared with you.<br>
+You start with the same <strong>+</strong> button and then select <strong>'Import'</strong>:</p>
 <figure><img src="/img/import_repo.png"
          alt="Select to import a repository"/>
 </figure>
+<p>Tapping on the <strong>Import repository</strong> button will bring you to this screen:</p>
 <figure><img src="/img/import_repo2.png"
          alt="Select to import a repository"/>
 </figure>
+<p>Here you have two options - you can scan a QR code generated by your peer or import a link your peer has sent you (by email, any messaging app etc). [TODO: fix this sentence] The link looks like this:</p>
 <figure><img src="/img/import_link.png"
          alt="Shared repository link"/>
 </figure>
+<p>After you copy and paste the link you received from your peers into the provided field, or after you scan the QR code of the repository you wish to import, the imported repository will appear on your screen and after a short while all its content will be imported into your device.  You now have on your device a replica of the repository that your peer shared with you.</p>
 </details>
 <details>
 <summary>
@@ -214,21 +215,27 @@ How can I use my repository as a secure backup?
 How can I share my repository with my peers (or my other devices)?
 </a>
 </summary>
+<p>You can do this by tapping the three vertical dots next to the repository name which will open the Settings screen for that repository, and then tapping the Share symbol:</p>
 <figure><img src="/img/share.png"
          alt="Select to import a repository"/>
 </figure>
+<p>If the peer (or device) with whom you want to share a <em><strong>repository</strong></em> is nearby, they can tap on <strong>'Import repository'</strong> on their device and then scan the QR code displayed on your screen:</p>
 <figure><img src="/img/repo_settings.png"
          alt="Repository settings menu"/>
 </figure>
+<p>This action will import a copy of your <em><strong>repository</strong></em> onto your peer's device, including all the files and folders within it.</p>
 <figure><img src="/img/qr_code.png"
          alt="Import a repository with a QR code"/>
 </figure>
+<p>If your peer is not nearby, you can share your repositories by generating a link to send to your peer (or your other device):</p>
 <figure><img src="/img/generate_link.png"
          alt="Generate a shortlink to share a repository"/>
 </figure>
+<p>You can copy the link and paste it into an email or any messaging application, or you can tap the Share link button which will open one of the apps you can use to send it. Your peers will need to copy and paste that link into the field provided when they tap <strong>'Import Repository'</strong> on their device.</p>
 <figure><img src="/img/token_import.png"
          alt="Import repository, then paste the link"/>
 </figure>
+<p><strong>PS:</strong> To paste a link to the input field, you tap and hold your finger on it, until a small <strong>Paste</strong> button appears to tap:</p>
 <figure><img src="/img/paste_token.png"
          alt="Tap and hold to paste the link"/>
 </figure>
@@ -237,36 +244,47 @@ How can I share my repository with my peers (or my other devices)?
 <summary>
 How do I decide which permissions to select when sharing a repository?
 </summary>
-<h3 id="heading"></h3>
+<h3 id="write"><strong>Write</strong></h3>
+<p>If you want your peers to be able to add files, delete them, rename or move them within the repository that you shared with them, then you need to share your repository with Write permission.</p>
 <figure><img src="/img/write_permission.png"
          alt="A repository with Write permissions"/>
 </figure>
-<h3 id="heading-1"></h3>
+<p>An example use case for this level of permissions: <em>sharing photos with friends and family, or working collaboratively on a project.</em></p>
+<h3 id="read"><strong>Read</strong></h3>
+<p>If you want your peers to only be able to read the <em><strong>repository</strong></em> contents, then select <strong>Read permissions</strong>. This means they will be able to open the files and read them, but they won't be able to add new files to your shared <em><strong>repository</strong></em>, nor move or delete any files from it.</p>
 <figure><img src="/img/read_permission.png"
          alt="A repository with Read permissions"/>
 </figure>
-<h3 id="heading-2"></h3>
+<p>An example use case would be <em>when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them.</em></p>
+<h3 id="blind"><strong>Blind</strong></h3>
 <figure><img src="/img/blind_permission.png"
          alt="A repository with Blind permissions"/>
 </figure>
+<p>This level of permissions can be useful when you want to securely store your <em><strong>repository</strong></em> as a backup. This means that the person or device with whom you shared your repository as <strong>'blind'</strong> won't be able to open the files to read them, nor make any changes to them. This way you can store your data securely on a friend's computer, for example.</p>
 </details>
 <details>
 <summary>
 Can my peers re-share my token links?
 </summary>
+<p>Yes. They can generate the token links with the same permissions they had in the original token link that they received from you, or lower.</p>
+<p>This means that if a person has received a token link to import a <em><strong>repository</strong></em> with <strong>Write</strong> permissions they are able to generate the same kind of link to share the same <em><strong>repository</strong></em> with other people, or they can also generate links for the same <em><strong>repository</strong></em> but with lower permissions (<strong>Read</strong> or <strong>Blind</strong>).</p>
+<p>If they imported a <strong><em>repository</em></strong> with <strong>Read</strong> permissions only, then they can share it with others as <strong>Read</strong> or <strong>Blind</strong>. If they imported your <em><strong>repository</strong></em> as <strong>Blind</strong>, they can only share it as <strong>Blind</strong>.</p>
 </details>
 <details>
 <summary>
 What happens if me and my peers upload the same file into Ouisync?
 </summary>
-<h4 id="heading-3"></h4>
+<p>Ouisync is capable of handling two different scenarios.</p>
+<h4 id="peers-who-are-online-at-the-same-time">Peers who are online at the same time</h4>
+<p>If you and one or more peers upload the same file (for example Billy.jpg) to the same Ouisync <em><strong>repository</strong></em> that another peer has already uploaded, Ouisync will detect this situation and ask if you want to keep both files or replace one of them:</p>
 <figure><img src="/img/concurrent_edit.png"
          alt="Synchronous edits file handling"/>
 </figure>
-<h4 id="heading-4"></h4>
+<p>If you decide to keep both of them, the new one will have (1) added to the name and you will see both files on your Ouisync screen. If you decide to replace the existing one, then the new ones will overwrite it and the old one will no longer exist</p>
 <figure><img src="/img/free_test_data.png"
          alt="Asynchronous sync file handling"/>
 </figure>
+<h4 id="peers-who-are-offline-at-the-time-of-uploading-the-files">Peers who are offline at the time of uploading the files</h4>
 </details>
 </div>
 <div class="faq-subsection">
@@ -277,16 +295,20 @@ What happens if me and my peers upload the same file into Ouisync?
 <summary>
 What happens if I delete files in my repository?
 </summary>
+<p>File deletion is propagated to all replicas in existence -which means the same file that you deleted will be automatically deleted in the <em><strong>repositories</strong></em> of all the peers with whom you have shared it.</p>
+<p>Equally, if your peers delete any files in any of the <em><strong>repositories</strong></em> that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: <em><strong>repositories</strong></em> shared  with <strong>Write</strong> permissions will sync with each other, including file edits, additions or deletions.</p>
 </details>
 <details>
 <summary>
 What happens if I rename files in my repository?
 </summary>
+<p>If you rename files in your <em><strong>repository</strong></em>, the new file name will be propagated to the <em><strong>repositories</strong></em> of all the peers that you shared your <em><strong>repository</strong></em> with.</p>
 </details>
 <details>
 <summary>
 Can I move my files from one repository to another?
 </summary>
+<p>No. At the moment you can only move files from one folder to another within the same <em><strong>repository</strong></em>. Moving files from one repository to another is planned for future releases of <strong>Ouisync</strong>.</p>
 </details>
 </div>
 <div class="faq-subsection">
@@ -297,26 +319,32 @@ Can I move my files from one repository to another?
 <summary>
 Are my files stored on a server? Why?
 </summary>
+<p>Yes. They are stored fully encrypted in transport as well as at rest and are not readable by the server.</p>
+<p>The purpose of the server storage is to facilitate file syncing when peers are not online at the same time. If you want to share a <em><strong>repository</strong></em> with a peer who is not online at the moment, your <em><strong>repository</strong></em> data will be stored encrypted on the server and when your peer comes online and connects either to the server (or to your device) the files from the stored <em><strong>repository</strong></em> will sync with the files in your peer's <em><strong>repository</strong></em>.</p>
 </details>
 <details>
 <summary>
 How can I connect to the server?
 </summary>
+<p>This happens automatically when you share a <em><strong>repository</strong></em> with a peer - you don't need to perform any additional actions.</p>
 </details>
 <details>
 <summary>
 Where is this server and who runs it?
 </summary>
+<p>The Ouisync servers are physically located in Canada and are managed by eQualitie.</p>
 </details>
 <details>
 <summary>
 What private data does Ouisync use/store?
 </summary>
+<p><strong>Ouisync</strong> uses the IP addresses of your devices to be able to connect you with your peers in the peer-to-peer network. We don't store those IP addresses anywhere on our systems. We don't keep any other user data.</p>
 </details>
 <details>
 <summary>
 How can I lock my repositories when I&#39;m not actively using them?
 </summary>
+<p>To lock your <em><strong>repositories</strong></em> when not actively working on them, tap on the <strong>Lock</strong> button: TODO (insert screenshot).</p>
 </details>
 </div>
 <div class="faq-subsection">
@@ -327,14 +355,21 @@ How can I lock my repositories when I&#39;m not actively using them?
 <summary>
 What are the advantages of using Ouisync over Dropbox, Google, or other similar solutions?
 </summary>
-<h3 id="heading-5"></h3>
-<h3 id="heading-6"></h3>
-<h3 id="heading-7"></h3>
+<h3 id="free-to-use">Free to use</h3>
+<p>To be able to share files using Dropbox, you need to create a Dropbox account. This requires your name, email, and credit card. It also requires payment.</p>
+<p><strong>Ouisync</strong> is entirely free and open source software. To share files using <strong>Ouisync</strong>, you only need to install the app. That's it. No payment is required.</p>
+<h3 id="anonymity">Anonymity</h3>
+<p><strong>Ouisync</strong> does not require the creation of user accounts. With <strong>Ouisync</strong>, it is simply a matter of installing the app and using it. All users are completely anonymous.</p>
+<h3 id="ouisync-is-a-p2p-solution"><strong>Ouisync</strong> is a <strong>P2P</strong> solution</h3>
+<p>This means that using <strong>Ouisync</strong> successfully does not depend on any central server anywhere. <strong>Ouisync</strong> makes use of decentralized peer-to-peer networking, which makes it an effective file-sharing app even in situations where well-known file-sharing servers (such as <strong>Dropbox</strong> or <strong>Google Drive</strong>) are unavailable.</p>
 </details>
 <details>
 <summary>
 How can I sync files with my peers or with my other devices without internet?
 </summary>
+<p>In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists.</p>
+<p>This could be a WiFi signal available to all devices that want to share <strong>Ouisync</strong> <em><strong>repositories</strong></em>, or it could be intranet, a local network or similar technologies.</p>
+<p>Currently <em><strong>repositories</strong></em> cannot be shared via Bluetooth. This feature is planned for future releases.</p>
 </details>
 </div>
 </div>
@@ -348,13 +383,13 @@ How can I sync files with my peers or with my other devices without internet?
     <div class="footer-wrapper" dir="ltr">
         <div class="footer">
             <div class="footer-flex-header">
-                <div><p><a href="https://equalit.ie"><img src="/img/eQualitie_Logo_Black.png" height="32"></a></p></div>
+                <div><p><a href="https://equalit.ie"><img src="/img/eQualitie_Logo_Black.png" height="32" alt="eQualitie logo"></a></p></div>
                 <div>
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=org.equalitie.ouisync"><img src="/icons/google-play.svg" height="32"></a>
-                    <a target="_blank" href="https://github.com/equalitie/ouisync-app"><img src="/icons/github.svg" height="32"></a>
-                    <a target="_blank" href="https://social.eqver.se/@ouisync"><img src="/icons/mastodon.svg" height="32"></a>
-                    <a target="_blank" href="https://twitter.com/ouisync"><img src="/icons/twitter.svg" height="32"></a>
-                    <a target="_blank" href="https://hosted.weblate.org/projects/ouisync/#information"><img src="/icons/globe-purple.svg" height="32"></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=org.equalitie.ouisync"><img src="/icons/google-play.png" height="32" alt="Download for Android on Google Play"></a>
+                    <a target="_blank" href="https://github.com/equalitie/ouisync-app"><img src="/icons/github.png" height="32" alt="Get the source code via Github"></a>
+                    <a target="_blank" href="https://social.eqver.se/@ouisync"><img src="/icons/mastodon.png" height="32" alt="Join our Mastodon"></a>
+                    <a target="_blank" href="https://twitter.com/ouisync"><img src="/icons/twitter.png" height="32" alt="Follow us on Twitter"></a>
+                    <a target="_blank" href="https://hosted.weblate.org/projects/ouisync/#information"><img src="/icons/globe-purple.png" height="32" alt="Translation crowdsourced on Weblate"></a>
                 </div>
             </div>
             <p>Ouisync is a project by  <a href="https://equalit.ie">eQualit.ie</a>  – a not-for-profit Canadian company creating decentralized internet services in support of a more equal and equitable network. Our solutions are open source, battle proven and developed in mind of our <a href="https://equalit.ie/en/values/">values.</a> Everyday, they enable freedom of association for millions of people online.</a></p>

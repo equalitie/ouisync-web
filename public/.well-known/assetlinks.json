@@ -1,0 +1,17 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.equalitie.ouisync",
+
+    "_comment_l1:": "The first fingerprint is generated using the keytool, the second one is",
+    "_comment_l2:": "from Play Console as we use Play App Signing. More info here:",
+    "_comment_l3:": "https://developer.android.com/training/app-links/verify-site-associations#web-assoc",
+
+    "sha256_cert_fingerprints":
+    [
+        "E3:FB:76:3D:05:1B:BB:A0:62:F7:05:29:0B:F2:D9:FC:37:B5:43:31:4D:EC:2F:81:07:CC:80:D6:B0:FB:06:DB",
+        "C5:0F:1E:91:13:22:1B:63:46:2F:4C:EB:EF:8B:56:9A:37:68:E3:C9:5E:A4:53:E4:E8:47:E4:A4:F3:B0:0B:A3"
+    ]
+  }
+}]
