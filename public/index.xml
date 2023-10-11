@@ -39,7 +39,7 @@ Ouisync App
       
       <guid>https://ouisync.net/support/</guid>
       <description>Frequently Asked Questions  Getting Started    What is a repository?  A repository is simply a place where you can store and share your files and folders securely, using Ouisync. You can think of it as a root folder, or even a safe, that will contain other folders and files that you want to share with your peers.
-   Where can I see my repositories  When you open the Ouisync app, after the onboarding screens you will see the main screen listing all the repositories you have created.</description>
+   Where can I see my repositories?  When you open the Ouisync app, after the onboarding screens you will see the main screen listing all the repositories you have created.</description>
     </item>
     
     <item>
@@ -78,6 +78,15 @@ Easy to use  Simply install and quickly create files and folders to sync and sha
       
       <guid>https://ouisync.net/privacy/</guid>
       <description>Ouisync Terms of Use &amp;amp; Privacy Notice 1. Overview This Ouisync Terms of Use (the “Agreement”), along with our Privacy Notice (collectively, the “Terms”), govern your use of Ouisync - an online file synchronization protocol and software. By installing and running the Ouisync application, you indicate your assent to be bound by and to comply with this Agreement between you and eQualitie inc. (“eQualitie”, “we”, or “us”). Usage of the Ouisync application and the Ouisync network (the Service) is provided by eQualitie at no cost and is intended for use as is.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ouisync.net/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ouisync.net/r/</guid>
+      <description>Welcome to Ouisync You have been given a share token that grants you access to a repository, but you need to install Ouisync first! Please use the Download link above to do so and then follow the link you&amp;rsquo;ve been given one more time.</description>
     </item>
     
   </channel>
