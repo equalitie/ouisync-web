@@ -16,119 +16,117 @@
 است.
 
 ## ۲. شرایط استفاده
-The Ouisync application is built in-line with eQualitie’s values. By using this
-software you agree that you will not use Ouisync to publish, share, or store
-materials that is contrary to the underlying values nor the letter of the laws
-of Quebec or Canada or the International Bill of Human Rights, including content
-that:
-* Infringes on personal information protection rights, including the underlying
-  values or the letter of Canada’s Privacy Act or PIPEDA (the Personal
-  Information Protection and Electronic Documents Act),
-* Constitutes child sexually exploitative material (including material which may
-  not be illegal child sexual abuse material but which nonetheless sexually
-  exploits or promotes the sexual exploitation of minors), unlawful pornography,
-  or are otherwise indecent;
-* Contains or promotes extreme acts of violence or terrorist activity, including
-  terror or violent extremist propaganda;
-* Advocates bigotry, hatred, or the incitement of violence against any person or
-  group of people based on their race, religion, ethnicity, national origin,
-  sex, gender identity, sexual orientation, disability, impairment, or any other
-  characteristic(s) associated with systemic discrimination or marginalization;
-* Files that contain viruses, trojans, worms, logic bombs or other material that
-  is malicious or technologically harmful
+اپلیکیشن Ouisync مطابق با اصول و ارزش‌های eQuality ساخته شده است. با استفاده از
+این نرم‌افزار، موافقت می‌کنید که از Ouisync برای انتشار، به‌اشتراک‌گذاری یا
+ذخیره مطالبی که مغایر با ارزش‌های اساسی یا قوانین کبک یا کانادا یا منشور
+بین‌المللی حقوق بشر است، استفاده نمی‌کنید. از جمله محتوایی که:
+* نقض حقوق حفاظت از اطلاعات شخصی، از جمله ارزش‌های اساسی قانون حریم خصوصی کانادا
+  یا PIPEDA (قانون حفاظت از اطلاعات شخصی و اسناد الکترونیکی)،
+* شامل مطالب استثمار جنسی کودکان (از جمله مطالبی که ممکن است محتوایی مرتبط با
+  آزار جنسی غیرقانونی از کودکان نباشد، اما با این وجود سوءاستفاده جنسی از کودکان
+  را ترویج می کند)، پورنوگرافی غیرقانونی، یا غیرقانونی است.
+* شامل یا ترویج «اعمال شدید خشونت‌آمیز یا فعالیت‌های تروریستی»، از جمله ترور یا
+  تبلیغات خشونت‌آمیز افراطی.
+* تشویق و تسهیل تعصب، نفرت، یا تحریک خشونت علیه هر فرد یا گروهی از مردم بر اساس
+  نژاد، مذهب، قومیت، ملیت، جنسیت، هویت جنسیتی، گرایش جنسی، ناتوانی، نقص یا هر
+  ویژگی دیگر مرتبط با آن‌ها است. تبعیض یا به حاشیه‌راندن ساختارمند؛
+* فایل‌هایی که حاوی ویروس‌ها، تروجان‌ها، کرم‌ها، بمب‌های منطقی یا مواد دیگری
+  هستند که مخرب یا از نظر فناوری مضر هستند.
 
-## 3. Privacy Notice
+## ۳. سند حریم خصوصی
 
-This section is used to inform visitors regarding our policies with the
-collection, use, and disclosure of Personal Information if anyone decides to use
-our Service. 3.1 Data Collection The OuiSync team values user privacy and thus
-does not collect any user information. The Ouisync app is designed to be able to
-provide file sharing services without a user ID, name, nickname, user account or
-any other form of user data. We don't know who uses our app and with whom they
-sync or share their data.
+این بخش برای اطلاع بازدیدکنندگان در مورد خط‌مشی‌های ما در مورد جمع‌آوری، استفاده
+و افشای اطلاعات شخصی در صورتی که کسی تصمیم به استفاده از سرویس ما داشته باشد،
+استفاده می‌شود.\
+۳.۱ جمع‌آوری داده‌ها: تیم OuiSync برای حریم خصوصی کاربر ارزش قائل است و بنابراین
+هیچ‌گونه اطلاعات کاربر را جمع آوری نمی‌کند. اپلیکیشن Ouisync به گونه‌ای طراحی
+شده است که می‌تواند خدمات اشتراک فایل را بدون شناسه کاربر، نام، نام مستعار، حساب
+کاربری یا هر شکل دیگری از اطلاعات کاربر ارائه دهد. ما نمی‌دانیم چه کسی از برنامه
+ما استفاده می‌کند و با چه کسی داده‌های خود را همگام یا به اشتراک می‌گذارد.
 
-### 3.2 Data Sharing
-Ouisync (and eQualit.ie) does not share any data with any third parties.
+### ۳.۲ به‌اشتراک‌گذاری داده‌ها
+Ouisync (و eQualit.ie) هیچ اطلاعاتی را با هیچ طرف شخص ثالثی به اشتراک نمی‌گذارد.
 
-### 3.3 Security Practices
-Data that the user uploads into the Ouisync repositories is end-to-end encrypted
-in transit as well as at rest. This includes metadata such as file names, sizes,
-folder structure etc. Within Ouisync, data is readable only by the person who
-uploaded the data and those persons with whom they shared their repositories.
+### ۳.۳ تمرینات (روش‌های) امنیتی
+اطلاعاتی که کاربر در مخازن Ouisync آپلود می‌کند، در حین انتقال و همچنین در حالت
+استراحت رمزنگاری شده‌اند. این شامل ابرداده‌هایی مانند نام فایل، اندازه، ساختار
+پوشه و غیره می‌شود. در Ouisync، داده‌ها فقط توسط شخصی که داده‌ها را آپلود کرده و
+افرادی که مخازن خود را با آن‌ها به اشتراک گذاشته‌اند، قابل خواندن است.
 
-You can learn more about the encryption techniques used in our documentation.
+می‌توانید درباره تکنیک‌های رمزنگاری مورد استفاده در اسناد ما، اطلاعات بیشتری کسب
+کنید.
 
-The Ouisync app stores users' data on an 'Always-On Peer', which is a server
-located in Canada. All data is stored as encrypted chunks and is not readable by
-the server or its operators. The purpose of this server is simply to bridge the
-gaps between peers who are not online at the same time. All data is periodically
-purged from this server - its purpose is not to provide permanent data storage
-but simply facilitation of data syncing by peers.
+اپلیکیشن Ouisync اطلاعات کاربران را روی «همتای همیشه فعال» یا همان Always-On
+Peer که سروری در کانادا است، ذخیره می‌کند. همه داده ها به صورت تکه‌های
+رمزنگاری‌شده ذخیره می‌شوند و توسط سرور یا اپراتورهای آن قابل خواندن نیستند. هدف
+این سرور صرفاً پر کردن شکاف بین همتایان است که هم‌زمان آنلاین نیستند. تمام
+داده‌ها به صورت دوره‌ای از این سرور پاک می شوند - هدف آن فراهم کردن ذخیره‌سازی
+دائمی داده نیست بلکه به تسهیل همگام‌سازی داده‌ها توسط همتایان کمک می‌کند.
 
-If you have a reason to believe that your personal data has been illegaly
-obtained and shared by other Ouisync users, please contact us at the address
-below.
+اگر دلیلی مبنی بر افشا یا به‌اشتراک گذاشته شدن اطلاعات شخصی شما به‌طور غیرقانونی
+توسط سایر کاربران Ouisync دارید، لطفاً با آدرس زیر با ما تماس بگیرید.
 
-### 3.4 Deletion of your data from our Always-On-Peer server
-The simplest way to delete your data is by deleting files or repositories from
-your own device. Any file deletion will be propagated to all your peers - ie, if
-you have Write access to a repository, you can delete any files within it and
-the same files will be deleted from your peers' repositories as well as from our
-Always-On-Peer. If you need to delete only the repositories from our
-Always-On-Peer (but still keep them in your own repository on your own device),
-please contact us at the address below.
+### ۳.۴ حذف داده های شما از سرور «همتای همیشه فعال» Always-On-Peer ما
+ساده‌ترین راه برای حذف داده‌های خود، حذف فایل‌ها یا مخازن از دستگاه خودتان است.
+هرگونه حذف فایل به همه همتایان شما اطلاع‌رسانی خواهد شد(منتشر خواهد شد) - به
+عنوان مثال، اگر به یک مخزن دسترسی نوشتنی دارید، می توانید فایل‌های موجود در آن
+را حذف کنید و همان فایل‌ها از مخازن همتایان شما و همچنین از همتای همیشه فعال ما
+Always-On-Peer حذف خواهند شد. \
+اگر نیاز دارید که فقط مخازن را از سرور همتای همیشه فعال Always-On-Peer ما حذف
+کنید (اما همچنان آن‌ها را در مخزن خود در دستگاه خود نگه دارید)، لطفاً با آدرس
+زیر با ما تماس بگیرید.
 
-***Note:** The Ouisync team cannot delete individual files from repositories, as
-it is not possible to identify them because they are encrypted. We are able to
-delete whole repositories if you send us the link to the repository that needs
-to be deleted.*
+توجه: تیم Ouisync نمی تواند فایل‌های شخصی را از مخازن حذف کند، زیرا شناسایی
+آن‌ها به علت رمزنگاری ممکن نیست. اگر پیوند(لینک) مخزنی که باید حذف شود را برای
+ما ارسال کنید، می توانیم کل مخازن را حذف کنیم.
 
-### 3.5 Log Data
-The OuiSync app creates logfiles on users' devices. Their purpose is only to log
-device's activity to facilitate the debugging process in case the user
-experiences difficulties in connecting with their peers or otherwise in using
-the Ouisync app. The logfile remains on a user's device unless the user decides
-to send it to us for support purposes.
+### ۳.۵ اطلاعات مرتبط با ثبت رویدادها (لاگ)
+اپلیکیشن Ouisync فایل‌های مرتبط با ثبت رویدادها (لاگ) را در دستگاه‌های کاربران
+ایجاد می‌کند. هدف آن‌ها فقط ثبت فعالیت دستگاه برای تسهیل فرآیند رفع اشکال در
+صورتی است که کاربر در برقراری ارتباط با همتایان خود یا در موارد دیگر در استفاده
+از Ouisync با مشکل مواجه شود. فایل ثبت رویدادها (لاگ) در دستگاه کاربر باقی
+می‌ماند، مگر اینکه کاربر تصمیم بگیرد، آن‌را برای اهداف پشتیبانی برای ما ارسال
+کند.
 
-If the user does decide to contact us, the personally indetifiable data we may
-collect is:
-* Email address - if the user decided to contact us by email;
-* Information the user may provide by email, through help tickets, or through
-  our website, and associated metadata - for the purposes of providing technical
-  support;
-* User’s IP address - for the purposes of providing technical support.
+اگر کاربر تصمیم بگیرد با ما تماس بگیرد، اطلاعات غیرقابل شناسایی شخصی که ممکن است
+جمع‌آوری کنیم عبارتند از:
+* آدرس ایمیل - اگر کاربر تصمیم گرفت از طریق ایمیل با ما تماس بگیرد؛
+* اطلاعاتی که کاربر ممکن است از طریق ایمیل، از طریق برگه‌های راهنما، یا از طریق
+  وب‌سایت ما، و ابرداده‌های مرتبط - به منظور دریافت پشتیبانی فنی ارائه دهد؛
+* آدرس آی‌پی کاربر - به منظور ارائه پشتیبانی فنی
 
-None of this data is shared with any third parties.
+هیچ‌یک از این اطلاعات با هیچ طرف شخص ثالثی به‌اشتراک گذاشته نمی‌شود
 
-### 3.6 Cookies
-The Ouisync app does not use cookies.
+### ۳.۶ کوکی‌ها
+اپلیکیشن Ouisync از کوکی‌ها استفاده نمی‌کند.
 
-### 3.7 Links to Other Sites
-This Service may contain links to other sites. If you click on a third-party
-link, you will be directed to that site. Note that these external sites are not
-operated by us. Therefore, we strongly advise you to review the Privacy Policy
-of these websites. We have no control over and assume no responsibility for the
-content, privacy policies, or practices of any third-party sites or services.
+### ۳.۷ لینک به سایت‌های دیگر
+این سرویس ممکن است حاوی پیوندهایی (لینک‌هایی) به وب‌سایت‌های دیگر باشد. اگر روی
+پیوند شخص ثالث کلیک کنید، به آن سایت هدایت خواهید شد. توجه داشته باشید که این
+وب‌سایت‌های خارجی توسط ما اداره نمی‌شوند. بنابراین، ما قویاً به شما توصیه
+می‌کنیم که سند حریم خصوصی این وب سایت‌ها را بررسی کنید. ما هیچ کنترلی بر آن
+نداریم و هیچ مسئولیتی در قبال محتوا، خط‌مشی‌های حفظ حریم خصوصی، یا عملکرد
+وب‌سایت‌ها یا خدمات شخص ثالث نداریم.
 
-### 3.8 Children’s Privacy
-We do not knowingly collect personally identifiable information from children.
-We encourage all children to never submit any personally identifiable
-information through the Application and/or Services. We encourage parents and
-legal guardians to monitor their childrens' Internet usage and to help enforce
-this Policy by instructing their children never to provide personally
-identifiable information through the Application and/or Services without their
-permission. If you have reason to believe that a child has provided personally
-identifiable information to us through the Application and/or Services, please
-contact us. You must also be at least 16 years of age to consent to the
-processing of your personally identifiable information in your country (in some
-countries we may allow your parent or guardian to do so on your behalf).
+### ۳.۸ حریم خصوصی کودکان
+ما آگاهانه اطلاعات قابل شناسایی شخصی از کودکان جمع آوری نمی‌کنیم. ما همه کودکان
+را تشویق می‌کنیم که هرگز اطلاعات شناسایی شخصی را از طریق اپلیکیشن و/یا خدمات
+ارائه نکنند. ما والدین و سرپرستان قانونی کودکان را تشویق می‌کنیم که بر استفاده
+فرزندان خود از اینترنت نظارت داشته باشند و به اجرای این خط‌مشی کمک کنند و به
+فرزندان خود آموزش دهند که هرگز اطلاعات قابل شناسایی شخصی را از طریق برنامه و/یا
+خدمات بدون اجازه آن‌ها ارائه نکنند. اگر دلیلی مبنی بر ارائه اطلاعات هویتی شخصی
+توسط کودکی به برنامه و/یا خدمات به ما دارید، لطفاً با ما تماس بگیرید.\
+همچنین باید حداقل ۱۶ سال سن داشته باشید تا با پردازش اطلاعات شناسایی شخصی خودتان
+در کشور خود موافقت کنید (در برخی کشورها ممکن است به والدین یا قیم شما اجازه دهیم
+از طرف شما این کار را انجام دهند).
 
-### 3.9 Changes to these Terms
-We may update our Terms from time to time. Thus, you are advised to review this
-page periodically for any changes.
+### ۳.۹ تغییرات به این شرایط
+ممکن است شرایط استفاده (خدمات) خود را هر از چندگاهی به‌روز کنیم. بنابراین، به
+شما توصیه می‌شود برای اطلاع از هر‌گونه تغییر، این صفحه را به صورت دوره‌ای مرور
+کنید.
 
-This policy is effective as of 2022-03-09.
+این سیاست (خط مشی) از تاریخ ۹ مارس ۲۰۲۲ میلادی قابل اجراست
 
-## Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not
-hesitate to contact us at: support [at] ouisync [dot] net.
+## تماس با ما
+در صورتی که در مورد خط مشی حفظ حریم خصوصی ما سؤال یا پیشنهادی دارید، حتما با ما
+تماس بگیرید: support@ouisync.net
