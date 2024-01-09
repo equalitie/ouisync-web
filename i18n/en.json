@@ -81,7 +81,7 @@
     "faqContent21": "Then select **'Create Repository'**:",
     "faqContent22": "...and give it a name:",
     "faqContent23": "You also have the option here to protect your repository with a local password or your biometrics (if you've got them set up on your device).",
-    "faqContent24": "#### See [**_What is a 'local password'?_**](https://github.com/equalitie/ouisync-app/wiki/_new#what-is-a-local-password) to learn more about them.",
+    "faqContent24": "#### See [**_What is a 'local password'?_**](https://github.com/equalitie/ouisync-app/wiki/Frequently-Asked-Questions#what-is-a-local-password) to learn more about them.",
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
     "faqContent30": "There is no requirement to protect your repositories either by password or by biometrics. Whether you decide to do it depends on the sensitivity of data that you store in Ouisync repositories and habitual usage of your devices.  For storing and sharing photos of your cat, maybe a password is not necessary.  But for storing more sensitive personal data, we recommend passwords (or biometrics) be set up.",
     "faqContent31": "To do that, tap on Add local password: ",
