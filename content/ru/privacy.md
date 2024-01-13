@@ -7,128 +7,139 @@ title: "Правила пользования и политика безопас
 # Правила пользования и политика безопасности данных Ouisync
 
 ## 1. Обзор
-This Ouisync Terms of Use (the “Agreement”), along with our Privacy Notice
-(collectively, the “Terms”), govern your use of Ouisync - an online file
-synchronization protocol and software. By installing and running the Ouisync
-application, you indicate your assent to be bound by and to comply with this
-Agreement between you and eQualitie inc. (“eQualitie”, “we”, or “us”). Usage of
-the Ouisync application and the Ouisync network (the Service) is provided by
-eQualitie at no cost and is intended for use as is.
+Настоящие Условия использования Ouisync (“Соглашение”) вместе с нашим
+Уведомлением о конфиденциальности (совместно именуемые “Условия”) регулируют
+использование Вами Ouisync - протокола и программного обеспечения для
+онлайн-синхронизации файлов. Устанавливая и запуская приложение Ouisync, Вы
+подтверждаете своё согласие соблюдать настоящее Соглашение между вами и
+eQualitie inc. (“eQualitie”, ”мы“ или “нас“). Использование приложения Ouisync и
+сети Ouisync (Сервис) предоставляется eQualitie бесплатно и предназначено для
+использования как есть.
 
-## 2. Terms of use
-The Ouisync application is built in-line with eQualitie’s values. By using this
-software you agree that you will not use Ouisync to publish, share, or store
-materials that is contrary to the underlying values nor the letter of the laws
-of Quebec or Canada or the International Bill of Human Rights, including content
-that:
-* Infringes on personal information protection rights, including the underlying
-  values or the letter of Canada’s Privacy Act or PIPEDA (the Personal
-  Information Protection and Electronic Documents Act),
-* Constitutes child sexually exploitative material (including material which may
-  not be illegal child sexual abuse material but which nonetheless sexually
-  exploits or promotes the sexual exploitation of minors), unlawful pornography,
-  or are otherwise indecent;
-* Contains or promotes extreme acts of violence or terrorist activity, including
-  terror or violent extremist propaganda;
-* Advocates bigotry, hatred, or the incitement of violence against any person or
-  group of people based on their race, religion, ethnicity, national origin,
-  sex, gender identity, sexual orientation, disability, impairment, or any other
-  characteristic(s) associated with systemic discrimination or marginalization;
-* Files that contain viruses, trojans, worms, logic bombs or other material that
-  is malicious or technologically harmful
+## 2. Условия использования
+Приложение Ouisync создано в соответствии с ценностями eQualitie. Используя это
+программное обеспечение, Вы соглашаетесь, что не будете использовать Ouisync для
+публикации, обмена или хранения материалов, противоречащих основным ценностям,
+букве законов Квебека или Канады или Международному биллю о правах человека,
+включая контент, который:
+* Нарушает права на защиту личной информации, включая основополагающие ценности
+  или букву Закона Канады о конфиденциальности или PIPEDA (Закон о защите личной
+  информации и электронных документах),
+* Содержит материалы, сексуально эксплуатирующие детей (включая материалы,
+  которые не являются незаконными материалами о сексуальном насилии над детьми,
+  но которые, тем не менее, сексуально эксплуатируют или пропагандируют
+  сексуальную эксплуатацию несовершеннолетних), незаконную порнографию или
+  являются иным образом непристойными;
+* Содержит или пропагандирует крайние акты насилия или террористическую
+  деятельность, включая терроризм или пропаганду насильственного экстремизма;
+* Пропагандирует фанатизм, ненависть или подстрекательство к насилию в отношении
+  любого человека или группы людей на основании их расы, религии, этнической
+  принадлежности, национального происхождения, пола, гендерной идентичности,
+  сексуальной ориентации, инвалидности, нарушений или любых других
+  характеристик, связанных с системной дискриминацией или маргинализацией;
+* Файлы, которые содержат вирусы, трояны, черви, логические бомбы или другие
+  материалы, которые являются вредоносными или технологически вредными
 
-## 3. Privacy Notice
+## 3. Политика приватности
 
-This section is used to inform visitors regarding our policies with the
-collection, use, and disclosure of Personal Information if anyone decides to use
-our Service. 3.1 Data Collection The OuiSync team values user privacy and thus
-does not collect any user information. The Ouisync app is designed to be able to
-provide file sharing services without a user ID, name, nickname, user account or
-any other form of user data. We don't know who uses our app and with whom they
-sync or share their data.
+Этот раздел используется для информирования посетителей о нашей политике в
+отношении сбора, использования и раскрытия Персональной информации, если
+кто-либо решит использовать наш Сервис. 3.1 Сбор данных Команда OuiSync ценит
+конфиденциальность пользователей и поэтому не собирает никакой пользовательской
+информации. Приложение Ouisync предназначено для предоставления услуг обмена
+файлами без идентификатора пользователя, имени, псевдонима, учетной записи
+пользователя или любой другой формы пользовательских данных. Мы не знаем, кто
+использует наше приложение и с кем они синхронизируют или передают свои данные.
 
-### 3.2 Data Sharing
-Ouisync (and eQualit.ie) does not share any data with any third parties.
+### 3.2 Передача данных
+Ouisync (и eQualit.ie) не передаёт данные третьим лицам.
 
-### 3.3 Security Practices
-Data that the user uploads into the Ouisync repositories is end-to-end encrypted
-in transit as well as at rest. This includes metadata such as file names, sizes,
-folder structure etc. Within Ouisync, data is readable only by the person who
-uploaded the data and those persons with whom they shared their repositories.
+### 3.3 Методы обеспечения безопасности
+Данные, которые пользователь загружает в хранилища Ouisync, подвергаются
+сквозному шифрованию как при передаче, так и при хранении. Сюда входят
+метаданные, такие как: имена файлов, размеры, структура папок и т. д. В Ouisync
+данные доступны для чтения только тому человеку, который загрузил данные, и тем
+людям, с кем он поделился своими хранилищами (кому предоставил общий доступ).
 
-You can learn more about the encryption techniques used in our documentation.
+Вы можете узнать больше об используемых методах шифрования в нашей документации.
 
-The Ouisync app stores users' data on an 'Always-On Peer', which is a server
-located in Canada. All data is stored as encrypted chunks and is not readable by
-the server or its operators. The purpose of this server is simply to bridge the
-gaps between peers who are not online at the same time. All data is periodically
-purged from this server - its purpose is not to provide permanent data storage
-but simply facilitation of data syncing by peers.
+Приложение Ouisync хранит данные пользователей на 'Always-On-Peer', который
+представляет собой сервер, расположенный в Канаде. Все данные хранятся в виде
+зашифрованных фрагментов и недоступны для чтения сервером или его операторами.
+Цель этого сервера - просто преодолеть разрывы между устройствами пользователей,
+которые не находятся в сети одновременно. Все данные периодически удаляются с
+этого сервера - его целью является не обеспечение постоянного хранения данных, а
+просто облегчение синхронизации данных между устройствами пользователей.
 
-If you have a reason to believe that your personal data has been illegaly
-obtained and shared by other Ouisync users, please contact us at the address
-below.
+Если у Вас есть основания полагать, что Ваши персональные данные были незаконно
+получены и переданы другим пользователям Ouisync, свяжитесь с нами по указанному
+ниже адресу.
 
-### 3.4 Deletion of your data from our Always-On-Peer server
-The simplest way to delete your data is by deleting files or repositories from
-your own device. Any file deletion will be propagated to all your peers - ie, if
-you have Write access to a repository, you can delete any files within it and
-the same files will be deleted from your peers' repositories as well as from our
-Always-On-Peer. If you need to delete only the repositories from our
-Always-On-Peer (but still keep them in your own repository on your own device),
-please contact us at the address below.
+### 3.4 Удаление ваших данных с нашего Always-On-Peer сервера
+Самый простой способ удалить Ваши данные - это удалить файлы или хранилища с
+Вашего собственного устройства. Любое удаление файла будет распространено на
+всех Ваших коллег и устройства - т.е., если у Вас есть доступ на запись к
+хранилищу, Вы можете удалить любые файлы в нём, и те же файлы будут удалены из
+хранилищ Ваших партнёров, а также с нашего сервера 'Always-On-Peer'. Если Вам
+нужно удалить хранилища только из нашего сервера 'Always-On-Peer' (но при этом
+сохранить их в своем собственном хранилище на Вашем собственном устройстве),
+пожалуйста, свяжитесь с нами по указанному ниже адресу.
 
-***Note:** The Ouisync team cannot delete individual files from repositories, as
-it is not possible to identify them because they are encrypted. We are able to
-delete whole repositories if you send us the link to the repository that needs
-to be deleted.*
+***Примечание.** Команда Ouisync не может удалять отдельные файлы из хранилищ,
+поскольку их невозможно идентифицировать, так как они зашифрованы. Мы можем
+удалить целые хранилища, если Вы отправите нам ссылку на хранилище, которое
+необходимо удалить.*
 
-### 3.5 Log Data
-The OuiSync app creates logfiles on users' devices. Their purpose is only to log
-device's activity to facilitate the debugging process in case the user
-experiences difficulties in connecting with their peers or otherwise in using
-the Ouisync app. The logfile remains on a user's device unless the user decides
-to send it to us for support purposes.
+### 3.5 Данные журнала (лога)
+Приложение OuiSync создает файлы журналов на устройствах пользователей. Их цель
+- только регистрировать активность устройства, чтобы облегчить процесс отладки в
+случае, если пользователь столкнется с трудностями при подключении к своим
+коллегам или иным образом при использовании приложения Ouisync. Файл журнала
+остается на устройстве пользователя, если только пользователь не решит отправить
+его нам в целях поддержки.
 
-If the user does decide to contact us, the personally indetifiable data we may
-collect is:
-* Email address - if the user decided to contact us by email;
-* Information the user may provide by email, through help tickets, or through
-  our website, and associated metadata - for the purposes of providing technical
-  support;
-* User’s IP address - for the purposes of providing technical support.
+Если пользователь решит связаться с нами, мы можем собрать следующие
+персональные данные:
+* Адрес электронной почты - если пользователь решил связаться с нами по
+  электронной почте;
+* Информация, которую пользователь может предоставить по электронной почте,
+  через справочные запросы или через наш веб-сайт, и связанные с ней метаданные
+  - в целях оказания технической поддержки;
+* IP-адрес пользователя - для целей оказания технической поддержки.
 
-None of this data is shared with any third parties.
+Никакие из этих данных не передаются третьим лицам.
 
-### 3.6 Cookies
-The Ouisync app does not use cookies.
+### 3.6 Файлы cookie
+Приложение Ouisync не использует файлы cookie.
 
-### 3.7 Links to Other Sites
-This Service may contain links to other sites. If you click on a third-party
-link, you will be directed to that site. Note that these external sites are not
-operated by us. Therefore, we strongly advise you to review the Privacy Policy
-of these websites. We have no control over and assume no responsibility for the
-content, privacy policies, or practices of any third-party sites or services.
+### 3.7 Ссылки на Другие сайты
+Этот Сервис может содержать ссылки на другие сайты. Если Вы нажмёте на стороннюю
+ссылку, Вы будете перенаправлены на этот сайт. Обратите внимание, что мы не
+управляем этими внешними сайтами. Поэтому мы настоятельно рекомендуем вам
+ознакомиться с Политикой конфиденциальности этих веб-сайтов. Мы не контролируем
+и не несём никакой ответственности за содержание, политику конфиденциальности
+или практику работы любых сторонних сайтов или сервисов.
 
-### 3.8 Children’s Privacy
-We do not knowingly collect personally identifiable information from children.
-We encourage all children to never submit any personally identifiable
-information through the Application and/or Services. We encourage parents and
-legal guardians to monitor their childrens' Internet usage and to help enforce
-this Policy by instructing their children never to provide personally
-identifiable information through the Application and/or Services without their
-permission. If you have reason to believe that a child has provided personally
-identifiable information to us through the Application and/or Services, please
-contact us. You must also be at least 16 years of age to consent to the
-processing of your personally identifiable information in your country (in some
-countries we may allow your parent or guardian to do so on your behalf).
+### 3.8 Конфиденциальность детей
+Мы сознательно не собираем личную информацию от детей. Мы призываем всех детей
+никогда не предоставлять какую-либо личную информацию через Приложение и/или
+Сервисы. Мы призываем родителей и законных опекунов следить за использованием
+Интернета их детьми и способствовать обеспечению соблюдения этой Политики,
+проинструктировав своих детей никогда не предоставлять личную информацию через
+Приложение и/или Сервисы без их разрешения. Если у Вас есть основания полагать,
+что ребёнок предоставил нам личную информацию через Приложение и/или Сервисы,
+пожалуйста, свяжитесь с нами. Вам также должно быть не менее 16 лет, чтобы дать
+согласие на обработку Вашей личной информации в Вашей стране (в некоторых
+странах мы можем разрешить Вашим родителям или опекунам делать это от Вашего
+имени).
 
-### 3.9 Changes to these Terms
-We may update our Terms from time to time. Thus, you are advised to review this
-page periodically for any changes.
+### 3.9 Изменения настоящих Условий
+Мы можем время от времени обновлять наши Условия. Потому, Вам рекомендуется
+периодически просматривать эту страницу на предмет любых изменений.
 
-This policy is effective as of 2022-03-09.
+Эта политика вступает в силу с 2022-03-09 года.
 
-## Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not
-hesitate to contact us at: support [at] ouisync [dot] net.
+## Связаться с нами
+Если у Вас есть какие-либо вопросы или предложения по поводу нашей Политики
+конфиденциальности, не стесняйтесь обращаться к нам по адресу: support [на]
+ouisync [точка] net.
