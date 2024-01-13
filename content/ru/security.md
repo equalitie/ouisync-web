@@ -18,77 +18,81 @@ Ouisync довольно сложна. Если два или более пол�
 возможность расшифровать каталоги и файлы в этом хранилище (за исключением
 режима Blind).
 
-Data is encrypted both _at rest_ (when simply stored) and _in transit_ (during
-data transfers). Importantly, Ouisync can sync without decrypting, and no device
-needs to know the decryption key to perform the synchronization. File names,
-file contents and even file sizes and the structure of directories are hidden
-from peers who do not possess an encryption key. Therefore, peers who only have
-Blind access to your repositories can see neither the content of your
-repositories nor their structure.
+Данные шифруются как _в состоянии покоя_ (при простом хранении), так и _при
+передаче_ (во время передачи данных). Важно отметить, что Ouisync может
+синхронизироваться без расшифровки, и ни одному устройству не нужно знать ключ
+расшифровки для выполнения синхронизации. Имена файлов, содержимое файлов и даже
+размеры файлов и структура каталогов скрыты от узлов, не обладающих ключом
+шифрования. Таким образом, партнёры, имеющие только слепой доступ к Вашим
+хранилищам, не смогут видеть ни содержимое Ваших хранилищ, ни их структуру.
 
-## Which encryption algorithms are used?
-* _In transit_, Ouisync uses the [Noise protocol](https://noiseprotocol.org/)
-  framework, in particular the [NNpsk0
-  pattern](https://noiseprotocol.org/noise.html#pattern-modifiers). This lets
-  Ouisync generate ephemeral keys with a pre-shared key. The pre-shared key in
-  Ouisync is the repository ID. Noise supports mutual and optional
-  authentication, identity hiding, forward secrecy, zero round-trip encryption,
-  and other advanced cryptographic features.
-* _At rest_, Oyisync encrypts the data using
-  [ChaCha20](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant). In this case
-  the "Read key" is used as the encryption/decryption symmetric key. The keys
-  are authenticated using Ed25519 signatures, with the "Write key" as the
-  private key.
-* For _hashing_ Ouisync relies on the
-  [BLAKE3](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE3) hash
-  function, which is
-  [considered](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
-  to be consistently faster across different platforms and input sizes.
+## Какие алгоритмы шифрования используются?
+* _При передаче_ Ouisync использует фреймворк [Noise
+  protocol](https://noiseprotocol.org/), в частности [шаблон
+  NNpsk0](https://noiseprotocol.org/noise.html#pattern-modifiers). Это позволяет
+  Ouisync генерировать эфемерные ключи с предварительно раскрытым (pre-shared)
+  ключом. Предварительно раскрытый (pre-shared) ключ в Ouisync - это
+  идентификатор (ID) хранилища. Noise поддерживает взаимную и дополнительную
+  аутентификацию, скрытие идентификационных данных, прямую секретность, нулевое
+  шифрование в оба конца и другие расширенные криптографические функции.
+* _В состоянии покоя_ Oyisync шифрует данные с помощью
+  [ChaCha20](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant). В этом
+  случае «Ключ чтения» используется в качестве симметричного ключа
+  шифрования/дешифрования. Ключи аутентифицируются с использованием подписей
+  Ed25519, при этом «ключ записи» является закрытым ключом.
+* Для _хэширования_ Ouisync использует хэш-функцию
+  [BLAKE3](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE3), которая
+  [считается](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
+  стабильно более быстрой на разных платформах и размерах входных данных.
 
-## What is a Block?
-Every file and every directory stored in Ouisync is divided into relatively
-small (e.g. 32KB) blocks of a constant size. Each block has a Block ID
-(generated via a random number generator) that helps Ouisync identify these
-blocks. All blocks are stored alongside a file called “locator”. Locator is a
-kind of “map” that indicates where each block is located with respect to other
-blocks. However, to not reveal this structure to agents who don’t possess the
-secret key, locators are not stored directly but are encoded.
+## Что такое Блок?
+Каждый файл и каждый каталог, хранящиеся в Ouisync, разделены на относительно
+небольшие (например, 32 КБ) блоки постоянного размера. Каждый блок имеет
+идентификатор блока ("Block ID", генерируемый генератором случайных чисел),
+который помогает Ouisync идентифицировать эти блоки. Все блоки хранятся вместе с
+файлом под названием “locator”. Локатор - это своего рода “карта”, которая
+указывает, где расположен каждый блок относительно других блоков. Однако, чтобы
+не раскрывать эту структуру агентам, не обладающим секретным ключом, локаторы не
+хранятся обычным текстом, а закодированы.
 
-_Imagine that you organize a big wedding party, where you invite plenty of
-guests. Those who have already organized these kinds of events know how hard it
-is to assign proper seats to all the guests, with respect to their
-relationships, interests and so on. By the way, you need to also communicate the
-information to the waiters, who have to be attentive and remember which guest
-have allergies or dietary preferences. And because your guests are VIP, you
-don't want to reveal their real names to the waiters, so you invent random
-pseudonyms and write them on those beautiful seat allocation cards. So, if we
-stick to this metaphor, the block ID would be a pseudonym written on a card next
-to your guest’s seat, and the “locator” would be a map of all tables with seats
-properly allocated._
+_ Представьте, что Вы устраиваете большую свадебную вечеринку, на которую
+приглашаете множество гостей. Те, кто уже организовывал подобные мероприятия,
+знают, как трудно распределить надлежащие места для всех гостей, учитывая их
+отношения, интересы и так далее. Кстати, Вам также необходимо сообщить эту
+информацию официантам, которые должны быть внимательны и помнить, у кого из
+гостей аллергия или диетические предпочтения. А поскольку ваши гости -
+VIP-персоны, Вы не хотите раскрывать официантам их настоящие имена, поэтому
+придумываете случайные псевдонимы и записываете их на этих красивых карточках с
+распределением мест. Итак, если мы будем придерживаться этой метафоры,
+идентификатором блока будет псевдоним, написанный на карточке рядом с местом
+Вашего гостя, а “локатором” будет карта всех столов с правильно распределенными
+местами._
 
 ![image](https://github.com/willow446/willow446.github.io/assets/1790886/06985a87-2dac-49a2-99ae-37725bd8e2ce)
 
 
-## What is a blob?
-A linear set of blocks shall be called a blob. Blobs can represent files and
-directories. The file blob is the simpler one: it consists of a header
-containing the file size, permissions and a timestamp. The directory blob
-represents a list of file names present in a directory, as well as locators
-pointing to the individual file blobs.
+## Что такое "blob"?
+Линейный набор блоков будет называться blob. Blob'ы (также известные как
+"большие двоичные объекты") могут представлять файлы и каталоги. Файловый blob
+является более простым: он состоит из заголовка, содержащего размер файла,
+разрешения и метки времени. Blob каталога представляет собой список имен файлов,
+присутствующих в каталоге, а также локаторы, указывающие на отдельные blob'ы
+файлов.
 
-## How is syncing happening?
-When you share a repository with your peer, this creates a “replica” of your
-repository. The repository structure is stored in the so-called “index” files -
-when peer devices are connecting, they first exchange those indexes. If
-something has been modified in one of the replicas, Ouisync will download the
-missing blocks. Ouisync always first downloads directories and only after the
-files themselves. This helps Ouisync to correctly rebuild your data from blocks
-without messing it up. In addition, this is done without leaking information to
-users who have no “read” access to your repositories.
+## Как происходит синхронизация?
+Когда Вы предоставляете общий доступ к хранилищу своему партнеру, это создает
+“точную копию” ("реплику") Вашего хранилища. Структура хранилища хранится в так
+называемых файлах “индексов” - когда устройства партнёров подключаются, они
+сначала обмениваются этими индексами. Если что-то было изменено в одной из
+реплик, Ouisync загрузит недостающие блоки. Ouisync всегда сначала загружает
+каталоги и только после - сами файлы. Это помогает Ouisync корректно
+восстанавливать Ваши данные из блоков, не искажая их. Кроме того, это делается
+без утечки информации пользователям, у которых нет доступа “на чтение” к Вашим
+хранилищам.
 
-You do not have to worry about conflicts between various replicas: in the
-backend, syncing is done in such a way as to avoid conflicts and divergences.
-What you see when you open Ouisync is what we call a “snapshot”: your view of
-the whole directory tree at a particular moment in time. Each modification of
-the file system (on your device or on your peers’ devices) results in a new
-“snapshot.”
+Вам не нужно беспокоиться о конфликтах между различными репликами: в бэкенде
+синхронизация выполняется таким образом, чтобы избежать конфликтов и
+расхождений. То, что Вы видите, когда открываете Ouisync, - это то, что мы
+называем “снимком”: представление всего дерева каталогов в определенный момент
+времени для Вас. Каждое изменение файловой системы (на Вашем устройстве или на
+устройствах Ваших коллег) приводит к созданию нового “снимка”.
