@@ -25,7 +25,6 @@ defaultContentLanguage = 'en'
         contentDir = 'content/es'
         weight = 2
     [languages.fa]
-        disabled = true
         title = 'Ouisync (fa)'
         languageDirection = 'rtl'
         languageName = 'Persian'
@@ -39,7 +38,6 @@ defaultContentLanguage = 'en'
         contentDir = 'content/my'
         weight = 2
     [languages.ru]
-        disabled = true
         title = 'Ouisync (ru)'
         languageDirection = 'ltr'
         languageName = 'Russian'
