@@ -1,9 +1,3 @@
----
-title: "Ouisync Terms of Use & Privacy Notice"
-date: 2023-06-25T23:57:32-04:00
----
-
-
 # Ouisync Terms of Use & Privacy Notice
 
 ## 1. Overview
