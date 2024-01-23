@@ -519,7 +519,6 @@ label .mobile-i18n-chevron {
 
 .card {
     color: #373756;
-    margin-top: 2rem;
 }
 
 .card-wrapper h3 {
@@ -537,12 +536,17 @@ label .mobile-i18n-chevron {
 }
 
 .card-one {
+    margin-top: 1rem;
     margin-inline-start: 1rem;
+}
+
+.card-two {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-three {
     margin-inline-start: 2rem;
-    margin-top: 0rem;
 }
 
 
