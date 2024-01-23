@@ -512,7 +512,6 @@ label .mobile-i18n-chevron {
 .card-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, max-content);
     row-gap: 2rem;
     padding-top: 3rem;
     padding-bottom: 4rem;
