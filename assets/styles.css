@@ -534,6 +534,7 @@ label .mobile-i18n-chevron {
 
 .card-wrapper img {
     max-width: 24rem;
+    object-fit: contain;
 }
 
 .card-one {
@@ -549,6 +550,7 @@ label .mobile-i18n-chevron {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    margin-top: 1rem;
 }
 
 .row-two {
