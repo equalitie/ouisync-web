@@ -1,8 +1,0 @@
-#/bin/sh
-USER=root
-HOST=reticulum.space
-DIR=/var/www/reticulum.space/ # might sometimes be empty!
-
-hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
-
-exit 0

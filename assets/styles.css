@@ -9,6 +9,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
+
 @font-face {
     font-family: "Humanst521";
     src: url("fonts/Humanst521BT-Roman.woff");
@@ -20,6 +21,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
+
 @font-face {
     font-family: "Humanst521-Bold";
     src: url("fonts/Humanst521BT-Bold.woff");
@@ -30,6 +32,7 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
+
 @font-face {
     font-family: "Roboto";
     src: url("fonts/Roboto-Regular.ttf");
@@ -46,8 +49,10 @@
 
 html {
     text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing: antialiased; /* WebKit  */
+    -moz-osx-font-smoothing: grayscale;
+    /* Firefox */
+    -webkit-font-smoothing: antialiased;
+    /* WebKit  */
     font-size: 16px;
     color: #373756;
 }
@@ -58,12 +63,19 @@ html {
     gap: 1rem;
 }
 
-h1, h2, h3, p, body {
+h1,
+h2,
+h3,
+p,
+body {
     margin: 0;
     text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Humanst521-Bold";
 }
 
@@ -89,12 +101,13 @@ p {
 }
 
 a {
-    color: #0449c6;;
+    color: #0449c6;
+    ;
     text-decoration: none;
 }
 
 a:hover {
-    color:  #0449c6bb;
+    color: #0449c6bb;
 }
 
 .a-on-dark {
@@ -194,7 +207,7 @@ nav {
 .desktop-nav {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr min-content 1fr;
+    grid-template-columns: 1fr max-content 1fr;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
@@ -274,16 +287,17 @@ nav .desktop-i18n-panel {
     transition: transform 0.07s;
 }
 
-.desktop-nav-toggle:checked ~ .desktop-i18n-panel {
+.desktop-nav-toggle:checked~.desktop-i18n-panel {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.desktop-nav-toggle:checked ~ .i18n-btn {
+
+.desktop-nav-toggle:checked~.i18n-btn {
     background-color: #0125691b;
 }
 
-.desktop-nav-toggle:checked ~ label .i18n-chevron {
+.desktop-nav-toggle:checked~label .i18n-chevron {
     transform: rotate(180deg);
 }
 
@@ -333,20 +347,24 @@ nav .download-btn:hover {
     margin-bottom: 10px;
     transition: transform 0.07s;
 }
+
 .nav-hamb-icon span:first-child {
     transform-origin: 0% 0%;
 }
+
 .nav-hamb-icon span:last-child {
     transform-origin: 0% 100%;
 }
-.mobile-nav-toggle:checked ~ .nav-hamb-icon span:first-child {
+
+.mobile-nav-toggle:checked~.nav-hamb-icon span:first-child {
     transform: rotate(45deg) translate(1px, -9px);
 }
-.mobile-nav-toggle:checked ~ .nav-hamb-icon span:last-child {
+
+.mobile-nav-toggle:checked~.nav-hamb-icon span:last-child {
     transform: rotate(-45deg) translate(2px, 8px);
 }
 
-.mobile-nav-toggle:checked ~ div.mobile-nav-panel {
+.mobile-nav-toggle:checked~div.mobile-nav-panel {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -401,16 +419,18 @@ div .mobile-i18n-panel {
 
 .mobile-i18n-panel-rtl {
     left: 4%;
-    right: auto !important; 
+    right: auto !important;
 }
 
 label .mobile-i18n-chevron {
     transition: transform 0.07s;
 }
-.mobile-i18n-toggle:checked ~ label .mobile-i18n-chevron {
+
+.mobile-i18n-toggle:checked~label .mobile-i18n-chevron {
     transform: rotate(180deg);
 }
-.mobile-i18n-toggle:checked ~ .mobile-i18n-panel {
+
+.mobile-i18n-toggle:checked~.mobile-i18n-panel {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -420,6 +440,7 @@ label .mobile-i18n-chevron {
     .desktop-nav {
         display: none;
     }
+
     .mobile-nav {
         display: flex;
         justify-content: space-between;
@@ -454,6 +475,7 @@ label .mobile-i18n-chevron {
     text-align: center;
     margin-bottom: 2rem;
 }
+
 .hero-text div {
     max-width: 600px;
 }
@@ -462,6 +484,7 @@ label .mobile-i18n-chevron {
     .hero-wrapper h1 {
         font-size: 2.5rem;
     }
+
     .hero-wrapper h2 {
         font-size: 1.4rem;
     }
@@ -540,15 +563,19 @@ label .mobile-i18n-chevron {
         align-items: center;
         gap: 1rem;
     }
+
     .card {
         margin-top: 0;
     }
+
     .card-wrapper img {
         max-width: 100%;
     }
+
     .card-one {
         margin-inline-start: 0;
     }
+
     .card-three {
         margin-inline-start: 0;
     }
@@ -640,15 +667,15 @@ label .mobile-i18n-chevron {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr max-content);
     }
-    
+
     .info-two {
         grid-row: 3;
     }
-    
+
     .info-three {
         grid-row: 5;
     }
-    
+
     .info-btn-one {
         grid-row: 2;
     }
@@ -656,14 +683,14 @@ label .mobile-i18n-chevron {
     .info-btn-two {
         grid-row: 4;
     }
-  }
-   
+}
+
 .btn {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     user-select: none;
-    border: 1px solid; 
+    border: 1px solid;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -675,32 +702,43 @@ label .mobile-i18n-chevron {
 }
 
 .btn-outline-light {
-  color: #ffff;
-  background-color: rgba(0,0,0,0);
-  background-image: none;
-  border-color: #ffff;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    border-color: #ffff;
 }
 
-.btn-lg, .btn-group-lg > .btn {
-  padding: .5rem 1rem;
-  font-size: 1.3rem;
-  line-height: 1.5;
-  border-radius: .3rem;
+.btn-lg,
+.btn-group-lg>.btn {
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .3rem;
 }
 
-a.btn-outline-light:hover{
-  background: #ad0bf8;
-  border-color: #fff;
-  color: #fff;
-  text-decoration: none;   
+a.btn-outline-light:hover {
+    background: #ad0bf8;
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
 }
 
-a, area, button, [role="button"], input:not([type="range"]), label, select, summary, textarea {
-  touch-action: manipulation;
+a,
+area,
+button,
+[role="button"],
+input:not([type="range"]),
+label,
+select,
+summary,
+textarea {
+    touch-action: manipulation;
 }
 
-*, ::before, ::after {
-  box-sizing: border-box;
+*,
+::before,
+::after {
+    box-sizing: border-box;
 }
 
 .download-wrapper {
@@ -735,10 +773,10 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
 
 .signature-wrapper {
     margin-top: 0.25rem;
-   display: flex; 
-   flex-direction: row;
-   align-items: center;
-   gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .signature {
@@ -790,41 +828,41 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     .download-icon-wrapper {
         margin-top: 2rem;
     }
+
     .download-grid {
         grid-template-columns: 300px 300px;
         grid-template-rows: repeat(4, max-content);
     }
+
     #dlg1 {
         grid-row: 1;
         grid-column: 1;
     }
+
     #dlg2 {
         grid-row: 2;
         grid-column: 1;
     }
+
     #dlg3 {
         grid-row: 1;
         grid-column: 2;
     }
+
     #dlg4 {
         grid-row: 2;
         grid-column: 2;
     }
-    
+
     /* only needed if we need to add more direct links */
 
-    #dlg5 {
-        
-    }
-    #dlg6 {
-        
-    }
-    #dlg7 {
-        
-    }
-    #dlg8 {
-        
-    }
+    #dlg5 {}
+
+    #dlg6 {}
+
+    #dlg7 {}
+
+    #dlg8 {}
 }
 
 @media (max-width: 640px) {
@@ -833,16 +871,18 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
         grid-template-rows: repeat(8, max-content);
         grid-auto-flow: auto;
     }
+
     .download-android {
         margin-top: 0;
     }
-    
+
     /*need to reassign column and row numbers for any additional direct links */
 
     #dlg3 {
         grid-row: 3;
         grid-column: 1;
     }
+
     #dlg4 {
         grid-row: 4;
         grid-column: 1;
@@ -958,6 +998,7 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
         align-items: start;
         gap: 1.5rem;
     }
+
     .footer-links {
         flex-direction: column;
         align-items: start;
@@ -997,7 +1038,7 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     min-height: var(--gradient-height);
     background-color: var(--ouisync-primary);
     background-image: linear-gradient(to right, #87e2f9, var(--ouisync-secondary));
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 .single-body {
@@ -1014,17 +1055,20 @@ a, area, button, [role="button"], input:not([type="range"]), label, select, summ
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 .single-body h2 {
     font-size: 1.7rem;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 .single-body h3 {
     font-size: 1.4rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
+
 .single-body p {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -1053,12 +1097,14 @@ details a:hover {
     .single-body h1 {
         font-size: 2.2rem;
     }
+
     .single-body h2 {
         font-size: 1.5rem;
         margin-top: 0.5rem;
         padding-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
+
     .single-body h3 {
         font-size: 1.4rem;
         margin-top: 1rem;
@@ -1143,11 +1189,11 @@ details a:hover {
 }
 
 img.community-card-icon {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100px;
-   z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    z-index: 1;
 }
 
 .community-card-btn-margin {
@@ -1155,11 +1201,11 @@ img.community-card-icon {
 }
 
 img.weblate {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   height: 35;
-   margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 1040px) {
@@ -1173,10 +1219,11 @@ img.weblate {
         grid-template-columns: 1fr;
         row-gap: 1rem;
     }
+
     .card-height {
         min-height: fit-content;
     }
-    
+
     .community-card-btn-margin {
         margin-bottom: 0;
     }
@@ -1233,7 +1280,8 @@ img.weblate {
 }
 
 .roadmap-wrapper {
-    padding-inline: calc(4% + 4rem); /* to line up with features section */
+    padding-inline: calc(4% + 4rem);
+    /* to line up with features section */
     padding-block: 3rem;
     color: #fff;
     background-color: var(--ouisync-secondary);
@@ -1245,7 +1293,7 @@ img.weblate {
 
 .roadmap-wrapper a {
     color: #62DEFD !important;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .roadmap-wrapper a:hover {

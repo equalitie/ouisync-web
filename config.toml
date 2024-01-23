@@ -11,14 +11,14 @@ defaultContentLanguage = 'en'
         languageDirection = 'ltr'
         weight = 1
     [languages.fr]
-        disabled = true
+        disabled = false
         title = 'Ouisync (fr)'
         languageDirection = 'ltr'
         languageName = 'French'
         contentDir = 'content/fr'
         weight = 2
     [languages.es]
-        disabled = true
+        disabled = false
         title = 'Ouisync (es)'
         languageDirection = 'ltr'
         languageName = 'Spanish'
@@ -50,6 +50,74 @@ defaultContentLanguage = 'en'
         languageName = 'Ukrainian'
         contentDir = 'content/uk'
         weight = 2
+
+# Configure mounts for fallback translation pages
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'en'
+
+[[module.mounts]]
+source = 'content/es'
+target = 'content'
+lang = 'es'
+
+[[module.mounts]]
+source = 'content/fa'
+target = 'content'
+lang = 'fa'
+
+[[module.mounts]]
+source = 'content/fr'
+target = 'content'
+lang = 'fr'
+
+[[module.mounts]]
+source = 'content/my'
+target = 'content'
+lang = 'my'
+
+[[module.mounts]]
+source = 'content/ru'
+target = 'content'
+lang = 'ru'
+
+[[module.mounts]]
+source = 'content/uk'
+target = 'content'
+lang = 'uk'
+
+# This fills in the gaps in translated content with EN content.
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'es'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'fa'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'fr'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'my'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'ru'
+
+[[module.mounts]]
+source = 'content/en'
+target = 'content'
+lang = 'uk'
+
         
 
 # So we can use normal HTML inside of .md files     
