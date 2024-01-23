@@ -510,8 +510,7 @@ label .mobile-i18n-chevron {
 }
 
 .card-wrapper {
-    row-gap: 2rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
     max-width: 966px;
     margin-inline: 4%;
@@ -543,6 +542,7 @@ label .mobile-i18n-chevron {
 
 .card-three {
     margin-inline-start: 2rem;
+    margin-top: 0rem;
 }
 
 
