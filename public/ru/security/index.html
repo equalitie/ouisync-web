@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ouisync</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content=""/>
+    <link rel="icon" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="stylesheet" href="https://ouisync.net/styles.min.766d6e6f67135afd7e434d73cfe0f79698eb977f4d326a44a7e30535b6dee595.css">
+    <meta property="og:title" content="Ouisync" />
+    <meta property="og:description" content="Store, sync, and share files across devices anywhere with Ouisync. Secure, open source, peer-to-peer file-sharing" />
+    <meta property="og:url" content="https://ouisync.net" />
+    <meta property="og:image" content="/img/ouisync-header.png" />
+</head>
+
+<header>
+    <nav>
+        <div class="desktop-nav" dir="ltr">
+            <a tabindex="1" href="https://ouisync.net/ru/"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
+            <div aria-label="Navagation Selector" class="desktop-center-nav">
+                
+                <a href="/ru/about">О нас</a>
+                <a href="/ru/support">Поддержка</a>
+                <a href="/ru/community">Сообщество</a>
+                
+            </div>
+            <div class="nav-buttons">
+                <div aria-label="Language Selector Switch" class="checkbox-wrapper">
+                    <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle"/>
+                    <label class="i18n-btn" for="desktop-nav-toggle">
+                        <img src="/icons/globe.png" height="20" width="20" alt="Select language"/>
+                        <div>Russian (ru)</div>
+                        <img src="/icons/chevron-down.png" height="24" width="24"/>
+                    </label>
+                    <div aria-label="Language Selector Panel" class="desktop-i18n-panel">
+                        
+                          <a href="https://ouisync.net/security/">English (en)</a>
+                        
+                          <a href="https://ouisync.net/es/security/">Spanish (es)</a>
+                        
+                          <a href="https://ouisync.net/fa/security/">Persian (fa)</a>
+                        
+                          <a href="https://ouisync.net/fr/security/">French (fr)</a>
+                        
+                    </div>
+                </div>
+                
+                <a class="download-btn" href="/ru/#download">
+                
+                    <img src="/icons/download.png" height="24" width="24"/>
+                    <div>Скачать</div>
+                </a>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <input class="mobile-nav-toggle" type="checkbox" id="mobile-nav-toggle"/>
+            <label aria-label="Navagation Hamburger Menu" class="nav-hamb-icon" for="mobile-nav-toggle">
+                <span></span>
+                <span></span>
+            </label>
+            <div aria-label="Language Selector" class="mobile-nav-panel">
+                
+                <a href="/ru/about">О нас</a>
+                <a href="/ru/support">Поддержка</a>
+                <a href="/ru/community">Сообщество</a>
+                <a href="/ru/#download">Скачать</a>
+                
+            </div>
+            <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png" alt="Ouisync logo"/></a>
+            <div aria-label="Language Selector Switch">
+                <input class="mobile-i18n-toggle" type="checkbox" id="mobile-i18n-toggle"/>
+                <label class="i18n-toggle-icon" for="mobile-i18n-toggle">
+                    <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png" alt="Select language"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-i18n-chevron"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </label>
+                
+                <div aria-label="Language Selector Panel" class="mobile-i18n-panel">
+                
+                    <div style="color: #4b005ea7"> Russian (ru)</div>
+                    
+                      <a href="https://ouisync.net/security/">English (en)</a>
+                    
+                      <a href="https://ouisync.net/es/security/">Spanish (es)</a>
+                    
+                      <a href="https://ouisync.net/fa/security/">Persian (fa)</a>
+                    
+                      <a href="https://ouisync.net/fr/security/">French (fr)</a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+ 
+
+
+<main class="single-body margin">
+<h2 id="шифрование-в-распределенной-системе-обмена-файлами">Шифрование в распределенной системе обмена файлами</h2>
+<p>Ouisync предлагает пользователям безопасный способ обмена и синхронизации данных
+между устройствами. Из-за распределенной (одноранговой) природы Ouisync, в
+которой возможны одновременные изменения файлов и каталогов, структура каталогов
+Ouisync довольно сложна. Если два или более пользователей одновременно изменяют
+файл в каталоге, архитектура Ouisync гарантирует, что информация не будет
+потеряна. Более того, Ouisync защищает содержимое (файлы и хранилища) и
+структуру ваших файловых систем, применяя сквозное шифрование.</p>
+<p>Когда вы делитесь хранилищем в определенном режиме (редактирование, чтение или
+слепой режим) Ouisync генерирует ключи (так называемые &ldquo;токены&rdquo;), которыми вы
+можете поделиться со своими коллегами в виде ссылки или QR-кода. Когда вы
+импортируете хранилище с помощью такого токена, ваше устройство получает
+возможность расшифровать каталоги и файлы в этом хранилище (за исключением
+режима Blind).</p>
+<p>Данные шифруются как <em>в состоянии покоя</em> (при простом хранении), так и <em>при
+передаче</em> (во время передачи данных). Важно отметить, что Ouisync может
+синхронизироваться без расшифровки, и ни одному устройству не нужно знать ключ
+расшифровки для выполнения синхронизации. Имена файлов, содержимое файлов и даже
+размеры файлов и структура каталогов скрыты от узлов, не обладающих ключом
+шифрования. Таким образом, партнёры, имеющие только слепой доступ к Вашим
+хранилищам, не смогут видеть ни содержимое Ваших хранилищ, ни их структуру.</p>
+<h2 id="какие-алгоритмы-шифрования-используются">Какие алгоритмы шифрования используются?</h2>
+<ul>
+<li><em>При передаче</em> Ouisync использует фреймворк <a href="https://noiseprotocol.org/">Noise
+protocol</a>, в частности <a href="https://noiseprotocol.org/noise.html#pattern-modifiers">шаблон
+NNpsk0</a>. Это позволяет
+Ouisync генерировать эфемерные ключи с предварительно раскрытым (pre-shared)
+ключом. Предварительно раскрытый (pre-shared) ключ в Ouisync - это
+идентификатор (ID) хранилища. Noise поддерживает взаимную и дополнительную
+аутентификацию, скрытие идентификационных данных, прямую секретность, нулевое
+шифрование в оба конца и другие расширенные криптографические функции.</li>
+<li><em>В состоянии покоя</em> Oyisync шифрует данные с помощью
+<a href="https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant">ChaCha20</a>. В этом
+случае «Ключ чтения» используется в качестве симметричного ключа
+шифрования/дешифрования. Ключи аутентифицируются с использованием подписей
+Ed25519, при этом «ключ записи» является закрытым ключом.</li>
+<li>Для <em>хэширования</em> Ouisync использует хэш-функцию
+<a href="https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE3">BLAKE3</a>, которая
+<a href="https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf">считается</a>
+стабильно более быстрой на разных платформах и размерах входных данных.</li>
+</ul>
+<h2 id="что-такое-блок">Что такое Блок?</h2>
+<p>Каждый файл и каждый каталог, хранящиеся в Ouisync, разделены на относительно
+небольшие (например, 32 КБ) блоки постоянного размера. Каждый блок имеет
+идентификатор блока (&ldquo;Block ID&rdquo;, генерируемый генератором случайных чисел),
+который помогает Ouisync идентифицировать эти блоки. Все блоки хранятся вместе с
+файлом под названием “locator”. Локатор - это своего рода “карта”, которая
+указывает, где расположен каждый блок относительно других блоков. Однако, чтобы
+не раскрывать эту структуру агентам, не обладающим секретным ключом, локаторы не
+хранятся обычным текстом, а закодированы.</p>
+<p>_ Представьте, что Вы устраиваете большую свадебную вечеринку, на которую
+приглашаете множество гостей. Те, кто уже организовывал подобные мероприятия,
+знают, как трудно распределить надлежащие места для всех гостей, учитывая их
+отношения, интересы и так далее. Кстати, Вам также необходимо сообщить эту
+информацию официантам, которые должны быть внимательны и помнить, у кого из
+гостей аллергия или диетические предпочтения. А поскольку ваши гости -
+VIP-персоны, Вы не хотите раскрывать официантам их настоящие имена, поэтому
+придумываете случайные псевдонимы и записываете их на этих красивых карточках с
+распределением мест. Итак, если мы будем придерживаться этой метафоры,
+идентификатором блока будет псевдоним, написанный на карточке рядом с местом
+Вашего гостя, а “локатором” будет карта всех столов с правильно распределенными
+местами._</p>
+<p><img src="https://github.com/willow446/willow446.github.io/assets/1790886/06985a87-2dac-49a2-99ae-37725bd8e2ce" alt="image"></p>
+<h2 id="что-такое-blob">Что такое &ldquo;blob&rdquo;?</h2>
+<p>Линейный набор блоков будет называться blob. Blob&rsquo;ы (также известные как
+&ldquo;большие двоичные объекты&rdquo;) могут представлять файлы и каталоги. Файловый blob
+является более простым: он состоит из заголовка, содержащего размер файла,
+разрешения и метки времени. Blob каталога представляет собой список имен файлов,
+присутствующих в каталоге, а также локаторы, указывающие на отдельные blob&rsquo;ы
+файлов.</p>
+<h2 id="как-происходит-синхронизация">Как происходит синхронизация?</h2>
+<p>Когда Вы предоставляете общий доступ к хранилищу своему партнеру, это создает
+“точную копию” (&ldquo;реплику&rdquo;) Вашего хранилища. Структура хранилища хранится в так
+называемых файлах “индексов” - когда устройства партнёров подключаются, они
+сначала обмениваются этими индексами. Если что-то было изменено в одной из
+реплик, Ouisync загрузит недостающие блоки. Ouisync всегда сначала загружает
+каталоги и только после - сами файлы. Это помогает Ouisync корректно
+восстанавливать Ваши данные из блоков, не искажая их. Кроме того, это делается
+без утечки информации пользователям, у которых нет доступа “на чтение” к Вашим
+хранилищам.</p>
+<p>Вам не нужно беспокоиться о конфликтах между различными репликами: в бэкенде
+синхронизация выполняется таким образом, чтобы избежать конфликтов и
+расхождений. То, что Вы видите, когда открываете Ouisync, - это то, что мы
+называем “снимком”: представление всего дерева каталогов в определенный момент
+времени для Вас. Каждое изменение файловой системы (на Вашем устройстве или на
+устройствах Ваших коллег) приводит к созданию нового “снимка”.</p>
+
+</main>
+<div class="single-grad margin"></div>
+
+
+<footer>
+    <div class="footer-wrapper" dir="ltr">
+        <div class="footer">
+            <div class="footer-flex-header">
+                <div><p><a href="https://equalit.ie"><img src="/img/eQualitie_Logo_Black.png" height="32" alt="eQualitie logo"></a></p></div>
+                <div>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=org.equalitie.ouisync"><img src="/icons/google-play.png" height="32" alt="Download for Android on Google Play"></a>
+                    <a target="_blank" href="https://github.com/equalitie/ouisync-app"><img src="/icons/github.png" height="32" alt="Get the source code via Github"></a>
+                    <a target="_blank" href="https://social.eqver.se/@ouisync"><img src="/icons/mastodon.png" height="32" alt="Join our Mastodon"></a>
+                    <a target="_blank" href="https://twitter.com/ouisync"><img src="/icons/twitter.png" height="32" alt="Follow us on Twitter"></a>
+                    <a target="_blank" href="https://hosted.weblate.org/projects/ouisync/#information"><img src="/icons/globe-purple.png" height="32" alt="Translation crowdsourced on Weblate"></a>
+                </div>
+            </div>
+            <p>Ouisync - это проект  <a href="https://equalit.ie">eQualit.ie</a>  – некоммерческая канадская компания, создающая децентрализованные интернет-сервисы в поддержку более равноправной сети. Наши решения с открытым исходным кодом, проверенные в боях и разработанные с учетом наших <a href="https://equalit.ie/en/values/">ценностей.</a> Каждый день они обеспечивают свободу объединений миллионам людей в Интернете.</a></p>
+        </div>
+        <div class="copyright">
+           &copy; Ouisync 2020<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> &nbsp; | <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3</a> | <a href="/privacy">Конфиденциальность</a>
+        </div>
+    </div>
+</footer>
+
+</html>

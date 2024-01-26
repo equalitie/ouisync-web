@@ -6,8 +6,23 @@
     <lastmod>2023-07-19T00:41:15-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://ouisync.net/es/security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://ouisync.net/fa/security/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://ouisync.net/fr/security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ouisync.net/ru/security/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -17,62 +32,37 @@
   </url><url>
     <loc>https://ouisync.net/community/</loc>
     <lastmod>2023-07-10T13:32:34-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/community/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/community/"
-                />
   </url><url>
     <loc>https://ouisync.net/support/</loc>
     <lastmod>2023-07-10T12:14:12-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/support/"
-                />
   </url><url>
     <loc>https://ouisync.net/news/hello-news/</loc>
     <lastmod>2023-06-26T00:22:52-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/news/hello-news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/news/hello-news/"
-                />
   </url><url>
     <loc>https://ouisync.net/news/</loc>
     <lastmod>2023-06-26T00:22:52-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/news/"
-                />
   </url><url>
     <loc>https://ouisync.net/</loc>
     <lastmod>2023-06-26T00:22:52-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://ouisync.net/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://ouisync.net/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://ouisync.net/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ouisync.net/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,45 +72,30 @@
   </url><url>
     <loc>https://ouisync.net/blog/</loc>
     <lastmod>2023-06-26T00:22:41-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/blog/"
-                />
   </url><url>
     <loc>https://ouisync.net/blog/hello-blog/</loc>
     <lastmod>2023-06-26T00:22:41-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/blog/hello-blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/blog/hello-blog/"
-                />
   </url><url>
     <loc>https://ouisync.net/about/</loc>
     <lastmod>2023-06-25T23:57:32-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://ouisync.net/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ouisync.net/about/"
-                />
   </url><url>
     <loc>https://ouisync.net/privacy/</loc>
-    <lastmod>2023-06-25T23:57:32-04:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ouisync.net/ru/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://ouisync.net/es/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://ouisync.net/fa/privacy/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -132,11 +107,29 @@
                 href="https://ouisync.net/privacy/"
                 />
   </url><url>
+    <loc>https://ouisync.net/r/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://ouisync.net/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://ouisync.net/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://ouisync.net/fa/categories/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
                 href="https://ouisync.net/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ouisync.net/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -147,8 +140,23 @@
     <loc>https://ouisync.net/tags/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://ouisync.net/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://ouisync.net/fa/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://ouisync.net/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ouisync.net/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
