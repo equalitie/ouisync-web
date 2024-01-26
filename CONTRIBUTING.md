@@ -1,5 +1,20 @@
 # Contributing
-The website is hosted by GitHub Pages and most content is authored in Markdown format. HTML is also acceptable. 
+The website is hosted by GitHub Pages and most content is authored in Markdown format. HTML is also acceptable.
+
+## Project Structure
+The project is primarily split into two types of documents:
+- Complex
+- Basic
+
+**Complex** documents are content that require custom layouts and importantly render translations using individual, manually created, i18n strings found in the `i18n/` dir.
+
+The complex pages for the Ouisync website are:
+- `layouts/index.html`
+- `content/en/about.md`
+- `content/en/community.md`
+- `content/en/support.md`
+
+**Basic** documents are content that simply requires simple markdown rich text styling. This content is written entirely in a single markdown file, which Weblate ingests and automatically parses into individual i18n strings. Any page not a complex page is a basic page, and can just be styled using markdown.
 
 ## Add a New Page
 
@@ -9,64 +24,15 @@ To easily add a new page, you can use the `hugo new` command. For example, lets 
 
 ```hugo new mesh.md```
 
-This creates a `mesh.md` inside the `content/en/` path. When you first open the file you will notice it has premade [front matter](https://gohugo.io/content-management/front-matter/). This information is pulled from the `archetypes/default.md` file, feel free to edit it if you want to add information that gets automatically added when running `hugo new`.
-
-Now that we have a new blank markdown file, we can write an entire article in markdown format and hugo will automatically push these changes to the website when the changes are merged into the `main` branch of the git repo.
+This creates a `mesh.md` inside the `content/en/` path. Now that we have a new blank markdown file, we can write an entire article in markdown format and hugo will automatically push these changes to the website when the changes are merged into the `main` branch of the git repo.
 
 To learn how to ready articles for translation, please read the "Translations" section below.
 
 ### Via Github Interface
 
-It is also possible to add content with just a Github account. To start visit the `content/en/` directory in this repo. Then click on "Add File" -> "Create New File" this will bring you into the Github web editor. Now that we have a blank markdown document, we can add [Front Matter](https://gohugo.io/content-management/front-matter/) this will add metadata to the markdown file which Hugo will use for presentation purposes. Here is a useable template to start with:
+It is also possible to add content with just a Github account. To start visit the `content/en/` directory in this repo. Then click on "Add File" -> "Create New File" 
 
-```
----
-title: "Title"
-date: 2023-08-04
----
-```
-
-Update the title and date to your liking. Please note that there are a few custom front matter values shown in the next section which may be useful here.
-
-Once you have defined front matter you are free to write! If you want to create a recurring set of posts, you can group markdown files in directories, and this will automatically create [Hugo List Pages](https://gohugo.io/templates/lists/). So for example if you create `content/en/mesh/mesh-post-1.md` and `content/en/mesh/mesh-post-2.md`, there will now be a page at `https://ouisync.net/mesh` which will list `mesh-post-1` and `mesh-post-2`.
-
-### Custom Hugo Front Matter Values
-
-#### `Complex` Type
-
-Use: 
-```
-type: "Complex"
-```
-
-Using this line will remove all the custom stylings hugo normally applies for single pages. This is useful for pages where you want to write a lot of custom HTML and include these HTML fragments using the `render-partial` shortcode.
-
-#### `HeroPage` Type
-
-Use:
-```
-type: "HeroPage"
-```
-
-Makes the page type a HeroPage, using this type we now have to set a `HeroTitle` shown next. 
-
-#### `HeroTitle`
-
-Use:
-```
-heroTitle: "Some Really Cool Title"
-```
-
-This will render a title in large centered text with a cool purple background. NOTE: This is different than the `Title` front matter value, the `Title` front matter value is a standard value, read more here (ctrl-f "title"): https://gohugo.io/variables/page/.
-
-#### `HeroSubtitle`
-
-Use:
-```
-heroSubtitle: "Some subtitle goes here"
-```
-
-An optional value, requires `type: heroPage` and a `heroTitle` to be set. If included it will render a subtitle under the hero title, also over a purple bg.
+You are now free to write! If you want to create a recurring set of posts, you can group markdown files in directories, and this will automatically create [Hugo List Pages](https://gohugo.io/templates/lists/). So for example if you create `content/en/mesh/mesh-post-1.md` and `content/en/mesh/mesh-post-2.md`, there will now be a page at `https://ouisync.net/mesh` which will list `mesh-post-1` and `mesh-post-2`.
 
 ## Edit an Exisiting Page
 
@@ -74,7 +40,7 @@ When editing content on a hugo site, there are a few different directories that 
 
 - `layouts/index.html`: the homepage
 - `layouts/partials/`: this directory holds HTML fragments which can be called from other partials, the homepage, or, by using a custom shortcode, from markdown files.
-- `content/en/`: in our english-centric hugo project, this is the base content directory where markdown files can be placed. Placing a translated copy of a markdown file with the same name, in a seperate `content/` folder with a language code will automatically add the translation to the hugo site. For example if we have an english markdown file: `content/en/example.md`. We can translate the file to French and place it in `content/fr/english.md`. Hugo will automatically recognize this as a french translation for `example.md`.
+- `content/en/`: in our english-centric hugo project, this is the base content directory where markdown files can be placed. Placing a translated copy of a markdown file with the same name, in a seperate `content/` folder with a language code will automatically add the translation to the hugo site. For example if we have an english markdown file: `content/en/example.md`. We can translate the file to French and place it in `content/fr/english.md`. Hugo will automatically recognize this as a French translation for `example.md`.
 
 Images can be added to the ```static/img/``` directory.
 
@@ -121,41 +87,67 @@ Now we are able to access these strings in `layouts/index.html` and any partial 
 <p>{{ i18n "intro" }}</p>
 ```
 
-For markdown we use the custom `render-i18n` shortcode, lets say this file is in `content/fr/hello.md`:
+For markdown we use the custom `render-i18n` shortcode, lets say this file is in `content/en/hello.md`:
 
 ```
 # {{% render-i18n "title" %}}
 
 {{% render-i18n "intro" %}}
 ```
+## Translating Full Markdown Documents with Weblate
 
-Hugo will also server multilingual content based on the *content directory* of the markdown file. So if translation software allows for the translation of entire markdown files, this approach can be used instead. The string-based, and entire-markdown-file based approached can also be combined. For example let's say an english sentance was added to the `content/en/hello.md` file:
+Weblate allows for the translation of entire markdown files, so for long-form content like Blog posts, we can let Weblate do the heavy lifting for us. For example, we can have an english markdown file with the following data:
 
-```
-# {{% render-i18n "title" %}}
-
-{{% render-i18n "intro" %}}
-
+```markdown
 Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, about the primeval forest. It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing. 
 ```
 
-Now instead of converting everything to custom strings and editing in Weblate, we could translate the markdown directly if we want, `content/fr/hello.md`:
+If we place this content in a newly create file at the following path: `content/en/petite-prince.md`, we can then pull this information directly into Weblate by creating a new translation component with the following settings:
 
-```
-# {{% render-i18n "title" %}}
+key | value
+--- | ---
+|Source code repository | https://github.com/equalitie/ouisync-web |
+|Repository branch | main |
+|File mask 	| content/*/petite-prince.md |
+|Monolingual base language file | content/en/petite-prince.md |
 
-{{% render-i18n "intro" %}}
+Using this method, Weblate will automatically parse `content/en/petite-prince.md` and split it into translatable strings for the translators!
 
-Lorsque j’avais six ans j’ai vu, une fois, une magnifique image, dans un livre sur la Forêt Vierge qui s’appelait « Histoires Vécues ». Ça représentait un serpent boa qui avalait un fauve. Voilà la copie du dessin.
-```
+## Adding New Languages
 
-After rebuilding and deploying this site, you will be able to view the following at `https://{{.BaseURL}}/fr/hello/`:
+1. Add config section in `config.toml`:
+   In the `languages` section add the following lines, with the language-specific details updated, please note the `disabled: true` line, this language will start disabled:
+    ```toml
+    [languages.fr]
+        disabled = true
+        title = 'Ouisync (fr)'
+        languageName = 'French'
+        contentDir = 'content/fr'
+        weight = 2
+    ```
+Next we will add two `mount` definitions, the first will set each language's content directory as the base:
+   ```toml
+   [[module.mounts]]
+        source = 'content/fr'
+        target = 'content'
+        lang = 'fr'
+   ```
 
-```html
-<h1>Bonjour</h1>
-<p>Je m’appelle Alice</p>
-<p>Lorsque j’avais six ans j’ai vu, une fois, une magnifique image, dans un livre sur la Forêt Vierge qui s’appelait « Histoires Vécues ». Ça représentait un serpent boa qui avalait un fauve. Voilà la copie du dessin.</p>
-```
+Finally, we will add the "fallback mount" which will add in the english version for any missing files, so untranslated pages won't 404:
+
+NOTE: only replace the `lang` value!
+   ```toml
+   [[module.mounts]]
+        source = 'content/en'
+        target = 'content'
+        lang = 'fr'
+   ```
+
+Now you will just need to add in the new language to Weblate and it should automatically create the strings needed for your translators!
+
+## Enabling Translations
+
+Once a language is ready to go live on the site, make a commit changing the `disabled = true` to `disabled = false`, removing the line will also work. When the Github action runs next, it will deploy the newly added language.
 
 ## Custom Shortcodes
 
@@ -208,24 +200,3 @@ Use:
 Used to center arbitrary markdown sections and add top and bottom padding. NOTE: if you decide to pass a padding argument, you need to pass both `padding-top` and `padding-bot`. The only shortcode calls resemble the following forms:
 - `{{% center %}}<content>{{% /center %}}`
 - `{{% center padding-top="<val>" padding-bot="<val>" %}}<content>{{% /center %}}`.
-
-## Adding New Languages
-
-1. Add config section in `config.toml`:
-   A new language will take this shape, please note the `disabled: true` line, this language will start disabled:
-    ```toml
-    [languages.fr]
-        disabled = true
-        title = 'Ouisync (fr)'
-        languageName = 'French'
-        contentDir = 'content/fr'
-        weight = 2
-    ```
-2. Add `.json` strings
-    From weblate, you should be able to recieve a `<code>.json` file representing a translated portion of `en.json`. Place this file inside the `i18n/` directory. 
-3. Add content directory
-   Using the same language code you defined in the config file, create a language directory and fill it with any Markdown translations of the content. Please note that you need to add `about.md`, `community.md`, and `support.md` AS IS, to this new directory, these markdown files already use string translations, so they will be correctly translated when translators translate their strings from `en.json`.
-
-## Enabling Translations
-
-Once a language is ready to go live on the site, make a commit changing the `disabled = true` to `disabled = false`, removing the line will also work. When the Github action runs next, it will deploy the newly added language.
