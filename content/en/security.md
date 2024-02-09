@@ -1,9 +1,3 @@
----
-title: "Security"
-date: 2023-07-19T00:41:15-04:00
-type: "HeroPage"
-heroTitle: "Ouisync’s unique approach to guarantee encrypted file sharing"
----
 ## Encryption in a distributed file sharing system
 Ouisync offers users a secure way to share and synchronize data across devices. Due to the distributed (peer-to-peer) nature of Ouisync, where concurrent changes to files and directories are possible, the directory structure of Ouisync is quite elaborate. Whenever two or more users modify a file in a directory concurrently, Ouisync’s architecture guarantees that no information is lost. Moreover, Ouisync also protects the content (files and repositories) and the structure of your file systems by implementing end-to-end encryption. 
 
