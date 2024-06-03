@@ -157,6 +157,10 @@ details p {
     font-size: 1.1rem;
 }
 
+details a {
+    text-decoration: underline;
+}
+
 .margin {
     margin-inline: 4%;
 }
