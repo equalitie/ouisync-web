@@ -371,11 +371,12 @@ date: 2023-07-10T12:14:12-04:00
 {{% center padding-top="0rem" padding-bot="1rem"%}}
 ## {{% render-i18n "faqSectionTitle2a" %}}
 {{% /center %}}
+
 <details>
 <summary>
 {{% render-i18n "faqTitle20" %}}
 </summary>
-{{% markdown %}}
+
 </details>
 </div>
 
