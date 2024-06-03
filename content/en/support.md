@@ -45,7 +45,7 @@ date: 2023-07-10T12:14:12-04:00
 </summary>
 {{% markdown %}}
 {{% render-i18n "faqContent20" %}}
-{{< figure src="/img/plus_button.png" alt="Tap the Plus button" >}}
+{{< figure src="/img/080_plus_button.png" alt="Tap the Plus button" >}}
   
 {{% render-i18n "faqContent21" %}}
 {{< figure src="/img/create_repository.png" alt="Select 'Create repository'" >}}
