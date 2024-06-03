@@ -54,7 +54,9 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_name_repository_shadow.png" alt="Give your repository a nice name." >}}
 
 {{% render-i18n "faqContent22a" %}}
+
 {{% render-i18n "faqContent22b" %}}
+
 {{% render-i18n "faqContent22c" %}}
 
 {{% render-i18n "faqContent23" %}}
