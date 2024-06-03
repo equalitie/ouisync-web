@@ -34,7 +34,7 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent10" %}}
 
-{{< figure src="/img/my_repositories_080.png" alt="Ouisync home page listing your repositories">}}
+{{< figure src="/img/080_my_repositories_shadow.png" alt="Ouisync home page listing your repositories">}}
 
 {{% /markdown %}}
 </details>
