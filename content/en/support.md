@@ -48,7 +48,7 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_plus_button.png" alt="Tap the Plus button" >}}
   
 {{% render-i18n "faqContent21" %}}
-{{< figure src="/img/create_repository.png" alt="Select 'Create repository'" >}}
+{{< figure src="/img/080_create_repository_shadow.png" alt="Select 'Create repository'" >}}
 
 {{% render-i18n "faqContent22" %}}
 {{< figure src="/img/name_repository.png" alt="Give your repository a nice name." >}}
