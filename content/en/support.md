@@ -53,6 +53,10 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent22" %}}
 {{< figure src="/img/080_name_repository_shadow.png" alt="Give your repository a nice name." >}}
 
+{{% render-i18n "faqContent22a" %}}
+{{% render-i18n "faqContent22b" %}}
+{{% render-i18n "faqContent22c" %}}
+
 {{% render-i18n "faqContent23" %}}
 
 {{% render-i18n "faqContent24" %}}
@@ -358,6 +362,13 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+</div>
+
+<div class="faq-subsection">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "faqSectionTitle2a" %}}</h1>
+{{% /center %}}
 </div>
 
 <div class="faq-subsection">
