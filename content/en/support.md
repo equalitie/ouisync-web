@@ -366,8 +366,8 @@ date: 2023-07-10T12:14:12-04:00
 </details>
 </div>
 
-<div class="faq-subsection">
-<div id="passwords-and-biometrics"> 
+<div class="faq-subsection" id="passwords-and-biometrics">
+
   {{% center padding-top="0rem" padding-bot="1rem"%}}
 ## {{% render-i18n "faqSectionTitle2a" %}}
 {{% /center %}}
