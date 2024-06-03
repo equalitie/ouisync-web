@@ -83,7 +83,7 @@
     "faqContent23": "When creating a repository you have three decisions to make, depending on you wishing or not to:",
     "faqContent23a": " * Use the cache server - see section [Privacy and Security](#faqSectionTitle2) to learn more.",
     "faqContent23b": " * Protect your repository with a local passord - see section [Passwords and Biometrics](#faqSectionTitle2a) to learn more.",
-    "faqContent23c": " * Protect your repository with biometrics. This option exists only on devices that have biometrics protection set up - see section [Passwords and biometrics](#faqSectionTitle2a) to learn more.)",
+    "faqContent23c": " * Protect your repository with biometrics. This option exists only on devices that have biometrics protection set up - see section [Passwords and Biometrics](#faqSectionTitle2a) to learn more.)",
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
     "faqContent30": "There is no requirement to protect your repositories either by password or by biometrics. Whether you decide to do it depends on the sensitivity of data that you store in Ouisync repositories and habitual usage of your devices.  For storing and sharing photos of your cat, maybe a password is not necessary.  But for storing more sensitive personal data, we recommend passwords (or biometrics) be set up.",
     "faqContent31": "To do that, tap on Add local password: ",
