@@ -121,17 +121,17 @@ date: 2023-07-10T12:14:12-04:00
 </summary>
 {{% markdown %}}
 
-### {{% render-i18n "faqContent70" %}}
+{{% render-i18n "faqContent70" %}}
 
 {{% render-i18n "faqContent71" %}}
 
 {{% render-i18n "faqContent72" %}}
 
-### {{% render-i18n "faqContent73" %}}
+{{% render-i18n "faqContent73" %}}
 
 {{% render-i18n "faqContent74" %}}
 
-#### {{% render-i18n "faqContent75" %}}
+{{% render-i18n "faqContent75" %}}
 
 {{% render-i18n "faqContent76" %}}
 
