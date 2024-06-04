@@ -81,7 +81,7 @@
     "faqContent21": "Then select **'Create Repository'**:",
     "faqContent22": "...and give it a name:",
     "faqContent23": "When creating a repository you have three decisions to make, depending on you wishing or not to:",
-    "faqContent23a": " * Use the cache server - see section [Privacy and Security](#faqSectionTitle2) to learn more.",
+    "faqContent23a": " * Use the cache server - see section [Privacy and Security](#privacy-and-security) to learn more.",
     "faqContent23b": " * Protect your repository with a local passord - see section [Passwords and Biometrics](#passwords-and-biometrics) to learn more.",
     "faqContent23c": " * Protect your repository with biometrics. This option exists only on devices that have biometrics protection set up - see section [Passwords and Biometrics](#faqSectionTitle2a) to learn more.)",
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
