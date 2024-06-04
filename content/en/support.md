@@ -78,7 +78,7 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_add_folder_files_shadow.png" alt="Add folders or files" >}}
 
 {{% render-i18n "faqContent52" %}}
-{{< figure src="/img/create_folder.png" alt="Create a new folder" >}}
+{{< figure src="/img/080_create_folder_shadow.png" alt="Create a new folder" >}}
 
 {{% render-i18n "faqContent53" %}}
 {{% /markdown %}}
