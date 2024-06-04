@@ -92,7 +92,7 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent60" %}}
 {{% render-i18n "faqContent61" %}}
-{{< figure src="/img/import_repo.png" alt="Select to import a repository" >}}
+{{< figure src="/img/080_import_repo_shadow.png" alt="Select to import a repository" >}}
 
 {{% render-i18n "faqContent62" %}}
 {{< figure src="/img/import_repo2.png" alt="Select to import a repository" >}}
