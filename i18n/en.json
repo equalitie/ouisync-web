@@ -108,7 +108,7 @@
     "faqContent67": " Once the syncing is complete, you will see the green check icon next to the repository name. This means that you now have on your device the exact copy of the repository that your peer has shared with you.  ",
     "faqContent68": "Peer who shares repository decides what access mode (or permissions) to give to the peers who import it.  To learn more, see section [Sharing](#sharing).  Access mode is visible just above the repository name on the Import Repository dialog box. ",
     "faqTitle7": "Can I use my Ouisync repository for Secure Data Storage?",
-    "faqContent70": "Create Secure Backups",
+    "faqContent70": "Yes.To do that, please follow these steps: ",
     "faqContent71": "You can create a secure backup repository on a spare device of your own or even on a friend's device. To do that you first need to generate the **Write** token link for the _**repository**_ that you want to store blind. Please keep the **Write** token link somewhere safe, as you will need it for retrieving the data from your blind copy later on.",
     "faqContent72": "Then you create a **Blind** link and import this blind repository into the backup device.",
     "faqContent73": "Retrieving Information from Blind Repositories",
