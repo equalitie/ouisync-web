@@ -66,14 +66,7 @@ date: 2023-07-10T12:14:12-04:00
 </details> 
 
 
-<details>
-<summary>
-{{% render-i18n "faqTitle4" %}}
-</summary>
-{{% markdown %}}
-{{% render-i18n "faqContent40" %}}
-{{% /markdown %}}
-</details>
+
 
 <details>
 <summary>
@@ -375,6 +368,16 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle4" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent40" %}}
+{{% /markdown %}}
+</details>
+
 </div>
 
 <div class="faq-subsection">
