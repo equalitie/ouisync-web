@@ -101,6 +101,13 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/import_link.png" alt="Shared repository link" >}}
 
 {{% render-i18n "faqContent64" %}}
+{{< figure src="/img/080_import_repo3_shadow.png" alt="Shared repository link" >}}
+{{% render-i18n "faqContent65" %}}
+
+{{% render-i18n "faqContent66" %}}
+
+{{% render-i18n "faqContent67" %}}
+
 {{% /markdown %}}
 </details>
 
