@@ -140,7 +140,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}}
 </details>
 
->details>
+<details>
 <summary>
 {{% render-i18n "faqTitle71" %}}
 </summary>
