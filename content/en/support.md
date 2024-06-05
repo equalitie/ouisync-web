@@ -72,40 +72,6 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
-{{% render-i18n "faqTitle2a" %}}
-</summary>
-{{% markdown %}}
-  
-{{% render-i18n "faqContent2a1" %}}
-{{< figure src="/img/delete_button.png" alt="Tap on Delete button." >}}
-{{% render-i18n "faqContent2a2" %}}
-
-{{% render-i18n "faqContent2a3" %}}
-
-{{% render-i18n "faqContent2a4" %}}
-
-### {{% render-i18n "faqContent2a5" %}}
-  
-{{% render-i18n "faqContent2a6" %}}
-
-{{% render-i18n "faqContent2a7" %}}
-
-{{% render-i18n "faqContent2a8" %}}
-{{% render-i18n "faqContent2a9" %}}
-
-{{% render-i18n "faqContent2a10" %}}
-{{% render-i18n "faqContent2a11" %}}
-
-#### {{% render-i18n "faqContent2a12" %}}
-
-
-    
-{{% /markdown %}}
-
-  
-</details>
-<details>
-<summary>
 {{% render-i18n "faqTitle5" %}}
 </summary>
 {{% markdown %}}
@@ -153,6 +119,40 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 </div>
+<details>
+<summary>
+{{% render-i18n "faqTitle2a" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent2a1" %}}
+{{< figure src="/img/delete_button.png" alt="Tap on Delete button." >}}
+{{% render-i18n "faqContent2a2" %}}
+
+{{% render-i18n "faqContent2a3" %}}
+
+{{% render-i18n "faqContent2a4" %}}
+
+### {{% render-i18n "faqContent2a5" %}}
+  
+{{% render-i18n "faqContent2a6" %}}
+
+{{% render-i18n "faqContent2a7" %}}
+
+{{% render-i18n "faqContent2a8" %}}
+{{% render-i18n "faqContent2a9" %}}
+
+{{% render-i18n "faqContent2a10" %}}
+{{% render-i18n "faqContent2a11" %}}
+
+#### {{% render-i18n "faqContent2a12" %}}
+
+
+    
+{{% /markdown %}}
+
+  
+</details>
 
 <div class="faq-subsection">
 <div id="secure-data-storage">
