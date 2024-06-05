@@ -137,6 +137,21 @@ date: 2023-07-10T12:14:12-04:00
 
 #### {{% render-i18n "faqContent77" %}}
 {{% /markdown %}}
+
+<summary>
+{{% render-i18n "faqTitle71" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent711" %}}
+
+{{% render-i18n "faqContent712" %}}
+
+{{% render-i18n "faqContent713" %}}
+
+{{% render-i18n "faqContent714" %}}
+{{% /markdown %}}
+
 </details>
 </div>
 
