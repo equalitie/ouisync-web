@@ -39,6 +39,12 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+<div class="faq-subsection">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "createImportRepositories" %}}
+{{% /center %}}
+
 <details>
 <summary>
 {{% render-i18n "faqTitle2" %}}
@@ -114,6 +120,13 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+</div>
+
+<div class="faq-subsection">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "secureDataStorage" %}}
+{{% /center %}}
 
 <details>
 <summary>
