@@ -254,17 +254,17 @@ date: 2023-07-10T12:14:12-04:00
 ### {{% render-i18n "faqContent90" %}}
  
 {{% render-i18n "faqContent91" %}}
-{{< figure src="/img/write_permission.png" alt="A repository with Write permissions" >}}
+{{< figure src="/img/080_share_write_shadow.png" alt="Select Write permissions" >}}
 
 {{% render-i18n "faqContent92" %}}
 ### {{% render-i18n "faqContent93" %}}
 
 {{% render-i18n "faqContent94" %}}
-{{< figure src="/img/read_permission.png" alt="A repository with Read permissions" >}}
+{{< figure src="/img/080_share_read_shadow.png" alt="Select Read permissions" >}}
 {{% render-i18n "faqContent95" %}}
 
 ### {{% render-i18n "faqContent96" %}}
-{{< figure src="/img/blind_permission.png" alt="A repository with Blind permissions" >}}
+{{< figure src="/img/080_share_blind_shadow.png" alt="Select Blind permissions" >}}
 
 {{% render-i18n "faqContent97" %}}
 
