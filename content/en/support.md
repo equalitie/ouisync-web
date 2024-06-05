@@ -72,31 +72,31 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
-{{% render-i18n "faqTitle21" %}}
+{{% render-i18n "faqTitle2a" %}}
 </summary>
 {{% markdown %}}
   
-{{% render-i18n "faqContent211" %}}
-{{< figure src="/img/delete-button.png" alt="Tap on Delete button." >}}
-{{% render-i18n "faqContent212" %}}
+{{% render-i18n "faqContent2a1" %}}
+{{< figure src="/img/delete_button.png" alt="Tap on Delete button." >}}
+{{% render-i18n "faqContent2a2" %}}
 
-{{% render-i18n "faqContent213" %}}
+{{% render-i18n "faqContent2a3" %}}
 
-{{% render-i18n "faqContent214" %}}
+{{% render-i18n "faqContent2a4" %}}
 
-### {{% render-i18n "faqContent215" %}}
+### {{% render-i18n "faqContent2a5" %}}
   
-{{% render-i18n "faqContent216" %}}
+{{% render-i18n "faqContent2a6" %}}
 
-{{% render-i18n "faqContent217" %}}
+{{% render-i18n "faqContent2a7" %}}
 
-{{% render-i18n "faqContent218" %}}
-{{% render-i18n "faqContent219" %}}
+{{% render-i18n "faqContent2a8" %}}
+{{% render-i18n "faqContent2a9" %}}
 
-{{% render-i18n "faqContent220" %}}
-{{% render-i18n "faqContent221" %}}
+{{% render-i18n "faqContent2a10" %}}
+{{% render-i18n "faqContent2a11" %}}
 
-#### {{% render-i18n "faqContent222" %}}
+#### {{% render-i18n "faqContent2a12" %}}
 
 
     
