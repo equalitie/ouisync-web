@@ -334,7 +334,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent112" %}}
 
 
-{{< figure src="/img/concurrent_edit.png" alt="Synchronous edits file handling" >}}
+{{< figure src="/img/080_concurrent_edit_shadow.png" alt="Synchronous edits file handling" >}}
 
 {{% render-i18n "faqContent113" %}}
 
