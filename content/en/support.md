@@ -312,6 +312,15 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+<div class="faq-subsection">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "faqSectionTitle1" %}}
+{{% /center %}}
+
+
+
+
 <details>
 <summary>
 {{% render-i18n "faqTitle11" %}}
@@ -337,14 +346,10 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
-</div>
 
-<div class="faq-subsection">
-<div id="privacy-and-security">
-{{% center padding-top="0rem" padding-bot="1rem"%}}
-## {{% render-i18n "faqSectionTitle1" %}}
-{{% /center %}}
-</div>
+
+
+
 <details>
 <summary>
 {{% render-i18n "faqTitle12" %}}
