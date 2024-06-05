@@ -276,13 +276,14 @@ date: 2023-07-10T12:14:12-04:00
   {{% render-i18n "faqTitle91" %}}
 </summary>
 {{% markdown %}} 
-
-{{% render-i18n "faqContent911" %}}
 {{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
+{{% render-i18n "faqContent911" %}}
+{{< figure src="/img/qr_code.png" alt="Repository QR code" >}}
   
 {{% render-i18n "faqContent912" %}}
 
 {{% render-i18n "faqContent913" %}}
+{{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
 
 {{% render-i18n "faqContent914" %}}
 
