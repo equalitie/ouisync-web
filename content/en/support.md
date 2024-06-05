@@ -268,8 +268,7 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent97" %}}
 
-
-  
+{{% /markdown %}}  
 </details>
 
 <details>
