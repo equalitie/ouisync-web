@@ -160,8 +160,6 @@
     "faqContent914": "The **Copy link** button will copy the generated link which you can paste in an email, text message, chat etc.  ", 
     "faqContent915": "The **Share link** button will offer you a choice of apps you can use to send the link.", 
     "faqContent916": "When they receive the link,  your peers will need to go to the app home page, and then tap the plus button to start the **Import Repository** process.  They will need to copy and paste the link into the field provided and proceed with the repository import.  ",
-    "faqContent917": "**PS:** To paste a link to the input field, you tap and hold your finger on it, until a small **Paste** button appears to tap: ",
-    
     "faqTitle10": "Can my peers re-share my token links?",
     "faqContent100": "Yes. They can generate the token links with the same permissions they had in the original token link that they received from you, or lower. ",
     "faqContent101": "This means that if a person has received a token link to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link to share the same _**repository**_ with other people, or they can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). ",
@@ -173,6 +171,8 @@
     "faqContent112": "If you and one or more peers upload the same file (for example Billy.jpg) to the same Ouisync _**repository**_ that another peer has already uploaded, Ouisync will detect this situation and ask if you want to keep both files or replace one of them:",
     "faqContent113": "If you decide to keep both of them, the new one will have (1) added to the name and you will see both files on your Ouisync screen. If you decide to replace the existing one, then the new ones will overwrite it and the old one will no longer exist",
     "faqContent114": "Peers who are offline at the time of uploading the files",
+    "faqContent115": "If you and one or more peers upload the same file (for example Free_Test-Data_1MB.docx) when you are offline and therefore not able to sync files immediately, your files will sync when you are able to connect to your peers again.",
+    "faqContent116": "In case of two or more files bearing the same name, Ouisync will detect this situation and it will add random string at the end of the name of each file - to distinguish between them.  You can then view them and decide which one to keep, whether to rename them etc.",
     "faqTitle12": "What happens if I delete files in my repository?",
     "faqContent120": "File deletion is propagated to all replicas in existence -which means the same file that you deleted will be automatically deleted in the _**repositories**_ of all the peers with whom you have shared it.",
     "faqContent121": "Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **Write** permissions will sync with each other, including file edits, additions or deletions.",
