@@ -278,19 +278,17 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}} 
 
 {{% render-i18n "faqContent911" %}}
-{{< figure src="/img/repo_settings.png" alt="Repository settings menu" >}}
+{{< figure src="/img/qr_code.png" alt="Import a repository with a QR code" >}}
   
 {{% render-i18n "faqContent912" %}}
-{{< figure src="/img/qr_code.png" alt="Import a repository with a QR code" >}}
+
 
 {{% render-i18n "faqContent913" %}}
 {{< figure src="/img/generate_link.png" alt="Generate a shortlink to share a repository" >}}
 
 {{% render-i18n "faqContent914" %}}
-{{< figure src="/img/token_import.png" alt="Import repository, then paste the link" >}}
 
 {{% render-i18n "faqContent915" %}}
-{{< figure src="/img/paste_token.png" alt="Tap and hold to paste the link" >}}
 
 {{% render-i18n "faqContent916" %}}
 
