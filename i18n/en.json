@@ -131,7 +131,7 @@
     "faqContent731": "To retrieve data from your Blind repositories, please perform these steps: ", 
     "faqContent732": "**Step 1:** Make sure that the device containing your Blind repositories is online.",
     "faqContent733": "**Step 2:** Locate the write token for this repository (which you created and stored in steps 2 and 3 above).",
-    "faqContent734": "**Step 3:** Open the Ouisync app on your primary device, and tap the plus button to Import a repository in a normal way.",
+    "faqContent734": "**Step 3:** Open the Ouisync app on your primary device, and tap the plus button to [Import a repository](#import-repository) in a normal way.",
     "faqContent735": "**Step 4:** Paste the retrieved write token link  in the provided field and tap the Import button",
     "faqContent736"; "**Step 5:** In a short while, the newly imported repository will receive all the data stored in the Blind repository.  They will automatically sync with each other if they are connected either via internet or via a wi-fi or a local network.", 
     "faqContent737": "From this point on, all the changes you make to the repository on your primary device will, once again, be synced with your Blind repository, as long as devices remain connected .", 
