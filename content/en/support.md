@@ -156,6 +156,54 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle72" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent721" %}}
+
+{{% render-i18n "faqContent722" %}}
+
+{{% render-i18n "faqContent723" %}}
+
+{{% render-i18n "faqContent724" %}}
+
+{{% render-i18n "faqContent725" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle73" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent731" %}}
+
+{{% render-i18n "faqContent732" %}}
+
+{{% render-i18n "faqContent733" %}}
+
+{{% render-i18n "faqContent734" %}}
+
+{{% render-i18n "faqContent735" %}}
+
+{{% render-i18n "faqContent736" %}}
+
+{{% render-i18n "faqContent737" %}}
+
+{{% render-i18n "faqContent78" %}}
+
+{{% render-i18n "faqContent79" %}}
+
+
+{{% /markdown %}}
+</details>
+
 </div>
 
 <div class="faq-subsection">
