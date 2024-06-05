@@ -341,7 +341,7 @@ date: 2023-07-10T12:14:12-04:00
 #### {{% render-i18n "faqContent114" %}}
 
 {{% render-i18n "faqContent115" %}}
-{{% render-i18n "faqContent115" %}}
+{{% render-i18n "faqContent116" %}}
 {{< figure src="/img/free_test_data.png" alt="Asynchronous sync file handling" >}}
 
 {{% /markdown %}}
