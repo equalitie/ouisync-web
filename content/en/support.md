@@ -67,11 +67,9 @@ date: 2023-07-10T12:14:12-04:00
 
 
 <details>
-  <div id="import-repository">
 <summary>
 {{% render-i18n "faqTitle5" %}}
 </summary>
-  </div>
 {{% markdown %}}
 {{% render-i18n "faqContent50" %}}
 {{< figure src="/img/080_plus_button.png" alt="Tap the Plus button" >}}
