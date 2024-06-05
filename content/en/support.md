@@ -278,13 +278,11 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}} 
 
 {{% render-i18n "faqContent911" %}}
-{{< figure src="/img/qr_code.png" alt="Import a repository with a QR code" >}}
+{{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
   
 {{% render-i18n "faqContent912" %}}
 
-
 {{% render-i18n "faqContent913" %}}
-{{< figure src="/img/generate_link.png" alt="Generate a shortlink to share a repository" >}}
 
 {{% render-i18n "faqContent914" %}}
 
