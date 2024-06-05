@@ -152,7 +152,7 @@
     "faqContent94": "If you want your peers to only be able to read the _**repository**_ contents, then select **Read permissions**. This means they will be able to open the files and read them, but they won't be able to add new files to your shared _**repository**_, nor move or delete any files from it.",
     "faqContent95": "An example use case would be _when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them._ ",
     "faqContent96": "**Blind**",
-    "faqContent97": "This level of permissions can be useful when you want to securely store your data in a Ouisync _**repository**_. This means that the person or device with whom you shared your repository as **'blind'** won't be able to open the files to read them, nor make any changes to them. ",
+    "faqContent97": "This level of permissions can be useful when you want to [securely store your data](#secure-data-storage) in a Ouisync _**repository**_. This means that the person or device with whom you shared your repository as **'blind'** won't be able to open the files to read them, nor make any changes to them. ",
     "faqContent81": "If the peer (or device) with whom you want to share a _**repository**_ is nearby, they can tap on **'Import repository'** on their device and scan the QR code displayed on your screen:",
     
     "faqContent82": "This action will import a copy of your _**repository**_ onto your peer's device, including all the files and folders within it. ",
