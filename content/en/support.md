@@ -123,11 +123,11 @@ date: 2023-07-10T12:14:12-04:00
 </div>
 
 <div class="faq-subsection">
-
+<div id="secure-data-storage">
 {{% center padding-top="0rem" padding-bot="1rem"%}}
 ## {{% render-i18n "secureDataStorage" %}}
 {{% /center %}}
-
+</div>
 <details>
 <summary>
 {{% render-i18n "faqTitle7" %}}
