@@ -67,11 +67,43 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent23c" %}}
 
-{{% render-i18n "faqContent24" %}}
 {{% /markdown %}}
 </details> 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle21" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent211" %}}
+{{< figure src="/img/delete-button.png" alt="Tap on Delete button." >}}
+{{% render-i18n "faqContent212" %}}
 
+{{% render-i18n "faqContent213" %}}
+
+{{% render-i18n "faqContent214" %}}
+
+### {{% render-i18n "faqContent215" %}}
+  
+{{% render-i18n "faqContent216" %}}
+
+{{% render-i18n "faqContent217" %}}
+
+{{% render-i18n "faqContent218" %}}
+{{% render-i18n "faqContent219" %}}
+
+{{% render-i18n "faqContent220" %}}
+{{% render-i18n "faqContent221" %}}
+
+#### {{% render-i18n "faqContent222" %}}
+
+
+    
+{{% /markdown %}}
+
+  
+</details>
 <details>
 <summary>
 {{% render-i18n "faqTitle5" %}}
