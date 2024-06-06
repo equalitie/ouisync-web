@@ -587,6 +587,67 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+<details>
+<summary>
+{{% render-i18n "faqTitle3b" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent3b1" %}}
+
+{{% render-i18n "faqContent3b2" %}}
+
+{{% render-i18n "faqContent3b3" %}}
+
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle3c" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent3c1" %}}
+
+{{% render-i18n "faqContent3c2" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle3d" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent3d1" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle3e" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent3e1" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle3f" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent3f1" %}}
+
+{{% /markdown %}}
+</details>
 </div> 
 
 <details>
