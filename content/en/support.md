@@ -425,6 +425,9 @@ date: 2023-07-10T12:14:12-04:00
 {{% /center %}}
 
 <details>
+
+ ### {{% render-i18n "faqContent15a" %}}  
+
 <summary>
 {{% render-i18n "faqTitle15" %}}
 </summary>
