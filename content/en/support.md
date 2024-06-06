@@ -459,9 +459,47 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+<details>
+<summary>
+{{% render-i18n "faqTitle15b" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent15b1" %}}
+{{< figure src="/img/080_use_cache_server_shadow.png" alt="Use Cache Server" >}}
+
+{{% render-i18n "faqContent15b2" %}}
 
 
+{{% /markdown %}}
+</details>
 
+<details>
+<summary>
+{{% render-i18n "faqTitle15c" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent15c1" %}}
+{{< figure src="/img/080_dont_use_cache_server_shadow.png" alt="Do not Use Cache Server" >}}
+
+{{% render-i18n "faqContent15c2" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle15d" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent15d1" %}}
+
+{{% render-i18n "faqContent15c2" %}}
+
+{{% /markdown %}}
+</details>
 <details>
 <summary>
 {{% render-i18n "faqTitle16" %}}
