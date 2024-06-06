@@ -426,10 +426,6 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
- ### {{% render-i18n "faqContent15a" %}}  
-</summary>
-
-<summary>
 {{% render-i18n "faqTitle15" %}}
 </summary>
 {{% markdown %}}
@@ -437,6 +433,9 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent150" %}}
 
 {{% render-i18n "faqContent151" %}}
+{{% render-i18n "faqContent151a" %}}
+
+{{% render-i18n "faqContent151b" %}}
 
 {{% /markdown %}}
 </details>
