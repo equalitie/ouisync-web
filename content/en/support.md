@@ -433,12 +433,34 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent150" %}}
 
 {{% render-i18n "faqContent151" %}}
+
 {{% render-i18n "faqContent151a" %}}
 
 {{% render-i18n "faqContent151b" %}}
 
 {{% /markdown %}}
 </details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle15a" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent15a1" %}}
+
+{{< figure src="/img/080_use_cache_server_shadow.png" alt="Use Cache Server toggle" >}}
+{{% render-i18n "faqContent15a2" %}}
+
+{{% render-i18n "faqContent15a3" %}}
+{{< figure src="/img/080_repository-settings_shadow.png" alt="Repository Settings window" >}}
+
+
+{{% /markdown %}}
+</details>
+
+
+
 
 <details>
 <summary>
