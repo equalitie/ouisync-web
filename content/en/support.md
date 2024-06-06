@@ -648,27 +648,11 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
-</div> 
-
-<details>
-<summary>
-{{% render-i18n "faqTitle3" %}}
-</summary>
-{{% markdown %}}
-{{% render-i18n "faqContent30" %}}
-{{< figure src="/img/create_local_password.png" alt="Adding a local password" >}}
-
-{{% render-i18n "faqContent32" %}}
-{{< figure src="/img/set_password.png" alt="Setting a local password or biometrics authentication" >}}
-
-{{% render-i18n "faqContent33" %}}
 
 
-{{% render-i18n "faqContent34" %}}
-{{< figure src="/img/security_options.png" alt="Change repository security options in Settings" >}}
 
-{{% /markdown %}}
-</details>
+
+
 
 <details>
 <summary>
