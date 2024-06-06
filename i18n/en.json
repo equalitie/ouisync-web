@@ -178,7 +178,7 @@
     "faqContent101": "This means that if a person has received a token link to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link to share the same _**repository**_ with other people, or they can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). ",
     "faqContent102": "If they imported a **_repository_** with **Read** permissions only, then they can share it with others as **Read** or **Blind**. If they imported your _**repository**_ as **Blind**, they can only share it as **Blind**. ",
     "faqSectionTitle1": "File Management",
-    "faqTitle11": "What happens if me and my peers upload the same file into Ouisync?",
+    "faqTitle11": "What happens if myself and my peers upload the same file into Ouisync?",
     "faqContent110": "Ouisync is capable of handling two different scenarios.",
     "faqContent111": "Peers who are online at the same time",
     "faqContent112": "If you and one or more peers upload the same file (for example Billy.jpg) to the same Ouisync _**repository**_ that another peer has already uploaded, Ouisync will detect this situation and ask if you want to keep both files or replace one of them:",
