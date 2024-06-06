@@ -194,6 +194,7 @@
     "faqTitle14": "Can I move my files from one repository to another?",
     "faqContent140": "No. At the moment you can only move files from one folder to another within the same _**repository**_. Moving files from one repository to another is planned for future releases of **Ouisync**.",
     "faqSectionTitle2": "Privacy and Security",
+    "faqContent15a": "Cache Server",
     "faqTitle15": "Are my files stored on a server? Why?",
     "faqContent150": "Yes. They are stored fully encrypted in transport as well as at rest and are not readable by the server.",
     "faqContent151": "The purpose of the server storage is to facilitate file syncing when peers are not online at the same time. If you want to share a _**repository**_ with a peer who is not online at the moment, your _**repository**_ data will be stored encrypted on the server and when your peer comes online and connects either to the server (or to your device) the files from the stored _**repository**_ will sync with the files in your peer's _**repository**_.",
