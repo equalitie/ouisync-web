@@ -127,7 +127,7 @@
     "faqContent3g1": "This can be done in the security screen of your repository.  To get there, go into repository settings and then Security option.",   
     "faqContent3g2": "In the fields provided you can type and retype the new password, then tap Update.",  
     "faqTitle3h": "How can I delete a password for one repository?", 
-    "faqContent3h1"; "Local password can be deleted in the repository Security screen, by moving the Use local password toggle to OFF position.", 
+    "faqContent3h1": "Local password can be deleted in the repository Security screen, by moving the Use local password toggle to OFF position.", 
     "faqTitle4": "Why is it called 'local password' and not simply 'password'?",
     "faqContent40": "A local password is a password set up only for your own device. You don't need to share it with your peers. They can set up their own passwords to protect the shared **Ouisync** _**repositories**_ on their own devices.",
     "faqTitle5": "How can I add files and folders to my repository?",
