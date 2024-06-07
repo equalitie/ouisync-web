@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="desktop-nav" dir="{{ .Language.LanguageDirection }}">
-            <a tabindex="1" href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
+            <a tabindex="1" href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png" alt="Ouisync Home"/></a>
             <div aria-label="Navagation Selector" class="desktop-center-nav">
                 {{ if eq .Lang "en"}}
                 <a href="/about">{{i18n "navAbout"}}</a>
@@ -19,7 +19,7 @@
                     <label class="i18n-btn" for="desktop-nav-toggle">
                         <img src="/icons/globe.png" height="20" width="20" alt="Select language"/>
                         <div>{{ .Language.LanguageName }} ({{ .Lang }})</div>
-                        <img src="/icons/chevron-down.png" height="24" width="24"/>
+                        <img src="/icons/chevron-down.png" height="24" width="24" "Selector"/>
                     </label>
                     <div aria-label="Language Selector Panel" class="desktop-i18n-panel">
                         {{ range .Translations }}
@@ -32,7 +32,7 @@
                 {{ else }}
                 <a class="download-btn" href="/{{ .Lang }}/#download">
                 {{ end }}
-                    <img src="/icons/download.png" height="24" width="24"/>
+                    <img src="/icons/download.png" height="24" width="24" alt="Download Ouisync"/>
                     <div>{{i18n "navDownload"}}</div>
                 </a>
             </div>
