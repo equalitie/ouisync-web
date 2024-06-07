@@ -320,6 +320,11 @@ nav .download-btn:hover {
     color: #fff;
 }
 
+nav .dropdown-btn {
+    color: white !important;
+    max-width: fit-content;
+}
+
 .logo {
     max-height: 2.5rem;
 }
