@@ -18,6 +18,9 @@
                         <img src="/icons/globe.png" height="20" width="20" alt="Select language" />
                         <div>{{ .Language.LanguageName }} ({{ .Lang }})</div>
                         <img src="/icons/chevron-down.png" height="24" width="24" />
+                        <img src="/icons/globe.png" height="20" width="20" alt="Select language">
+                        <div>{{ .Language.LanguageName }} ({{ .Lang }})</div>
+                        <img src="/icons/chevron-down.png" height="24" width="24" alt="Selector">
                     </label>
                     <div aria-label="Language Selector Panel" class="desktop-i18n-panel"> {{ range .Translations }} <a
                             href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a> {{ end }} </div>
