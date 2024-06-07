@@ -301,8 +301,8 @@ nav .desktop-i18n-panel {
     transform: rotate(180deg);
 }
 
-nav .download-btn {
-    color: white;
+.download-btn {
+    color: white !important;
     background-color: var(--ouisync-primary);
     border: 1px solid var(--ouisync-primary);
     border-radius: 4px;
@@ -313,7 +313,7 @@ nav .download-btn {
     font-size: 1.4rem;
 }
 
-nav .download-btn:hover {
+.download-btn:hover {
     background-color: var(--ouisync-secondary);
     border: 1px solid var(--ouisync-secondary);
     transition: background-color 0.5s;
