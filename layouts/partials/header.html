@@ -1,79 +1,73 @@
 <header>
     <nav>
         <div class="desktop-nav" dir="{{ .Language.LanguageDirection }}">
-            <a tabindex="1" href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"/></a>
-            <div aria-label="Navagation Selector" class="desktop-center-nav">
-                {{ if eq .Lang "en"}}
-                <a href="/about">{{i18n "navAbout"}}</a>
+            <a tabindex="1" href="{{ .Site.Home.Permalink }}"><img height="40" width="152"
+                    src="/img/ouisync-logo.png" /></a>
+            <div aria-label="Navagation Selector" class="desktop-center-nav"> {{ if eq .Lang "en"}} <a
+                    href="/about">{{i18n "navAbout"}}</a>
                 <a href="/support">{{i18n "navSupport"}}</a>
-                <a href="/community">{{i18n "navCommunity"}}</a>
-                {{ else }}
-                <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
+                <a href="/community">{{i18n "navCommunity"}}</a> {{ else }} <a href="/{{ .Lang }}/about">{{i18n
+                    "navAbout"}}</a>
                 <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
-                <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
-                {{ end }}
+                <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a> {{ end }}
             </div>
             <div class="nav-buttons">
                 <div aria-label="Language Selector Switch" class="checkbox-wrapper">
-                    <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle"/>
+                    <input class="desktop-nav-toggle" type="checkbox" id="desktop-nav-toggle" />
                     <label class="i18n-btn" for="desktop-nav-toggle">
-                        <img src="/icons/globe.png" height="20" width="20" alt="Select language"/>
+                        <img src="/icons/globe.png" height="20" width="20" alt="Select language" />
                         <div>{{ .Language.LanguageName }} ({{ .Lang }})</div>
-                        <img src="/icons/chevron-down.png" height="24" width="24"/>
+                        <img src="/icons/chevron-down.png" height="24" width="24" />
                     </label>
-                    <div aria-label="Language Selector Panel" class="desktop-i18n-panel">
-                        {{ range .Translations }}
-                          <a href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a>
-                        {{ end }}
-                    </div>
-                </div>
-                {{ if eq .Lang "en"}}
-                <a class="download-btn" href="/#download">
-                {{ else }}
-                <a class="download-btn" href="/{{ .Lang }}/#download">
-                {{ end }}
-                    <img src="/icons/download.png" height="24" width="24"/>
-                    <div>{{i18n "navDownload"}}</div>
-                </a>
+                    <div aria-label="Language Selector Panel" class="desktop-i18n-panel"> {{ range .Translations }} <a
+                            href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a> {{ end }} </div>
+                </div> {{ if eq .Lang "en"}} <a class="download-btn" href="/#download"> {{ else }} <a
+                        class="download-btn" href="/{{ .Lang }}/#download"> {{ end }} <img src="/icons/download.png"
+                            height="24" width="24" />
+                        <div>{{i18n "navDownload"}}</div>
+                    </a>
             </div>
         </div>
         <div class="mobile-nav">
-            <input class="mobile-nav-toggle" type="checkbox" id="mobile-nav-toggle"/>
+            <input class="mobile-nav-toggle" type="checkbox" id="mobile-nav-toggle" />
             <label aria-label="Navagation Hamburger Menu" class="nav-hamb-icon" for="mobile-nav-toggle">
                 <span></span>
                 <span></span>
             </label>
-            <div aria-label="Language Selector" class="mobile-nav-panel">
-                {{ if eq .Lang "en"}}
-                <a href="/about">{{i18n "navAbout"}}</a>
+            <div aria-label="Language Selector" class="mobile-nav-panel"> {{ if eq .Lang "en"}} <a href="/about">{{i18n
+                    "navAbout"}}</a>
                 <a href="/support">{{i18n "navSupport"}}</a>
                 <a href="/community">{{i18n "navCommunity"}}</a>
-                <a href="/#download">{{i18n "navDownload"}}</a>
-                {{ else }}
-                <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
+                <a class="download-btn dropdown-btn" href="/#download">
+                    <img src="/icons/download.png" height="24" width="24" />
+                    <div>{{i18n "navDownload"}}</div>
+                </a> {{ else }} <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
                 <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
                 <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
                 <a href="/{{ .Lang }}/#download">{{i18n "navDownload"}}</a>
-                {{ end }}
+                <a class="download-btn dropdown-btn" href="/{{ .Lang }}/#download">
+                    <img src="/icons/download.png" height="24" width="24" />
+                    <div>{{i18n "navDownload"}}</div>
+                </a> {{ end }}
             </div>
-            <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png" alt="Ouisync logo"/></a>
+            <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png" alt="Ouisync logo" /></a>
             <div aria-label="Language Selector Switch">
-                <input class="mobile-i18n-toggle" type="checkbox" id="mobile-i18n-toggle"/>
+                <input class="mobile-i18n-toggle" type="checkbox" id="mobile-i18n-toggle" />
                 <label class="i18n-toggle-icon" for="mobile-i18n-toggle">
-                    <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png" alt="Select language"/>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-i18n-chevron"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                </label>
-                {{ if ( eq (string .Language.LanguageDirection) "rtl")}}
-                <div aria-label="Language Selector Panel" class="mobile-i18n-panel mobile-i18n-panel-rtl">
-                {{ else }}
-                <div aria-label="Language Selector Panel" class="mobile-i18n-panel">
-                {{ end }}
-                    <div style="color: #4b005ea7"> {{ .Language.LanguageName }} ({{ .Lang }})</div>
-                    {{ range .Translations }}
-                      <a href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a>
-                    {{ end }}
+                    <img height="36" width="36" class="i18n-toggle-icon" src="/icons/translate.png"
+                        alt="Select language" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="mobile-i18n-chevron">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </label> {{ if ( eq (string .Language.LanguageDirection) "rtl")}} <div
+                    aria-label="Language Selector Panel" class="mobile-i18n-panel mobile-i18n-panel-rtl"> {{ else }}
+                    <div aria-label="Language Selector Panel" class="mobile-i18n-panel"> {{ end }} <div
+                            style="color: #4b005ea7"> {{ .Language.LanguageName }} ({{ .Lang }})</div> {{ range
+                        .Translations }} <a href="{{ .Permalink }}">{{ .Language.LanguageName }} ({{ .Lang }})</a> {{
+                        end }} </div>
                 </div>
             </div>
-        </div>
     </nav>
 </header>
