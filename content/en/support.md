@@ -574,15 +574,9 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}}
 
 {{% render-i18n "faqContent3a1" %}}
+{{< figure src="/img/080_use_local_pwd_shadow.png" alt="Use local password" >}}
 
 {{% render-i18n "faqContent3a2" %}}
-
-{{% render-i18n "faqContent3a3" %}}
-{{% render-i18n "faqContent3a4" %}}
-
-{{% render-i18n "faqContent3a5" %}}
-
-{{% render-i18n "faqContent3a6" %}}
 
 {{% /markdown %}}
 </details>
