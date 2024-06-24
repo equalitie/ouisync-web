@@ -600,6 +600,41 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
+{{% render-i18n "faqTitle4a" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent4a1" %}}
+
+{{% render-i18n "faqContent4a2" %}}
+{{< figure src="/img/080_secure_using_biometrics_shadow.png" alt="Secure using biometrics" >}}
+
+{{% render-i18n "faqContent4a3" %}}
+
+{{% render-i18n "faqContent4a4" %}}
+
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle4b" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent4b1" %}}
+
+{{% render-i18n "faqContent4b2" %}}
+
+{{% render-i18n "faqContent4b3" %}}
+
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
 {{% render-i18n "faqTitle3c" %}}
 </summary>
 {{% markdown %}}
