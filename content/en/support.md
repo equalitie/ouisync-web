@@ -590,6 +590,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent3b1" %}}
 
 {{% render-i18n "faqContent3b2" %}}
+{{< figure src="/img/080_remember_pwd_shadow.png" alt="Remember password option" >}}
 
 {{% render-i18n "faqContent3b3" %}}
 
