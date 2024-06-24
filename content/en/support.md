@@ -540,6 +540,13 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}}
 
 {{% render-i18n "faqContent190" %}}
+{{< figure src="/img/080_lock_button_shadow.png" alt="Do not Use Cache Server" >}}
+
+{{% render-i18n "faqContent191" %}}
+
+{{% render-i18n "faqContent192" %}}
+
+
 
 {{% /markdown %}}
 </details>
