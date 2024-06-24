@@ -102,7 +102,7 @@
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
     "faqContent30": "There is no requirement to protect your repositories either by password or by biometrics.   ",
     "faqContent30a": "Whether you decide to do it depends on the sensitivity of data that you store in Ouisync repositories and habitual usage of your devices.",
-    "faqContent30b": "For storing and sharing photos of your cat, maybe a password is not necessary.  But for storing more sensitive personal data, we recommend passwords (or biometrics) be set up.", 
+    "faqContent30b": "For storing and sharing photos of your cat, maybe a password is not necessary.  But for storing more sensitive personal data, we recommend setting up the password (or biometrics) protection.", 
     "faqTitle3a": "How can I add local password for a repository?", 
     "faqContent3a1": "You can add a local password when creating or importing a repository. ",
     "faqContent3a2": "The dialog box displayed during repository creation or import has an option that allows you to Use  local password. ", 
