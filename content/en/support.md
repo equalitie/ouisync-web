@@ -644,9 +644,31 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+<details>
+<summary>
+{{% render-i18n "faqTitle3g" %}}
+</summary>
+{{% markdown %}}
 
+{{% render-i18n "faqContent3g1" %}}
 
+{{% render-i18n "faqContent3g2" %}}
 
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle3h" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent3h1" %}}
+
+{{< figure src="/img/080_dont_use_local_pwd_shadow.png" alt="Don't use local password" >}}
+
+{{% /markdown %}}
+</details>
 
 
 <details>
