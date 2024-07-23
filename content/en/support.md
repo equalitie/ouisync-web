@@ -764,6 +764,16 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent212" %}}
 {{% /markdown %}}
 </details>
+<details>
+<summary>
+{{% render-i18n "faqSectionTitle4" %}}
+</summary>
+{{% markdown %}}
+
+{{% /markdown %}}
+</details>
+
+
 </div>
 </div>
 </div>
