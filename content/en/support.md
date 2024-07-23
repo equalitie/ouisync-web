@@ -764,14 +764,24 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent212" %}}
 {{% /markdown %}}
 </details>
+
+<div class="faq-subsection">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "ouisyncWindows" %}}
+{{% /center %}}
+
 <details>
 <summary>
-{{% render-i18n "faqSectionTitle4" %}}
+{{% render-i18n "faqTitle2" %}}
 </summary>
 {{% markdown %}}
+{{% render-i18n "faqContent20" %}}
+{{< figure src="/img/080_plus_button.png" alt="Tap the Plus button" >}}
+  
 
 {{% /markdown %}}
-</details>
+</details> 
 
 
 </div>
