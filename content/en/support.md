@@ -768,7 +768,7 @@ date: 2023-07-10T12:14:12-04:00
 <div class="faq-subsection">
 
 {{% center padding-top="0rem" padding-bot="1rem"%}}
-## {{% render-i18n "ouisyncWindows" %}}
+# {{% render-i18n "ouisyncWindows" %}}
 {{% /center %}}
 
 <details>
