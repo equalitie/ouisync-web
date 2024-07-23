@@ -72,6 +72,7 @@
     "joinWeblateBtn": "Join the Ouisync Weblate",
     "faq": "Frequently Asked Questions",
     "gettingStart": "Getting Started",
+    "ouisyncWindows": "Ouisync on windows", 
     "createImportRepositories": "Create or Import Repositories",
     "secureDataStorage": "Secure Data Storage",
     "faqTitle0": "What is a repository?",
@@ -268,6 +269,6 @@
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
     "faqContent211": "This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies. ",
-    "faqContent212": "Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases.",
-    "faqSectionTitle4": "Ouisync on Windows"
+    "faqContent212": "Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases."
+    
 }
