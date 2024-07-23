@@ -25,7 +25,7 @@ Ouisync (and eQualit.ie) does not share any data with any third parties. 
 ### 3.3 Security Practices
 Data that the user uploads into the Ouisync repositories is end-to-end encrypted in transit as well as at rest.  This includes metadata such as file names, sizes, folder structure etc. Within Ouisync, data is readable only by the person who uploaded the data  and those persons with whom they shared their repositories.  
 
-You can learn more about the encryption techniques used in our documentation.
+You can learn more about the encryption techniques used in our [documentation](https://github.com/equalitie/ouisync/blob/master/doc/paper.md).
 
 The Ouisync app stores users' data on an 'Always-On Peer', which is a server located in Canada.  All data is stored as encrypted chunks and is not readable by the server or its operators.  The purpose of this server is simply to bridge the gaps between peers who are not online at the same time.  All data is periodically purged from this server - its purpose is not to provide permanent data storage but simply facilitation of data syncing by peers.
 
