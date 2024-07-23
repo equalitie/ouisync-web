@@ -15,7 +15,7 @@ The Ouisync application is built in-line with eQualitie’s values. By using thi
 ## 3. Privacy Notice
 
 This section is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decides to use our Service.
-3.1 Data Collection
+### 3.1 Data Collection
 The OuiSync team values user privacy and thus does not collect any user information. 
 The Ouisync app is designed to be able to provide file sharing services without a user ID, name, nickname, user account or any other form of user data.  We don't know who uses our app and with whom they sync or share their data.  
 
