@@ -27,14 +27,12 @@ Data that the user uploads into the Ouisync repositories is end-to-end encrypted
 
 You can learn more about the encryption techniques used in our [documentation](https://github.com/equalitie/ouisync/blob/master/doc/paper.md).
 
-The Ouisync app stores users' data on an 'Always-On Peer', which is a server located in Canada.  All data is stored as encrypted chunks and is not readable by the server or its operators.  The purpose of this server is simply to bridge the gaps between peers who are not online at the same time.  All data is periodically purged from this server - its purpose is not to provide permanent data storage but simply facilitation of data syncing by peers.
+By default, the Ouisync app stores users' data on a cache server located in Canada.  All data is stored as encrypted chunks and is not readable by the server or its operators.  The purpose of this server is simply to bridge the gaps between peers who are not online at the same time.  All data is periodically purged from this server - its purpose is not to provide permanent data storage but simply facilitation of data syncing by peers. The user can easily opt out and choose not to have their data stored on our cache server.
 
 If you have a reason to believe that your personal data has been illegaly obtained and shared by other Ouisync users, please contact us at the address below.
 
-### 3.4 Deletion of your data from our Always-On-Peer server
-The simplest way to delete your data is by deleting files or repositories from your own device.  Any file deletion will be propagated to all your peers - ie, if you have Write access to a repository, you can delete any files within it and the same files will be deleted from your peers' repositories as well as from our Always-On-Peer.  If you need to delete only the repositories from our Always-On-Peer (but still keep them in your own repository on your own device), please contact us at the address below.
-
-***Note:** The Ouisync team cannot delete individual files from repositories, as it is not possible to identify them because they are encrypted.  We are able to delete whole repositories if you send us the link to the repository that needs to be deleted.*
+### 3.4 Deletion of your data from our cache server
+The simplest way to delete your data is by deleting files within the Ouisync repositories on your own device.  Any file deletion will be propagated to all your peers - ie, if you have Write access to a repository, you can delete any files within it and the same files will be deleted from your peers' repositories as well as from our cache server.  If you need to delete the whole repositories from our cache server, but still keep them on your own device, you can switch off the Use Cache Servers toggle provided in the repository settings screen. 
 
 ### 3.5 Log Data
 The OuiSync app creates logfiles on users' devices.  Their purpose is only to log device's activity to facilitate the debugging process in case the user experiences difficulties in connecting with their peers or otherwise in using the Ouisync app.  The logfile remains on a user's device unless the user decides to send it to us for support purposes.
