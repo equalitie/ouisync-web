@@ -773,11 +773,15 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
-{{% render-i18n "faqTitle2" %}}
+{{% render-i18n "faqTitle41" %}}
 </summary>
 {{% markdown %}}
-{{% render-i18n "faqContent20" %}}
-{{< figure src="/img/080_plus_button.png" alt="Tap the Plus button" >}}
+{{% render-i18n "faqContent411" %}}
+{{< figure src="/img/080_app_in_store_shadow.png" alt="App in MS store" >}}
+
+{{% render-i18n "faqContent412" %}}
+{{< figure src="/img/080_ouisync_installer_shadow.png" alt="Ouisync installer" >}}
+
   
 
 {{% /markdown %}}
