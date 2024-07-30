@@ -782,7 +782,18 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent412" %}}
 {{< figure src="/img/080_ouisync_installer_shadow.png" alt="Ouisync installer" >}}
 
-  
+{{% render-i18n "faqContent413" %}}
+{{< figure src="/img/080_installation_steps_shadow.png" alt="Ouisync installation steps" >}}  
+
+{{% render-i18n "faqContent414" %}}
+
+{{% render-i18n "faqContent415" %}}
+
+{{% render-i18n "faqContent416" %}}
+{{< figure src="/img/080_dokan_missing_shadow.png" alt="Dokan is missing" >}}  
+
+{{% render-i18n "faqContent417" %}}
+
 
 {{% /markdown %}}
 </details> 
