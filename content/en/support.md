@@ -908,6 +908,65 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details> 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle47" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent471" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle48" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent481" %}}
+
+{{% render-i18n "faqContent482" %}}
+{{< figure src="/img/080_O_drive_shadow.png" alt="Dokan is being installed" >}}
+
+{{% render-i18n "faqContent483" %}}
+{{< figure src="/img/080_repo_on_O_drive_shadow.png" alt="Dokan is being installed" >}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle49" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent491" %}}
+
+{{% render-i18n "faqContent492" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle50" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent501" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle51" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent511" %}}
+
+{{% /markdown %}}
+</details> 
+
+
 </div>
 </div>
 </div>
