@@ -799,6 +799,30 @@ date: 2023-07-10T12:14:12-04:00
 </details> 
 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle42" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent421" %}}
+{{< figure src="/img/080_no_O_drive_shadow.png" alt="O drive doesn't exist yet" >}}
+
+{{% render-i18n "faqContent422" %}}
+{{< figure src="/img/080_O_drive_shadow.png" alt="O drive has been mounted" >}}
+
+{{% render-i18n "faqContent423" %}}
+
+{{% render-i18n "faqContent424" %}}
+{{< figure src="/img/080_repo_on_O_drive_shadow.png" alt="Repository on O drive" >}}
+
+{{% render-i18n "faqContent425" %}}
+
+{{% render-i18n "faqContent427" %}}
+
+
+
+{{% /markdown %}}
+</details> 
 </div>
 </div>
 </div>
