@@ -889,6 +889,25 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details> 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle46" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent461" %}}
+{{< figure src="/img/080_dokan_missing_shadow.png" alt="Dokan is missing" >}}
+  
+{{% render-i18n "faqContent462" %}}
+{{< figure src="/img/080_dokan_installer_shadow.png" alt="Dokan is being installed" >}}
+{{< figure src="/img/080_dokan_installer_1_hadow.png" alt="Dokan is being installed" >}}
+{{< figure src="/img/080_dokan_installer_2_shadow.png" alt="Dokan is being installed" >}}
+{{< figure src="/img/080_dokan_installed_shadow.png" alt="Dokan installation has finished" >}}
+
+{{% render-i18n "faqContent463" %}}
+
+{{% /markdown %}}
+</details> 
+
 </div>
 </div>
 </div>
