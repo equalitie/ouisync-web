@@ -821,6 +821,23 @@ date: 2023-07-10T12:14:12-04:00
 
 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle43" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent431" %}}
+
+{{% render-i18n "faqContent432" %}}
+{{< figure src="/img/080_repository_not_mounted_shadow.png" alt="Repository is not mounted message" >}}
+
+{{% render-i18n "faqContent433" %}}
+
+{{% /markdown %}}
+</details> 
+
+
+
 {{% /markdown %}}
 </details> 
 </div>
