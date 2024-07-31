@@ -293,7 +293,7 @@
     "faqTitle45": "Does Ouisync launch at startup automatically?",
     "faqContent451": "In the Ouisync app settings, we have provided an option to relaunch the Ouisync app after every computer restart.",
     "faqContent452": "For optimal syncing with your peers, we recommend for this setting to be ON, so that your Ouisync app can run in the background and receive repository changes from your peers as soon as they happen.",
-    "faqContent453": "Finally, the out-of-date version of Dokan uninstalled, computer restarted and the Ouisync app relaunched, you are ready to install the correct version of Dokan. ", 
+    "faqContent453": "", 
     "faqTitle46": "What are the Dokan installation steps?", 
     
     "faqSectionTitle3": "Other FAQs",
