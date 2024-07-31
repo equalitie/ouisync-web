@@ -839,8 +839,7 @@ date: 2023-07-10T12:14:12-04:00
 
 
 
-{{% /markdown %}}
-</details> 
+
 </div>
 </div>
 </div>
