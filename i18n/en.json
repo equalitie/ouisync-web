@@ -303,7 +303,7 @@
     "faqTitle48": "Can I create repositories using File Explorer?",
     "faqContent481": "No. Repositories can be created only via the Ouisync app screens.  You cannot do this using File Explorer.",
     "faqContent482": "On your O: drive, the top level folders represent the repositories in your Ouisync app. When the Ouisync app is first installed, this folder in the File Explorer will be empty ",
-    "faqContent483": "fter you create a repository within Ouisync app, it will also be seen here",
+    "faqContent483": "After you create a repository within Ouisync app, it will also be seen here",
     "faqTitle49": "Can I drag and drop files into My repository, using File Explorer?",
     "faqContent491": "Yes. Once you have your repository created, you can drag and drop files into it using the Windows File Explorer.",
     "faqContent492": "Note: it is not possible to drag and drop files directly onto the O drive, but only into the previously created repositories.",
