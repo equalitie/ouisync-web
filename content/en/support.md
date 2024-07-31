@@ -863,9 +863,10 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_uninstall_dokan_1_shadow.png" alt="Dokan in control panel" >}}
 
 {{% render-i18n "faqContent4409" %}}
-{{< figure src="/img/080_uninstall_dokan_shadow.png" alt="Exit ouisync" >}}
+{{< figure src="/img/080_uninstall_dokan_shadow.png" alt="Uninstall Dokan" >}}
 
 {{% render-i18n "faqContent4410" %}}
+
 {{% render-i18n "faqContent4411" %}}
 
 
@@ -873,6 +874,20 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details> 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle45" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent451" %}}
+{{< figure src="/img/080_launch_at_startup_shadow.png" alt="Launch Ouisync at startup" >}}
+  
+{{% render-i18n "faqContent452" %}}
+
+{{% render-i18n "faqContent453" %}}
+
+{{% /markdown %}}
+</details> 
 
 </div>
 </div>
