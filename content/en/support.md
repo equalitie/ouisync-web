@@ -837,7 +837,41 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details> 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle44" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent4401" %}}
 
+{{% render-i18n "faqContent4402" %}}
+{{< figure src="/img/080_dokan_out_of_date_shadow.png" alt="Currently installed Dokan version is out of date" >}}
+
+{{% render-i18n "faqContent4403" %}}
+
+{{% render-i18n "faqContent4404" %}}
+
+{{% render-i18n "faqContent4405" %}}
+{{< figure src="/img/080_systems_tray_shadow.png" alt="Ouisync in system tray" >}}
+
+{{% render-i18n "faqContent4406" %}}
+{{< figure src="/img/080_exit_ouisync_shadow.png" alt="Exit ouisync" >}}
+
+{{% render-i18n "faqContent4407" %}}
+
+{{% render-i18n "faqContent4408" %}}
+{{< figure src="/img/080_uninstall_dokan_1_shadow.png" alt="Dokan in control panel" >}}
+
+{{% render-i18n "faqContent4409" %}}
+{{< figure src="/img/080_uninstall_dokan_shadow.png" alt="Exit ouisync" >}}
+
+{{% render-i18n "faqContent4410" %}}
+{{% render-i18n "faqContent4411" %}}
+
+
+
+{{% /markdown %}}
+</details> 
 
 
 </div>
