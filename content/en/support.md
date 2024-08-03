@@ -764,6 +764,209 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent212" %}}
 {{% /markdown %}}
 </details>
+
+<div class="faq-subsection">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+# {{% render-i18n "ouisyncWindows" %}}
+{{% /center %}}
+
+<details>
+<summary>
+{{% render-i18n "faqTitle41" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent411" %}}
+{{< figure src="/img/080_app_in_store_shadow.png" alt="App in MS store" >}}
+
+{{% render-i18n "faqContent412" %}}
+{{< figure src="/img/080_ouisync_installer_shadow.png" alt="Ouisync installer" >}}
+
+{{% render-i18n "faqContent413" %}}
+{{< figure src="/img/080_installation_steps_shadow.png" alt="Ouisync installation steps" >}}  
+
+{{% render-i18n "faqContent414" %}}
+
+{{% render-i18n "faqContent415" %}}
+
+{{% render-i18n "faqContent416" %}}
+{{< figure src="/img/080_dokan_missing_shadow.png" alt="Dokan is missing" >}}  
+
+{{% render-i18n "faqContent417" %}}
+
+
+{{% /markdown %}}
+</details> 
+
+
+<details>
+<summary>
+{{% render-i18n "faqTitle42" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent421" %}}
+{{< figure src="/img/080_no_O_drive_shadow.png" alt="O drive doesn't exist yet" >}}
+
+{{% render-i18n "faqContent422" %}}
+{{< figure src="/img/080_O_drive_shadow.png" alt="O drive has been mounted" >}}
+
+{{% render-i18n "faqContent423" %}}
+
+{{% render-i18n "faqContent424" %}}
+{{< figure src="/img/080_repo_on_O_drive_shadow.png" alt="Repository on O drive" >}}
+
+{{% render-i18n "faqContent425" %}}
+
+{{% render-i18n "faqContent427" %}}
+
+
+{{% /markdown %}}
+</details>
+<details>
+<summary>
+{{% render-i18n "faqTitle43" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent431" %}}
+
+{{% render-i18n "faqContent432" %}}
+{{< figure src="/img/080_repository_not_mounted_shadow.png" alt="Repository is not mounted message" >}}
+
+{{% render-i18n "faqContent433" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle44" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent4401" %}}
+
+{{% render-i18n "faqContent4402" %}}
+{{< figure src="/img/080_dokan_out_of_date_shadow.png" alt="Currently installed Dokan version is out of date" >}}
+
+{{% render-i18n "faqContent4403" %}}
+
+{{% render-i18n "faqContent4404" %}}
+
+{{% render-i18n "faqContent4405" %}}
+{{< figure src="/img/080_systems_tray_shadow.png" alt="Ouisync in system tray" >}}
+
+{{% render-i18n "faqContent4406" %}}
+{{< figure src="/img/080_exit_ouisync_shadow.png" alt="Exit ouisync" >}}
+
+{{% render-i18n "faqContent4407" %}}
+
+{{% render-i18n "faqContent4408" %}}
+{{< figure src="/img/080_uninstall_dokan_1_shadow.png" alt="Dokan in control panel" >}}
+
+{{% render-i18n "faqContent4409" %}}
+{{< figure src="/img/080_uninstall_dokan_shadow.png" alt="Uninstall Dokan" >}}
+
+{{% render-i18n "faqContent4410" %}}
+
+{{% render-i18n "faqContent4411" %}}
+
+
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle45" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent451" %}}
+{{< figure src="/img/080_launch_at_startup_shadow.png" alt="Launch Ouisync at startup" >}}
+  
+{{% render-i18n "faqContent452" %}}
+
+{{% render-i18n "faqContent453" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle46" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent461" %}}
+{{< figure src="/img/080_dokan_missing_shadow.png" alt="Dokan is missing" >}}
+  
+{{% render-i18n "faqContent462" %}}
+{{< figure src="/img/080_dokan_installer_shadow.png" alt="Dokan is being installed" >}}
+{{< figure src="/img/080_dokan_installer_1_shadow.png" alt="Dokan is being installed" >}}
+{{< figure src="/img/080_dokan_installer_2_shadow.png" alt="Dokan is being installed" >}}
+{{< figure src="/img/080_dokan_installed_shadow.png" alt="Dokan installation has finished" >}}
+
+{{% render-i18n "faqContent463" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle47" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent471" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle48" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent481" %}}
+
+{{% render-i18n "faqContent482" %}}
+{{< figure src="/img/080_O_drive_shadow.png" alt="Dokan is being installed" >}}
+
+{{% render-i18n "faqContent483" %}}
+{{< figure src="/img/080_repo_on_O_drive_shadow.png" alt="Dokan is being installed" >}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle49" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent491" %}}
+
+{{% render-i18n "faqContent492" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle50" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent501" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle51" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent511" %}}
+
+{{% /markdown %}}
+</details> 
+
+
 </div>
 </div>
 </div>
