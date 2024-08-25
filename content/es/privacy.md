@@ -35,14 +35,14 @@ incluido el contenido que:
 ## 3. Aviso de privacidad
 
 Esta sección se utiliza para informar a los visitantes sobre nuestras políticas
-con respecto a la recopilación, el uso y la divulgación de información personal
-si alguien decide utilizar nuestro Servicio. 3.1 Recopilación de datos El equipo
-de OuiSync valora la privacidad del usuario y, por lo tanto, no recopila ninguna
-información del usuario. La aplicación OuiSync está diseñada para poder
-proporcionar servicios de intercambio de archivos sin una identificación de
-usuario, nombre, apodo, cuenta de usuario o cualquier otra forma de datos de
-usuario. No sabemos quién usa nuestra aplicación y con quién sincroniza o
-comparte sus datos.
+de recopilación, uso y divulgación de Datos Personales si alguien decide
+utilizar nuestro Servicio.
+### 3.1 Recopilación de datos
+El equipo de OuiSync valora la privacidad del usuario y, por tanto, no recopila
+ningún tipo de información sobre él. La aplicación Ouisync está diseñada para
+poder ofrecer servicios de intercambio de archivos sin ID de usuario, nombre,
+apodo, cuenta de usuario ni ninguna otra forma de datos de usuario. No sabemos
+quién utiliza nuestra aplicación ni con quién sincroniza o comparte tus datos.
 
 ### 3.2 Compartición de datos
 Ouisync (y eQualit.ie) no comparte ningún dato con terceros.
@@ -54,36 +54,33 @@ nombres de archivos, tamaños, estructura de carpetas, etc. En Ouisync, los dato
 solo pueden ser leídos por la persona que los cargó y por aquellas personas con
 las que compartió sus repositorios.
 
-Puede obtener más información sobre las técnicas de cifrado utilizadas en
-nuestra documentación.
+Puedes obtener más información sobre las técnicas de cifrado utilizadas en
+nuestra
+[documentación](https://github.com/equalitie/ouisync/blob/master/doc/paper.md).
 
-La aplicación Ouisync almacena los datos de los usuarios en un "Always-On Peer",
-que es un servidor ubicado en Canadá. Todos los datos se almacenan como
-fragmentos cifrados y ni el servidor ni sus operadores pueden leerlos. El
-propósito de este servidor es simplemente salvar las brechas entre los
-peers/nodos (dispositivos) que no están en línea al mismo tiempo. Todos los
-datos se eliminan periódicamente de este servidor; su propósito no es
-proporcionar almacenamiento de datos permanente, sino simplemente facilitar la
-sincronización de datos entre peers/nodos (dispositivos).
+Por defecto, la aplicación Ouisync almacena los datos de los usuarios en un
+servidor de caché situado en Canadá. Todos los datos se almacenan en trozos
+encriptados y ni el servidor ni sus operadores pueden leerlos. El propósito de
+este servidor es simplemente salvar las distancias entre usuarios que no están
+conectados al mismo tiempo. Todos los datos se eliminan periódicamente de este
+servidor: su propósito no es proporcionar un almacenamiento permanente de datos,
+sino simplemente facilitar la sincronización de datos entre pares. El usuario
+puede optar fácilmente por no almacenar sus datos en nuestro servidor.
 
 Si tienes motivos para creer que tus datos personales han sido obtenidos y
 compartidos ilegalmente por otros usuarios de Ouisync, contáctanos a la
 siguiente dirección.
 
-### 3.4 Eliminación de tus datos de nuestro servidor Always-On-Peer
-La forma más sencilla de eliminar tus datos es eliminar archivos o repositorios
-de tu propio dispositivo. Cualquier eliminación de archivo se propagará a todos
-sus peers/nodos (dispositivos), es decir, si tienes acceso de escritura a un
-repositorio, puedes eliminar cualquier archivo dentro de él y los mismos
-archivos se eliminarán de los repositorios de sus peers/nodos (dispositivos),
-así como de nuestro Always-On-Peer. Si necesitas eliminar solo los repositorios
-de nuestro Always-On-Peer (pero aún así mantenerlos en tu propio repositorio en
-tu propio dispositivo), comunicate con nosotros a la siguiente dirección.
-
-***Nota:** El equipo de Ouisync no puede eliminar archivos individuales de los
-repositorios, ya que no es posible identificarlos porque están encriptados.
-Podemos eliminar repositorios completos si nos envías el enlace del repositorio
-que necesita eliminarse.*
+### 3.4 Eliminación de tus datos de nuestro servidor
+La forma más sencilla de eliminar tus datos es eliminar archivos dentro de los
+repositorios de Ouisync en tu propio dispositivo. Cualquier eliminación de
+archivo se propagará a todos tus pares, es decir, si tienes acceso de escritura
+a un repositorio, puedes eliminar cualquier archivo dentro de él y los mismos
+archivos se eliminarán de los repositorios de tus pares, así como de nuestro
+servidor de caché. Si necesitas eliminar todos los repositorios de nuestro
+servidor, pero aún así mantenerlos en tu propio dispositivo, puede desactivar la
+opción Usar servidores de caché que se encuentra en la pantalla de configuración
+del repositorio.
 
 ### 3.5 Registro de datos (Log Data)
 La aplicación OuiSync crea archivos de registro (logfiles) en los dispositivos
