@@ -86,7 +86,7 @@
     "faqContent23": "When creating a _**repository**_ you have three decisions to make, depending on you wishing (or not) to:",
     "faqContent23a": " * Use the **cache server** - see section [Privacy, Security and Cache Server](#privacy-and-security) to learn more.",
     "faqContent23b": " * Protect your _**repository**_ with a **local password** - see section [Passwords and Biometrics](#passwords-and-biometrics) to learn more.",
-    "faqContent23c": " * Protect your _**repository**_ with **biometrics**. This option exists only on devices that have **biometrics protection** set up - see section [Passwords and Biometrics](#faqSectionTitle2a) to learn more.)",
+    "faqContent23c": " * Protect your _**repository**_ with **biometrics**. This option exists only on devices that have **biometrics protection** set up - see section [Passwords and Biometrics](#passwords-and-biometrics) to learn more.)",
     "faqTitle2a": "Can I delete my Ouisync repositories?",
     "faqContent2a1": "Yes. You can do that by going to **repository settings** screen and tapping on the **Delete** button.",
     "faqContent2a2": "When you delete a _**repository**_ on your device, this deletion is not propagated to your peer’s devices – they will still have all their _**repositories**_. ",
