@@ -99,7 +99,7 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_import_repo_shadow.png" alt="Select to import a repository" >}}
 
 {{% render-i18n "faqContent62" %}}
-{{< figure src="/img/080_import_repo2_shadow.png" alt="Enter link or scan QR code" >}}
+{{< figure src="/img/081_import_repo2_shadow.png" alt="Enter link or scan QR code" >}}
 
 {{% render-i18n "faqContent63" %}}
 {{< figure src="/img/import_link.png" alt="Shared repository link" >}}
