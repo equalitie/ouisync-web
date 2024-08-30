@@ -110,8 +110,11 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent66" %}}
 
+{{% render-i18n "faqContent66a" %}}
+{{< figure src="/img/081_sync_ongoing_shadow.png" alt="Syncing of your repository is ongoing" >}}
+
 {{% render-i18n "faqContent67" %}}
-{{< figure src="/img/080_sync_complete_shadow.png" alt="Syncing of your repository is complete" >}}
+{{< figure src="/img/081_sync_complete_shadow.png" alt="Syncing of your repository is complete" >}}
 
 {{% render-i18n "faqContent68" %}}
 {{< figure src="/img/080_access_mode_shadow.png" alt="Access mode granted: write" >}}
