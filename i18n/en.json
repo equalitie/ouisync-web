@@ -87,6 +87,7 @@
     "faqContent23a": " * Use the **cache server** - see section [Privacy, Security and Cache Server](#privacy-and-security) to learn more.",
     "faqContent23b": " * Protect your _**repository**_ with a **local password** - see section [Passwords and Biometrics](#passwords-and-biometrics) to learn more.",
     "faqContent23c": " * Protect your _**repository**_ with **biometrics**. This option exists only on devices that have **biometrics protection** set up - see section [Passwords and Biometrics](#passwords-and-biometrics) to learn more.)",
+    
     "faqTitle2a": "Can I delete my Ouisync repositories?",
     "faqContent2a1": "Yes. You can do that by going to **repository settings** screen and tapping on the **Delete** button.",
     "faqContent2a2": "When you delete a _**repository**_ on your device, this deletion is not propagated to your peer’s devices – they will still have all their _**repositories**_. ",
@@ -100,47 +101,61 @@
     "faqContent2a10": "_However, If that teacher generates a **write token** prior to deleting the _**repository**_, and stores it somewhere safely, then they are able to re-import the same _**repository**_ using that **token**, even after they deleted it on their device._ ",
     "faqContent2a11": "_The data from their students' _**repositories**_ will sync with the teacher’s new _**repository**_.  That way the teacher’s _**repository**_ will contain all the data from students’ _**repositories**_ and they will also have the **write access**._ ",
     "faqContent2a12": "The kind of access a user can have is **encoded in the token link**.",
+   
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
     "faqContent30": "There is no requirement to protect your _**repositories**_ either by **password** or by **biometrics**.   ",
     "faqContent30a": "Whether you decide to do it depends on the sensitivity of data that you store in _**Ouisync repositories**_ and habitual usage of your devices.",
     "faqContent30b": "For storing and sharing photos of your cat, maybe a **password** is not necessary.  But for storing more sensitive personal data, we recommend setting up the **password (or biometrics) protection**.",
+    
     "faqTitle3a": "How can I add local password for a repository?",
     "faqContent3a1": "You can add **local password** to a _**respository**_ at the time of creation or import by selecting the **Use local password** option. ",
     "faqContent3a2": "You can also do this later on by going to _**repository**_ **Security screen** and selecting the same option. ",
+    
     "faqTitle3b": "Remember Password option",
     "faqContent3b1": "When **local password** is set up, you will be required to type it in every time you want to unlock your _**repository**_ or when you want to enter the _**repository**_ **Security screen**. ",
     "faqContent3b2": "To avoid having to type it so many times, you can use the **Remember password** option. This option works in a way similar to the ‘remember password’ option on websites.",
     "faqContent3b3": "Activating this option means that you will not be required to enter the password when unlocking the _**repository**_, but you will still need to do it when you want to enter the **Security screen**. ",
+    
     "faqTitle3c": "Can I have different passwords for different repositories? ",
     "faqContent3c1": "Yes",
     "faqContent3c2": "You could have a _**repository**_ that you use for work purposes, and it can be protected by a **password**. On the same device, you could also have a _**repository**_ that you share with friends or family, and you could protect that one with a different **password**.",
+    
     "faqTitle3d": "Can I have different passwords for the same repository on different devices? ",
     "faqContent3d1": "Yes. For example - you have a _**repository**_ that you share between your Android phones and your Windows desktop.  You can have one **password** for that _**repository**_ on your Android phone, and a different password for the same _**repository**_ on your Windows machine.",
+    
     "faqTitle3e": "What happens if I lose my repository password?",
     "faqContent3e1": "We don’t store your **passwords**.  If you lose them, there is no way of retrieving them and you may lose the access to your _**repositories**_. ",
+    
     "faqTitle3f": "Do I need to share the repository passwords with my peers?",
     "faqContent3f1": "No. The peer who is sharing a _**repository**_ can protect their own replica by their own password, and the peer who is importing that _**repository**_ can protect their own replica, on their device, with their own password.",
+    
     "faqTitle3g": "How can I change a password for one repository? ",
     "faqContent3g1": "This can be done in the **Security screen** of your _**repository**_.  To get there, go into _**repository**_ **settings** and then **Security** option.",
     "faqContent3g2": "In the fields provided you can type and retype the new password, then tap **Update**.",
+    
     "faqTitle3h": "How can I delete a password for one repository?",
     "faqContent3h1": "**Local password** can be deleted in the _**repository**_ **Security screen**, by moving the **Use local password** toggle to **OFF** position.",
+    
     "faqTitle4": "Why is it called 'local password' and not simply 'password'?",
     "faqContent40": "A **local password** is a password set up only for your own device. You don't need to share it with your peers. They can set up their own passwords to protect the shared **Ouisync** _**repositories**_ on their own devices.",
+    
     "faqTitle4a": "Can I secure my repositories using Biometrics?",
     "faqContent4a1": "Yes. On Android devices that have **Biometric protection** set up, you can use it to secure your _**Ouisync repositories**_ and to enter _**repository**_ **Security screen**. ",
     "faqContent4a2": "You can activate the **biometrics protection** at the time of creating or importing a _**repository**_.  You can also do it later on by going to the **Security screen** and activating the **Secure using biometrics** option. ",
     "faqContent4a3": "At present, this option is not available for desktop devices.",
     "faqContent4a4": "Ouisync utilises only fingerprints – implementation of face recognition is on our roadmap.",
+    
     "faqTitle4b": "Can I switch off the Biometric protection of the Security screen? ",
     "faqContent4b1": "When **Biometric protection** is **ON**, you are required to scan your fingerprint every time you want to unlock a _**repository**_ or enter into its **Security screen**. ",
     "faqContent4b2": "If you switch the **biometric protection OFF**, you will still be required to scan your fingerprint when you want to enter the **Security screen**. ",
     "faqContent4b3": "**Biometric protection** of the **Security screen** is deleted only when  **biometric protection** is removed from devices, or when you decide to use the password protection instead. ",
+    
     "faqTitle5": "How can I add files and folders to my repository?",
     "faqContent50": "That's easy. Tap on the _**repository name**_.  This will take you to the _**repository**_ contents screen where you will see a **Plus** button: ",
     "faqContent51": "This will open a small window where you can choose whether to create a folder within that _**repository**_ or add files to it",
     "faqContent52": "If you decide to create a **new folder** this dialog box will allow you to do it: ",
     "faqContent53": "Alternatively, you can import files into one of the existing folders. ",
+    
     "faqTitle6": "What does it mean to 'import' a repository?",
     "faqContent60": "To import a _**repository**_ means that you want to recreate on your device a _**repository**_ that a peer has [shared](#sharing) with you. ",
     "faqContent61": "You start with the **+** button and then select **Import**:",
@@ -151,6 +166,7 @@
     "faqContent66": "The imported _**repository**_ will appear on your screen and after a short while all its content will be imported into your device.  In other words, the Ouisync _**repositories**_ on your devices will sync their data with the _**Ouisync repositories**_ on your peer’s device.  This will happen automatically, without any further action performed by you. ",
     "faqContent67": " Once the **syncing** is complete, you will see the **green check** icon next to the _**repository name**_. This means that you now have on your device the exact copy of the _**repository**_ that your peer has shared with you.  ",
     "faqContent68": "Peer who shares _**repository**_ decides what **access mode** (or permissions) to give to the peers who import it.  To learn more, see section [Sharing](#sharing).  **Access mode** is visible just above the _**repository**_ name on the **Import Repository** dialog box. ",
+    
     "faqTitle7": "Can I use my Ouisync repository for Secure Data Storage?",
     "faqContent70": " Yes. To do that, please follow these steps: ",
     "faqContent71": "**Step 1:** Create a _**repository**_ in a normal way, and add data that you want to store to it. ",
@@ -160,17 +176,20 @@
     "faqContent75": "**Step 5:** Using the device where you want to securely store your data, import this _**repository**_ with access mode **Blind** ",
     "faqContent76": "That's it. You data is now securely stored. ",
     "faqContent77": "What this means is that in your spare device (or your friend’s spare device) you have created an exact replica of the original _**repository**_ that resides on your primary device, but nobody can access it, because it is **blind**, ie it doesn’t have either **read** or **write** access.  ",
+    
     "faqTitle71": " Why is it called Secure Data Storage and  not simply Data Backup? ",
     "faqContent711": "Typically, if you want to back up your data, the backups would be created by some utility program, and they would be timestamped.  Thus, if you needed to, you would be able to go back to the previous backed up version. ",
     "faqContent712": "This is currently not the case with **Ouisync Blind** _**repositories**_.  If your **Blind** _**repository**_ is online at the same time as your original _**repositories**_, it will receive any updates that you make to your data.  If you rename, move or delete files in your original _**repository**_, they are going to be automatically renamed, moved or deleted in your **Blind** _**repository**_ as well.  ",
     "faqContent713": "Currently, **Ouisync app** doesn’t create timestamped backups that contain previous versions of data, so you cannot go back to the version of _**repository**_ you had two weeks ago.  ",
     "faqContent714": "This feature is on our roadmap.",
+    
     "faqTitle72": "What are my Blind repositories useful for?",
     "faqContent721": "They may be useful when...  ",
     "faqContent722": "**Your primary device is damaged, lost or stolen**",
     "faqContent723": "In this case,  using your **Write token link** (which you generated and saved in steps 2 and 3 above), you can get a new device, install the **Ouisync app**, and Import the _**repository**_ in a normal way using that token link.  Your **Blind** _**repository**_ and your newly imported _**repository**_ will sync, and you will have the exact replica of the data from that _**repository**_ in your new device. ",
     "faqContent724": "**Ouisync repositories in your primary device are accidentally (or deliberately) deleted**",
     "faqContent725": "You may have a need to temporarily remove the **Ouisync** _**repositories**_ from your primary device.   By following the steps above, you can securely store your data on a spare device, or your friend’s spare device, without anybody being able to access it, read it or edit it.",
+    
     "faqTitle73": "How can I retrieve the data from my Blind repositories?",
     "faqContent731": "To retrieve data from your **Blind** _**repositories**_, please perform these steps: ",
     "faqContent732": "**Step 1:** Make sure that the device containing your **Blind** _**repositories**_ is online.",
@@ -181,11 +200,14 @@
     "faqContent737": "From this point on, all the changes you make to the _**repository**_ on your primary device will, once again, be synced with your **Blind** _**repository**_, as long as devices remain connected .",
     "faqContent78": "If you add files to your primary _**repository**_, that addition will be propagated to your **Blind** _**repository**_ too (if your backup device is connected/online). That means that your **Blind** _**repository**_ will automatically receive all updates from your primary _**repository**_. However, if you delete any files in your primary _**repository**_, then that deletion will be propagated too, and you won't be able to retrieve those files. **Ouisync** is currently primarily a synchronization tool and not a secure backup tool. The selective syncing, and creating snapshots in time that will allow you to go back to the previous version of your _**repository**_ is planned for development in future **Ouisync** releases.",
     "faqContent79": "**Notice:** if you lose your **'Write'** link for the backup _**repository**_, you won't be able to retrieve data from that **Blind** copy. ",
+    
     "faqSectionTitle0": "Sharing",
+    
     "faqTitle8": "How can I share my repository with my peers (or my other devices)?",
     "faqContent80": "You can do this by tapping the _**repository**_ Settings menu and then tapping the **Share** symbol: ",
     "faqContent80a": "This will open a small window on the bottom part of your screen.  ",
     "faqContent80b": "Here you need to decide which **permission** (or **access mode**) to give to your peers and whether you want to share the _**repository**_ using the **token link** or the **QR code**.",
+    
     "faqTitle9": "How do I decide which permissions to select when sharing a repository?",
     "faqContent90": "**Write**",
     "faqContent91": "If you want your peers to be able to add files, delete them, rename or move them within the _**repository**_ that you shared with them, then you need to share your _**repository**_ with **Write** permission.",
@@ -195,6 +217,7 @@
     "faqContent95": "An example use case would be _when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them._ ",
     "faqContent96": "**Blind**",
     "faqContent97": "This level of permissions can be useful when you want to [securely store your data](#secure-data-storage) in a **Ouisync** _**repository**_. This means that the person or device with whom you shared your _**repository**_ as **Blind** won't be able to open the files to read them, nor make any changes to them. ",
+    
     "faqTitle91": "To share by Token Link or QR code?",
     "faqContent911": "If the peer (or device) with whom you want to share a _**repository**_ is nearby, you can generate the **QR code** for them to scan. After that, they need to tap on the **Import** button",
     "faqContent912": "This action will import a copy of your _**repository**_ onto your peer's device, including all the files and folders within it. ",
@@ -202,11 +225,14 @@
     "faqContent914": "The **Copy link** button will copy the generated link which you can paste in an email, text message, chat etc.  ",
     "faqContent915": "The **Share link** button will offer you a choice of apps you can use to send the link.",
     "faqContent916": "When they receive the **link**,  your peers will need to go to the app home page, and then tap the **plus** button to start the **Import** _**repository**_ process.  They will need to copy and paste the **link** into the field provided and proceed with the _**repository**_ import.  ",
+    
     "faqTitle10": "Can my peers re-share my token links?",
     "faqContent100": "Yes. They can generate the **token links** with the same permissions they had in the original **token link** that they received from you, or lower. ",
     "faqContent101": "This means that if a person has received a **token link** to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link to share the same _**repository**_ with other people, or they can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). ",
     "faqContent102": "If they imported a **_repository_** with **Read** permissions only, then they can share it with others as **Read** or **Blind**. If they imported your _**repository**_ as **Blind**, they can only share it as **Blind**. ",
+    
     "faqSectionTitle1": "File Management",
+    
     "faqTitle11": "What happens if my peers and myself upload the same file into Ouisync?",
     "faqContent110": "**Ouisync** is capable of handling two different scenarios.",
     "faqContent111": "Peers who are online at the same time",
@@ -215,49 +241,67 @@
     "faqContent114": "Peers who are offline at the time of uploading the files",
     "faqContent115": "If you and one or more peers upload the same file (for example Free_Test-Data_1MB.docx) when you are offline and therefore not able to sync files immediately, your files will sync when you are able to connect to your peers again.",
     "faqContent116": "In case of two or more files bearing the same name, **Ouisync** will detect this situation and it will add random string at the end of the name of each file - to distinguish between them.  You can then view them and decide which one to keep, whether to rename them etc.",
+    
     "faqTitle12": "What happens if I delete files in my repository?",
     "faqContent120": "File deletion is propagated to all replicas in existence - which means the same file that you deleted will be automatically deleted in the _**repositories**_ of all the peers with whom you have shared it.",
     "faqContent121": "Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **Write** permissions will sync with each other, including file edits, additions or deletions.",
+    
     "faqTitle13": "What happens if I rename files in my repository?",
     "faqContent130": "If you rename files in your _**repository**_, the new file name will be propagated to the _**repositories**_ of all the peers that you shared your _**repository**_ with.",
+    
     "faqTitle14": "Can I move my files from one repository to another?",
     "faqContent140": "Yes. From the version 0.8.1 onwards, moving files from one _**repository**_ to another is possible.",
     "faqSectionTitle2": "Privacy, Security and Cache Server",
+    
     "faqTitle15": "Are my files stored on a server? Why?",
     "faqContent150": "Yes. They are stored fully encrypted in transport as well as at rest and are **not** readable by the server.",
     "faqContent151": "The  purpose of this temporary server storage is to facilitate file syncing between peers when they are not online at the same time or when they cannot establish a direct peer-to-peer connection.",
     "faqContent151a": "If you want to share a _**repository**_ with a peer who is not online at the moment, your _**repository**_  data will be stored encrypted on the server and when your peer comes  online and connects to the server (or to your device) the files  from the stored _**repository**_ will sync with the files in your peer's repository.",
     "faqContent151b": "The server is **zero-knowledge** and it's purpose is to ensure reachability by temporarily storing data and providing it to those who posses the corresponding **token link**.",
+    
     "faqTitle15a": "Is there a way to opt-out?",
     "faqContent15a1": "Yes.",
     "faqContent15a2": "When creating or importing a _**repository**_, you can decide to use this option, or to opt out of it.",
     "faqContent15a3": "If you want to change your decision later on, you can do that in the _**repository**_ **Settings** screen. ",
+    
     "faqTitle15b": "What happens when Use Cache Server is ON?",
     "faqContent15b1": "If this option is ON, your data is stored on the cache server for a short period of time.  The stored data is fully encrypted in transport as well as at rest and is not readable by the server.  ",
     "faqContent15b2": "When your peer comes online at the time when you are offline, they will connect to the server and  the stored _**repository**_ will sync with your peer's _**repository**_. ",
+    
     "faqTitle15c": "What happens when Use Cache Server is OFF?",
     "faqContent15c1": "When this toggle is off your data is not stored on cache servers.  This means that you will be able to sync your _**repositories**_ only with peers  or devices that are online at the same time as you.  ",
     "faqContent15c2": "If you initially decide to **Use Cache Server** your _**repositories**_ are going to be temporarily stored on the **Cache Server**.  If you then decide to opt out and not use this option any more, your previously stored _**repositories**_ will be deleted from the server.  You can opt in or out as many time as you want.",
+    
     "faqTitle15d": "Why don’t I see the Cache Server toggle?",
     "faqContent15d1": "You will see this toggle only got _**repositories**_ for which you have the **write access**.  For _**repositories**_ with read or blind access, this toggle is hidden.",
+    
     "faqTitle16": "How can I connect to the server?",
     "faqContent160": "If you selected to **Use Cache Server**,  when you create a _**repository**_ ,your device will automatically be connected to the cache server. You don't need to perform any additional actions.",
+    
     "faqTitle16a": "How long is my data kept on the cache server?",
     "faqContent16a1": "We keep your data on our **cache server** for 24 hours after the last syncing activity.  This means that the server will help sync _**repositories**_ with your peers who are online at least once a day.  ",
+    
     "faqTitle16b": "Cache Server size",
     "faqContent16b1": "Currently, the size of _**repositories**_ synced via our **Cache Server** is limited to 1GB.  If you try to sync more than 1GB of data, the server will sync 1GB and then stop.  We provide this service free of charge and have imposed the _**repository**_ limits to prevent abuse. ",
+    
     "faqTitle17": "Where is the Cache Server and who runs it?",
     "faqContent170": "The **Ouisync** servers are physically located in Canada and are managed by eQualitie.",
+    
     "faqTitle17a": "Can I set up my own server to use with my peers?",
     "faqContent17a1": "Not yet.  We are working on it and in the near future you will be able to set up your own **Cache Server** to use with your peers.",
+    
     "faqTitle18": "What private data does Ouisync use/store?",
     "faqContent180": "**Ouisync** uses the IP addresses of your devices to be able to connect you with your peers in the peer-to-peer network. We don't store those IP addresses anywhere on our systems. We don't keep any other user data. ",
+    
     "faqTitle19": "How can I lock my repositories when I'm not actively using them?",
     "faqContent190": "To lock your _**repositories**_ when not actively working on them, tap on the **Lock** button.",
     "faqContent191": "To unlock them, first you need to tap on the _**repository**_ name.",
     "faqContent192": "If your _**repository**_ is protected by password or biometrics, enter the password or scan your fingerprint when prompted. Otherwise, just tap on the **Unlock** button and continue to work on your repository.",
+    
     "faqSectionTitle2a": "Passwords and Biometrics",
+    
     "faqSectionTitle4": "Ouisync Installation on Windows", 
+    
     "faqTitle41": "Installation from Microsoft App Store", 
     "faqContent411": "To install Ouisync on your Windows machine, please go to the [Microsoft App Store](https://apps.microsoft.com), type 'Ouisync' in the search box and click on the Download button.",
     "faqContent412": "After that, in your Downloads folder, you will see the Ouisync installer.",
@@ -266,6 +310,7 @@
     "faqContent415": "That’s it - you’ve got the Ouisync app!",
     "faqContent416": "Upon first launching Ouisync, you will see this popup:",
     "faqContent417": "So what is Dokan for?", 
+    
     "faqTitle42": "Dokan... What is it for?", 
     "faqContent421": "After you start Ouisync on Windows for the first time, but before you install the Dokan library, take a look at the File Explorer and you will see something like this: ",
     "faqContent422": "After you install Dokan library, you will see something like this: ",
@@ -274,10 +319,12 @@
     "faqContent425": "With Dokan installed, you can drag and drop the files into the Ouisync repositories, copy and paste, rename or delete them – all within the File Explorer.", 
     "faqContent426": "", 
     "faqContent427": "Without Dokan, Ouisync would still be able to encrypt files and sync repositories, but you would not be able to interact with your Ouisync repositories via a file explorer.  For optimal user experience, we recommend that our users install Dokan.", 
+    
     "faqTitle43": "Can I preview files within the Ouisync app on Windows, without Dokan? ", 
     "faqContent431": "No.  They are encrypted, and within Ouisync for Windows they cannot be previewed without Dokan. ", 
     "faqContent432": "If you try to view the files within the Ouisync app without having Dokan installed on your Windows machine, you will see this message at the bottom of your screen: ",
     "faqContent433": "This means that the O: drive hasn’t been mounted, so Ouisync is unable to work seamlessly with Windows File Explorer or provide a way to preview files within repositories.",
+    
     "faqTitle44": "Why do I see the message that my Dokan installation is out of date?",
     "faqContent4401": "If you already have Dokan installed, but you see a message that your version of Dokan is out of date, this message indicates that the version on your machine is too old to meet Ouisync's requirements.", 
     "faqContent4402": "In this case, you will see a pop-up informing you of what you need to do: uninstall the existing version of Dokan, reboot your computer, and restart Ouisync.  Ouisync will then automatically begin installing the latest version of Dokan for your machine.",
@@ -290,30 +337,38 @@
     "faqContent4409": "Then, locate Dokan in the list of Programs installed and right click > Uninstall.  Follow the onscreen prompts and, at the end of the successful uninstall, you will see this popup: ",
     "faqContent4410": "Step 3: Restart your computer.",
     "faqContent4411": "Step 4: Launch the Ouisync app once more.",
+    
     "faqTitle45": "Does Ouisync launch at startup automatically?",
     "faqContent451": "In the Ouisync app settings, we have provided an option to relaunch the Ouisync app after every computer restart.",
     "faqContent452": "For optimal syncing with your peers, we recommend this setting be ON so that Ouisync can run in the background and receive repository changes from your peers as soon as they happen.",
     "faqContent453": "", 
+    
     "faqTitle46": "What are the Dokan installation steps?", 
     "faqContent461": "If needed, here’s a reminder: When you launch the Ouisync app, and you don’t have the Dokan library installed, you will see this popup: ", 
     "faqContent462": "Clicking on the Install Dokan button will launch the Dokan installer. Please follow the onsreen instructions to successfully install the necessary Dokan library.",
     "faqContent463": "After you click Finish, Dokan will be installed and Ouisync will be ready to use.",
+    
     "faqTitle47": "How do I use Ouisync on Windows?",
     "faqContent471": "The Ouisync Windows app screens can be used the same way as Ouisync Android screens. Most of the frequently asked questions for the Android version of Ouisync also apply to the Windows version.",
+    
     "faqTitle48": "Can I create repositories using File Explorer?",
     "faqContent481": "No. Repositories can only be created via the Ouisync app screens.  You cannot do this using File Explorer.",
     "faqContent482": "On your O: drive, the top level folders represent the repositories in your Ouisync app. When Ouisync is first installed, this folder in the File Explorer will be empty. ",
     "faqContent483": "After you create a repository within Ouisync, it will also be seen here",
+    
     "faqTitle49": "Can I drag and drop files into my repository using File Explorer?",
     "faqContent491": "Yes. Once you have your repository created, you can drag and drop files into it using the Windows File Explorer.",
     "faqContent492": "Note: it is not possible to drag and drop files directly onto the O: drive, only into previously created repositories.",
+    
     "faqTitle50": "What else can I do in the File Explorer?",
     "faqContent501": "You can use the File Explorer to add files to repositories, rename them, preview them, and delete them. ", 
+    
     "faqTitle51": "Can I manipulate repositories within the File Explorer? ",
     "faqContent511": "No.  Repository manipulation (for example: renaming, sharing, and deleting) must be done using the Ouisync app screens. ", 
     
     
     "faqSectionTitle3": "Other FAQs",
+    
     "faqTitle20": "What are the advantages of using Ouisync over Dropbox, Google, or other similar solutions?",
     "faqContent200": "Free to use",
     "faqContent201": "To be able to share files using Dropbox, you need to create a Dropbox account. This requires your name, email, and credit card. It also requires payment. ",
@@ -322,6 +377,7 @@
     "faqContent204": "**Ouisync** does not require the creation of user accounts. With **Ouisync**, it is simply a matter of installing the app and using it. All users are completely anonymous.",
     "faqContent205": "**Ouisync** is a **P2P** solution",
     "faqContent206": "This means that using **Ouisync** successfully does not depend on any central server anywhere. **Ouisync** makes use of decentralized peer-to-peer networking, which makes it an effective file-sharing app even in situations where well-known file-sharing servers (such as **Dropbox** or **Google Drive**) are unavailable.",
+    
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
     "faqContent211": "This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies. ",
