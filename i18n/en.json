@@ -104,7 +104,6 @@
     "faqContent2a10": "_However, If that teacher generates a **write token** prior to deleting the _**repository**_, and stores it somewhere safely, then they are able to re-import the same _**repository**_ using that **token**, even after they deleted it on their device._ ",
     "faqContent2a11": "_The data from their students' _**repositories**_ will sync with the teacher’s new _**repository**_.  That way the teacher’s _**repository**_ will contain all the data from students’ _**repositories**_ and they will also have the **write access**._ ",
   
-   
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
     "faqContent30": "There is no requirement to protect your _**repositories**_ either by **password** or by **biometrics**.   ",
     "faqContent30a": "Whether you decide to do it depends on the sensitivity of data that you store in _**Ouisync repositories**_ and habitual usage of your devices.",
@@ -227,11 +226,9 @@
     "faqContent92": "An example use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ ",
     "faqContent93": "**Read**",
     "faqContent94": "If you want your peers to only be able to read the _**repository**_ contents, then select **Read permissions**. This means they will be able to open the files and read them, but they won't be able to add new files to your shared _**repository**_, nor move or delete any files from it.",
-    "faqContent95": "An example use case would be _when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them._ ",
+    "faqContent95": "An example use case would be _when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them. ",
     "faqContent96": "**Blind**",
-    "faqContent97": "This level of permissions can be useful when you want to [securely store your data](#secure-data-storage) in a **Ouisync** _**repository**_. This means that the person or device with whom you shared your _**repository**_ as **Blind** won't be able to open the files to read them, nor make any changes to them. ",
-    "faqContent98": "Peer who shares _**repository**_ decides what **access mode** (or permissions) to give to the peers who import it."   
-    "faqContent99": "When importing a repository, **Access mode** that your peer has given you is visible just above the _**repository**_ name on the **Import Repository** dialog box. ",      
+    "faqContent97": "This level of permissions can be useful when you want to [securely store your data](#secure-data-storage) in a **Ouisync** _**repository**_. This means that the person or device with whom you shared your _**repository**_ as **Blind** won't be able to open the files to read them, nor make any changes to them. ",      
     
     "faqTitle91": "To share by Link or QR code? ",
     "faqContent910": "Here you need to decide if you want to share a repository using a link or QR code. ", 
