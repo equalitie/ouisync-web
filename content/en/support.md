@@ -222,11 +222,6 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent97" %}}
 
-{{% render-i18n "faqContent98" %}}
-
-{{% render-i18n "faqContent99" %}}
-{{< figure src="/img/080_access_mode_shadow.png" alt="Access mode" >}}
-
 {{% /markdown %}}  
 </details>
 
