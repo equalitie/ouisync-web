@@ -230,7 +230,9 @@
     "faqContent95": "An example use case would be _when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some content with your students, etc. In all these you want the recipients to be able to read the contents but not change them._ ",
     "faqContent96": "**Blind**",
     "faqContent97": "This level of permissions can be useful when you want to [securely store your data](#secure-data-storage) in a **Ouisync** _**repository**_. This means that the person or device with whom you shared your _**repository**_ as **Blind** won't be able to open the files to read them, nor make any changes to them. ",
-      
+    "faqContent98": "Peer who shares _**repository**_ decides what **access mode** (or permissions) to give to the peers who import it."   
+    "faqContent99": "When importing a repository, **Access mode** that your peer has given you is visible just above the _**repository**_ name on the **Import Repository** dialog box. ",      
+    
     "faqTitle91": "To share by Link or QR code? ",
     "faqContent910": "Here you need to decide if you want to share a repository using a link or QR code. ", 
     "faqContent911": "If the peer (or device) with whom you want to share a _**repository**_ is nearby, you can generate the **QR code** for them to scan. ",
