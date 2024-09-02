@@ -177,12 +177,6 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent73" %}}
 
-{{% render-i18n "faqContent74" %}}
-
-{{% render-i18n "faqContent75" %}}
-
-{{% render-i18n "faqContent76" %}}
-
 #### {{% render-i18n "faqContent77" %}}
 
 {{% /markdown %}}
@@ -230,6 +224,8 @@ date: 2023-07-10T12:14:12-04:00
 </summary>
 {{% markdown %}}
 
+{{% render-i18n "faqContent730" %}}
+
 {{% render-i18n "faqContent731" %}}
 
 {{% render-i18n "faqContent732" %}}
@@ -244,10 +240,34 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent737" %}}
 
-{{% render-i18n "faqContent78" %}}
+{{% /markdown %}}
+</details>
 
-{{% render-i18n "faqContent79" %}}
+<details>
+<summary>
+{{% render-i18n "faqTitle74" %}}
+</summary>
+{{% markdown %}}
 
+{{% render-i18n "faqContent741" %}}
+
+{{% render-i18n "faqContent741" %}}
+
+{{% render-i18n "faqContent742" %}}
+
+{{% render-i18n "faqContent743" %}}
+
+{{% render-i18n "faqContent744" %}}
+
+{{% render-i18n "faqContent745" %}}
+
+{{% render-i18n "faqContent746" %}}
+
+{{% render-i18n "faqContent747" %}}
+
+{{% render-i18n "faqContent748" %}}
+
+{{% render-i18n "faqContent749" %}}
 
 {{% /markdown %}}
 </details>
