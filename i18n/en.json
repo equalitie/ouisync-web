@@ -174,7 +174,7 @@
     "faqContent68": "Peer who shares _**repository**_ decides what **access mode** (or permissions) to give to the peers who import it.  To learn more, see section [Sharing](#sharing).  **Access mode** is visible just above the _**repository**_ name on the **Import Repository** dialog box. ",
     
     "faqTitle7": "What are Blind repositories? ",
-    "fasContent70": "When sharing a repository, you can decide to share it with **Blind** permission.", 
+    "faqContent70": "When sharing a repository, you can decide to share it with **Blind** permission.", 
     "faqContent71": "This means that it can be imported into another device, but it cannot be read or edited or viewed on that device - it is **blind** on that device.  Its purpose is simply to securley store data on a device.", 
     "faqContent72": "Note: if your **blind** repository is online at the same time as your other repositories, it will sync with your original repository.",
     "faqContent73": "Your **Blind** _**repository**_ will receive any updates that you make to your data.  If you rename, move or delete files in your original _**repository**_, they are going to be automatically renamed, moved or deleted in your **Blind** _**repository**_ as well. ", 
