@@ -136,6 +136,11 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent2a4" %}}
 
+{{% render-i18n "faqContent2a4a" %}}
+
+{{% render-i18n "faqContent2a4b" %}}
+
+
 ### {{% render-i18n "faqContent2a5" %}}
   
 {{% render-i18n "faqContent2a6" %}}
