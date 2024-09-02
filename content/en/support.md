@@ -140,6 +140,7 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent2a4b" %}}
 
+{{% render-i18n "faqContent2a4c" %}}
 
 ### {{% render-i18n "faqContent2a5" %}}
   
@@ -153,7 +154,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent2a10" %}}
 {{% render-i18n "faqContent2a11" %}}
 
-#### {{% render-i18n "faqContent2a12" %}}
+
 
 
     
