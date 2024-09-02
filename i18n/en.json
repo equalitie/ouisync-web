@@ -234,7 +234,7 @@
     "faqContent99": "When importing a repository, **Access mode** that your peer has given you is visible just above the _**repository**_ name on the **Import Repository** dialog box.",
     
     "faqTitle91": "To share by Link or QR code? ",
-    "faqContent911": "If the peer (or device) with whom you want to share a _**repository**_ is nearby, you can generate the **QR code** for them to scan. ", 
+    "faqContent911": "If the peer (or device) with whom you want to share a _**repository**_ is nearby, you can generate the **QR code** for them to scan. ",
     "faqContent911a": "After that, they need to tap on the **Import** button. ",
     "faqContent912": "This action will import a copy of your _**repository**_ onto your peer's device, including all the files and folders within it. ",
     "faqContent913": "If your peer is not nearby, you can share your _**repositories**_ by generating a **link**. ",
