@@ -158,6 +158,102 @@ date: 2023-07-10T12:14:12-04:00
 </details>
 
 <div class="faq-subsection">
+<div id="sharing">
+
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+## {{% render-i18n "faqSectionTitle0" %}}
+{{% /center%}}
+
+</div>
+
+<details>
+<summary>
+<a name="sharing" style="text-decoration: none">
+{{% render-i18n "faqTitle8" %}}
+</a>
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent80" %}}
+{{< figure src="/img/share.png" alt="Select to share a repository" >}}
+  
+{{% render-i18n "faqContent80a" %}}
+{{< figure src="/img/080_share_repo_shadow.png" alt="Sharing options" >}}
+
+{{% render-i18n "faqContent80b" %}}
+{{% /markdown %}}
+</details>
+
+<details>
+  <summary>
+  {{% render-i18n "faqTitle9" %}}
+</summary>
+{{% markdown %}} 
+  
+### {{% render-i18n "faqContent90" %}}
+ 
+{{% render-i18n "faqContent91" %}}
+{{< figure src="/img/080_share_write_shadow.png" alt="Select Write permissions" >}}
+
+{{% render-i18n "faqContent92" %}}
+### {{% render-i18n "faqContent93" %}}
+
+{{% render-i18n "faqContent94" %}}
+{{< figure src="/img/080_share_read_shadow.png" alt="Select Read permissions" >}}
+{{% render-i18n "faqContent95" %}}
+
+### {{% render-i18n "faqContent96" %}}
+{{< figure src="/img/080_share_blind_shadow.png" alt="Select Blind permissions" >}}
+
+{{% render-i18n "faqContent97" %}}
+
+{{% /markdown %}}  
+</details>
+
+<details>
+  <summary>
+  {{% render-i18n "faqTitle91" %}}
+</summary>
+{{% markdown %}} 
+{{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
+{{% render-i18n "faqContent911" %}}
+{{< figure src="/img/qr_code.png" alt="Repository QR code" >}}
+  
+{{% render-i18n "faqContent912" %}}
+
+{{% render-i18n "faqContent913" %}}
+{{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
+
+{{% render-i18n "faqContent914" %}}
+
+{{% render-i18n "faqContent915" %}}
+
+{{% render-i18n "faqContent916" %}}
+
+{{% render-i18n "faqContent917" %}}
+
+{{% /markdown %}}
+</details>
+
+
+<details>
+<summary>
+{{% render-i18n "faqTitle10" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent100" %}}
+
+{{% render-i18n "faqContent101" %}}
+
+{{% render-i18n "faqContent102" %}}
+
+{{% /markdown %}}
+</details>
+</div>
+
+
+
+<div class="faq-subsection">
 <div id="secure-data-storage">
 {{% center padding-top="0rem" padding-bot="1rem"%}}
 ## {{% render-i18n "secureDataStorage" %}}
@@ -272,100 +368,6 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
-</div>
-
-<div class="faq-subsection">
-<div id="sharing">
-
-{{% center padding-top="0rem" padding-bot="1rem"%}}
-## {{% render-i18n "faqSectionTitle0" %}}
-{{% /center%}}
-
-</div>
-
-<details>
-<summary>
-<a name="sharing" style="text-decoration: none">
-{{% render-i18n "faqTitle8" %}}
-</a>
-</summary>
-{{% markdown %}}
-{{% render-i18n "faqContent80" %}}
-{{< figure src="/img/share.png" alt="Select to share a repository" >}}
-  
-{{% render-i18n "faqContent80a" %}}
-{{< figure src="/img/080_share_repo_shadow.png" alt="Sharing options" >}}
-
-{{% render-i18n "faqContent80b" %}}
-{{% /markdown %}}
-</details>
-
-<details>
-  <summary>
-  {{% render-i18n "faqTitle9" %}}
-</summary>
-{{% markdown %}} 
-  
-### {{% render-i18n "faqContent90" %}}
- 
-{{% render-i18n "faqContent91" %}}
-{{< figure src="/img/080_share_write_shadow.png" alt="Select Write permissions" >}}
-
-{{% render-i18n "faqContent92" %}}
-### {{% render-i18n "faqContent93" %}}
-
-{{% render-i18n "faqContent94" %}}
-{{< figure src="/img/080_share_read_shadow.png" alt="Select Read permissions" >}}
-{{% render-i18n "faqContent95" %}}
-
-### {{% render-i18n "faqContent96" %}}
-{{< figure src="/img/080_share_blind_shadow.png" alt="Select Blind permissions" >}}
-
-{{% render-i18n "faqContent97" %}}
-
-{{% /markdown %}}  
-</details>
-
-<details>
-  <summary>
-  {{% render-i18n "faqTitle91" %}}
-</summary>
-{{% markdown %}} 
-{{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
-{{% render-i18n "faqContent911" %}}
-{{< figure src="/img/qr_code.png" alt="Repository QR code" >}}
-  
-{{% render-i18n "faqContent912" %}}
-
-{{% render-i18n "faqContent913" %}}
-{{< figure src="/img/080_link_or_qr_shadow.png" alt="Share Repository with a link or QR code" >}}
-
-{{% render-i18n "faqContent914" %}}
-
-{{% render-i18n "faqContent915" %}}
-
-{{% render-i18n "faqContent916" %}}
-
-{{% render-i18n "faqContent917" %}}
-
-{{% /markdown %}}
-</details>
-
-
-<details>
-<summary>
-{{% render-i18n "faqTitle10" %}}
-</summary>
-{{% markdown %}}
-
-{{% render-i18n "faqContent100" %}}
-
-{{% render-i18n "faqContent101" %}}
-
-{{% render-i18n "faqContent102" %}}
-
-{{% /markdown %}}
-</details>
 </div>
 
 <div class="faq-subsection">
