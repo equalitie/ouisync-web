@@ -94,7 +94,7 @@
     "faqContent2a3": "If you delete a _**repository**_ that you have not shared with any other device or peer, then your Ouisync data is deleted. ",
     "faqContent2a4": "But if you delete a _**repository**_ that you have shared with another device or peer, you can re-import it from them back into your primary device. ",
     "faqContent2a4a": "If you shared a repository with **write** permissions, your peers can generate a link and send it back to you with the same permissions. ",
-    "faqContent2a4b": "If created a repository and you shared it with a **read** permissions, your peers can generate only a **read** link to send back to you.", 
+    "faqContent2a4b": "If you created a repository and you shared it with a **read** permissions, your peers can generate only a **read** link to send back to you.", 
     "faqContent2a4c": "The kind of access a user can have is **encoded in the link**.",
     "faqContent2a5": "Example Usecase",
     "faqContent2a6": "_A teacher creates a Ouisync _**repository**_, uploads the study material into it and shares it with their students in **read only** mode._",
