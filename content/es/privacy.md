@@ -18,111 +18,120 @@ incluido el contenido que:
 * Infringe los derechos de protección de la información personal, incluidos los
   valores subyacentes de la Ley de Privacidad de Canadá o PIPEDA (Ley de
   Protección de Información Personal y Documentos Electrónicos),
-* Constitutes child sexually exploitative material (including material which may
-  not be illegal child sexual abuse material but which nonetheless sexually
-  exploits or promotes the sexual exploitation of minors), unlawful pornography,
-  or are otherwise indecent;
-* Contains or promotes extreme acts of violence or terrorist activity, including
-  terror or violent extremist propaganda;
-* Advocates bigotry, hatred, or the incitement of violence against any person or
-  group of people based on their race, religion, ethnicity, national origin,
-  sex, gender identity, sexual orientation, disability, impairment, or any other
-  characteristic(s) associated with systemic discrimination or marginalization;
-* Files that contain viruses, trojans, worms, logic bombs or other material that
-  is malicious or technologically harmful
+* Constituye material de explotación sexual infantil (incluido material que
+  puede no ser material ilegal de abuso sexual infantil pero que, no obstante,
+  explota sexualmente o promueve la explotación sexual de menores), pornografía
+  ilegal o es de otro modo indecente;
+* Contiene o promueve actos extremos de violencia o actividad terrorista,
+  incluido el terrorismo o la propaganda extremista violenta;
+* Promueve la intolerancia, el odio o la incitación a la violencia contra
+  cualquier persona o grupo de personas por su raza, religión, etnia, origen
+  nacional, sexo, identidad de género, orientación sexual, discapacidad,
+  impedimento o cualquier otra característica asociada con la discriminación o
+  marginación sistémica;
+* Archivos que contienen virus, troyanos, gusanos, bombas lógicas u otro
+  material malicioso o tecnológicamente dañino
 
-## 3. Privacy Notice
+## 3. Aviso de privacidad
 
-This section is used to inform visitors regarding our policies with the
-collection, use, and disclosure of Personal Information if anyone decides to use
-our Service. 3.1 Data Collection The OuiSync team values user privacy and thus
-does not collect any user information. The Ouisync app is designed to be able to
-provide file sharing services without a user ID, name, nickname, user account or
-any other form of user data. We don't know who uses our app and with whom they
-sync or share their data.
+Esta sección se utiliza para informar a los visitantes sobre nuestras políticas
+de recopilación, uso y divulgación de Datos Personales si alguien decide
+utilizar nuestro Servicio.
+### 3.1 Recopilación de datos
+El equipo de OuiSync valora la privacidad del usuario y, por tanto, no recopila
+ningún tipo de información sobre él. La aplicación Ouisync está diseñada para
+poder ofrecer servicios de intercambio de archivos sin ID de usuario, nombre,
+apodo, cuenta de usuario ni ninguna otra forma de datos de usuario. No sabemos
+quién utiliza nuestra aplicación ni con quién sincroniza o comparte tus datos.
 
-### 3.2 Data Sharing
-Ouisync (and eQualit.ie) does not share any data with any third parties.
+### 3.2 Compartición de datos
+Ouisync (y eQualit.ie) no comparte ningún dato con terceros.
 
-### 3.3 Security Practices
-Data that the user uploads into the Ouisync repositories is end-to-end encrypted
-in transit as well as at rest. This includes metadata such as file names, sizes,
-folder structure etc. Within Ouisync, data is readable only by the person who
-uploaded the data and those persons with whom they shared their repositories.
+### 3.3 Prácticas de seguridad
+Los datos que el usuario carga en los repositorios de Ouisync están cifrados de
+extremo a extremo, tanto en tránsito como en reposo. Esto incluye metadatos como
+nombres de archivos, tamaños, estructura de carpetas, etc. En Ouisync, los datos
+solo pueden ser leídos por la persona que los cargó y por aquellas personas con
+las que compartió sus repositorios.
 
-You can learn more about the encryption techniques used in our documentation.
+Puedes obtener más información sobre las técnicas de cifrado utilizadas en
+nuestra
+[documentación](https://github.com/equalitie/ouisync/blob/master/doc/paper.md).
 
-The Ouisync app stores users' data on an 'Always-On Peer', which is a server
-located in Canada. All data is stored as encrypted chunks and is not readable by
-the server or its operators. The purpose of this server is simply to bridge the
-gaps between peers who are not online at the same time. All data is periodically
-purged from this server - its purpose is not to provide permanent data storage
-but simply facilitation of data syncing by peers.
+Por defecto, la aplicación Ouisync almacena los datos de los usuarios en un
+servidor de caché situado en Canadá. Todos los datos se almacenan en trozos
+encriptados y ni el servidor ni sus operadores pueden leerlos. El propósito de
+este servidor es simplemente salvar las distancias entre usuarios que no están
+conectados al mismo tiempo. Todos los datos se eliminan periódicamente de este
+servidor: su propósito no es proporcionar un almacenamiento permanente de datos,
+sino simplemente facilitar la sincronización de datos entre pares. El usuario
+puede optar fácilmente por no almacenar sus datos en nuestro servidor.
 
-If you have a reason to believe that your personal data has been illegaly
-obtained and shared by other Ouisync users, please contact us at the address
-below.
+Si tienes motivos para creer que tus datos personales han sido obtenidos y
+compartidos ilegalmente por otros usuarios de Ouisync, contáctanos a la
+siguiente dirección.
 
-### 3.4 Deletion of your data from our Always-On-Peer server
-The simplest way to delete your data is by deleting files or repositories from
-your own device. Any file deletion will be propagated to all your peers - ie, if
-you have Write access to a repository, you can delete any files within it and
-the same files will be deleted from your peers' repositories as well as from our
-Always-On-Peer. If you need to delete only the repositories from our
-Always-On-Peer (but still keep them in your own repository on your own device),
-please contact us at the address below.
+### 3.4 Eliminación de tus datos de nuestro servidor
+La forma más sencilla de eliminar tus datos es eliminar archivos dentro de los
+repositorios de Ouisync en tu propio dispositivo. Cualquier eliminación de
+archivo se propagará a todos tus pares, es decir, si tienes acceso de escritura
+a un repositorio, puedes eliminar cualquier archivo dentro de él y los mismos
+archivos se eliminarán de los repositorios de tus pares, así como de nuestro
+servidor de caché. Si necesitas eliminar todos los repositorios de nuestro
+servidor, pero aún así mantenerlos en tu propio dispositivo, puede desactivar la
+opción Usar servidores de caché que se encuentra en la pantalla de configuración
+del repositorio.
 
-***Note:** The Ouisync team cannot delete individual files from repositories, as
-it is not possible to identify them because they are encrypted. We are able to
-delete whole repositories if you send us the link to the repository that needs
-to be deleted.*
+### 3.5 Registro de datos (Log Data)
+La aplicación OuiSync crea archivos de registro (logfiles) en los dispositivos
+de los usuarios. Su único propósito es registrar la actividad del dispositivo
+para facilitar el proceso de depuración en caso de que el usuario experimente
+dificultades para conectarse con sus peers/nodos (dispositivos) o para utilizar
+la aplicación OuiSync. El archivo de registro permanece en el dispositivo del
+usuario a menos que el usuario decida enviárnoslo para fines de soporte.
 
-### 3.5 Log Data
-The OuiSync app creates logfiles on users' devices. Their purpose is only to log
-device's activity to facilitate the debugging process in case the user
-experiences difficulties in connecting with their peers or otherwise in using
-the Ouisync app. The logfile remains on a user's device unless the user decides
-to send it to us for support purposes.
+Si el usuario decide contactarnos, los datos de identificación personal que
+podemos recopilar son:
+* Dirección de correo electrónico: si el usuario decidió contactarnos por correo
+  electrónico;
+* Información que el usuario pueda proporcionar por correo electrónico, a través
+  de tickets de ayuda o a través de nuestro sitio web, y metadatos asociados,
+  con el fin de brindar soporte técnico;
+* Dirección IP del usuario: para fines de prestación de soporte técnico.
 
-If the user does decide to contact us, the personally indetifiable data we may
-collect is:
-* Email address - if the user decided to contact us by email;
-* Information the user may provide by email, through help tickets, or through
-  our website, and associated metadata - for the purposes of providing technical
-  support;
-* User’s IP address - for the purposes of providing technical support.
-
-None of this data is shared with any third parties.
+Ninguno de estos datos se comparte con terceros.
 
 ### 3.6 Cookies
-The Ouisync app does not use cookies.
+La aplicación Ouisync no utiliza cookies.
 
-### 3.7 Links to Other Sites
-This Service may contain links to other sites. If you click on a third-party
-link, you will be directed to that site. Note that these external sites are not
-operated by us. Therefore, we strongly advise you to review the Privacy Policy
-of these websites. We have no control over and assume no responsibility for the
-content, privacy policies, or practices of any third-party sites or services.
+### 3.7 Enlaces a otros sitios
+Este Servicio puede contener enlaces a otros sitios. Si haces clic en un enlace
+de un tercero, se te dirigirá a ese sitio. Ten en cuenta que estos sitios
+externos no son operados por nosotros. Por lo tanto, te recomendamos
+encarecidamente que revises la Política de privacidad de estos sitios web. No
+tenemos control ni asumimos ninguna responsabilidad por el contenido, las
+políticas de privacidad o las prácticas de los sitios o servicios de terceros.
 
-### 3.8 Children’s Privacy
-We do not knowingly collect personally identifiable information from children.
-We encourage all children to never submit any personally identifiable
-information through the Application and/or Services. We encourage parents and
-legal guardians to monitor their childrens' Internet usage and to help enforce
-this Policy by instructing their children never to provide personally
-identifiable information through the Application and/or Services without their
-permission. If you have reason to believe that a child has provided personally
-identifiable information to us through the Application and/or Services, please
-contact us. You must also be at least 16 years of age to consent to the
-processing of your personally identifiable information in your country (in some
-countries we may allow your parent or guardian to do so on your behalf).
+### 3.8 Privacidad de los niños
+No recopilamos deliberadamente información de identificación personal de niños.
+Recomendamos a todos los niños que nunca envíen información de identificación
+personal a través de la Aplicación o los Servicios. Recomendamos a los padres y
+tutores legales que supervisen el uso de Internet de sus hijos y que ayuden a
+hacer cumplir esta Política instruyendo a sus hijos a que nunca proporcionen
+información de identificación personal a través de la Aplicación o los Servicios
+sin su permiso. Si tienes motivos para creer que un niño nos has proporcionado
+información de identificación personal a través de la Aplicación o los
+Servicios, comunícate con nosotros. También debes tener al menos 16 años de edad
+para dar tu consentimiento para el procesamiento de tu información de
+identificación personal en tu país (en algunos países podemos permitir que tu
+padre o tutor lo haga en tu nombre).
 
-### 3.9 Changes to these Terms
-We may update our Terms from time to time. Thus, you are advised to review this
-page periodically for any changes.
+### 3.9 Cambios a estos Términos
+Es posible que actualicemos nuestros Términos de vez en cuando. Por lo tanto, te
+recomendamos que revises esta página periódicamente para conocer los cambios.
 
-This policy is effective as of 2022-03-09.
+Esta política entra en vigencia a partir del 9 de marzo del 2022.
 
-## Contact Us
-If you have any questions or suggestions about our Privacy Policy, do not
-hesitate to contact us at: support [at] ouisync [dot] net.
+## Contacta con nosotros
+Si tienes alguna pregunta o sugerencia sobre nuestra Política de privacidad, no
+dudes en contactarnos a: support [at] ouisync [dot] net.
