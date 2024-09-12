@@ -75,6 +75,7 @@
     "ouisyncWindows": "Ouisync on Windows", 
     "createRepositories": "Create Repositories",
     "importRepositories": "Import Repositories",
+    "deleteRepositories": "Delete Repositories", 
     "secureDataStorage": "Using Blind Repositories for Secure Data Storage",
     "faqTitle0": "What is a repository?",
     "faqContent00": "A _**repository**_ is simply a place where you can store and share your files and folders securely, using **Ouisync**. You can think of it as a root folder, or even a safe, that will contain other folders and files that you want to share with your peers.",
