@@ -538,6 +538,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent15a1" %}}
 
 {{< figure src="/img/080_use_cache_server_shadow.png" alt="Use Cache Server toggle" >}}
+
 {{% render-i18n "faqContent15a2" %}}
 
 {{% render-i18n "faqContent15a3" %}}
@@ -583,8 +584,6 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}}
 
 {{% render-i18n "faqContent15d1" %}}
-
-{{% render-i18n "faqContent15c2" %}}
 
 {{% /markdown %}}
 </details>
