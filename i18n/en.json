@@ -300,7 +300,7 @@
     "faqContent15d1": "You will see this toggle only got _**repositories**_ for which you have the **write access**.  For _**repositories**_ with read or blind access, this toggle is hidden.",
     
     "faqTitle16": "How can I connect to the server?",
-    "faqContent160": "If you selected to **Use Cache Server**,  when you create a _**repository**_ ,your device will automatically be connected to the cache server. You don't need to perform any additional actions.",
+    "faqContent160": "If you select **Use Cache Server**  when you create a _**repository**_ ,your device will automatically connect to the cache server. You don't need to perform any additional actions.",
     
     "faqTitle16a": "How long is my data kept on the cache server?",
     "faqContent16a1": "We keep your data on our **cache server** for 24 hours after the last syncing activity.  This means that the server will help sync _**repositories**_ with your peers who are online at least once a day.  ",
