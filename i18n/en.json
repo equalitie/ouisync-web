@@ -230,13 +230,13 @@
     "faqTitle9": "How do I decide which permissions to select when sharing a repository?",
     
     "faqContent900": "When you share a _**repository**_ with your peers, you decide if you want to give them the **write**, **read** or **blind** permission to your repository.",
-    "faqContent901": "When you are importing a _**repository**_ from your peers, it is them who decide what type of access they will give you. ", 
+    "faqContent901": "When you import a _**repository**_ from your peers, it is them who decide what type of access they will give you. ", 
     "faqContent90": "**Write**",
     "faqContent91": "If you want your peers to be able to add files, delete them, rename or move them within the _**repository**_ that you shared with them, then you need to share your _**repository**_ with **Write** permission.",
     "faqContent92": "An example use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ ",
     "faqContent93": "**Read**",
     "faqContent94": "If you want your peers to only be able to read the _**repository**_ contents, then select **Read permissions**. This means they will be able to open the files and read them, but they won't be able to add new files to your shared _**repository**_, nor move or delete any files from it.",
-    "faqContent95": "An example use case would be when you want to share the information regarding an event or news items, or maybe regarding certain products, or perhaps you are a teacher sharing some educational content with your students, etc. In all these cases you want the recipients to be able to read the contents but not change them. ",
+    "faqContent95": "An example use case would be when you want to _share the information regarding an event, news items or products, or perhaps you are a teacher sharing some educational content with your students, etc_. In all these cases you want the recipients to be able to read the contents but not change them. ",
     "faqContent96": "**Blind**",
     "faqContent97": "This level of permissions can be useful when you want to [securely store your data](#secure-data-storage) in a **Ouisync** _**repository**_. This means that the person or device with whom you shared your _**repository**_ as **Blind** won't be able to open the files to read them, nor make any changes to them. ",      
     
