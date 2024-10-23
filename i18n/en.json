@@ -191,11 +191,9 @@
     "faqContent714": "This feature is on our roadmap.",
     
     "faqTitle72": "What are my Blind repositories useful for?",
-    "faqContent721": "They may be useful when...  ",
-    "faqContent722": "**Your primary device is damaged, lost or stolen**",
-    "faqContent723": "In this case,  using your **Write token link** (which you generated and saved in steps 2 and 3 above), you can get a new device, install the **Ouisync app**, and Import the _**repository**_ in a normal way using that token link.  Your **Blind** _**repository**_ and your newly imported _**repository**_ will sync, and you will have the exact replica of the data from that _**repository**_ in your new device. ",
-    "faqContent724": "**Ouisync repositories in your primary device are accidentally (or deliberately) deleted**",
-    "faqContent725": "You may have a need to temporarily remove the **Ouisync** _**repositories**_ from your primary device.   By following the steps above, you can securely store your data on a spare device, or your friend’s spare device, without anybody being able to access it, read it or edit it.",
+    "faqContent721": "Examples of when they may be useful:  ",
+    "faqContent722": "Your primary device is _**damaged, lost or stolen**_ or when Ouisync _**repositories**_ in your primary device are _**accidentally (or deliberately) deleted**_", 
+    "faqContent723": "The following two sections describe the steps you need to perform to successfully store and retrieve your data from a **blind** Ouisync _**repository**_",
     
     
     "faqTitle73": "How can I store my data securely using Ouisync Blind repositories?", 
@@ -254,8 +252,8 @@
     "faqContent916": "When they receive the **link**,  your peers will need to go to the app home page, and then tap the **plus** button to start the **Import** _**repository**_ process.  They will need to copy and paste the **link** into the field provided and proceed with the _**repository**_ import.  ",
     
     "faqTitle10": "Can my peers re-share my links?",
-    "faqContent100": "Yes. They can generate the **token links** with the same permissions they had in the original **token link** that they received from you, or lower. ",
-    "faqContent101": "This means that if a person has received a **token link** to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link to share the same _**repository**_ with other people, or they can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). ",
+    "faqContent100": "Yes. They can generate the **links** with the same permissions they had in the original **link** that they received from you, or lower. ",
+    "faqContent101": "This means that if a person has received a **link** to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link and re-share the same _**repository**_ with other people. They can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). ",
     "faqContent102": "If they imported a **_repository_** with **Read** permissions only, then they can share it with others as **Read** or **Blind**. If they imported your _**repository**_ as **Blind**, they can only share it as **Blind**. ",
     
     "faqSectionTitle1": "File Management",
