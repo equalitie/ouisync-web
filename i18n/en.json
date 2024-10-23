@@ -229,6 +229,8 @@
     
     "faqTitle9": "How do I decide which permissions to select when sharing a repository?",
     
+    "faqContent900": "When you share a _**repository**_ with your peers, you decide if you want to give them the **write**, **read** or **blind** permission to your repository.",
+    "faqContent901": "When you are importing a _**repository**_ from your peers, it is them who decide what type of access they will give you. ", 
     "faqContent90": "**Write**",
     "faqContent91": "If you want your peers to be able to add files, delete them, rename or move them within the _**repository**_ that you shared with them, then you need to share your _**repository**_ with **Write** permission.",
     "faqContent92": "An example use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ ",
