@@ -607,15 +607,6 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent14b3" %}}
 {{< figure src="/img/082_select_location_shadow.png" alt="Select location" >}}
 
-
-{{% render-i18n "faqContent14a3" %}}
-
-{{% render-i18n "faqContent14a4" %}}
-
-{{% render-i18n "faqContent14a5" %}}
-
-{{% render-i18n "faqContent14a6" %}}
-
 {{% /markdown %}}
 </details>
 </div>
