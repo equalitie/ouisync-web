@@ -255,6 +255,28 @@
     "faqContent100": "Yes. They can generate the **links** with the same permissions they had in the original **link** that they received from you, or lower. ",
     "faqContent101": "This means that if a person has received a **link** to import a _**repository**_ with **Write** permissions they are able to generate the same kind of link and re-share the same _**repository**_ with other people. They can also generate links for the same _**repository**_ but with lower permissions (**Read** or **Blind**). ",
     "faqContent102": "If they imported a **_repository_** with **Read** permissions only, then they can share it with others as **Read** or **Blind**. If they imported your _**repository**_ as **Blind**, they can only share it as **Blind**. ",
+    "faqContent103": "This is similar to what happens when you send somebody an email - they can forward that email to other people.", 
+    
+    "faqTitle10a": "Can I revoke the link I have shared with a peer?",
+    "faqContent10a1": "For the time being, no.",
+    "faqContent10a2": "If an undesired peer gains access to your repository, the Ouisync app cannot block them, because the app doesn’t know which peer is desired and which one might not be."  
+    "faqContent10a3": "As a user, you might know because your peers may tell you, but the app only knows who imported the shared repositories and will sync the data between all peers.", 
+    "faqContent10a4": "To avoid undesired peers gaining access to your repositories, we recommend that you share the important Ouisync links using secure means of communication and only with people you trust."
+    "faqContent10a5": "Our roadmap includes the password protected links and adding the trusted users features, which will further improve security when sharing Ouisync repositories.", 
+    
+    "faqTitle10b": "What can I do if I shared a link with a peer but I don’t want them to have access to that repository any more?", 
+    "faqContent10b1": "Currently, the Ouisync app does not provide a one click solution for revoking the repository access.  As a workaround this is what you can do: ",
+    "faqContent10b2": "- create a new repository,which you will not share with the same person, ",
+    "faqContent10b3": "- replicate the data from the previously shared repository to the new one, ", 
+    "faqContent10b4": "- if there are any files or folders that remain in the previously shared repo, delete them, ", 
+    "faqContent10b5": "- share the new repository only with people who you want to give access to it and ask them not to share it further.", 
+
+    "faqTitle10c": "I want to change the type of access to my repository that I gave to my peers.  How can I do that?  ", 
+    "faqContent10c1": "Currently we don’t provide a one-click way to upgrade or downgrade the access rights you gave to your peers.  ",
+    "faqContent10c2": "The workaround to stop peers having access to data in the previously shared _**repositories**_,  is to remove that data . That way, they can still access the _**repository**_, but after you remove the data, they will only see an empty _**repository**_.", 
+    "faqContent10c2": "To downgrade access for a peer - from **write** to **read** you would need to create another _**repository**_, copy or move all the files you want to that _**repository**_ and then share it with the same peer giving them only the **read** access.  ", 
+    "faqContent10c3": "To complete this process, please delete the files from previously shared repository, so that your peer cannot access them any more.",
+    "faqContent10c4": "In practice, if you want to stop peers having access to data in the previously shared repositories, you need to remove data . They can still access the repository, but after you remove the data, they will only see an empty repository. ", 
     
     "faqSectionTitle1": "File Management",
     
