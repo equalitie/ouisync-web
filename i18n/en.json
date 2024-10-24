@@ -277,6 +277,8 @@
     "faqContent10c3": "To downgrade access for a peer - from **write** to **read** you would need to create another _**repository**_, copy or move all the files you want to that _**repository**_ and then share it with the same peer giving them only the **read** access.  ", 
     "faqContent10c4": "To complete this process, please delete the files from previously shared repository, so that your peer cannot access them any more.",
     "faqContent10c5": "_Attention - the deletion would be propagated to all the peers with whom you shared that particular repository._", 
+    "faqContent10c6": "If you originally gave your friend only the read access, and now you want them to be able manipulate files in your _**repository**_, you need to give them the **write** acces. You can ask them to delete their existing **read** _**repository**_ and then share it with them again but givien them the **write** access. ", 
+    "faqContent10c7": "Improving the way of changing the type of acess you give to your peers is on our roadmap. ", 
     
     "faqSectionTitle1": "File Management",
     
