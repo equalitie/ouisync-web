@@ -594,7 +594,30 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+<details>
+<summary>
+{{% render-i18n "faqTitle14b" %}}
+</summary>
+{{% markdown %}}
 
+{{% render-i18n "faqContent14b1" %}}
+{{< figure src="/img/share.png" alt="Share button" >}}
+{{% render-i18n "faqContent14b2" %}}
+{{< figure src="/img/082_select_app_shadow.png" alt="Select app" >}}
+{{% render-i18n "faqContent14b3" %}}
+{{< figure src="/img/082_select_location_shadow.png" alt="Select location" >}}
+
+
+{{% render-i18n "faqContent14a3" %}}
+
+{{% render-i18n "faqContent14a4" %}}
+
+{{% render-i18n "faqContent14a5" %}}
+
+{{% render-i18n "faqContent14a6" %}}
+
+{{% /markdown %}}
+</details>
 </div>
 
 <div class="faq-subsection">
