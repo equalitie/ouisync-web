@@ -261,7 +261,7 @@
     "faqContent10a1": "For the time being, no.",
     "faqContent10a2": "If an undesired peer gains access to your repository, the Ouisync app cannot block them, because the app doesn’t know which peer is desired and which one might not be."  
     "faqContent10a3": "As a user, you might know because your peers may tell you, but the app only knows who imported the shared repositories and will sync the data between all peers.", 
-    "faqContent10a4": "To avoid undesired peers gaining access to your repositories, we recommend that you share the important Ouisync links using secure means of communication and only with people you trust."
+    "faqContent10a4": "To avoid undesired peers gaining access to your repositories, we recommend that you share the important Ouisync links using secure means of communication and only with people you trust.",
     "faqContent10a5": "Our roadmap includes the password protected links and adding the trusted users features, which will further improve security when sharing Ouisync repositories.", 
     
     "faqTitle10b": "What can I do if I shared a link with a peer but I don’t want them to have access to that repository any more?", 
