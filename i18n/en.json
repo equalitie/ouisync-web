@@ -181,7 +181,7 @@
     "faqTitle7": "What are Blind repositories? ",
     "faqContent70": "When sharing a repository, you can decide to share it with **Blind** permission.", 
     "faqContent71": "This means that it can be imported into another device, but it cannot be read or edited or viewed on that device - it is **blind** on that device.  Its purpose is simply to securley store data on a device.", 
-    "faqContent72": "Note: if your **blind** repository is online at the same time as your other repositories, it will sync with your original repository.",
+    "faqContent72": "_Note: if your **blind** repository is online at the same time as your other repositories, it will sync with your original repository._",
     "faqContent73": "Your **Blind** _**repository**_ will receive any updates that you make to your data.  If you rename, move or delete files in your original _**repository**_, they are going to be automatically renamed, moved or deleted in your **Blind** _**repository**_ as well. ", 
 
     "faqTitle71": " Why is it called Secure Data Storage and  not simply Data Backup? ",
@@ -228,7 +228,7 @@
     "faqTitle9": "How do I decide which permissions to select when sharing a repository?",
     
     "faqContent900": "When you share a _**repository**_ with your peers, you decide if you want to give them the **write**, **read** or **blind** permission to your repository.",
-    "faqContent901": "When you import a _**repository**_ from your peers, it is them who decide what type of access they will give you. ", 
+    "faqContent901": "When you import a _**repository**_ from your peers, they who decide what type of access they will give you. ", 
     "faqContent90": "**Write**",
     "faqContent91": "If you want your peers to be able to add files, delete them, rename or move them within the _**repository**_ that you shared with them, then you need to share your _**repository**_ with **Write** permission.",
     "faqContent92": "An example use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ ",
