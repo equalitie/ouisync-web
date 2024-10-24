@@ -274,9 +274,9 @@
     "faqTitle10c": "I want to change the type of access to my repository that I gave to my peers.  How can I do that?  ", 
     "faqContent10c1": "Currently we don’t provide a one-click way to upgrade or downgrade the access rights you gave to your peers.  ",
     "faqContent10c2": "The workaround to stop peers having access to data in the previously shared _**repositories**_,  is to remove that data . That way, they can still access the _**repository**_, but after you remove the data, they will only see an empty _**repository**_.", 
-    "faqContent10c2": "To downgrade access for a peer - from **write** to **read** you would need to create another _**repository**_, copy or move all the files you want to that _**repository**_ and then share it with the same peer giving them only the **read** access.  ", 
-    "faqContent10c3": "To complete this process, please delete the files from previously shared repository, so that your peer cannot access them any more.",
-    "faqContent10c4": "In practice, if you want to stop peers having access to data in the previously shared repositories, you need to remove data . They can still access the repository, but after you remove the data, they will only see an empty repository. ", 
+    "faqContent10c3": "To downgrade access for a peer - from **write** to **read** you would need to create another _**repository**_, copy or move all the files you want to that _**repository**_ and then share it with the same peer giving them only the **read** access.  ", 
+    "faqContent10c4": "To complete this process, please delete the files from previously shared repository, so that your peer cannot access them any more.",
+    "faqContent10c5": "_Attention - the deletion would be propagated to all the peers with whom you shared that particular repository._", 
     
     "faqSectionTitle1": "File Management",
     
