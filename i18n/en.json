@@ -295,12 +295,26 @@
     "faqTitle12": "What happens if I delete files in my repository?",
     "faqContent120": "File deletion is propagated to all replicas in existence - which means the same file that you deleted will be automatically deleted in the _**repositories**_ of all the peers who have imported your _**repository**_.",
     "faqContent121": "Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **Write** permissions will sync with each other, including file edits, additions or deletions.",
+    "faqContent122": "File deletion is only possible in _**repositories**_ for which you have the **write** access.  The file options available in those _**repositories**_ are: ",
+    "faqContent123": "The file options for _**repositories**_ to which you have only a **read** access are: ", 
+    "faqContent124": "When you only have a **read** access, you cannot rename, move nor delete files.", 
     
     "faqTitle13": "What happens if I rename files in my repository?",
     "faqContent130": "If you rename files in your _**repository**_, the new file name will be propagated to the _**repositories**_ of all the peers that you shared your _**repository**_ with.",
     
     "faqTitle14": "Can I move my files from one repository to another?",
     "faqContent140": "Yes. From the version 0.8.1 onwards, moving files from one _**repository**_ to another is possible.",
+
+    "faqTitle14a": "Can I share individual files with my peers? ",
+    "faqContent14a1": "Yes, but...", 
+    "faqContent14a2": "On Android, within the Ouisync file options, there is the options to share them.", 
+    "faqContent14a3": "Like in other apps, when you tap this option, another window will open offering you a choice of apps you can to use to share this individual file.  ", 
+    "faqContent14a4": "You can select any messaging app to send this file to your peers. ", 
+    "faqContent14a5": "However, caution... If you do that, the file is not shared within the Ouisync any more, and therefore it is not protected by the Ouisync encryption. ",
+    "faqContent14a6": "Within the Ouisync app itself, currently it is only possible to share whole repositories, and not individual files and folders.  ", 
+    
+
+    
     "faqSectionTitle2": "Privacy, Security and Cache Server",
     
     "faqTitle15": "Are my files stored on a server? Why?",
