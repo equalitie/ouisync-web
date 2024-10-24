@@ -312,6 +312,11 @@
     "faqContent14a4": "You can select any messaging app to send this file to your peers. ", 
     "faqContent14a5": "However, caution... If you do that, the file is not shared within the Ouisync any more, and therefore it is not protected by the Ouisync encryption. ",
     "faqContent14a6": "Within the Ouisync app itself, currently it is only possible to share whole repositories, and not individual files and folders.  ", 
+
+    "faqTitle14b": "Can I share files from my Android device into the Ouisync app?", 
+    "faqContent14b1": "Yes.  When you see the familiar share symbol", 
+    "faqContent14b2": "on your android device, tapping it normally brings up a window that offers you different apps you can use to share that file with.  One of those apps is the Ouisync app as well. ", 
+    "faqContent14b3": "Tapping the Ouisync icon here, opens the Ouisync app screens, where you can choose the location where you want your shared file to reside in within the Ouiysnc app.",
     
 
     
