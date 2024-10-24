@@ -571,6 +571,30 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle14a" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent14a1" %}}
+
+{{% render-i18n "faqContent14a2" %}}
+{{< figure src="/img/share.png" alt="Share button" >}}
+
+{{% render-i18n "faqContent14a3" %}}
+
+{{% render-i18n "faqContent14a4" %}}
+
+{{% render-i18n "faqContent14a5" %}}
+
+{{% render-i18n "faqContent14a6" %}}
+
+{{% /markdown %}}
+</details>
+
+
 </div>
 
 <div class="faq-subsection">
