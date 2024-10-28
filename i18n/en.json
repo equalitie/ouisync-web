@@ -141,6 +141,7 @@
     "faqTitle3f": "Do I need to share the repository passwords with my peers?",
     "faqContent3f1": "No.",  
     "faqContent3f2": "The peer who is sharing a _**repository**_ can protect their own replica by their own password, and the peer who is importing that _**repository**_ can protect their own replica, on their device, with their own password.",
+   
     "faqTitle3g": "How can I change a password for one repository? ",
     "faqContent3g1": "This can be done in the **Security screen** of your _**repository**_.  To get there, go into _**repository**_ **settings** and then **Security** option.",
     "faqContent3g2": "In the fields provided you can type and retype the new password, then tap **Update**.",
@@ -161,7 +162,7 @@
     "faqContent4b1": "When **Biometric protection** is **ON**, you are required to scan your fingerprint every time you want to unlock a _**repository**_ or enter into its **Security screen**. ",
     "faqContent4b2": "If you switch the **biometric protection OFF**, you will still be required to scan your fingerprint when you want to enter the **Security screen**. ",
     "faqContent4b3": "**Biometric protection** of the **Security screen** is deleted only when  **biometric protection** is removed from devices, or when you decide to use the password protection instead. ",
-    
+
     "faqTitle5": "How can I add files and folders to my repository?",
     "faqContent50": "That's easy. Tap on the _**repository name**_.  This will take you to the _**repository**_ contents screen where you will see a **Plus** button: ",
     "faqContent51": "This will open a small window where you can choose whether to create a folder within that _**repository**_ or add files to it",
@@ -369,6 +370,11 @@
     "faqContent190": "To lock your _**repositories**_ when not actively working on them, tap on the **Lock** button.",
     "faqContent191": "To unlock them, first you need to tap on the _**repository**_ name.",
     "faqContent192": "If your _**repository**_ is protected by password or biometrics, enter the password or scan your fingerprint when prompted. Otherwise, just tap on the **Unlock** button and continue to work on your repository.",
+    "faqContent193": "Note: Lcked repositories are not accessible in file explorer on your desktop machines. To be able to access them, you first need to unlock them via Ouisync app screens.",
+    "faqContent194": "If on your Windows machine you notice that some repositories are not displayed in file explorer, please check within the app to make sure they are unlocked.",
+    "faqContent195": "If you are still not able to see them, please check our Troubleshooting section.", 
+
+
     
     "faqSectionTitle2a": "Passwords and Biometrics",
     
