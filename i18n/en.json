@@ -464,8 +464,42 @@
 
     "faqTitle20b": "What happens when I switch the BitTorrentDHT and Peer exchange OFF?", 
     "faqContent20b1": "If these settings are switched off, Ouisync app relies on Local discovery protocol to find peers within your local wi-fi network or use UPnP to connect to other devices.", 
+    "faqContent20b2": "UPnP is a service that allows devices on the  same local network to discover each other and automatically connect. This is how smart devices you may have at home connect to routers or each other. ",
+    "faqContent20b3": "Some examples of UPnP devices are printers, gaming consoles, WiFi  devices, IP cameras, mobile devices, and... your Ouisync app.",
+    "faqContent20b4": "These settings can also be switched off.", 
     
+    "faqTitle20c": "What happens when I switch Local Discovery as well as UPnP OFF?",
+    "faqContent20c1": "If these settings are OFF, your Ouisync app will try to connect to your peers via internet (using the BitTorrentDHT and Peer exchange protocols.",
+    "faqContent20c2": "If you have switched all of the network settings (BitTorrentDHt, Peer Exchange, Local Discovery and the UPnP off) you can try to connect directly to your peers device, using their IP address.",
+    "faqContent20c3": "The following chapter will guide you through the steps you need to perform to achieve this.",
 
+    "faqTitle20c": "Can I connect directly to my peer's device using their IP address?",
+    "faqContent20c01": "You can try. Although this is possible in some cases, we cannot guarantee that you’ll be able to do so.  ", 
+    "faqContent20c02": "To try to establish direct device-to-device connection using Ouisync app, please do the following:",
+    "faqContent20c03": "- Go to App Settings, and find the Peers item on that screen and tap on it.  In the upper right corner of the Peers screen you will see this button",
+    "faqContent20c04": "- Tapping on it will open the User provided peers screen.", 
+    "faqContent20c05": "- Tapping on the plus button available on that screen will open a small window where you can enter your peer’s IP address and port numbers directly. ", 
+    "faqContent20c06": "- Your peer needs to do the same on their device at approximately the same time.  You both need to type each other’s IP address and port number in the fields provided. ",
+    "faqContent20c07": "Once done, you can share Ouisync repositories with that  peer. ",
+    "faqContent20c08": "To do this, you  send them the links or QR codes in the usual way and they import those links or scan the QR codes also in the usual way.  You will then see each other’s IP address in the Peers screen, in the status connected, and underneath it a small label like this.", 
+    "faqContent20c09": "If you follow these steps, the DHT will not be aware that you have shared a Ouisync repository with a peer and it will not exchange your IP address with other peers present in the DHT lookup system. ",
+    "faqContent20c10": "Note: If you have previously used Ouisync or other applications that rely on BitTorrent DHT and Peer Exchange for peer discovery and data exchange (which P2P applications often do),then your IP address may be ‘remembered’ by the DHT for awhile even after you stop using those applications. ",
+    "faqContent20c11": "This means that If you initially share your Ouisync repositories via internet, and you have the BitTorrent DHT ON, DHT may remember that IP address for awhile even if you then switch the BitTorrent DHT setting off and only share your Ouisync within your local network, or directly to a peer’s IP address.",
+    "faqContent20c12": "This ‘remembering’ is a normal feature of the BitTorrent DHT design to speed the peer discovery within the P2P applications, and if your IP address becomes inactive within the DHT (ie you ar enot using any applications that rely on it), eventually the DHT will ‘forget’ your IP address and drop it from its lookup tables.",
+    
+    "faqTitle20d": "Why can I not connect directly to my peer’s IP address? ",
+    "faqContent20d1": "The ability of your device to connect directly to your peer’s device via their IP address depends on many things outside the Ouisync app’s control.  This could be your Internet Service provider, your device’s NAT settings, firewall settings, your router and so on.",
+    "faqContent20d2": "Connectivity is best when your NAT type is Endpoint Independent (this is usually set by your Internet Service Provider and, as a user, you cannot change it). ",
+
+    "faqTitle20e": "Where can I find my IP address and the port number?",
+    "faqContent20e1": "Your IP address and your port number are available on your Ouisync app Settings screen.  Please look up the External IPv4 entry.  Underneath it you will see both your IP address and the port number.",
+    "faqContent20e2": "When you want to add a peer manually, these are the numbers you need to enter into the Add peer window. ",
+
+    "faqTitle20f": "Can Ouisync app work with VPN tools?", 
+    "faqContent20f1": "Yes.  We test ithe Ouisync app using VPNs and are able to sync data between devices that use VPNs and between those ones and the ones that don’t use them.",
+    "faqContent20f2": " We cannot guarantee that Ouisync app will work with every VPN solution out there, so if you are not able to use is with your VPN solution, please let us know and we’ll try to help. ",
+    "faqContent20f3": "In future releases, to further increase the user’s privacy and security, we will endeavour to further annonymise the user’s IP addresses for users who don’t regularly use the VPNs.  ", 
+    
     
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
