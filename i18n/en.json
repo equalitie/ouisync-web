@@ -461,7 +461,11 @@
     "faqContent20a2": "Because there is no central server to handle requests for data upload or download, peers within the DHT will exchange the IP addresses of the peers they know about.",
     "faqContent20a3": "Here’s a nice article about how this usually happens [The BitTorrent DHT and Decentralized Content Sharing](https://medium.com/@kyodo-tech/the-bittorrent-dht-and-decentralized-content-sharing-bb91befdb294). ",
     "faqContent20a4": "Through these processes, your IP address may become known wthin the Bittorrent DHT network.  However, only the peers who possess the Ouisync link that you shared or that other peers shared with you, will be able to connect to your device and share files with you. ",
- 
+
+    "faqTitle20b": "What happens when I switch the BitTorrentDHT and Peer exchange OFF?", 
+    "faqContent20b1": "If these settings are switched off, Ouisync app relies on Local discovery protocol to find peers within your local wi-fi network or use UPnP to connect to other devices.", 
+    
+
     
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
