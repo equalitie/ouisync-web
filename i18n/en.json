@@ -111,6 +111,8 @@
     "faqContent2c10": "_However, If that teacher generates a **write token** prior to deleting the _**repository**_, and stores it somewhere safely, then they are able to re-import the same _**repository**_ using that **token**, even after they deleted it on their device._ ",
     "faqContent2c11": "_The data from their students' _**repositories**_ will sync with the teacher’s new _**repository**_.  That way the teacher’s _**repository**_ will contain all the data from students’ _**repositories**_ and they will also have the **write access**._ ",
   
+    "faqSectionTitle2a": "Passwords and Biometrics",
+    
     "faqTitle3": "Do I have to set up a password (or biometrics) to protect my repositories?",
     "faqContent30": "There is no requirement to protect your _**repositories**_ either by **password** or by **biometrics**.   ",
     "faqContent30a": "Whether you decide to do it depends on the sensitivity of data that you store in _**Ouisync repositories**_ and habitual usage of your devices.",
