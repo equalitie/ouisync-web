@@ -370,8 +370,8 @@
     "faqContent190": "To lock your _**repositories**_ when not actively working on them, tap on the **Lock** button.",
     "faqContent191": "To unlock them, first you need to tap on the _**repository**_ name.",
     "faqContent192": "If your _**repository**_ is protected by password or biometrics, enter the password or scan your fingerprint when prompted. Otherwise, just tap on the **Unlock** button and continue to work on your repository.",
-    "faqContent193": "Note: Lcked repositories are not accessible in file explorer on your desktop machines. To be able to access them, you first need to unlock them via Ouisync app screens.",
-    "faqContent194": "If on your Windows machine you notice that some repositories are not displayed in file explorer, please check within the app to make sure they are unlocked.",
+    "faqContent193": "Note: Locked _**repositories**_ are not accessible in file explorer on your desktop machines. To be able to access them, you first need to unlock them via Ouisync app screens.",
+    "faqContent194": "If on your Windows machine you notice that some _**repositories**_ are not displayed in file explorer, please check within the app to make sure they are unlocked.",
     "faqContent195": "If you are still not able to see them, please check our Troubleshooting section.", 
 
 
