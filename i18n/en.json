@@ -128,18 +128,19 @@
     "faqContent3b3": "Activating this option means that you will not be required to enter the password when unlocking the _**repository**_, but you will still need to do it when you want to enter the **Security screen**. ",
     
     "faqTitle3c": "Can I have different passwords for different repositories? ",
-    "faqContent3c1": "Yes",
+    "faqContent3c1": "Yes.",
     "faqContent3c2": "You could have a _**repository**_ that you use for work purposes, and it can be protected by a **password**. On the same device, you could also have a _**repository**_ that you share with friends or family, and you could protect that one with a different **password**.",
     
     "faqTitle3d": "Can I have different passwords for the same repository on different devices? ",
-    "faqContent3d1": "Yes. For example - you have a _**repository**_ that you share between your Android phones and your Windows desktop.  You can have one **password** for that _**repository**_ on your Android phone, and a different password for the same _**repository**_ on your Windows machine.",
+    "faqContent3d1": "Yes.", 
+    "faqContent3d2": "For example - you have a _**repository**_ that you share between your Android phones and your Windows desktop.  You can have one **password** for that _**repository**_ on your Android phone, and a different password for the same _**repository**_ on your Windows machine.", 
     
     "faqTitle3e": "What happens if I lose my repository password?",
     "faqContent3e1": "We don’t store your **passwords**.  If you lose them, there is no way of retrieving them and you may lose the access to your _**repositories**_. ",
     
     "faqTitle3f": "Do I need to share the repository passwords with my peers?",
-    "faqContent3f1": "No. The peer who is sharing a _**repository**_ can protect their own replica by their own password, and the peer who is importing that _**repository**_ can protect their own replica, on their device, with their own password.",
-    
+    "faqContent3f1": "No.",  
+    "faqContent3f2": "The peer who is sharing a _**repository**_ can protect their own replica by their own password, and the peer who is importing that _**repository**_ can protect their own replica, on their device, with their own password.",
     "faqTitle3g": "How can I change a password for one repository? ",
     "faqContent3g1": "This can be done in the **Security screen** of your _**repository**_.  To get there, go into _**repository**_ **settings** and then **Security** option.",
     "faqContent3g2": "In the fields provided you can type and retype the new password, then tap **Update**.",
