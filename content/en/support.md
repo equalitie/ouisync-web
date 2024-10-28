@@ -978,6 +978,23 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
+{{% render-i18n "faqTitle20a" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent20a1" %}}
+
+{{% render-i18n "faqContent20a2" %}}
+
+{{% render-i18n "faqContent20a3" %}}
+
+{{% render-i18n "faqContent20a4" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
 {{% render-i18n "faqTitle21" %}}
 </summary>
 {{% markdown %}}
