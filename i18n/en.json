@@ -457,15 +457,15 @@
     "faqContent206": "This means that using **Ouisync** successfully does not depend on any central server anywhere. **Ouisync** makes use of decentralized peer-to-peer networking, which makes it an effective file-sharing app even in situations where well-known file-sharing servers (such as **Dropbox** or **Google Drive**) are unavailable.",
 
     "faqTitle20a": "How does Ouisync app find my peers on the internet?", 
-    "faqContent20a1": "To discover peers on the internet, Ouisync app uses Bittorrent DHT and the process of Peer exchange . ", 
-    "faqContent20a2": "Because there is no central server to handle requests for data upload or download, peers within the DHT will exchange the IP addresses of the peers they know about. ",
+    "faqContent20a1": "To discover peers on the internet, Ouisync app uses Bittorrent DHT and the process of Peer exchange. ", 
+    "faqContent20a2": "Because there is no central server to handle requests for data upload or download, peers within the DHT will exchange the IP addresses of the peers they know about.",
     "faqContent20a3": "Here’s a nice article about how this usually happens: [The BitTorrent DHT and Decentralized Content Sharing](https://medium.com/@kyodo-tech/the-bittorrent-dht-and-decentralized-content-sharing-bb91befdb294). ",
-    "faqContent20a4": "Through these processes, your IP address may become known wthin the Bittorrent DHT network.  However, only the peers who possess the Ouisync link that you shared or that other peers shared wiht you, will be able to connect to your device and share files with you. ", 
+    "faqContent20a4": "Through these processes, your IP address may become known wthin the Bittorrent DHT network.  However, only the peers who possess the Ouisync link that you shared or that other peers shared with you, will be able to connect to your device and share files with you. ",
  
     
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
-    "faqContent211": "This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies. ",
+    "faqContent211": "This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies.",
     "faqContent212": "Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases."
     
 }
