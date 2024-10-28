@@ -1072,17 +1072,6 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
-<details>
-<summary>
-{{% render-i18n "faqTitle20e" %}}
-</summary>
-{{% markdown %}}
-{{% render-i18n "faqContent20e1" %}}
-
-{{% render-i18n "faqContent20e2" %}}
-
-{{% /markdown %}}
-</details>
 
 <details>
 <summary>
@@ -1106,6 +1095,8 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent20g1" %}}
 
 {{% render-i18n "faqContent20g2" %}}
+
+{{% render-i18n "faqContent20g3" %}}
 
 <details>
 <summary>
