@@ -1092,6 +1092,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent20f1" %}}
 
 {{% render-i18n "faqContent20f2" %}}
+{{< figure src="/img/082_add_peer_shadow.png" alt="Add peer dialog" >}} 
 
 {{% /markdown %}}
 </details>
@@ -1101,6 +1102,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqTitle20g" %}}
 </summary>
 {{% markdown %}}
+  
 {{% render-i18n "faqContent20g1" %}}
 
 {{% render-i18n "faqContent20g2" %}}
