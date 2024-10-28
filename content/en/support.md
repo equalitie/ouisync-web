@@ -843,6 +843,8 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent3d1" %}}
 
+{{% render-i18n "faqContent3d2" %}}
+
 {{% /markdown %}}
 </details>
 
@@ -864,6 +866,8 @@ date: 2023-07-10T12:14:12-04:00
 {{% markdown %}}
 
 {{% render-i18n "faqContent3f1" %}}
+
+{{% render-i18n "faqContent3f2" %}}
 
 {{% /markdown %}}
 </details>
