@@ -995,6 +995,133 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
+{{% render-i18n "faqTitle20b" %}}
+</summary>
+{{% markdown %}}
+
+{{< figure src="/img/080_dht_pex_shadow.png" alt="BittorrentDHT and Peer exchange" >}}  
+{{% render-i18n "faqContent20b1" %}}
+{{< figure src="/img/080_local_disc_upnp_shadow.png" alt="BittorrentDHT and Peer exchange" >}}  
+
+{{% render-i18n "faqContent20b2" %}}
+
+{{% render-i18n "faqContent20b3" %}}
+
+{{% render-i18n "faqContent20b4" %}}
+{{% /markdown %}}
+</details>
+
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20c" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent20c1" %}}
+
+{{% render-i18n "faqContent20c2" %}}
+
+{{% render-i18n "faqContent20c3" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20d" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent20d01" %}}
+
+{{% render-i18n "faqContent20d02" %}}
+
+{{% render-i18n "faqContent20d03" %}}
+{{< figure src="/img/082_peer_shadow.png" alt="Peer button" >}}  
+
+{{% render-i18n "faqContent20d04" %}}
+{{< figure src="/img/082_user_provided_peers_shadow.png" alt="User provided peers screen" >}} 
+
+{{% render-i18n "faqContent20d05" %}}
+{{% render-i18n "faqContent20d06" %}}
+{{< figure src="/img/082_add_peer_shadow.png" alt="Add peer dialog" >}} 
+
+{{% render-i18n "faqContent20d07" %}}
+
+{{% render-i18n "faqContent20d08" %}}
+
+{{% render-i18n "faqContent20d09" %}}
+
+{{% render-i18n "faqContent20d10" %}}
+{{% render-i18n "faqContent20d11" %}}
+{{% render-i18n "faqContent20d12" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20e" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent20e1" %}}
+
+{{% render-i18n "faqContent20e2" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20e" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent20e1" %}}
+
+{{% render-i18n "faqContent20e2" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20f" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent20f1" %}}
+
+{{% render-i18n "faqContent20f2" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20g" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent20g1" %}}
+
+{{% render-i18n "faqContent20g2" %}}
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20e" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent20e1" %}}
+
+{{% render-i18n "faqContent20g3" %}}
+
+{{% /markdown %}}
+</details>
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
 {{% render-i18n "faqTitle21" %}}
 </summary>
 {{% markdown %}}
