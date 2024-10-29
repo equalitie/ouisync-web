@@ -178,6 +178,11 @@
     "faqContent65": "Here you can make the same selections as when creating a _**repository**_.  Tapping on the **Import** button will complete the process of importing a _**repository**_. ",
     "faqContent66": "The imported _**repository**_ will appear on your screen and after a short while all its content will be imported into your device.  In other words, the Ouisync _**repositories**_ on your devices will sync their data with the _**Ouisync repositories**_ on your peer’s device.  This will happen automatically, without the need for your to perform any further action. ",
    
+    "faqTitle6a": "I have imported a repository - what should I do next?",
+    "faqContent6a1": "The first thing to do is to verify that your device is connected with the peer whose repository you have imported.", 
+    "faqContent6a2": "You can do that by going to the app Settings, and then scroll down to the Peers section.  To learn more, please go to [Ouisync Peer-to-peer networking](#).",
+    "faqContent6a3": "", 
+    
     "faqTitle6a": "How can I know when the syncing of my repositories is completed?", 
     "faqContent66a": "During the syncing, you will see these symbols next to the repository name.", 
     "faqContent67": " Once the **syncing** is complete, you will see the **green check** icon next to the _**repository name**_. This means that you now have on your device the exact copy of the _**repository**_ that your peer has shared with you.  ",
@@ -445,7 +450,7 @@
     "faqContent511": "No.  Repository manipulation (for example: renaming, sharing, and deleting) must be done using the Ouisync app screens. ", 
     
     
-    "faqSectionTitle3": "Other FAQs",
+    "faqSectionTitle3": "Ouisync compared to other apps",
     
     "faqTitle20": "What are the advantages of using Ouisync over Dropbox, Google, or other similar solutions?",
     "faqContent200": "Free to use",
@@ -456,6 +461,7 @@
     "faqContent205": "**Ouisync** is a **P2P** solution",
     "faqContent206": "This means that using **Ouisync** successfully does not depend on any central server anywhere. **Ouisync** makes use of decentralized peer-to-peer networking, which makes it an effective file-sharing app even in situations where well-known file-sharing servers (such as **Dropbox** or **Google Drive**) are unavailable.",
 
+    "faqSectionTitle4": "Ouisync Peer-to-peer networking", 
     "faqTitle20a": "How does Ouisync app find my peers on the internet?", 
     "faqContent20a1": "To discover peers on the internet, Ouisync app uses Bittorrent DHT and the process of Peer exchange.", 
     "faqContent20a2": "Because there is no central server to handle requests for data upload or download, peers within the DHT will exchange the IP addresses of the peers they know about.",
@@ -516,7 +522,7 @@
     "faqContent211": "This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies.",
     "faqContent212": "Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases.",
 
-    "faqSectionTitle4": "Error messages and Troubleshooting", 
+    "faqSectionTitle5": "Error messages and Troubleshooting", 
     "faqTitle22": "Why do I see the red dot next to the Settings icon in my Ouisync app?", 
     "faqContent2201": "Red dot represents a warning to the user that some kind of user action is needed.", 
     "faqContent2202": "Here is what can happen:", 
