@@ -462,6 +462,16 @@
     "faqContent20a3": "Here’s a nice article about how this usually happens [The BitTorrent DHT and Decentralized Content Sharing](https://medium.com/@kyodo-tech/the-bittorrent-dht-and-decentralized-content-sharing-bb91befdb294). ",
     "faqContent20a4": "Through these processes, your IP address may become known wthin the Bittorrent DHT network.  However, only the peers who possess the Ouisync link that you shared or that other peers shared with you, will be able to connect to your device and share files with you. ",
 
+    "faqTitle20aa": "How can I know if my device is connected to any peers? ", 
+    "faqContent20aa1": "To check if your devices are connected to any peers, you can go to the app settings, section Peers. ",
+    "faqContent20aa2": "The small number under the word Peers (3 on this image) represents the number of peer devices currently connected to your device.", 
+    "faqContent20aa3": "Those peers are able to sync data with your Ouisync repositories. Each peer is able to sync data only with the repositories you shared with them.", 
+    "faqContent20aa4": "Example: you might have 2 repositories - one you shared with 3 friends, and one that you shared only with your work computer.  ",
+    "faqcontent20aa5": "If they are all online at the same time, the Peers list on your device could show 4 peers.",
+    "faqContent20aa6": "Your friends won’t be able to sync data with the repository that you ony shared with your work computer.  They are able to sync data only with repository that they imported after you shared it with them.",
+    "faqContent20aa7": "Tapping on Peers opens the Peers screen which displays the list of Peers your device is connected to, their IP addresses and their unique runtime IDs. ",
+    "faqContent20aa8": "RuntimeID is an ID that the Ouisync app generates, and IP address is assigned to you by your internet service provider (or sometimes router). ",
+    
     "faqTitle20b": "What happens when I switch the BitTorrentDHT and Peer exchange OFF?", 
     "faqContent20b1": "If these settings are switched off, Ouisync app relies on Local discovery protocol to find peers within your local wi-fi network or use UPnP to connect to other devices.", 
     "faqContent20b2": "UPnP is a service that allows devices on the  same local network to discover each other and automatically connect. This is how smart devices you may have at home connect to routers or each other. ",
