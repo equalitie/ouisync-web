@@ -212,18 +212,18 @@ date: 2023-07-10T12:14:12-04:00
 <div id="sharing">
 
 {{% center padding-top="0rem" padding-bot="1rem"%}}
-<a name="sharing" style="text-decoration: none">
+
 ## {{% render-i18n "faqSectionTitle0" %}}
-</a>
+
 {{% /center%}}
 
 </div>
 
 <details>
 <summary>
-
+<a name="sharing" style="text-decoration: none">
 {{% render-i18n "faqTitle8" %}}
-
+</a>
 </summary>
 {{% markdown %}}
 {{% render-i18n "faqContent80" %}}
@@ -616,14 +616,16 @@ date: 2023-07-10T12:14:12-04:00
 <div class="faq-subsection">
 
 {{% center padding-top="0rem" padding-bot="1rem"%}}
+  <a name="privacy-and-security" style="text-decoration: none">
 ## {{% render-i18n "faqSectionTitle2" %}}
+ </a>
 {{% /center %}}
 
 <details>
 <summary>
-  <a name="privacy-and-security" style="text-decoration: none">
+
 {{% render-i18n "faqTitle15" %}}
-    </a>
+   
 </summary>
 {{% markdown %}}
 
