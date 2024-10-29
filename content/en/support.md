@@ -995,6 +995,31 @@ date: 2023-07-10T12:14:12-04:00
 
 <details>
 <summary>
+{{% render-i18n "faqTitle20aa" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent20aa1" %}}
+{{< figure src="/img/082_peers_section_shadow.png" alt="App settings Peers section" >}}
+
+{{% render-i18n "faqContent20aa2" %}}
+
+{{% render-i18n "faqContent20aa3" %}}
+
+{{% render-i18n "faqContent20aa4" %}}
+{{% render-i18n "faqContent20aa5" %}}
+{{% render-i18n "faqContent20aa6" %}}
+
+{{% render-i18n "faqContent20aa7" %}}
+{{< figure src="/img/082_peers_screen_shadow.png" alt="Peers screen" >}}
+
+{{% render-i18n "faqContent20aa8" %}}
+
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
 {{% render-i18n "faqTitle20b" %}}
 </summary>
 {{% markdown %}}
@@ -1095,15 +1120,6 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent20g1" %}}
 
 {{% render-i18n "faqContent20g2" %}}
-
-{{% render-i18n "faqContent20g3" %}}
-
-<details>
-<summary>
-{{% render-i18n "faqTitle20e" %}}
-</summary>
-{{% markdown %}}
-{{% render-i18n "faqContent20e1" %}}
 
 {{% render-i18n "faqContent20g3" %}}
 
@@ -1327,7 +1343,97 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details> 
 
+<div class="faq-subsection">
 
+{{% center padding-top="0rem" padding-bot="1rem"%}}
+# {{% render-i18n "faqSectionTitle3" %}}</h1>
+{{% /center %}}
+
+<details>
+<summary>
+{{% render-i18n "faqTitle22" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent2201" %}}
+{{< figure src="/img/082_red_dot_shadow.png" alt="Red dot warning" >}}
+
+{{% render-i18n "faqContent2202" %}}
+
+### {{% render-i18n "faqContent2203" %}}
+
+{{% render-i18n "faqContent2204" %}}
+
+{{% render-i18n "faqContent2205" %}}
+
+### {{% render-i18n "faqContent2206" %}}
+
+{{% render-i18n "faqContent2207" %}}
+
+{{% render-i18n "faqContent2208" %}}
+
+{{% render-i18n "faqContent2209" %}}
+
+{{% render-i18n "faqContent2210" %}}
+{{< figure src="/img/082_new_version_available_shadow.png" alt="New version available warning" >}}
+
+
+
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle23" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent2301" %}}
+{{< figure src="/img/082_orange_dot_shadow.png" alt="Orange dot warning" >}}
+
+{{% render-i18n "faqContent2302" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle24" %}}
+</summary>
+{{% markdown %}}
+{{% render-i18n "faqContent2401" %}}
+{{< figure src="/img/082_linux_repos_shadow.png" alt="Repositories in linux file system" >}}
+
+{{% render-i18n "faqContent2402" %}}
+
+{{% render-i18n "faqContent2403" %}}
+
+{{% render-i18n "faqContent2404" %}}
+
+{{% render-i18n "faqContent2405" %}}
+
+{{% render-i18n "faqContent2406" %}}
+{{< figure src="/img/082_linux_warning_shadow.png" alt="Repositories in linux - warning" >}}
+
+{{% render-i18n "faqContent2407" %}}
+
+{{% render-i18n "faqContent2408" %}}
+{{< figure src="/img/082_linux_exit_shadow.png" alt="Exit Ouisync app" >}}
+
+{{% render-i18n "faqContent2409" %}}
+
+{{% render-i18n "faqContent2410" %}}
+
+{{% render-i18n "faqContent2411" %}}
+{{< figure src="/img/082_linux_repos_mounted_shadow.png" alt="Correctly mounted repositories in Linux" >}}
+
+
+{{% /markdown %}}
+</details> 
+
+
+
+
+</div>
 </div>
 </div>
 </div>
