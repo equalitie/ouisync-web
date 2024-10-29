@@ -535,8 +535,26 @@
     "faqContent2410": "To rectify the situation, the user needs exit the app from the system tray, and then go to the file explorer, click on the ‘eject’ button next to each repository to unmount them manually. ",
     "faqContent2411": "Then they can restart the app and display and acess the repositories in the normal way.",   
 
-    "faqTitle25": "Upgrade and Downgrade"
+    "faqTitle25": "Upgrade and Downgrade",
+    "faqContent251": "We, in the Ouisync team regularly release new versions of the app.  Our software is available in Googleplaystore, Microsoft App Store,  and soon will be in the Apple stores as well.  On top of that, we also make it available via our github repository.",
+    "faqContent252": "If you install, for example a Windows version from the Microsoft app store, and when you want to upgrade it, you download a new version from our github repository... Your upgrade is not going to work. ",
+    "faqContent253": "You will, in effect, have two different Ouisync apps running on your windows machine and this can give rise to some conflicts.",
+    "faqContent254": "The reason for this is that each platform signs the software they distribute, and because of these different signatures, the operating system will treat the two versions as two different apps. ",
+    "faqContent255": "There will be two Ouisync icons on your desktop, and the two instances will be able to run in parallel which can give rise to some conflicts. If that happens, please uninstall the ‘upgraded’ version, and run the upgrade from the same platform where the original app version was installed from.",
+    "faqContent256": "Equally, if you first install the your Android Ouisync app from the Google play store, and then you want to install a version from the github, the Android installation will fail.  ",
+    "faqContent257": "To be able to upgrade the Ouisync app correctly, we recommend to always use the software from the platform that you used for your first installation. ",
+    "faqContent258": "Downgrades are not supported. ",
+
+    "faqTitle26": "What happens to my Ouisync data if I uninstall the app? ",
+    "faqContent261": "If you uninstall your Ouisync app on Android, the data you had in your Ouisync repositories will also be deleted.  If you have shared your repositories with another device or a peer, they will be able to generate the QR code or link for you and you’ll be able to reimport the same repositories. ",
+    "faqContent262": "On Windows, uninstalling Ouiysnc  by going to Programs > Uninstall does not delete the previously existing repositories.  If you wish to delete them, you need to do that by going to the file explorer, finding them on your hard drive, and deleting them from there. ",
+
+    "faqTitle27": "My file explorer doesn’t display all repositories on Windows (of Linux) - what can I check?",
+    "faqContent271": "- Please verify that the repository that you want to access via file explorer is unlocked. Locked repositories may not be displayed or may not be accessible via file explorer on Windows or LInux machines.",
+    "faqContent272": "- Please check what access right you have for each repository.  Blind repositories may not be displayed in file exporer, but read repositories will allow you to view the files they contain and write will allow you to add, delete, rename or move files.", 
         
+    "faqTitle28": "I cannot see my repositories in the file explorer in my Windows computer - what can I do? ",
+    "faqContent281": "If youhave installed both the Ouisync app and the Dokan software that the app needs, and you still cannot see your repositories in the File explorer, please try to reboot your Windows machine.  Sometimes this is necessary for the Dokan parameters to be taken into account by the Windows operating system." 
 
     
     
