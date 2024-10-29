@@ -504,6 +504,40 @@
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
     "faqContent211": "This could be a WiFi signal available to all devices that want to share **Ouisync** _**repositories**_, or it could be intranet, a local network or similar technologies.",
-    "faqContent212": "Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases."
+    "faqContent212": "Currently _**repositories**_ cannot be shared via Bluetooth. This feature is planned for future releases.",
+
+    "faqSectionTitle4": "Error messages and Troubleshooting", 
+    "faqTitle22": "Why do I see the red dot next to the Settings icon in my Ouisync app?", 
+    "faqContent2201": "Red dot represents a warning to the user that some kind of user action is needed.", 
+    "faqContent2202": "Here is what can happen:", 
+    "faqContent2203": "On Windows - Dokan is missing",
+    "faqContent2204": "This red dot can be seen on the Windows version if Dokan is not installed.  See the Dokan  chapter for installation instructions.  Once Dokan is installed, the red dot disappears. ",
+    "faqContent2205": "If you chose to skip the Dokan installation, the red dot will persist, and you will see this message: “Accessing repositories via File Explorer is not available”.  This message and the red dot will disappear when you install Dokan.", 
+    "faqContent2206": "On any device - New Version is available",
+    "faqContent2207": "The same red dot can also be a warning that there is a newer version of app available and that the version you have might not be able to sync the data with this newer version. ",
+    "faqContent2208": "This happens rarely.  Normally, if a new version of the app is available it can sync well with the previous versions. ",
+    "faqContent2209": "However, from time to time, we need to upgrade the protocols used for data transport.  When this happens, the app detects when two peers use different versions of protocol, and then it gives the users this warning. ",
+    "faqContent2210": "If you see the red dot, and this warning, please install the latest version of the app.", 
+
+    "faqTitle23": "Why do I see the orange dot next to the Settings icon in my Ouisync app?", 
+    "faqTitle2301": "In the version 0.8.2 we have intorduced a new default for the settings **sync while using mobile data**. In earlier versions the default was ON, but now it is OFF.",
+    "faqTitle2302": "When you want your data to sync winc with your peers over the internet, please change this settings to ON.", 
+
+    "faqTitle24": "Warnings on Linux", 
+    "faqContent2401": "Due to specific ways that Linux uses to handle the files, in this operating system, each Ouisync repository is mounted as a separate drive.  ",
+    "faqContent2402": "Note: This is different on Windows, where the Ouisync app mounts as one O:/ drive. In Windows OS there is one Ouisync drive and each repository is repesented as a folder within the file explorer, and on Linux, there is one drive for each repository. ",
+    "faqContent2403": "The difference is due to different ways in which these two operating systems handle files via their respecitve file explorers.",
+    "faqContent2404": "But back toLinux... When the app is closed cleanly, ie by going to the system tray and right-clicking on Exit, all these repositories are unmounted and not visible in the file explorer", 
+    "faqContent2405": "When the app is restarted the next time, all of them are mounted again and their contents can be viewed from the app itself as well as from the Linux file explorer. ",
+    "faqContent2406": "But if something unexpected happens, and the repositories are not unmounted properly, then the app may display warnings to the user:",
+    "faqContent2407": "If this happens, the user might still see these repositories in the file explorer.",
+    "faqContent2409": "When those warning triangles next to each repository are displayed, the repository contens are not accessible, either via the app itself or via the file epxlorer.  ",
+    "faqContent2410": "To rectify the situation, the user needs exit the app from the system tray, and then go to the file explorer, click on the ‘eject’ button next to each repository to unmount them manually. ",
+    "faqContent2411": "Then they can restart the app and display and acess the repositories in the normal way.",   
+
+    "faqTitle25": "Upgrade and Downgrade"
+        
+
+    
     
 }
