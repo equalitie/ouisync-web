@@ -120,7 +120,6 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
-</div>
 
 <details>
 <summary>
@@ -128,11 +127,41 @@ date: 2023-07-10T12:14:12-04:00
 </summary>
 {{% markdown %}}
 
-{{% render-i18n "faqContent66a" %}}
+{{% render-i18n "faqContent6a1" %}}
+
+{{% render-i18n "faqContent6a2" %}}
+
+{{% render-i18n "faqContent6a3" %}}
+
+{{% render-i18n "faqContent6a4" %}}
+
+{{% render-i18n "faqContent6a5" %}}
+{{< figure src="/img/082_speed_shadow.png" alt="Upload and download speed" >}}
+
+{{% render-i18n "faqContent6a6" %}}
+{{< figure src="/img/082_percentage_synced_shadow.png" alt="Percentage of data synced" >}}
+
+{{% render-i18n "faqContent6a7" %}}
+
+
+{{% /markdown %}}
+</details>
+
+
+
+<details>
+<summary>
+{{% render-i18n "faqTitle6b" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent6b1" %}}
 {{< figure src="/img/082_sync_ongoing_shadow.png" alt="Syncing of your repository is ongoing" >}}
 
-{{% render-i18n "faqContent67" %}}
+{{% render-i18n "faqContent6b2" %}}
 {{< figure src="/img/081_sync_complete_shadow.png" alt="Syncing of your repository is complete" >}}
+
+
 
 {{% /markdown %}}
 </details>
