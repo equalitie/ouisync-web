@@ -774,6 +774,16 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+<details>
+<summary>
+{{% render-i18n "faqTitle17a" %}}
+</summary>
+{{% markdown %}}
+
+{{% render-i18n "faqContent17a1" %}}
+
+{{% /markdown %}}
+</details>
 
 <details>
 <summary>
