@@ -181,8 +181,11 @@
    
     "faqTitle6a": "I have imported a repository - what should I do next?",
     "faqContent6a1": "The first thing to do is to verify that your device is connected with the peer whose repository you have imported.", 
-    "faqContent6a2": "You can do that by going to the app Settings, and then scroll down to the Peers section.  To learn more, please go to [Ouisync Peer-to-peer networking](#).",
-    "faqContent6a3": "", 
+    "faqContent6a2": "You can do that by going to the app Settings, and then scroll down to the [Peers and networking](#peers-and-networking) section.  .",
+    "faqContent6a3": "Once you verify that your device is connected to your peer's device, the data in your respective repositories will sync automatically.",
+    "faqContent6a4": "As a user, you don't need to perform any additional action to make the syncing start.  ", 
+    "faqContent6a5": "You can monitor the speed of data synchronisation by viewing the upload and dowload speeds to the right of the repository name ",
+    "faqContent6a6": "or you can go to Repository Settings screen and view the percentage of data synced (upper right hand corner). ", 
     
     "faqTitle6a": "How can I know when the syncing of my repositories is completed?", 
     "faqContent66a": "During the syncing, you will see these symbols next to the repository name.", 
