@@ -194,7 +194,7 @@
      
     "faqTitle7": "What are Blind repositories? ",
     "faqContent70": "When sharing a repository, you can decide to share it with [Blind](#blind) permission.", 
-    "faqContent71": "This means that it can be imported into another device, but it cannot be read or edited or viewed on that device - it is **blind** on that device.  Its purpose is simply to securley store data on a device.", 
+    "faqContent71": "This means that it can be imported into another device, but it cannot be read or edited or viewed on that device - it is **blind** on that device.  Its purpose is simply to securely store data on a device.", 
     "faqContent72": "_Note: if your **blind** repository is online at the same time as your other repositories, it will sync with your original repository._",
     "faqContent73": "Your **Blind** _**repository**_ will receive any updates that you make to your data.  If you rename, move or delete files in your original _**repository**_, they are going to be automatically renamed, moved or deleted in your **Blind** _**repository**_ as well. ", 
 
@@ -202,11 +202,11 @@
     "faqContent711": "Typically, if you want to back up your data, the backups would be created by some utility program, and they would be timestamped.  Thus, if you needed to, you would be able to go back to the previous backed up version. ",
     "faqContent712": "This is currently not the case with **Ouisync Blind** _**repositories**_.  ",
     "faqContent713": "Currently, **Ouisync app** doesn’t create timestamped backups that contain previous versions of data, so you cannot go back to the version of _**repository**_ you had two weeks ago.  ",
-    "faqContent714": "This feature is on our roadmap.",
+    "faqContent714": "This feature is on our roadmap, but for the time being your **blind** _**repository**_ will contain all the data that your original _**repository**_ contained when they last connected. .",
     
     "faqTitle72": "What are my Blind repositories useful for?",
     "faqContent721": "Examples of when they may be useful:  ",
-    "faqContent722": "Your primary device is _**damaged, lost or stolen**_ or when Ouisync _**repositories**_ in your primary device are _**accidentally (or deliberately) deleted**_", 
+    "faqContent722": "When your primary device is _**damaged, lost or stolen**_ or when Ouisync _**repositories**_ in your primary device are _**accidentally (or deliberately) deleted**_", 
     "faqContent723": "The following two sections describe the steps you need to perform to successfully store and retrieve your data from a **blind** Ouisync _**repository**_",
     
     
