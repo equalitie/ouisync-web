@@ -286,7 +286,9 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_share_read_shadow.png" alt="Select Read permissions" >}}
 {{% render-i18n "faqContent95" %}}
 
+<a name="blind" style="text-decoration:none">
 ### {{% render-i18n "faqContent96" %}}
+</a>
 {{< figure src="/img/080_share_blind_shadow.png" alt="Select Blind permissions" >}}
 
 {{% render-i18n "faqContent97" %}}
