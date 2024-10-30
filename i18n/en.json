@@ -187,9 +187,9 @@
     "faqContent6a5": "You can monitor the speed of data synchronisation by viewing the upload and dowload speeds to the right of the repository name ",
     "faqContent6a6": "or you can go to Repository Settings screen and view the percentage of data synced (upper right hand corner). ", 
     
-    "faqTitle6a": "How can I know when the syncing of my repositories is completed?", 
-    "faqContent66a": "During the syncing, you will see these symbols next to the repository name.", 
-    "faqContent67": " Once the **syncing** is complete, you will see the **green check** icon next to the _**repository name**_. This means that you now have on your device the exact copy of the _**repository**_ that your peer has shared with you.  ",
+    "faqTitle6b": "How can I know when the syncing of my repositories is completed?", 
+    "faqContent6b1": "During the syncing, you will see these symbols next to the repository name.", 
+    "faqContent6b2": " Once the **syncing** is complete, you will see the **green check** icon next to the _**repository name**_. This means that you now have on your device the exact copy of the _**repository**_ that your peer has shared with you.  ",
      
     "faqTitle7": "What are Blind repositories? ",
     "faqContent70": "When sharing a repository, you can decide to share it with **Blind** permission.", 
