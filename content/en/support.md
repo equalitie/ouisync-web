@@ -1122,6 +1122,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 
+
 <details>
 <summary>
 {{% render-i18n "faqTitle20g" %}}
@@ -1136,7 +1137,29 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% /markdown %}}
 </details>
+<details>
+<summary>
+{{% render-i18n "faqTitle20h" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent20h1" %}}
 
+{{% /markdown %}}
+</details>
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20i" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent20i1" %}}
+
+{{% render-i18n "faqContent20i2" %}}
+
+{{% /markdown %}}
+</details>
 
 <details>
 <summary>
