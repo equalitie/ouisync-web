@@ -97,7 +97,7 @@
     "faqContent2b1": "When you delete a _**repository**_ on your device, this deletion is not propagated to your peer’s devices – they will still have all their _**repositories**_. ",
     "faqContent2b2": "If you delete a _**repository**_ that you have **not shared** with any other device or peer, then your Ouisync data is deleted. ",
     "faqContent2b3": "You can create a new repository and upload the same files into it - if you have them somewhere else on your devices. ",
-    "faqContent2b4": "If you don't have those files stored elsewhere, then they are lost.", 
+    "faqContent2b4": "If your files have only been store in a Ouisync repository whihc you did not share with anyone, and you delete that repository, your data will be lost.", 
     
     "faqTitle2c": "I have shared my repository then deleted it in error.  Can I undo this?", 
     "faqContent2c1": "If you delete a _**repository**_ that you have already **shared** with another device or peer, you can re-import it from them back into your primary device. ",
@@ -181,8 +181,8 @@
    
     "faqTitle6a": "I have imported a repository - what should I do next?",
     "faqContent6a1": "The first thing to do is to verify that your device is connected with the peer whose repository you have imported.", 
-    "faqContent6a2": "You can do that by going to the app Settings, and then scroll down to the [Peers and networking](#peers-and-networking) section.  .",
-    "faqContent6a3": "Once you verify that your device is connected to your peer's device, the data in your respective repositories will sync automatically.",
+    "faqContent6a2": "To do do that, please go to the app Settings, and then scroll down to the Peers section.  Learn more about [peers and networking](#peers-and-networking).",
+    "faqContent6a3": "Once you verify that your device is connected to your peer's device, data in your respective repositories will sync automatically.",
     "faqContent6a4": "As a user, you don't need to perform any additional action to make the syncing start.  ", 
     "faqContent6a5": "You can monitor the speed of data synchronisation by viewing the upload and dowload speeds to the right of the repository name ",
     "faqContent6a6": "or you can go to Repository Settings screen and view the percentage of data synced (upper right hand corner). ", 
@@ -467,6 +467,7 @@
     "faqContent206": "This means that using **Ouisync** successfully does not depend on any central server anywhere. **Ouisync** makes use of decentralized peer-to-peer networking, which makes it an effective file-sharing app even in situations where well-known file-sharing servers (such as **Dropbox** or **Google Drive**) are unavailable.",
 
     "faqSectionTitle4": "Ouisync Peer-to-peer networking", 
+    
     "faqTitle20a": "How does Ouisync app find my peers on the internet?", 
     "faqContent20a1": "To discover peers on the internet, Ouisync app uses Bittorrent DHT and the process of Peer exchange.", 
     "faqContent20a2": "Because there is no central server to handle requests for data upload or download, peers within the DHT will exchange the IP addresses of the peers they know about.",
