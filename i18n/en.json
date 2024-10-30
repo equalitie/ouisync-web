@@ -256,14 +256,14 @@
     "faqContent910": "Here you need to decide if you want to share a repository using a link or QR code. ", 
     "faqContent911": "If the peer (or device) with whom you want to share a _**repository**_ is nearby, you can generate the **QR code** for them to scan. ",
     "faqContent911a": "After that, they need to tap on the **Import** button. ",
-    "faqContent912": "This action will import a copy of your _**repository**_ onto your peer's device, including all the files and folders within it. ",
+    "faqContent912": "This action will import a copy of your _**repository**_ into your peer's device, including all the files and folders within it. ",
     "faqContent913": "If your peer is not nearby, you can share your _**repositories**_ by generating a **link**. ",
     "faqContent914": "The **Copy link** button will copy the generated link which you can paste into a message and securely send to your peers.  ",
     "faqContent915": "The **Share link** button will offer you a choice of apps you can use to send the link.",
 
     "faqContent915a": "Note: it is important to send links securely because anybody who has a link will be able to access the files in your repository.", 
     
-    "faqContent916": "When they receive the **link**,  your peers will need to go to the app home page, and then tap the **plus** button to start the **Import** _**repository**_ process.  They will need to copy and paste the **link** into the field provided and proceed with the _**repository**_ import.  ",
+    "faqContent916": "When they receive the **link**,  your peers will need to go to the app home page, and then tap the **plus** button to start the **Import** _**repository**_ process.  They will need to copy and paste the **link** into the provided field and proceed with the _**repository**_ [import](#import).  ",
     "faqContent917": "If a peer receives a link via a messaging app on their Android smartphone, the link will be tappable.  When tapped, it will open the import repository screen, where the repository name will be prefilled but can be changed by the peer.  Tapping on the Import button will complete the process.", 
     
     "faqTitle10": "Can my peers re-share my links?",
