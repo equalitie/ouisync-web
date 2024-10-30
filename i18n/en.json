@@ -517,6 +517,8 @@
     "faqContent20g2": "We cannot guarantee that Ouisync app will work with every VPN solution out there, so if you are not able to use is with your VPN solution, please let us know and we’ll try to help. ",
     "faqContent20g3": "In future releases, to further increase the user’s privacy and security, we will endeavour to further annonymise the user’s IP addresses for users who don’t regularly use the VPNs.  ", 
     
+    "faqTitle20h": "What encruption techniques does Ouisync use?", 
+    "faqContent20h1": "[This paper](https://github.com/equalitie/ouisync/blob/master/doc/paper.md) provides more details about inner workings of the Ouisync app. ", 
     
     "faqTitle21": "How can I sync files with my peers or with my other devices without internet?",
     "faqContent210": "In situations with limited internet availability, you will need to make sure some means of connecting to other devices still exists. ",
