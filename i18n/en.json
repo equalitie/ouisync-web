@@ -186,6 +186,7 @@
     "faqContent6a4": "As a user, you don't need to perform any additional action to make the syncing start.  ", 
     "faqContent6a5": "You can monitor the speed of data synchronisation by viewing the upload and dowload speeds to the right of the repository name ",
     "faqContent6a6": "or you can go to Repository Settings screen and view the percentage of data synced (upper right hand corner). ", 
+    "faqContent6a7": "If your devices are connected to each other, every time you change the content of the shared repository, or your peer does, your respective repositories will automatically sync with each other. When syncing is complete, you and your peer will have identical data in your respective repositories. ", 
     
     "faqTitle6b": "How can I know when the syncing of my repositories is completed?", 
     "faqContent6b1": "During the syncing, you will see these symbols next to the repository name.", 
