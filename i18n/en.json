@@ -224,7 +224,7 @@
     "faqTitle74": "How can I retrieve the data from my Blind repositories?",
     "faqContent741": "To retrieve data from your **Blind** _**repositories**_, please perform these steps: ",
     "faqContent742": "**Step 1:** Make sure that the device containing your **Blind** _**repositories**_ is connected to your primary device via internet or wi-fi.",
-    "faqContent743": "**Step 2:** Locate the **write token** for this _**repository**_ (which you created and stored in steps 2 and 3 above).",
+    "faqContent743": "**Step 2:** Locate the **write** link for this _**repository**_ (which you created and stored in steps 2 and 3 above).",
     "faqContent744": "**Step 3:** As you don't have the original repository any more (maybe through loss of device or deletion of data), please open the **Ouisync app** on your primary or new device, and tap the **plus** button to **Import** the _**repository**_ in a normal way.",
     "faqContent745": "**Step 4:** Paste the retrieved **write link**  in the provided field and tap the **Import** button",
     "faqContent746": "**Step 5:** In a short while, the newly imported _**repository**_ will sync with the **Blind** _**repository**_ and will have an exact copy of the data stored in the **blind** _**repository**_.",
@@ -353,7 +353,7 @@
     
     "faqTitle15c": "What happens when Use Cache Server is OFF?",
     "faqContent15c1": "When this toggle is off your data is not stored on cache servers.  This means that you will be able to sync your _**repositories**_ only with peers  or devices that are online at the same time as you.  ",
-    "faqContent15c2": "If you initially decide to **Use Cache Server** your _**repositories**_ are going to be temporarily stored on the **Cache Server**.  If you then decide to opt out and not use this option any more, your previously stored _**repositories**_ will be deleted from the server.  You can opt in or out as many time as you want.",
+    "faqContent15c2": "If you initially decide to **Use Cache Server** your _**repositories**_ are going to be temporarily stored on the **Cache Server**.  If you then decide to opt out and not use this option any more, your previously stored _**repositories**_ will be deleted from the server.  You can opt in or out as many times as you want.",
     
     "faqTitle15d": "Why don’t I see the Cache Server toggle?",
     "faqContent15d1": "You will see this toggle only for _**repositories**_ for which you have the **write access**.  For _**repositories**_ with read or blind access, this toggle is hidden.",
