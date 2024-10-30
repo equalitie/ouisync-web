@@ -1078,9 +1078,9 @@ date: 2023-07-10T12:14:12-04:00
 </summary>
 {{% markdown %}}
 
-{{< figure src="/img/080_dht_pex_shadow.png" alt="BittorrentDHT and Peer exchange" >}}  
+{{< figure src="/img/082_dht_pex_shadow.png" alt="BittorrentDHT and Peer exchange" >}}  
 {{% render-i18n "faqContent20b1" %}}
-{{< figure src="/img/080_local_disc_upnp_shadow.png" alt="BittorrentDHT and Peer exchange" >}}  
+{{< figure src="/img/082_local_disc_upnp_shadow.png" alt="BittorrentDHT and Peer exchange" >}}  
 
 {{% render-i18n "faqContent20b2" %}}
 
@@ -1421,11 +1421,11 @@ date: 2023-07-10T12:14:12-04:00
 </details> 
 
 <div class="faq-subsection">
-
+<div id="troubleshooting">
 {{% center padding-top="0rem" padding-bot="1rem"%}}
 ## {{% render-i18n "faqSectionTitle5" %}}</h1>
 {{% /center %}}
-
+</div>
 <details>
 <summary>
 {{% render-i18n "faqTitle22" %}}
