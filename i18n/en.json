@@ -214,9 +214,9 @@
     "faqContent730": "To do that, please follow these steps: ",
     "faqContent731": "**Step 1:** Create a _**repository**_ in a normal way, and add data that you want to store to it. ",
     "faqContent732": "**Step 2:** Go to _**repository**_ settings, and tap of the **Share** button.  Select **Write** and copy the link.  (For more details see section [Sharing](#sharing)) ",
-    "faqContent733": "**Step 3:** Paste the **link** (also called **token**) and keep it somewhere safe.  You will need it to retrieve the data from this _**repository**_ later on.  _**Note: if you lose it, there is no way to retrieve the data.  We do not keep your links anywhere on our systems**_.",
+    "faqContent733": "**Step 3:** Paste the **link** and keep it somewhere safe.  You will need it to retrieve the data from this _**repository**_ later on.  _**Note: if you lose it, there is no way to retrieve the data.  We do not keep your links anywhere on our systems**_.",
     "faqContent734": "**Step 4:** Go back to _**repository**_ settings, tap on the **Share** button and now select **Blind**, and either copy the link, share it or generate the QR code. ",
-    "faqContent735": "**Step 5:** Using the device where you want to securely store your data, import this _**repository**_ with access mode **Blind** ",
+    "faqContent735": "**Step 5:** Using the device where you want to securely store your data, [import](#import) this _**repository**_ with access mode **Blind** ",
     "faqContent736": "That's it. You data is now securely stored. ",
     "faqContent737": "What this means is that in your spare device (or your friend’s spare device) you have created an exact replica of the original _**repository**_ that resides on your primary device, but nobody can access it, because it is **blind**, ie it doesn’t have either **read** or **write** access.  ",
     
