@@ -517,8 +517,8 @@
     "faqContent20g2": "We cannot guarantee that Ouisync app will work with every VPN solution out there, so if you are not able to use is with your VPN solution, please let us know and we’ll try to help. ",
     "faqContent20g3": "In future releases, to further increase the user’s privacy and security, we will endeavour to further annonymise the user’s IP addresses for users who don’t regularly use the VPNs.  ", 
     
-    "faqTitle20h": "What encruption techniques does Ouisync use?", 
-    "faqContent20h1": "[This paper](https://github.com/equalitie/ouisync/blob/master/doc/paper.md) provides more details about inner workings of the Ouisync app. ", 
+    "faqTitle20h": "What encryption techniques does Ouisync use?", 
+    "faqContent20h1": "[This paper](https://github.com/equalitie/ouisync/blob/master/doc/paper.md) provides more details about inner workings of the Ouisync app. We hope you find it informative. ", 
 
     "faqTitle20i": "How can I encrypt my Ouisync data?", 
     "faqContent20i1": "All data that you place within the Ouisync repositories is encrypted by the app. As a user you do not need to do anything to encrypt your data, the app does it for you. ",
