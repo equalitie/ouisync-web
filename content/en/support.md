@@ -1129,6 +1129,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent20d07" %}}
 
 {{% render-i18n "faqContent20d08" %}}
+{{< figure src="/img/082_user_provided_shadow.png" alt="User provided label" >}} 
 
 {{% render-i18n "faqContent20d09" %}}
 
