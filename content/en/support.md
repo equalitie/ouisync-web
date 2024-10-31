@@ -1468,6 +1468,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqTitle23" %}}
 </summary>
 {{% markdown %}}
+  
 {{% render-i18n "faqContent2301" %}}
 {{< figure src="/img/082_orange_dot_shadow.png" alt="Orange dot warning" >}}
 
@@ -1511,7 +1512,67 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details> 
 
+<details>
+<summary>
+{{% render-i18n "faqTitle25" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent2501" %}}
 
+{{% render-i18n "faqContent2502" %}}
+
+{{% render-i18n "faqContent2503" %}}
+
+{{% render-i18n "faqContent2504" %}}
+
+{{% render-i18n "faqContent2505" %}}
+
+{{% render-i18n "faqContent2506" %}}
+
+{{% render-i18n "faqContent2507" %}}
+
+{{% render-i18n "faqContent2508" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle26" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent2601" %}}
+
+{{% render-i18n "faqContent2602" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle27" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent2701" %}}
+
+{{% render-i18n "faqContent2702" %}}
+
+{{% /markdown %}}
+</details> 
+
+<details>
+<summary>
+{{% render-i18n "faqTitle28" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent2801" %}}
+
+{{% /markdown %}}
+</details> 
 
 
 </div>
