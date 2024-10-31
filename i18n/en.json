@@ -550,8 +550,8 @@
     "faqContent2210": "If you see the red dot and this warning, please install the latest version of the app.", 
 
     "faqTitle23": "Why do I see the orange dot next to the Settings icon in my Ouisync app?", 
-    "faqTitle2301": "In the version 0.8.2 we have introduced a new default for the settings **sync while using mobile data**. In earlier versions the default was ON, but now it is OFF.",
-    "faqTitle2302": "When you want your data to sync with your peers over the internet, please change this settings to ON.", 
+    "faqContent2301": "In the version 0.8.2 we have introduced a new default for the settings **sync while using mobile data**. In earlier versions the default was ON, but now it is OFF.",
+    "faqContent2302": "When you want your data to sync with your peers over the internet, please change this settings to ON.", 
 
     "faqTitle24": "Warnings on Linux", 
     "faqContent2401": "Due to specific ways that Linux uses to handle the files, in this operating system, each Ouisync repository is mounted as a separate drive.  ",
