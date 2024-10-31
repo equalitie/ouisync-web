@@ -403,15 +403,15 @@
     "faqContent421": "After you start Ouisync on Windows for the first time, but before you install the Dokan library, take a look at the File Explorer and you will see something like this: ",
     "faqContent422": "After you install Dokan library, you will see something like this: ",
     "faqContent423": "Notice the O drive.  That is the Ouisync drive.  The purpose of Dokan is to mount that O drive on your Windows machine. ",
-    "faqContent424": "When you create Ouisync repositories, you will see them reflected here in your File Explorer.  Without Dokan that would not be possible.",
-    "faqContent425": "With Dokan installed, you can drag and drop the files into the Ouisync repositories, copy and paste, rename or delete them – all within the File Explorer.", 
+    "faqContent424": "When you create Ouisync _**repositories**_, you will see them reflected here in your File Explorer.  Without Dokan that would not be possible.",
+    "faqContent425": "With Dokan installed, you can drag and drop the files into the Ouisync _**repositories**, copy and paste, rename or delete them – all within the File Explorer.", 
     "faqContent426": "", 
-    "faqContent427": "Without Dokan, Ouisync would still be able to encrypt files and sync repositories, but you would not be able to interact with your Ouisync repositories via a file explorer.  For optimal user experience, we recommend that our users install Dokan.", 
+    "faqContent427": "Without Dokan, Ouisync would still be able to encrypt files and sync _**repositories**_, but you would not be able to interact with your Ouisync _**repositories**_ via a file explorer.  For optimal user experience, we recommend that our users install Dokan.", 
     
     "faqTitle43": "Can I preview files within the Ouisync app on Windows, without Dokan? ", 
     "faqContent431": "No.  They are encrypted, and within Ouisync for Windows they cannot be previewed without Dokan. ", 
     "faqContent432": "If you try to view the files within the Ouisync app without having Dokan installed on your Windows machine, you will see this message at the bottom of your screen: ",
-    "faqContent433": "This means that the O: drive hasn’t been mounted, so Ouisync is unable to work seamlessly with Windows File Explorer or provide a way to preview files within repositories.",
+    "faqContent433": "This means that the O: drive hasn’t been mounted, so Ouisync is unable to work seamlessly with Windows File Explorer or provide a way to preview files within _**repositories**_.",
     
     "faqTitle44": "Why do I see the message that my Dokan installation is out of date?",
     "faqContent4401": "If you already have Dokan installed, but you see a message that your version of Dokan is out of date, this message indicates that the version on your machine is too old to meet Ouisync's requirements.", 
@@ -425,6 +425,7 @@
     "faqContent4409": "Then, locate Dokan in the list of Programs installed and right click > Uninstall.  Follow the onscreen prompts and, at the end of the successful uninstall, you will see this popup: ",
     "faqContent4410": "Step 3: Restart your computer.",
     "faqContent4411": "Step 4: Launch the Ouisync app once more.",
+    "faqContent4412": "After that, please proceed with Dokan installation.  The installer will automatically install the correct version of Dokan.", 
     
     "faqTitle45": "Does Ouisync launch at startup automatically?",
     "faqContent451": "In the Ouisync app settings, we have provided an option to relaunch the Ouisync app after every computer restart.",
@@ -440,19 +441,19 @@
     "faqContent471": "The Ouisync Windows app screens can be used the same way as Ouisync Android screens. Most of the frequently asked questions for the Android version of Ouisync also apply to the Windows version.",
     
     "faqTitle48": "Can I create repositories using File Explorer?",
-    "faqContent481": "No. Repositories can only be created via the Ouisync app screens.  You cannot do this using File Explorer.",
-    "faqContent482": "On your O: drive, the top level folders represent the repositories in your Ouisync app. When Ouisync is first installed, this folder in the File Explorer will be empty. ",
-    "faqContent483": "After you create a repository within Ouisync, it will also be seen here",
+    "faqContent481": "No. _**Repositories**_ can only be created via the Ouisync app screens.  You cannot do this using File Explorer.",
+    "faqContent482": "On your O: drive, the top level folders represent the _**repositories**_ in your Ouisync app. When Ouisync is first installed, this folder in the File Explorer will be empty. ",
+    "faqContent483": "After you create a _**repository**_ within Ouisync, it will also be seen here",
     
     "faqTitle49": "Can I drag and drop files into my repository using File Explorer?",
-    "faqContent491": "Yes. Once you have your repository created, you can drag and drop files into it using the Windows File Explorer.",
-    "faqContent492": "Note: it is not possible to drag and drop files directly onto the O: drive, only into previously created repositories.",
+    "faqContent491": "Yes. Once you have your _**repository**_ created, you can drag and drop files into it using the Windows File Explorer.",
+    "faqContent492": "Note: it is not possible to drag and drop files directly onto the O: drive, only into previously created _**repositories**_.",
     
     "faqTitle50": "What else can I do in the File Explorer?",
-    "faqContent501": "You can use the File Explorer to add files to repositories, rename them, preview them, and delete them. ", 
+    "faqContent501": "You can use the File Explorer to add files to _**repositories**_, rename them, preview them, and delete them. ", 
     
     "faqTitle51": "Can I manipulate repositories within the File Explorer? ",
-    "faqContent511": "No.  Repository manipulation (for example: renaming, sharing, and deleting) must be done using the Ouisync app screens. ", 
+    "faqContent511": "No.  _**Repository**_ manipulation (for example: renaming, sharing, and deleting) must be done using the Ouisync app screens. ", 
     
     
     "faqSectionTitle3": "Ouisync compared to other apps",
