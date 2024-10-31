@@ -580,7 +580,7 @@
     "faqContent2601": "If you uninstall your Ouisync app on Android, the data you had in your Ouisync repositories will also be deleted.  If you have shared your repositories with another device or a peer, they will be able to generate the QR code or link for you and you’ll be able to reimport the same repositories. ",
     "faqContent2602": "On Windows, uninstalling Ouiysnc  by going to Programs > Uninstall does not delete the previously existing repositories.  If you wish to delete them, you need to do that by going to the file explorer, finding them on your hard drive, and deleting them from there. ",
 
-    "faqTitle27": "My file explorer doesn’t display all repositories on Windows (of Linux) - what can I check?",
+    "faqTitle27": "My file explorer doesn’t display all repositories on Windows (or Linux) - what can I check?",
     "faqContent2701": "- Please verify that the repository that you want to access via file explorer is unlocked. Locked repositories may not be displayed or may not be accessible via file explorer on Windows or LInux machines.",
     "faqContent2702": "- Please check what access right you have for each repository.  Blind repositories may not be displayed in file exporer, but read repositories will allow you to view the files they contain and write will allow you to add, delete, rename or move files.", 
         
