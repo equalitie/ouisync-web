@@ -564,7 +564,7 @@
     "faqContent2408": "When those warning triangles next to each repository are displayed, the repository contens are not accessible, either via the app itself or via the file epxlorer.  ", 
     "faqContent2409": "To rectify the situation, the user needs exit the app from the system tray", 
     "faqContent2410": "and then go to the file explorer, click on the ‘eject’ button next to each repository to unmount them manually. ",
-    "faqContent2411": "Then they can restart the app and display and acess the repositories in the normal way.",   
+    "faqContent2411": "After that, they can restart the app and display and acess the repositories in the normal way.",   
 
     "faqTitle25": "Upgrade and Downgrade",
     "faqContent2501": "We, in the Ouisync team regularly release new versions of the app.  Our software is available in Googleplaystore, Microsoft App Store,  and soon will be in the Apple stores as well.  On top of that, we also make it available via our github repository.",
