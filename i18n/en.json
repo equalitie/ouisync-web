@@ -492,11 +492,11 @@
     
     "faqTitle20c": "What happens when I switch Local Discovery as well as UPnP OFF?",
     "faqContent20c1": "If these settings are OFF, your Ouisync app will try to connect to your peers via internet (using the BitTorrentDHT and Peer exchange protocols.",
-    "faqContent20c2": "If you have switched all of the network settings (BitTorrentDHt, Peer Exchange, Local Discovery and the UPnP off) you can try to connect directly to your peers device, using their IP address.",
+    "faqContent20c2": "If you have switched all of the network settings (BitTorrentDHt, Peer Exchange, Local Discovery and the UPnP off) you can try to connect directly to your peer's device, using their IP address.",
     "faqContent20c3": "The following chapter will guide you through the steps you need to perform to achieve this.",
 
     "faqTitle20d": "How can I connect directly to my peer's device using their IP address?",
-    "faqContent20d01": "You can try. Although this is possible in some cases, we cannot guarantee that you’ll be able to do so.  ", 
+    "faqContent20d01": "You can try. Although this is possible in some cases, we cannot guarantee that you willalways be able to do so.  ", 
     "faqContent20d02": "To try to establish direct device-to-device connection using Ouisync app, please do the following:",
     "faqContent20d03": "- Go to App Settings, and find the Peers item on that screen and tap on it.  In the upper right corner of the Peers screen you will see this button",
     "faqContent20d04": "- Tapping on it will open the User provided peers screen.", 
@@ -504,7 +504,7 @@
     "faqContent20d06": "- Your peer needs to do the same on their device at approximately the same time.  You both need to type each other’s IP address and port number in the fields provided. ",
     "faqContent20d07": "Once done, you can share Ouisync repositories with that  peer. ",
     "faqContent20d08": "To do this, you  send them the links or QR codes in the usual way and they import those links or scan the QR codes also in the usual way.  You will then see each other’s IP address in the Peers screen, in the status connected, and underneath it a small label like this.", 
-    "faqContent20d09": "If you follow these steps, the DHT will not be aware that you have shared a Ouisync repository with a peer and it will not exchange your IP address with other peers present in the DHT lookup system. ",
+    "faqContent20d09": "If you follow these steps, the DHT will not be aware that you have shared a Ouhttps://github.com/IvanaBlzvc/IvanaBlzvc.github.io/edit/main/i18n/en.jsonisync repository with a peer and it will not exchange your IP address with other peers present in the DHT lookup system. ",
     "faqContent20d10": "_Note: If you have previously used Ouisync or other applications that rely on BitTorrent DHT and Peer Exchange for peer discovery and data exchange (which P2P applications often do),then your IP address may be ‘remembered’ by the DHT for awhile even after you stop using those applications. _",
     "faqContent20d11": "_This means that If you initially share your Ouisync repositories via internet, and you have the BitTorrent DHT ON, DHT may remember that IP address for awhile even if you then switch the BitTorrent DHT setting off and only share your Ouisync within your local network, or directly to a peer’s IP address._",
     "faqContent20d12": "_This ‘remembering’ is a normal feature of the BitTorrent DHT design to speed the peer discovery within the P2P applications, and if your IP address becomes inactive within the DHT (ie you are not using any applications that rely on it), eventually the DHT will ‘forget’ your IP address and drop it from its lookup tables._",
