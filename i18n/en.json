@@ -221,7 +221,7 @@
     "faqContent737": "What this means is that in your spare device (or your friend’s spare device) you have created an exact replica of the original _**repository**_ that resides on your primary device, but nobody can access it, because it is **blind**, ie it doesn’t have either **read** or **write** access.  ",
     
     
-    "faqTitle74": "How can I retrieve the data from my Blind repositories?",
+    "faqTitle74": "How can I retrieve data from my Blind repositories?",
     "faqContent741": "To retrieve data from your **Blind** _**repositories**_, please perform these steps: ",
     "faqContent742": "**Step 1:** Make sure that the device containing your **Blind** _**repositories**_ is connected to your primary device via internet or wi-fi.",
     "faqContent743": "**Step 2:** Locate the **write** link for this _**repository**_ (which you created and stored in steps 2 and 3 above).",
