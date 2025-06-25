@@ -1,4 +1,12 @@
 @font-face {
+    font-family: "Vazirmatn";
+    src:
+        url(../static/fonts/Vazirmatn.woff2) format("woff2");
+
+    unicode-range: U+0600-1EEFF;
+}
+
+@font-face {
     font-family: "Humanst521-Light";
     src: url("fonts/Humanst521BT-Light.woff");
     speak: none;
