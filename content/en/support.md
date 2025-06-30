@@ -224,10 +224,10 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent2c9" %}}
 
 {{% render-i18n "faqContent2c10" %}}
-{{% render-i18n "faqContent2C11" %}}
+{{% render-i18n "faqContent2c11" %}}
 
-{{% render-i18n "faqContent2C12" %}}
-{{% render-i18n "faqContent2C13" %}}
+{{% render-i18n "faqContent2c12" %}}
+{{% render-i18n "faqContent2c13" %}}
 
     
 {{% /markdown %}}
