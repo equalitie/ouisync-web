@@ -95,8 +95,8 @@
     "faqTitle2b": "What happens to the contents when I delete a repository?", 
     "faqContent2b1": "When you delete a _**repository**_ on your device, this deletion is not propagated to your peer’s devices – they will still have all their _**repositories**_. ",
     "faqContent2b2": "If you delete a _**repository**_ that you have **not shared** with any other device or peer, then your Ouisync data is deleted. ",
-    "faqContent2b3": "You can create a new repository and upload the same files into it - if you have them somewhere else on your devices. ",
-    "faqContent2b4": "If your files have only been store in a Ouisync repository whihc you did not share with anyone, and you delete that repository, your data will be lost.", 
+    "faqContent2b3": "You can create a new _**repository**_ and upload the same files into it - if you have them somewhere else on your devices. ",
+    "faqContent2b4": "If your files have only been store in a Ouisync _**repository**_ which you did not share with anyone, and you delete that _**repository**_, your data will be lost.", 
     
     "faqTitle2c": "I have shared my repository then deleted it in error.  Can I undo this?", 
     "faqContent2c1": "If you delete a _**repository**_ that you have already **shared** with another device or peer, you can re-import it from them back into your primary device. ",
@@ -188,11 +188,11 @@
     "faqContent6a7": "If your devices are connected to each other, every time you change the content of the shared _**repository**_, or your peer does, your respective _**repositories**_ will automatically sync with each other. When syncing is complete, you and your peer will have identical data in your respective repositories. ", 
     
     "faqTitle6b": "How can I know when the syncing of my repositories is completed?", 
-    "faqContent6b1": "During the syncing, you will see these symbols next to the repository name.", 
+    "faqContent6b1": "During the syncing, you will see these symbols next to the _**repository**_ name.", 
     "faqContent6b2": " Once the **syncing** is complete, you will see the **green check** icon next to the _**repository name**_. This means that you now have on your device the exact copy of the _**repository**_ that your peer has shared with you.  ",
      
     "faqTitle7": "What are Blind repositories? ",
-    "faqContent70": "When sharing a repository, you can decide to share it with [Blind](#blind) permission.", 
+    "faqContent70": "When sharing a _**repository**_, you can decide to share it with [Blind](#blind) permission.", 
     "faqContent71": "This means that it can be imported into another device, but it cannot be read or edited or viewed on that device - it is **blind** on that device.  Its purpose is simply to securely store data on a device.", 
     "faqContent72": "_Note: if your **blind** repository is online at the same time as your other repositories, it will sync with your original repository._",
     "faqContent73": "Your **Blind** _**repository**_ will receive any updates that you make to your data.  If you rename, move or delete files in your original _**repository**_, they are going to be automatically renamed, moved or deleted in your **Blind** _**repository**_ as well. ", 
