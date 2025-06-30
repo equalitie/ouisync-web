@@ -57,7 +57,7 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_create_repository_shadow.png" alt="Select 'Create repository'" >}}
 
 {{% render-i18n "faqContent22" %}}
-{{< figure src="/img/090_name_repo_shadow.png" alt="Give your repository a nice name." >}}
+{{< figure src="/img/090_name_repo_shadow1.png" alt="Give your repository a nice name." >}}
 
 {{% render-i18n "faqContent23" %}}
 
