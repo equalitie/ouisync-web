@@ -282,6 +282,7 @@ date: 2023-07-10T12:14:12-04:00
 {{< figure src="/img/080_share_write_shadow.png" alt="Select Write permissions" >}}
 
 {{% render-i18n "faqContent92" %}}
+{{% render-i18n "faqContent92a" %}}
 ### {{% render-i18n "faqContent93" %}}
 
 {{% render-i18n "faqContent94" %}}
