@@ -183,7 +183,7 @@
     "faqTitle6a": "I have imported a repository - what should I do next?",
     "faqContent6a1": "The first thing to do is to verify that your device is connected with the peer whose _**repository**_ you have imported.", 
     "faqContent6a2": "To do do that, please go to the app **Settings**, and then scroll down to the **Peers** section.  Learn more about [peers and networking](#peers-and-networking).",
-    "faqContent6a3": "Once you verify that your device is connected to your peer's device, data in your respective _**repositories**_ will sync automatically.",
+    "faqContent6a3": "When your device is connected to your peer's device, data in your respective _**repositories**_ will sync automatically.",
     "faqContent6a4": "As a user, you don't need to perform any additional action to make the syncing start.", 
     "faqContent6a5": "You can monitor the speed of data synchronisation by viewing the upload and dowload speeds to the right of the _**repository**_ name ",
     "faqContent6a6": "or you can go to **Repository Settings** screen and view the percentage of data synced (upper right hand corner). ", 
@@ -236,7 +236,7 @@
     "faqSectionTitle0": "Sharing",
     
     "faqTitle8": "How can I share my repository with my peers (or my other devices)?",
-    "faqContent80": "You can do this by tapping the _**repository**_ Settings menu and then tapping the **Share** symbol: ",
+    "faqContent80": "You can do this by tapping the _**repository**_ **Settings** menu and then tapping the **Share** symbol: ",
     "faqContent80a": "This will open a small window on the bottom part of your screen.  ",
     "faqContent80b": "Here you need to decide which **permission** (or **access mode**) to give to your peers and whether you want to share the _**repository**_ using the **link** or the **QR code**.",
     
@@ -247,6 +247,7 @@
     "faqContent90": "**Write**",
     "faqContent91": "If you want your peers to be able to add files, delete them, rename or move them within the _**repository**_ that you shared with them, then you need to share your _**repository**_ with **Write** permission.",
     "faqContent92": "An example use case for this level of permissions: _sharing photos with friends and family, or working collaboratively on a project._ ",
+    "faqContent92a": "Everybody who has the **write** permission will be able to add or delete files or move them around, and their actions will sync with all users who have imported that same _**repository**_.", 
     "faqContent93": "**Read**",
     "faqContent94": "If you want your peers to only be able to read the _**repository**_ contents, then select **Read permissions**. This means they will be able to open the files and read them, but they won't be able to add new files to your shared _**repository**_, nor move or delete any files from it.",
     "faqContent95": "An example use case would be when you want to _share the information regarding an event, news items or products, or perhaps you are a teacher sharing some educational content with your students, etc_. In all these cases you want the recipients to be able to read the contents but not change them. ",
