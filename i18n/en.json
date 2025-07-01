@@ -266,7 +266,7 @@
     "faqContent915a": "Note: it is important to send links securely because anybody who has a link will be able to access the files in your repository.", 
     
     "faqContent916": "When they receive the **link**,  your peers will need to go to the app home page, and then tap the **plus** button to start the **Import** _**repository**_ process.  They will need to copy and paste the **link** into the provided field and proceed with the _**repository**_ [import](#import).  ",
-    "faqContent917": "If a peer receives a link via a messaging app on their Android smartphone, the link will be tappable.  When tapped, it will open the import repository screen, where the repository name will be prefilled but can be changed by the peer.  Tapping on the Import button will complete the process.", 
+    "faqContent917": "If a peer receives a **link** via a messaging app on their Android smartphone, the **link** will be tappable.  When tapped, it will open the **import** _**repository**_ screen, where the _**repository**_ name will be prefilled but can be changed by the peer.  Tapping on the **Import** button will complete the process.", 
     
     "faqTitle10": "Can my peers re-share my links?",
     "faqContent100": "Yes. They can generate the **links** with the same permissions they had in the original **link** that they received from you, or lower. ",
