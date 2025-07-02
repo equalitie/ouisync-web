@@ -393,19 +393,41 @@ date: 2023-07-10T12:14:12-04:00
 </summary>
 {{% markdown %}}
 
-{{% render-i18n "faqContent10c1" %}}
+{{% render-i18n "faqContent10c01" %}}
 
-{{% render-i18n "faqContent10c2" %}}
+{{% render-i18n "faqContent10c02" %}}
 
-{{% render-i18n "faqContent10c3" %}}
+{{% render-i18n "faqContent10c03" %}}
 
-{{% render-i18n "faqContent10c4" %}}
+{{% render-i18n "faqContent10c04" %}}
 
-{{% render-i18n "faqContent10c5" %}}
+{{% render-i18n "faqContent10c05" %}}
+{{< figure src="/img/090_repo_access_change_start_shadow.png" alt="Repository has write access" >}}
 
-{{% render-i18n "faqContent10c6" %}}
+{{% render-i18n "faqContent10c06" %}}
+{{< figure src="/img/090_repo_access_blue_link_shadow.png" alt="Blue link in the repository security page" >}}
 
-{{% render-i18n "faqContent10c7" %}}
+{{% render-i18n "faqContent10c07" %}}090_repo_access_shadow.png
+{{< figure src="/img/090_repo_access_shadow.png" alt="Repository access screen" >}}
+
+{{% render-i18n "faqContent10c08" %}}
+
+{{% render-i18n "faqContent10c09" %}}
+{{< figure src="/img/090_repo_access1_shadow.png" alt="Repository access screen" >}}
+
+{{% render-i18n "faqContent10c010" %}}
+{{< figure src="/img/090_repo_access1_shadow.png" alt="Enter new link" >}}
+
+{{% render-i18n "faqContent10c11" %}}
+{{< figure src="/img/090_repo_access2_shadow.png" alt="Confirm changes" >}}
+
+{{% render-i18n "faqContent10c12" %}}
+{{< figure src="/img/090_repo_access3_shadow.png" alt="Repository access modified" >}}
+
+{{% render-i18n "faqContent10c13" %}}
+{{< figure src="/img/090_repo_access_change_done_shadow.png" alt="Repository access screen complete" >}}
+
+{{% render-i18n "faqContent10c14" %}}
 
 {{% /markdown %}}
 </details>
