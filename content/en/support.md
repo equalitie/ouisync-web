@@ -413,9 +413,8 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent10c08" %}}
 
 {{% render-i18n "faqContent10c09" %}}
-{{< figure src="/img/090_repo_access1_shadow.png" alt="Repository access screen" >}}
 
-{{% render-i18n "faqContent10c010" %}}
+{{% render-i18n "faqContent10c10" %}}
 {{< figure src="/img/090_repo_access1_shadow.png" alt="Enter new link" >}}
 
 {{% render-i18n "faqContent10c11" %}}
