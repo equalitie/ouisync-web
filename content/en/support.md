@@ -475,6 +475,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent713" %}}
 
 {{% render-i18n "faqContent714" %}}
+{{% render-i18n "faqContent715" %}}
 
 {{% /markdown %}}
 </details>
