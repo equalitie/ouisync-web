@@ -407,7 +407,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent10c06" %}}
 {{< figure src="/img/090_repo_access_blue_link_shadow.png" alt="Blue link in the repository security page" >}}
 
-{{% render-i18n "faqContent10c07" %}}090_repo_access_shadow.png
+{{% render-i18n "faqContent10c07" %}}
 {{< figure src="/img/090_repo_access_shadow.png" alt="Repository access screen" >}}
 
 {{% render-i18n "faqContent10c08" %}}
