@@ -195,15 +195,16 @@
      
     "faqTitle7": "What are Blind repositories? ",
     "faqContent70": "When sharing a _**repository**_, you can decide to share it with [Blind](#blind) permission.", 
-    "faqContent71": "This means that it can be imported into another device, but it cannot be read or edited or viewed on that device - it is **blind** on that device.  Its purpose is simply to securely store data on a device.", 
-    "faqContent72": "_Note: if your **blind** repository is online at the same time as your other repositories, it will sync with your original repository._",
-    "faqContent73": "Your **Blind** _**repository**_ will receive any updates that you make to your data.  If you rename, move or delete files in your original _**repository**_, they are going to be automatically renamed, moved or deleted in your **Blind** _**repository**_ as well. ", 
+    "faqContent71": "This means that it can be imported into another device and its purpose is simply to securely store data on that device.", 
+    "faqContent72": "_Note: if your **blind** _**repository**_ is online at the same time as your other _**repositories**_, it will sync with your original _**repository**_._",
+    "faqContent73": "In other words, your **Blind** _**repository**_ will receive any updates that you make to your data.  If you rename, copy move or delete files in your original _**repository**_, they are going to be automatically renamed, copied, moved or deleted in your **Blind** _**repository**_ as well. ", 
 
     "faqTitle71": " Why is it called Secure Data Storage and  not simply Data Backup? ",
     "faqContent711": "Typically, if you want to back up your data, the backups would be created by some utility program, and they would be timestamped.  Thus, if you needed to, you would be able to go back to the previous backed up version. ",
-    "faqContent712": "This is currently not the case with **Ouisync Blind** _**repositories**_.  ",
+    "faqContent712": "This is not the case with **Ouisync Blind** _**repositories**_.  ",
     "faqContent713": "Currently, **Ouisync app** doesn’t create timestamped backups that contain previous versions of data, so you cannot go back to the version of _**repository**_ you had two weeks ago.  ",
     "faqContent714": "This feature is on our roadmap, but for the time being your **blind** _**repository**_ will contain all the data that your original _**repository**_ contained when they last connected. .",
+    "faqContent715": "As soon as they reconnect, their data will sync, and they will be the exact replica of each other. ",  
     
     "faqTitle72": "What are my Blind repositories useful for?",
     "faqContent721": "Examples of when they may be useful:  ",
