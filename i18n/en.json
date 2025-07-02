@@ -301,7 +301,7 @@
     "faqContent10c10": "Once you enter the new link in its field, ",
     "faqContent10c11": "and you confirm these changes", 
     "faqContent10c12": "you will see that the field Token access type acquires a value - in this example: Read. ", 
-    "faqContent10c13": "When you return to the main page for the repository whose access you modified, you will see that it has a read icon next to its name - indication that the access type has indeed been changed.", 
+    "faqContent10c13": "When you return to the main page of the repository whose access type you modified, you will see that it has a read icon next to its name - indication that the access type has indeed been changed.", 
     "faqContent10c14": "In summary: all the information on these screens serves to let you know that, for the given _**repository**_, you are changing the access type from **write** to **read**.  You can also change the access type from **write** to **blind**, or from **blind** or **read** to **write** - all subject to you possessing the appropriate **links**. ", 
     
     "faqSectionTitle1": "File Management",
