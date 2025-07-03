@@ -333,7 +333,7 @@
     "faqContent130": "If you rename files in your _**repository**_, the new file name will be propagated to the _**repositories**_ of all the peers that you shared your _**repository**_ with.",
     
     "faqTitle14": "Can I move my files from one repository to another?",
-    "faqContent140": "Yes. From the version 0.8.1 onwards, moving files from one _**repository**_ to another is possible.",
+    "faqContent140": "Yes. Moving files from one _**repository**_ to another is possible.",
 
     "faqTitle14a": "Can I share individual files with my peers? ",
     "faqContent14a1": "Yes, but...", 
@@ -361,7 +361,7 @@
     "faqTitle15a": "Is there a way to opt-out?",
     "faqContent15a1": "Yes.",
     "faqContent15a2": "When creating or importing a _**repository**_, you can decide to use this option, or to opt out of it.",
-    "faqContent15a3": "If you want to change your decision later on, you can do that in the _**repository**_ **Settings** screen. ",
+    "faqContent15a3": "If you want to change your decision later on, you can do that in the _**repository**_ options screen. ",
     
     "faqTitle15b": "What happens when Use Cache Server is ON?",
     "faqContent15b1": "If this option is ON, your data is stored on the cache server for a short period of time.  The stored data is fully encrypted in transport as well as at rest and is not readable by the server.  ",
