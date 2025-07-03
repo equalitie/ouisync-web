@@ -388,9 +388,11 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 <details>
+  <div id="modify-access">
 <summary>
 {{% render-i18n "faqTitle10c" %}}
 </summary>
+  </div>
 {{% markdown %}}
 
 {{% render-i18n "faqContent10c01" %}}
@@ -528,7 +530,7 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent7401" %}}
 
-{{% render-i18n "faqContent7402" %}}
+### {{% render-i18n "faqContent7402" %}}
 
 {{% render-i18n "faqContent7403" %}}
 
@@ -542,7 +544,7 @@ date: 2023-07-10T12:14:12-04:00
 
 {{% render-i18n "faqContent7408" %}}
 
-{{% render-i18n "faqContent7409" %}}
+### {{% render-i18n "faqContent7409" %}}
 
 {{% render-i18n "faqContent7410" %}}
 
