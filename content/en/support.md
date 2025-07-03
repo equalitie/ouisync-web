@@ -722,7 +722,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent15a2" %}}
 
 {{% render-i18n "faqContent15a3" %}}
-{{< figure src="/img/080_repository_settings_shadow.png" alt="Repository Settings window" >}}
+{{< figure src="/img/080_repository_options.png" alt="Repository options window" >}}
 
 
 {{% /markdown %}}
