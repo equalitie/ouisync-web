@@ -610,10 +610,10 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent121" %}}
 
 {{% render-i18n "faqContent122" %}}
-{{< figure src="/img/082_write_options_shadow.png" alt="File options in write repositories" >}}
+{{< figure src="/img/090_file_options_write.png" alt="File options in write repositories" >}}
 
 {{% render-i18n "faqContent123" %}}
-{{< figure src="/img/082_read_options_shadow.png" alt="File options in read repositories" >}}
+{{< figure src="/img/090_file_options_read.png" alt="File options in read repositories" >}}
 
 {{% render-i18n "faqContent124" %}}
 
