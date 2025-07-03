@@ -324,7 +324,7 @@
     
     "faqTitle12": "What happens if I delete files in my repository?",
     "faqContent120": "File deletion is propagated to all replicas in existence - which means the same file that you deleted will be automatically deleted in the _**repositories**_ of all the peers who have imported your _**repository**_.",
-    "faqContent121": "Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **Write** permissions will sync with each other, including file edits, additions or deletions.",
+    "faqContent121": "Equally, if your peers delete any files in any of the _**repositories**_ that they have imported from you, their file deletions will be propagated to your device too. It works both ways -i.e.: _**repositories**_ shared  with **Write** permissions will sync with each other, including all file operations.",
     "faqContent122": "File deletion is only possible in _**repositories**_ for which you have the **write** access.  The file options available in those _**repositories**_ are: ",
     "faqContent123": "The file options for _**repositories**_ to which you have only a **read** access are: ", 
     "faqContent124": "When you only have a **read** access, you cannot rename, move nor delete files.", 
