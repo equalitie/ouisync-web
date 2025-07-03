@@ -388,11 +388,9 @@ date: 2023-07-10T12:14:12-04:00
 {{% /markdown %}}
 </details>
 <details>
-  <div id="modify-access">
 <summary>
 {{% render-i18n "faqTitle10c" %}}
 </summary>
-  </div>
 {{% markdown %}}
 
 {{% render-i18n "faqContent10c01" %}}
