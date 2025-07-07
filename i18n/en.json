@@ -171,8 +171,8 @@
     "faqContent43": "The purpose of password protection is to prevent access to the Ouisync repositories if your device falls into the hands of undesired third parties. ",
     "faqContent44": "If you set up the password protection and you lock your Ouisync repositories, if any third party gains access to yoru device they won't be able to share your repositories with anybody else.",
     "faqContent45": "Or rather, they are able to share it only with Blind permission, which means that they cannot access your data.",
-    "faqContent46": "If you don't have the password (or biometrics) protection, and your repositories are nto locked, then any third party that gains access to your device can also access your data and share it or modify it.",
-    "faqContent47": "In summary: Ouisync passwords protect repositories on one device - and to protect private data they need to be set up on each device.", 
+    "faqContent46": "If you don't have the password (or biometrics) protection, and your repositories are not locked, then any third party that gains access to your device can also access your data and share it or modify it.",
+    "faqContent47": "In summary: Ouisync passwords protect repositories on one device - and to protect the Ouisync contents passwords need to be set up on each device.", 
     
     "faqTitle4a": "Can I secure my repositories using Biometrics?",
     "faqContent4a1": "Yes. On Android devices that have **Biometric protection** set up, you can use it to secure your _**Ouisync repositories**_ and to enter _**repository**_ **Security screen**. ",
