@@ -1107,42 +1107,69 @@ date: 2023-07-10T12:14:12-04:00
 </div>
 <details>
 <summary>
-{{% render-i18n "faqTitle20a" %}}
+{{% render-i18n "faqTitle20a0" %}}
 </summary>
 {{% markdown %}}
   
-{{% render-i18n "faqContent20a1" %}}
+{{% render-i18n "faqContent20a01" %}}
 
-{{% render-i18n "faqContent20a2" %}}
+{{% render-i18n "faqContent20a02" %}}
+{{< figure src="/img/090_orange_mobile_warning_shadow.png" alt="Mobile data warning" >}}
 
-{{% render-i18n "faqContent20a3" %}}
+{{% render-i18n "faqContent20a03" %}}
 
-{{% render-i18n "faqContent20a4" %}}
+{{% render-i18n "faqContent20a04" %}}
 
+{{% render-i18n "faqContent20a05" %}}
+
+{{% render-i18n "faqContent20a06" %}}
+
+{{% render-i18n "faqContent20a07" %}}
+
+{{% render-i18n "faqContent20a08" %}}
+{{< figure src="/img/090_data_used_shadow.png" alt="Data used" >}}
 {{% /markdown %}}
 </details>
 
 <details>
 <summary>
-{{% render-i18n "faqTitle20aa" %}}
+{{% render-i18n "faqTitle20a1" %}}
 </summary>
 {{% markdown %}}
   
-{{% render-i18n "faqContent20aa1" %}}
+{{% render-i18n "faqContent20a11" %}}
+
+{{% render-i18n "faqContent20a12" %}}
+
+{{% render-i18n "faqContent20a13" %}}
+
+{{% render-i18n "faqContent20a14" %}}
+
+{{% /markdown %}}
+</details>
+
+
+<details>
+<summary>
+{{% render-i18n "faqTitle20a2" %}}
+</summary>
+{{% markdown %}}
+  
+{{% render-i18n "faqContent20a21" %}}
 {{< figure src="/img/082_peers_section_shadow.png" alt="App settings Peers section" >}}
 
-{{% render-i18n "faqContent20aa2" %}}
+{{% render-i18n "faqContent20a22" %}}
 
-{{% render-i18n "faqContent20aa3" %}}
+{{% render-i18n "faqContent20a23" %}}
 
-{{% render-i18n "faqContent20aa4" %}}
-{{% render-i18n "faqContent20aa5" %}}
-{{% render-i18n "faqContent20aa6" %}}
+{{% render-i18n "faqContent20a24" %}}
+{{% render-i18n "faqContent20a25" %}}
+{{% render-i18n "faqContent20a26" %}}
 
-{{% render-i18n "faqContent20aa7" %}}
+{{% render-i18n "faqContent20a27" %}}
 {{< figure src="/img/082_peers_screen_shadow.png" alt="Peers screen" >}}
 
-{{% render-i18n "faqContent20aa8" %}}
+{{% render-i18n "faqContent20a28" %}}
 
 {{% /markdown %}}
 </details>
