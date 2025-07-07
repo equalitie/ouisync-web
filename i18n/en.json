@@ -511,8 +511,8 @@
     "faqContent20a03": "And by default, the Ouisync settings **Sync while using mobile data" is switched off.",
     "faqContent20a04": "The main reason for this, is to put you in control over how much mobile data you want to use for syncing the Ouisync repositories with your peers.",
     "faqContent20a05": "If you keep this setting OFF, then your Ouisync repositories will sync with your peers only when you have access to internet or wi-fi via a router. ",
-    "faqContent20a06": "You can also switch this setting ON.  In that case, the syncing will continue even when you are connected to internet via mobile networks.   ",
-    "faqContent20a07": "Please double check your contract with your internet provider, and keep on eye on the amount of data used, to make sure your Ouisync repositories are not using more data than you should.  ",
+    "faqContent20a06": "You can also switch this setting ON.  In that case, the syncing will continue even when you are connected to internet via mobile networks. ",
+    "faqContent20a07": "Please double check your contract with your internet provider, and keep on eye on the amount of data used, to make sure your Ouisync repositories are not using more data than you should. ",
     "faqContent20a08": "In your Android Settings, the Apps section, if you tap on the Ouisync app, you will be able to see the amount of data the app used.", 
     
     "faqTitle20a1": "How does Ouisync app find my peers on the internet?", 
