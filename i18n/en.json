@@ -529,7 +529,7 @@
     
     "faqTitle20c": "What happens when I switch Local Discovery as well as UPnP OFF?",
     "faqContent20c1": "If these settings are OFF, your Ouisync app will try to connect to your peers via internet (using the BitTorrentDHT and Peer exchange protocols.",
-    "faqContent20c2": "If you have switched all of the network settings (BitTorrentDHt, Peer Exchange, Local Discovery and the UPnP off) you can try to connect directly to your peer's device, using their IP address.",
+    "faqContent20c2": "If you switch off all of the network settings (BitTorrentDHt, Peer Exchange, Local Discovery and the UPnP) you can try to connect directly to your peer's device, using their IP address.",
     "faqContent20c3": "The following chapter will guide you through the steps you need to perform to achieve this.",
 
     "faqTitle20d": "How can I connect directly to my peer's device using their IP address?",
