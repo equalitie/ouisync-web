@@ -955,7 +955,7 @@ date: 2023-07-10T12:14:12-04:00
 {{% render-i18n "faqContent3e07" %}}
 
 {{% render-i18n "faqContent3e08" %}}
-{{< figure src="/img/090_repo_access_blue_link_shadow1" alt="Reset repo access link" >}}
+{{< figure src="/img/090_repo_access_blue_link_shadow1.png" alt="Reset repo access link" >}}
 
 {{% render-i18n "faqContent3e09" %}}
 
