@@ -176,14 +176,14 @@
     
     "faqTitle4a": "Can I secure my repositories using Biometrics?",
     "faqContent4a1": "Yes. On Android devices that have **Biometric protection** set up, you can use it to secure your _**Ouisync repositories**_ and to enter _**repository**_ **Security screen**. ",
-    "faqContent4a2": "You can activate the **biometrics protection** at the time of creating or importing a _**repository**_.  You can also do it later on by going to the **Security screen** and activating the **Secure using biometrics** option. ",
+    "faqContent4a2": "When you set up the **biometric protection**, you will need to use it every time you want to unlock a locked _**repository**_, or when you want to enter the _**repository**_ **security** page. ",
     "faqContent4a3": "At present, this option is not available for desktop devices.",
     "faqContent4a4": "Ouisync utilises only fingerprints – implementation of face recognition is on our roadmap.",
     
     "faqTitle4b": "Can I switch off the Biometric protection of the Security screen? ",
     "faqContent4b1": "When **Biometric protection** is **ON**, you are required to scan your fingerprint every time you want to unlock a _**repository**_ or enter into its **Security screen**. ",
     "faqContent4b2": "If you switch the **biometric protection OFF**, you will still be required to scan your fingerprint when you want to enter the **Security screen**. ",
-    "faqContent4b3": "**Biometric protection** of the **Security screen** is deleted only when  **biometric protection** is removed from devices, or when you decide to use the password protection instead. ",
+    "faqContent4b3": "**Biometric protection** of the **Security screen** is deleted only when  **biometric protection** is removed from devices, or when you decide to use the **password** protection instead. ",
 
     "faqTitle5": "How can I add files and folders to my repository?",
     "faqContent50": "That's easy. Tap on the _**repository name**_.  This will take you to the _**repository**_ contents screen where you will see a **Plus** button: ",
