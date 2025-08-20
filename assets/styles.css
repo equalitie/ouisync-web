@@ -51,6 +51,11 @@
     --ouisync-primary: #012669;
     --ouisync-secondary: #9205d1;
     --max-width: 960px;
+    font-family: "Vazirmatn", "Roboto", sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: "Vazirmatn", "Roboto", sans-serif; }
 }
 
 html {
@@ -101,7 +106,6 @@ h4 {
 }
 
 p {
-    font-family: "Roboto", sans-serif;
     margin-top: 1rem;
     font-size: 1.2rem;
 }
@@ -130,17 +134,16 @@ a:hover {
 }
 
 li {
-    font-family: "Roboto", sans-serif;
     margin-top: 1rem;
     font-size: 1.2rem;
 }
 
 .humanst {
-    font-family: "Humanst521";
+    font-family: "Vazirmatn", "Humanst521";
 }
 
 summary {
-    font-family: "Humanst521";
+    font-family: "Vazirmatn", "Humanst521";
     margin: -0.5rem -0.5rem 0;
     padding: 0.5em;
     font-size: 1.4rem;
@@ -209,7 +212,7 @@ header {
 
 nav {
     width: 100%;
-    font-family: "Humanst521";
+    font-family: "Vazirmatn", "Humanst521";
     font-size: 1.4rem;
     margin-inline: 4%;
 }
@@ -485,7 +488,7 @@ label .mobile-i18n-chevron {
 
 .hero-wrapper h2 {
     max-width: 600px;
-    font-family: "Humanst521-Light";
+    font-family: "Vazirmatn", "Humanst521-Light";
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -657,7 +660,7 @@ label .mobile-i18n-chevron {
 }
 
 .info-btn {
-    font-family: "Humanst521";
+    font-family: "Vazirmatn", "Humanst521";
     font-size: 1.3rem;
     padding-inline: 1rem;
     padding-block: 0.5rem;
@@ -943,7 +946,7 @@ textarea {
 }
 
 .download-accord summary {
-    font-family: "Humanst521";
+    font-family: "Vazirmatn", "Humanst521";
     margin: -0.4em -0.4em 0;
     padding: 0.5em;
     font-size: 1.4rem;
@@ -1049,7 +1052,7 @@ textarea {
 .single-page-subtitle {
     text-align: center;
     margin-bottom: 2rem;
-    font-family: "Humanst521-Light";
+    font-family: "Vazirmatn", "Humanst521-Light";
 }
 
 .single-grad {
@@ -1337,7 +1340,7 @@ img.weblate {
 
 .about-contact-btn p a {
     margin-top: 0;
-    font-family: "Humanst521-Bold";
+    font-family: "Vazirmatn", "Humanst521-Bold";
     font-size: 2rem;
     color: #fff;
 }
