@@ -5,6 +5,18 @@
 }
 
 @font-face {
+    font-family: "Vazirmatn-Light";
+    src: url("fonts/Vazirmatn-Light.woff2") format("woff2");
+    unicode-range: U+0600-1EEFF;
+}
+
+@font-face {
+    font-family: "Vazirmatn-Bold";
+    src: url("fonts/Vazirmatn-Bold.woff2") format("woff2");
+    unicode-range: U+0600-1EEFF;
+}
+
+@font-face {
     font-family: "Humanst521-Light";
     src: url("fonts/Humanst521BT-Light.woff");
     speak: none;
@@ -87,7 +99,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Humanst521-Bold";
+    font-family: "Vazirmatn-Bold", "Humanst521-Bold";
 }
 
 h1 {
@@ -488,7 +500,7 @@ label .mobile-i18n-chevron {
 
 .hero-wrapper h2 {
     max-width: 600px;
-    font-family: "Vazirmatn", "Humanst521-Light";
+    font-family: "Vazirmatn-Light", "Humanst521-Light";
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -1052,7 +1064,7 @@ textarea {
 .single-page-subtitle {
     text-align: center;
     margin-bottom: 2rem;
-    font-family: "Vazirmatn", "Humanst521-Light";
+    font-family: "Vazirmatn-Light", "Humanst521-Light";
 }
 
 .single-grad {
@@ -1340,7 +1352,7 @@ img.weblate {
 
 .about-contact-btn p a {
     margin-top: 0;
-    font-family: "Vazirmatn", "Humanst521-Bold";
+    font-family: "Vazirmatn-Bold", "Humanst521-Bold";
     font-size: 2rem;
     color: #fff;
 }

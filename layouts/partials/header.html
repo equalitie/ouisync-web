@@ -3,13 +3,18 @@
         <div class="desktop-nav" dir="{{ .Language.LanguageDirection }}">
             <a tabindex="1" href="{{ .Site.Home.Permalink }}"><img height="40" width="152" src="/img/ouisync-logo.png"
                     alt="Ouisync Home" /></a>
-            <div aria-label="Navagation Selector" class="desktop-center-nav"> {{ if eq .Lang "en"}} <a
-                    href="/about">{{i18n "navAbout"}}</a>
-                <a href="/support">{{i18n "navSupport"}}</a>
-                <a href="/community">{{i18n "navCommunity"}}</a> {{ else }} <a href="/{{ .Lang }}/about">{{i18n
-                    "navAbout"}}</a>
-                <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
-                <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a> {{ end }}
+            <div aria-label="Navagation Selector" class="desktop-center-nav">
+                {{ if eq .Lang "en"}}
+                    <a href="/about">{{i18n "navAbout"}}</a>
+                    <a href="/support">{{i18n "navSupport"}}</a>
+                    <a href="/community">{{i18n "navCommunity"}}</a>
+                    <a href="/developers">{{i18n "navDevelopers"}}</a>
+                {{ else }}
+                    <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
+                    <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
+                    <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
+                    <a href="/{{ .Lang }}/developers">{{i18n "navDevelopers"}}</a>
+                {{ end }}
             </div>
             <div class="nav-buttons">
                 <div aria-label="Language Selector Switch" class="checkbox-wrapper">
@@ -34,21 +39,27 @@
                 <span></span>
                 <span></span>
             </label>
-            <div aria-label="Language Selector" class="mobile-nav-panel"> {{ if eq .Lang "en"}} <a href="/about">{{i18n
-                    "navAbout"}}</a>
-                <a href="/support">{{i18n "navSupport"}}</a>
-                <a href="/community">{{i18n "navCommunity"}}</a>
-                <a class="download-btn dropdown-btn" href="/#download">
-                    <img src="/icons/download.png" height="24" width="24" />
-                    <div>{{i18n "navDownload"}}</div>
-                </a> {{ else }} <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
-                <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
-                <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
-                <a href="/{{ .Lang }}/#download">{{i18n "navDownload"}}</a>
-                <a class="download-btn dropdown-btn" href="/{{ .Lang }}/#download">
-                    <img src="/icons/download.png" height="24" width="24" />
-                    <div>{{i18n "navDownload"}}</div>
-                </a> {{ end }}
+            <div aria-label="Language Selector" class="mobile-nav-panel">
+                {{ if eq .Lang "en"}}
+                    <a href="/about">{{i18n "navAbout"}}</a>
+                    <a href="/support">{{i18n "navSupport"}}</a>
+                    <a href="/community">{{i18n "navCommunity"}}</a>
+                    <a href="/developers">{{i18n "navDevelopers"}}</a>
+                    <a class="download-btn dropdown-btn" href="/#download">
+                        <img src="/icons/download.png" height="24" width="24" />
+                        <div>{{i18n "navDownload"}}</div>
+                    </a>
+                {{ else }}
+                    <a href="/{{ .Lang }}/about">{{i18n "navAbout"}}</a>
+                    <a href="/{{ .Lang }}/support">{{i18n "navSupport"}}</a>
+                    <a href="/{{ .Lang }}/community">{{i18n "navCommunity"}}</a>
+                    <a href="/{{ .Lang }}/developers">{{i18n "navDevelopers"}}</a>
+                    <a href="/{{ .Lang }}/#download">{{i18n "navDownload"}}</a>
+                    <a class="download-btn dropdown-btn" href="/{{ .Lang }}/#download">
+                        <img src="/icons/download.png" height="24" width="24" />
+                        <div>{{i18n "navDownload"}}</div>
+                    </a>
+                {{ end }}
             </div>
             <a href="/"><img height="40" width="152" src="/img/ouisync-logo.png" alt="Ouisync logo" /></a>
             <div aria-label="Language Selector Switch">

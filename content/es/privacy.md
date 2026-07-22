@@ -45,7 +45,7 @@ apodo, cuenta de usuario ni ninguna otra forma de datos de usuario. No sabemos
 quién utiliza nuestra aplicación ni con quién sincroniza o comparte tus datos.
 
 ### 3.2 Compartición de datos
-Ouisync (y eQualit.ie) no comparte ningún dato con terceros.
+Ouisync (y eQualitie) no comparte ningún dato con terceros.
 
 ### 3.3 Prácticas de seguridad
 Los datos que el usuario carga en los repositorios de Ouisync están cifrados de

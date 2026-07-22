@@ -20,7 +20,7 @@ The OuiSync team values user privacy and thus does not collect any user informat
 The Ouisync app is designed to be able to provide file sharing services without a user ID, name, nickname, user account or any other form of user data.  We don't know who uses our app and with whom they sync or share their data.  
 
 ### 3.2 Data Sharing
-Ouisync (and eQualit.ie) does not share any data with any third parties.  
+Ouisync (and eQualitie) does not share any data with any third parties.  
 
 ### 3.3 Security Practices
 Data that the user uploads into the Ouisync repositories is end-to-end encrypted in transit as well as at rest.  This includes metadata such as file names, sizes, folder structure etc. Within Ouisync, data is readable only by the person who uploaded the data  and those persons with whom they shared their repositories.  
