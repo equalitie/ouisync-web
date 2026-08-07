@@ -3,12 +3,20 @@ title: "Faq"
 date: 2023-07-10T12:14:12-04:00
 ---
 
+
 <div class="faq-wrapper">
 <div class="faq-center">
+
+<form id="searchForm" action="https://duckduckgo.com/" method="GET">
+  <input id="q"type="text" name="q" placeholder="Search using DuckDuckGo ..." aria-label="Search">
+  <input type="hidden" name="sites" value="https://ouisync.net">
+  <button type="submit"><span class="">Search</span></button>
+</form>
 
 {{% center padding-top="2rem" padding-bot="1rem"%}}
 # {{% render-i18n "faq" %}}
 {{% /center %}}
+
 
 
 <div class="faq-subsection">
