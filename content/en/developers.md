@@ -21,6 +21,7 @@ separately for each supported language:
 - [Rust](https://docs.ouisync.net/rust/ouisync)
 - [Kotlin](https://docs.ouisync.net/kotlin)
 - [Dart / Flutter](https://docs.ouisync.net/dart)
+- [Python](https://docs.ouisync.net/python)
 
 ## Technical details
 
