@@ -20,12 +20,9 @@
     "namespace": "android_app",
     "package_name": "org.equalitie.ouisync.nightly",
 
-    "_comment_l1:": "The nightly flavor is signed with the same upload key as production",
-    "_comment_l2:": "(see android/app/build.gradle in ouisync-app).",
-
     "sha256_cert_fingerprints":
     [
-        "E3:FB:76:3D:05:1B:BB:A0:62:F7:05:29:0B:F2:D9:FC:37:B5:43:31:4D:EC:2F:81:07:CC:80:D6:B0:FB:06:DB"
+        "CC:15:96:08:7E:8F:D7:DB:2D:B8:E0:5A:7F:05:3D:A3:3A:DF:E7:FB:A7:38:83:40:E7:FE:9B:72:24:E9:3F:BE"
     ]
   }
 }]
